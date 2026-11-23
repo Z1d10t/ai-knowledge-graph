@@ -1,6 +1,6 @@
 [llm]
 model = "gemma4:31b"
-api_key = "sk-1234"
+api_key = ""  # local Ollama needs no key; use "env:OPENAI_API_KEY" for a real service
 base_url = "http://localhost:11434/v1/chat/completions"
 max_tokens = 32768  # Reasoning models (deepseek, qwen3, gpt-5, o-series) spend most of this on hidden
                     # reasoning; 8192 is NOT enough for them and the run will abort with a truncation error.
