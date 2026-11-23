@@ -1,0 +1,1356 @@
+[
+  {
+    "subject": "improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands",
+    "predicate": "published in",
+    "object": "science",
+    "subject_type": "work",
+    "object_type": "work",
+    "chunk": 1,
+    "source": "# Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands | 字段 | 内容 | |---|---| | 期刊 | Science | | 年份 | 2024 | | 引用量（Semantic Scholar） | 1167 | | 作者 | Hao Chen, Cheng Liu, Jian Xu, Aidan Maxwell, Wei Zhou, Yi Yang, Qi-Lin Zhou, Abdulaziz S. R. Bati et al."
+  },
+  {
+    "subject": "improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands",
+    "predicate": "published in",
+    "object": "2024",
+    "subject_type": "work",
+    "object_type": "date",
+    "chunk": 1,
+    "source": "# Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands | 字段 | 内容 | |---|---| | 期刊 | Science | | 年份 | 2024 | | 引用量（Semantic Scholar） | 1167 | | 作者 | Hao Chen, Cheng Liu, Jian Xu, Aidan Maxwell, Wei Zhou, Yi Yang, Qi-Lin Zhou, Abdulaziz S. R. Bati et al."
+  },
+  {
+    "subject": "hao chen",
+    "predicate": "authored",
+    "object": "improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands",
+    "subject_type": "person",
+    "object_type": "work",
+    "chunk": 1,
+    "source": "# Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands | 字段 | 内容 | |---|---| | 期刊 | Science | | 年份 | 2024 | | 引用量（Semantic Scholar） | 1167 | | 作者 | Hao Chen, Cheng Liu, Jian Xu, Aidan Maxwell, Wei Zhou, Yi Yang, Qi-Lin Zhou, Abdulaziz S. R. Bati et al."
+  },
+  {
+    "subject": "cheng liu",
+    "predicate": "authored",
+    "object": "improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands",
+    "subject_type": "person",
+    "object_type": "work",
+    "chunk": 1,
+    "source": "# Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands | 字段 | 内容 | |---|---| | 期刊 | Science | | 年份 | 2024 | | 引用量（Semantic Scholar） | 1167 | | 作者 | Hao Chen, Cheng Liu, Jian Xu, Aidan Maxwell, Wei Zhou, Yi Yang, Qi-Lin Zhou, Abdulaziz S. R. Bati et al."
+  },
+  {
+    "subject": "jian xu",
+    "predicate": "authored",
+    "object": "improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands",
+    "subject_type": "person",
+    "object_type": "work",
+    "chunk": 1,
+    "source": "# Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands | 字段 | 内容 | |---|---| | 期刊 | Science | | 年份 | 2024 | | 引用量（Semantic Scholar） | 1167 | | 作者 | Hao Chen, Cheng Liu, Jian Xu, Aidan Maxwell, Wei Zhou, Yi Yang, Qi-Lin Zhou, Abdulaziz S. R. Bati et al."
+  },
+  {
+    "subject": "bin chen",
+    "predicate": "supervised",
+    "object": "improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands",
+    "subject_type": "person",
+    "object_type": "work",
+    "chunk": 2,
+    "source": "--- Submitted Manuscript: Confidential 15 20 # **Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands** 5 Hao Chen<sup>1,2</sup> †, Cheng Liu<sup>1</sup> †, Jian Xu<sup>2</sup> †, Aidan Maxwell<sup>2</sup> †, Wei Zhou<sup>4</sup> †, Yi Yang<sup>1</sup> , Qili…"
+  },
+  {
+    "subject": "zhijun ning",
+    "predicate": "supervised",
+    "object": "improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands",
+    "subject_type": "person",
+    "object_type": "work",
+    "chunk": 2,
+    "source": "--- Submitted Manuscript: Confidential 15 20 # **Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands** 5 Hao Chen<sup>1,2</sup> †, Cheng Liu<sup>1</sup> †, Jian Xu<sup>2</sup> †, Aidan Maxwell<sup>2</sup> †, Wei Zhou<sup>4</sup> †, Yi Yang<sup>1</sup> , Qili…"
+  },
+  {
+    "subject": "edward h. sargent",
+    "predicate": "supervised",
+    "object": "improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands",
+    "subject_type": "person",
+    "object_type": "work",
+    "chunk": 2,
+    "source": "--- Submitted Manuscript: Confidential 15 20 # **Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands** 5 Hao Chen<sup>1,2</sup> †, Cheng Liu<sup>1</sup> †, Jian Xu<sup>2</sup> †, Aidan Maxwell<sup>2</sup> †, Wei Zhou<sup>4</sup> †, Yi Yang<sup>1</sup> , Qili…"
+  },
+  {
+    "subject": "hao chen",
+    "predicate": "affiliated with",
+    "object": "northwestern university",
+    "subject_type": "person",
+    "object_type": "organization",
+    "chunk": 3,
+    "source": "**Affiliations:** 10 1Department of Chemistry, Northwestern University, 2145 Sheridan Rd, Evanston, Illinois 60208, United States 2Department of Electrical and Computer Engineering, University of Toronto, 35 St George Street, Toronto, Ontario, M5S 1A4, Canada 3Department of Electrical and Computer…"
+  },
+  {
+    "subject": "hao chen",
+    "predicate": "affiliated with",
+    "object": "university of toronto",
+    "subject_type": "person",
+    "object_type": "organization",
+    "chunk": 3,
+    "source": "**Affiliations:** 10 1Department of Chemistry, Northwestern University, 2145 Sheridan Rd, Evanston, Illinois 60208, United States 2Department of Electrical and Computer Engineering, University of Toronto, 35 St George Street, Toronto, Ontario, M5S 1A4, Canada 3Department of Electrical and Computer…"
+  },
+  {
+    "subject": "zhijun ning",
+    "predicate": "affiliated with",
+    "object": "shanghaitech university",
+    "subject_type": "person",
+    "object_type": "organization",
+    "chunk": 3,
+    "source": "**Affiliations:** 10 1Department of Chemistry, Northwestern University, 2145 Sheridan Rd, Evanston, Illinois 60208, United States 2Department of Electrical and Computer Engineering, University of Toronto, 35 St George Street, Toronto, Ontario, M5S 1A4, Canada 3Department of Electrical and Computer…"
+  },
+  {
+    "subject": "inverted perovskite solar cells",
+    "predicate": "improves",
+    "object": "operating stability",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 4,
+    "source": "25 30 35 **Abstract:** Inverted ( _pin_ ) perovskite solar cells (PSCs) afford improved operating stability in comparison to their _nip_ counterparts but have lagged in power conversion efficiency (PCE)."
+  },
+  {
+    "subject": "inverted perovskite solar cells",
+    "predicate": "lag behind",
+    "object": "nip perovskite solar cells",
+    "subject_type": "technology",
+    "object_type": "technology",
+    "chunk": 1,
+    "source": "# Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands | 字段 | 内容 | |---|---| | 期刊 | Science | | 年份 | 2024 | | 引用量（Semantic Scholar） | 1167 | | 作者 | Hao Chen, Cheng Liu, Jian Xu, Aidan Maxwell, Wei Zhou, Yi Yang, Qi-Lin Zhou, Abdulaziz S. R. Bati et al."
+  },
+  {
+    "subject": "power conversion efficiency deficit",
+    "predicate": "occurs at",
+    "object": "charge-transport layer interface",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 4,
+    "source": "The energetic losses responsible for this PCE deficit in _pin_ PSCs occur primarily at the interfaces between the perovskite and the charge-transport layers."
+  },
+  {
+    "subject": "charge-transport layer interface",
+    "predicate": "limits",
+    "object": "power conversion efficiency",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 7,
+    "source": "1 Submitted Manuscript: Confidential 5 10 15 20 25 30 35 40 **Main Text:** The certified power conversion efficiency (PCE) of perovskite solar cells (PSCs) has reached an impressive 25.7% ( _1_ ). Nevertheless, the most efficient PSCs, fabricated in the _nip_ architecture, have yet to achieve the n…"
+  },
+  {
+    "subject": "passivating ligands",
+    "predicate": "bind to",
+    "object": "single active binding site",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 5,
+    "source": "Additive and surface treatments employing passivating ligands usually bind to a single active binding site: this dense packing of electricallyresistive passivants perpendicular to the surface may limit the fill factor in _pin_ PSCs."
+  },
+  {
+    "subject": "dense ligand packing",
+    "predicate": "forms",
+    "object": "resistive barrier",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 9,
+    "source": "Surface passivation of the perovskite active layer is used to suppress interface nonradiative recombination ( _14_ , _16_ ). The efficacy of bulk additives as well as solution-based treatments with ammonium ligands is now well-established ( _17_ , _18_ ). However, these ligands bind at a single act…"
+  },
+  {
+    "subject": "resistive barrier",
+    "predicate": "limits",
+    "object": "fill factor",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 5,
+    "source": "Additive and surface treatments employing passivating ligands usually bind to a single active binding site: this dense packing of electricallyresistive passivants perpendicular to the surface may limit the fill factor in _pin_ PSCs."
+  },
+  {
+    "subject": "dual-site-binding ligands",
+    "predicate": "bind to",
+    "object": "neighboring pb2+ defects",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 1,
+    "source": "# Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands | 字段 | 内容 | |---|---| | 期刊 | Science | | 年份 | 2024 | | 引用量（Semantic Scholar） | 1167 | | 作者 | Hao Chen, Cheng Liu, Jian Xu, Aidan Maxwell, Wei Zhou, Yi Yang, Qi-Lin Zhou, Abdulaziz S. R. Bati et al."
+  },
+  {
+    "subject": "dual-site-binding ligands",
+    "predicate": "adopt",
+    "object": "planar orientation",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 33,
+    "source": "## **Discussion** 15 20 25 We began this study with the view that dense packing of passivator ligands perpendicular to the perovskite/C60 interface may increase resistance; and that this could potentially be addressed by instead introducing ligands prone to align in a planar orientation relative to…"
+  },
+  {
+    "subject": "inverted perovskite solar cells",
+    "predicate": "achieve",
+    "object": "26.15% pce",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 6,
+    "source": "**One-Sentence Summary:** Tuning ligand orientation for planar adsorption increases the certified QSS efficiency of inverted perovskite solar cells to 26.15%."
+  },
+  {
+    "subject": "inverted perovskite solar cells",
+    "predicate": "achieve",
+    "object": "24.74% pce",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 5,
+    "source": "We fabricated _pin_ PSCs and report a certified quasi-steady state PCE of 26.15% and 24.74% for 0.05 and 1.04 square centimeter illuminated areas, respectively."
+  },
+  {
+    "subject": "inverted perovskite solar cells",
+    "predicate": "retain",
+    "object": "95% initial pce",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 5,
+    "source": "The devices retain 95% of their initial PCE following 1200 hours of continuous 1 sun MPP operation at 65 °C."
+  },
+  {
+    "subject": "inverted perovskite solar cells",
+    "predicate": "operated for",
+    "object": "1200 hours",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 5,
+    "source": "The devices retain 95% of their initial PCE following 1200 hours of continuous 1 sun MPP operation at 65 °C."
+  },
+  {
+    "subject": "ligand orientation",
+    "predicate": "affects",
+    "object": "charge extraction",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 1,
+    "source": "# Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands | 字段 | 内容 | |---|---| | 期刊 | Science | | 年份 | 2024 | | 引用量（Semantic Scholar） | 1167 | | 作者 | Hao Chen, Cheng Liu, Jian Xu, Aidan Maxwell, Wei Zhou, Yi Yang, Qi-Lin Zhou, Abdulaziz S. R. Bati et al."
+  },
+  {
+    "subject": "dual-site-binding ligands",
+    "predicate": "increase",
+    "object": "qss pce",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 29,
+    "source": "The devices achieved a certified stabilized (QSS) PCE of 26.15% and 24.74% respectively (Fig."
+  },
+  {
+    "subject": "perovskite solar cells",
+    "predicate": "reach",
+    "object": "25.7% pce",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 7,
+    "source": "1 Submitted Manuscript: Confidential 5 10 15 20 25 30 35 40 **Main Text:** The certified power conversion efficiency (PCE) of perovskite solar cells (PSCs) has reached an impressive 25.7% ( _1_ ). Nevertheless, the most efficient PSCs, fabricated in the _nip_ architecture, have yet to achieve the n…"
+  },
+  {
+    "subject": "nip perovskite solar cells",
+    "predicate": "achieve",
+    "object": "highest certified pce",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 7,
+    "source": "1 Submitted Manuscript: Confidential 5 10 15 20 25 30 35 40 **Main Text:** The certified power conversion efficiency (PCE) of perovskite solar cells (PSCs) has reached an impressive 25.7% ( _1_ ). Nevertheless, the most efficient PSCs, fabricated in the _nip_ architecture, have yet to achieve the n…"
+  },
+  {
+    "subject": "nip perovskite solar cells",
+    "predicate": "lack",
+    "object": "operating stability",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 4,
+    "source": "25 30 35 **Abstract:** Inverted ( _pin_ ) perovskite solar cells (PSCs) afford improved operating stability in comparison to their _nip_ counterparts but have lagged in power conversion efficiency (PCE)."
+  },
+  {
+    "subject": "inverted perovskite solar cells",
+    "predicate": "avoid",
+    "object": "p-type dopants",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 7,
+    "source": "1 Submitted Manuscript: Confidential 5 10 15 20 25 30 35 40 **Main Text:** The certified power conversion efficiency (PCE) of perovskite solar cells (PSCs) has reached an impressive 25.7% ( _1_ ). Nevertheless, the most efficient PSCs, fabricated in the _nip_ architecture, have yet to achieve the n…"
+  },
+  {
+    "subject": "inverted perovskite solar cells",
+    "predicate": "reach",
+    "object": "25.1% pce",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 7,
+    "source": "1 Submitted Manuscript: Confidential 5 10 15 20 25 30 35 40 **Main Text:** The certified power conversion efficiency (PCE) of perovskite solar cells (PSCs) has reached an impressive 25.7% ( _1_ ). Nevertheless, the most efficient PSCs, fabricated in the _nip_ architecture, have yet to achieve the n…"
+  },
+  {
+    "subject": "band misalignment",
+    "predicate": "limits",
+    "object": "power conversion efficiency",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 8,
+    "source": "and the charge-transport layers limit the PCE of _pin_ cells ( _9-11_ ) through band misalignment ( _12_ ) and energy-level pinning ( _11_ ). These problems are aggravated by the presence of surface defects."
+  },
+  {
+    "subject": "energy-level pinning",
+    "predicate": "limits",
+    "object": "power conversion efficiency",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 8,
+    "source": "and the charge-transport layers limit the PCE of _pin_ cells ( _9-11_ ) through band misalignment ( _12_ ) and energy-level pinning ( _11_ ). These problems are aggravated by the presence of surface defects."
+  },
+  {
+    "subject": "surface defects",
+    "predicate": "aggravate",
+    "object": "energetic losses",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 4,
+    "source": "The energetic losses responsible for this PCE deficit in _pin_ PSCs occur primarily at the interfaces between the perovskite and the charge-transport layers."
+  },
+  {
+    "subject": "undercoordinated pb2+",
+    "predicate": "causes",
+    "object": "nonradiative recombination",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 8,
+    "source": "For example, undercoordinated Pb<sup>2+</sup> ions ( _13-15_ ) resulting in nonradiative recombination at the perovskite/charge transport layer (CTL) interface, which limits photovoltage and fill factor (FF)."
+  },
+  {
+    "subject": "nonradiative recombination",
+    "predicate": "limits",
+    "object": "photovoltage",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 8,
+    "source": "For example, undercoordinated Pb<sup>2+</sup> ions ( _13-15_ ) resulting in nonradiative recombination at the perovskite/charge transport layer (CTL) interface, which limits photovoltage and fill factor (FF)."
+  },
+  {
+    "subject": "nonradiative recombination",
+    "predicate": "limits",
+    "object": "fill factor",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 8,
+    "source": "For example, undercoordinated Pb<sup>2+</sup> ions ( _13-15_ ) resulting in nonradiative recombination at the perovskite/charge transport layer (CTL) interface, which limits photovoltage and fill factor (FF)."
+  },
+  {
+    "subject": "surface passivation",
+    "predicate": "suppresses",
+    "object": "nonradiative recombination",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 9,
+    "source": "Surface passivation of the perovskite active layer is used to suppress interface nonradiative recombination ( _14_ , _16_ ). The efficacy of bulk additives as well as solution-based treatments with ammonium ligands is now well-established ( _17_ , _18_ ). However, these ligands bind at a single act…"
+  },
+  {
+    "subject": "ammonium ligands",
+    "predicate": "passivate",
+    "object": "perovskite surface",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 9,
+    "source": "Surface passivation of the perovskite active layer is used to suppress interface nonradiative recombination ( _14_ , _16_ ). The efficacy of bulk additives as well as solution-based treatments with ammonium ligands is now well-established ( _17_ , _18_ ). However, these ligands bind at a single act…"
+  },
+  {
+    "subject": "bulk additives",
+    "predicate": "passivate",
+    "object": "perovskite",
+    "subject_type": "technology",
+    "object_type": "technology",
+    "chunk": 9,
+    "source": "Surface passivation of the perovskite active layer is used to suppress interface nonradiative recombination ( _14_ , _16_ ). The efficacy of bulk additives as well as solution-based treatments with ammonium ligands is now well-established ( _17_ , _18_ ). However, these ligands bind at a single act…"
+  },
+  {
+    "subject": "perpendicular ligand alignment",
+    "predicate": "creates",
+    "object": "resistive barrier",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 9,
+    "source": "Surface passivation of the perovskite active layer is used to suppress interface nonradiative recombination ( _14_ , _16_ ). The efficacy of bulk additives as well as solution-based treatments with ammonium ligands is now well-established ( _17_ , _18_ ). However, these ligands bind at a single act…"
+  },
+  {
+    "subject": "resistive barrier",
+    "predicate": "blocks",
+    "object": "charge transport",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 8,
+    "source": "For example, undercoordinated Pb<sup>2+</sup> ions ( _13-15_ ) resulting in nonradiative recombination at the perovskite/charge transport layer (CTL) interface, which limits photovoltage and fill factor (FF)."
+  },
+  {
+    "subject": "benzene ring",
+    "predicate": "has",
+    "object": "flat structure",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 11,
+    "source": "## **Theoretical investigations** We began by considering candidate molecules containing a benzene ring, since its flat structure is expected to lie parallel to a surface compared to the case of linear-chain ligands ( _21_ ). To enable strong binding with perovskite surfaces, we considered both -PO…"
+  },
+  {
+    "subject": "flat structure",
+    "predicate": "lies parallel to",
+    "object": "perovskite surface",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 11,
+    "source": "## **Theoretical investigations** We began by considering candidate molecules containing a benzene ring, since its flat structure is expected to lie parallel to a surface compared to the case of linear-chain ligands ( _21_ ). To enable strong binding with perovskite surfaces, we considered both -PO…"
+  },
+  {
+    "subject": "sulfonate group",
+    "predicate": "coordinates with",
+    "object": "pb2+",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 11,
+    "source": "## **Theoretical investigations** We began by considering candidate molecules containing a benzene ring, since its flat structure is expected to lie parallel to a surface compared to the case of linear-chain ligands ( _21_ ). To enable strong binding with perovskite surfaces, we considered both -PO…"
+  },
+  {
+    "subject": "phosphonate group",
+    "predicate": "coordinates with",
+    "object": "pb2+",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 11,
+    "source": "## **Theoretical investigations** We began by considering candidate molecules containing a benzene ring, since its flat structure is expected to lie parallel to a surface compared to the case of linear-chain ligands ( _21_ ). To enable strong binding with perovskite surfaces, we considered both -PO…"
+  },
+  {
+    "subject": "oxygen atoms",
+    "predicate": "correlate with",
+    "object": "strong binding",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 11,
+    "source": "## **Theoretical investigations** We began by considering candidate molecules containing a benzene ring, since its flat structure is expected to lie parallel to a surface compared to the case of linear-chain ligands ( _21_ ). To enable strong binding with perovskite surfaces, we considered both -PO…"
+  },
+  {
+    "subject": "ligand length",
+    "predicate": "determines",
+    "object": "multi-site binding",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 1,
+    "source": "# Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands | 字段 | 内容 | |---|---| | 期刊 | Science | | 年份 | 2024 | | 引用量（Semantic Scholar） | 1167 | | 作者 | Hao Chen, Cheng Liu, Jian Xu, Aidan Maxwell, Wei Zhou, Yi Yang, Qi-Lin Zhou, Abdulaziz S. R. Bati et al."
+  },
+  {
+    "subject": "pb sites",
+    "predicate": "are spaced",
+    "object": "6.3 å",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 12,
+    "source": "We then evaluated steric constraints, seeking a ligand sufficiently long that it could bind at multiple surface Pb sites, these ~ 6.3 Å apart in the case of FA-based perovskites."
+  },
+  {
+    "subject": "benzenesulfonate",
+    "predicate": "is a",
+    "object": "sulfonate ligand",
+    "subject_type": "technology",
+    "object_type": "technology",
+    "chunk": 12,
+    "source": "These considerations pointed to benzenesulfonate (BZS) ligands and their derivatives, since these molecules have a length of ~ 5.7 Å. We used density functional theory (DFT) calculations to investigate how the molecular structure of the ligand affects orientation."
+  },
+  {
+    "subject": "bzs",
+    "predicate": "has",
+    "object": "5.7 å length",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 12,
+    "source": "These considerations pointed to benzenesulfonate (BZS) ligands and their derivatives, since these molecules have a length of ~ 5.7 Å. We used density functional theory (DFT) calculations to investigate how the molecular structure of the ligand affects orientation."
+  },
+  {
+    "subject": "density functional theory",
+    "predicate": "investigates",
+    "object": "ligand orientation",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 12,
+    "source": "These considerations pointed to benzenesulfonate (BZS) ligands and their derivatives, since these molecules have a length of ~ 5.7 Å. We used density functional theory (DFT) calculations to investigate how the molecular structure of the ligand affects orientation."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "contains",
+    "object": "chloride group",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 13,
+    "source": "We considered three ligands, one with no additional functional group (BZS), and two with methyl or chloride in the _para_ position of the benzene ring opposite to the sulfonate functional group (4-methylbenzenesulfonate, 4CH3-BZS, and 4- chlorobenzenesulfonate, 4Cl-BZS) (Fig."
+  },
+  {
+    "subject": "4ch3-bzs",
+    "predicate": "contains",
+    "object": "methyl group",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 13,
+    "source": "We considered three ligands, one with no additional functional group (BZS), and two with methyl or chloride in the _para_ position of the benzene ring opposite to the sulfonate functional group (4-methylbenzenesulfonate, 4CH3-BZS, and 4- chlorobenzenesulfonate, 4Cl-BZS) (Fig."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "has",
+    "object": "6.37 å length",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 13,
+    "source": "4CH3-BZS and 4Cl-BZS have lengths of 6.14 Å and 6.37 Å, respectively."
+  },
+  {
+    "subject": "4ch3-bzs",
+    "predicate": "has",
+    "object": "6.14 å length",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 13,
+    "source": "4CH3-BZS and 4Cl-BZS have lengths of 6.14 Å and 6.37 Å, respectively."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "prefers",
+    "object": "parallel orientation",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 14,
+    "source": "1B), and another in which the ligands adopted a parallel orientation with respect to the perovskite surface (Conf-para, Fig."
+  },
+  {
+    "subject": "bzs",
+    "predicate": "prefers",
+    "object": "perpendicular orientation",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 77,
+    "source": "( **B** ) Atomic structures of ligand adsorbed in a perpendicular orientation (Conf-perp) on the perovskite surface."
+  },
+  {
+    "subject": "4ch3-bzs",
+    "predicate": "prefers",
+    "object": "perpendicular orientation",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 77,
+    "source": "( **B** ) Atomic structures of ligand adsorbed in a perpendicular orientation (Conf-perp) on the perovskite surface."
+  },
+  {
+    "subject": "chloride group",
+    "predicate": "bind to",
+    "object": "pb2+",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 13,
+    "source": "We considered three ligands, one with no additional functional group (BZS), and two with methyl or chloride in the _para_ position of the benzene ring opposite to the sulfonate functional group (4-methylbenzenesulfonate, 4CH3-BZS, and 4- chlorobenzenesulfonate, 4Cl-BZS) (Fig."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "enables",
+    "object": "dual-site passivation",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 14,
+    "source": "1D) that would enable dual-site Pb<sup>2+</sup> passivation."
+  },
+  {
+    "subject": "c60",
+    "predicate": "is used as",
+    "object": "electron transport layer",
+    "subject_type": "technology",
+    "object_type": "technology",
+    "chunk": 9,
+    "source": "Surface passivation of the perovskite active layer is used to suppress interface nonradiative recombination ( _14_ , _16_ ). The efficacy of bulk additives as well as solution-based treatments with ammonium ligands is now well-established ( _17_ , _18_ ). However, these ligands bind at a single act…"
+  },
+  {
+    "subject": "c60",
+    "predicate": "induces",
+    "object": "energetic losses",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 15,
+    "source": "We also investigated the effects of ligand orientation on charge transfer at the perovskite/ETL interface by examining fullerene (C60), which is widely used as ETL in _pin_ PSCs and known to induce energetic losses in devices ( _11_ , _12_ , _34_ , _35_ ). Analysis of the calculated charge density…"
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "binds strongly to",
+    "object": "c60",
+    "subject_type": "technology",
+    "object_type": "technology",
+    "chunk": 16,
+    "source": "45 2 Submitted Manuscript: Confidential 5 10 15 20 25 30 established a notably stronger binding strength with the C60 layer ( _E_ ads= -0.85 eV), in contrast to the BZS ( _E_ ads= -0.46 eV) and 4CH3-BZS ( _E_ ads= -0.39 eV) ( _36_ ). Fracture energy (Gc) results show that 4Cl-BZS increases the mech…"
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "strengthens",
+    "object": "perovskite/c60 interface",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 16,
+    "source": "45 2 Submitted Manuscript: Confidential 5 10 15 20 25 30 established a notably stronger binding strength with the C60 layer ( _E_ ads= -0.85 eV), in contrast to the BZS ( _E_ ads= -0.46 eV) and 4CH3-BZS ( _E_ ads= -0.39 eV) ( _36_ ). Fracture energy (Gc) results show that 4Cl-BZS increases the mech…"
+  },
+  {
+    "subject": "bzs",
+    "predicate": "binds weakly to",
+    "object": "c60",
+    "subject_type": "technology",
+    "object_type": "technology",
+    "chunk": 16,
+    "source": "45 2 Submitted Manuscript: Confidential 5 10 15 20 25 30 established a notably stronger binding strength with the C60 layer ( _E_ ads= -0.85 eV), in contrast to the BZS ( _E_ ads= -0.46 eV) and 4CH3-BZS ( _E_ ads= -0.39 eV) ( _36_ ). Fracture energy (Gc) results show that 4Cl-BZS increases the mech…"
+  },
+  {
+    "subject": "4ch3-bzs",
+    "predicate": "binds weakly to",
+    "object": "c60",
+    "subject_type": "technology",
+    "object_type": "technology",
+    "chunk": 16,
+    "source": "45 2 Submitted Manuscript: Confidential 5 10 15 20 25 30 established a notably stronger binding strength with the C60 layer ( _E_ ads= -0.85 eV), in contrast to the BZS ( _E_ ads= -0.46 eV) and 4CH3-BZS ( _E_ ads= -0.39 eV) ( _36_ ). Fracture energy (Gc) results show that 4Cl-BZS increases the mech…"
+  },
+  {
+    "subject": "bzs",
+    "predicate": "diffuses to",
+    "object": "top surface",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 17,
+    "source": "Time-of-flight secondary ion mass spectrometry (TOF-SIMS) of untreated (control) and treated films showed that BZS, 4CH3-BZS, and 4Cl-BZS were all concentrated near the top (ETL-facing) surface of the perovskite film (fig."
+  },
+  {
+    "subject": "4ch3-bzs",
+    "predicate": "diffuses to",
+    "object": "top surface",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 17,
+    "source": "Time-of-flight secondary ion mass spectrometry (TOF-SIMS) of untreated (control) and treated films showed that BZS, 4CH3-BZS, and 4Cl-BZS were all concentrated near the top (ETL-facing) surface of the perovskite film (fig."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "diffuses to",
+    "object": "top surface",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 17,
+    "source": "Time-of-flight secondary ion mass spectrometry (TOF-SIMS) of untreated (control) and treated films showed that BZS, 4CH3-BZS, and 4Cl-BZS were all concentrated near the top (ETL-facing) surface of the perovskite film (fig."
+  },
+  {
+    "subject": "passivating ligands",
+    "predicate": "do not enter",
+    "object": "perovskite lattice",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 1,
+    "source": "# Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands | 字段 | 内容 | |---|---| | 期刊 | Science | | 年份 | 2024 | | 引用量（Semantic Scholar） | 1167 | | 作者 | Hao Chen, Cheng Liu, Jian Xu, Aidan Maxwell, Wei Zhou, Yi Yang, Qi-Lin Zhou, Abdulaziz S. R. Bati et al."
+  },
+  {
+    "subject": "tof-sims",
+    "predicate": "shows",
+    "object": "ligand distribution",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 17,
+    "source": "Time-of-flight secondary ion mass spectrometry (TOF-SIMS) of untreated (control) and treated films showed that BZS, 4CH3-BZS, and 4Cl-BZS were all concentrated near the top (ETL-facing) surface of the perovskite film (fig."
+  },
+  {
+    "subject": "x-ray diffraction",
+    "predicate": "shows",
+    "object": "no lattice change",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 17,
+    "source": "This result, combined with x-ray diffraction (XRD) patterns of control and treated perovskite films that showed no discernable peak-shifting after treatment (fig."
+  },
+  {
+    "subject": "scanning electron microscopy",
+    "predicate": "shows",
+    "object": "uniform morphology",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 18,
+    "source": "S5, illustrating that the perovskite films (both additives and controls) exhibit substantially uniform morphology."
+  },
+  {
+    "subject": "x-ray photoelectron spectroscopy",
+    "predicate": "shows",
+    "object": "pb 4f peak shift",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 18,
+    "source": "We observe a shift of the Pb 4</mark> _<mark>f</mark>_ <mark>XPS peaks to a lower binding energy for each treated film compared to controls (Fig."
+  },
+  {
+    "subject": "x-ray photoelectron spectroscopy",
+    "predicate": "shows",
+    "object": "cl-pb interaction",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 18,
+    "source": "<mark>We used x-ray photoelectron spectroscopy (XPS) to check for possible evidence of interaction between the additives and perovskite."
+  },
+  {
+    "subject": "nuclear magnetic resonance",
+    "predicate": "shows",
+    "object": "cl-pb interaction",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 19,
+    "source": "2B) and from nuclear magnetic resonance (NMR) spectra (fig."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "increases",
+    "object": "photoluminescence quantum yield",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 20,
+    "source": "2C), with 4Cl-BZS exhibiting a twofold increase in PLQY (41%) compared to control films (20%), which corresponded to a projected 20 mV increase in quasi-Fermi level splitting (QFLS)."
+  },
+  {
+    "subject": "photoluminescence quantum yield increase",
+    "predicate": "corresponds to",
+    "object": "qfls increase",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 20,
+    "source": "2C), with 4Cl-BZS exhibiting a twofold increase in PLQY (41%) compared to control films (20%), which corresponded to a projected 20 mV increase in quasi-Fermi level splitting (QFLS)."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "increases",
+    "object": "qfls",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 20,
+    "source": "2C), with 4Cl-BZS exhibiting a twofold increase in PLQY (41%) compared to control films (20%), which corresponded to a projected 20 mV increase in quasi-Fermi level splitting (QFLS)."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "reduces",
+    "object": "interface losses",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 20,
+    "source": "This improvement was consistent with reduced interface losses."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "increases",
+    "object": "carrier lifetime",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 20,
+    "source": "Time-resolved photoluminescence (TRPL) revealed a similar increase in carrier lifetimes after treatment."
+  },
+  {
+    "subject": "time-resolved photoluminescence",
+    "predicate": "measures",
+    "object": "carrier lifetime",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 20,
+    "source": "Time-resolved photoluminescence (TRPL) revealed a similar increase in carrier lifetimes after treatment."
+  },
+  {
+    "subject": "4cl-bzs/c60 stack",
+    "predicate": "shows",
+    "object": "efficient electron transfer",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 22,
+    "source": "First, we conducted TRPL measurements of perovskite/C60 stacks, wherein decay was dictated by non-radiative surface/bulk recombination (monoexponential decay), radiative recombination (second-order decay), and charge extraction effects, which could be distinguished if the time constants for each pr…"
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "reduces",
+    "object": "trap density",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 23,
+    "source": "a reduced trap density compared with BZS and 4CH3BZS (fig."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "accelerates",
+    "object": "photocurrent decay",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 24,
+    "source": "Both BZS and 4CH3-BZS resulted in slower photocurrent decay, while 4Cl-BZS treatment led to faster photocurrent decay (Fig."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "improves",
+    "object": "electron extraction",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 22,
+    "source": "First, we conducted TRPL measurements of perovskite/C60 stacks, wherein decay was dictated by non-radiative surface/bulk recombination (monoexponential decay), radiative recombination (second-order decay), and charge extraction effects, which could be distinguished if the time constants for each pr…"
+  },
+  {
+    "subject": "ultraviolet photoelectron spectroscopy",
+    "predicate": "shows",
+    "object": "reduced conduction band offset",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 24,
+    "source": "Ultraviolet photoelectron spectroscopy (UPS) revealed an increased conduction band offset with C60 that was caused by a Fermi-level upshift after BZS and 4CH3-BZS treatment, whereas 4Cl-BZS caused a Fermi-level downshift and reduced conduction band offset (fig."
+  },
+  {
+    "subject": "bzs",
+    "predicate": "increases",
+    "object": "conduction band offset",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 24,
+    "source": "Ultraviolet photoelectron spectroscopy (UPS) revealed an increased conduction band offset with C60 that was caused by a Fermi-level upshift after BZS and 4CH3-BZS treatment, whereas 4Cl-BZS caused a Fermi-level downshift and reduced conduction band offset (fig."
+  },
+  {
+    "subject": "4ch3-bzs",
+    "predicate": "increases",
+    "object": "conduction band offset",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 24,
+    "source": "Ultraviolet photoelectron spectroscopy (UPS) revealed an increased conduction band offset with C60 that was caused by a Fermi-level upshift after BZS and 4CH3-BZS treatment, whereas 4Cl-BZS caused a Fermi-level downshift and reduced conduction band offset (fig."
+  },
+  {
+    "subject": "kelvin probe force microscopy",
+    "predicate": "confirms",
+    "object": "ups trend",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 24,
+    "source": "This trend was further confirmed by Kelvin probe force microscopy (KPFM) measurements (fig."
+  },
+  {
+    "subject": "density functional theory",
+    "predicate": "confirms",
+    "object": "ups trend",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 76,
+    "source": "## **Author contributions:** 10 15 Conceptualization: HC Device fabrication: HC Film fabrication and Characterization: HC, CL, WZ, YY TPC and TOF-SIMIS: YY, CL DFT calculation: JX UPS and XRD measurement: WZ, QZ SEM and XPS measurement: CL, YY, AB, YL KPFM measurement: YY, PS PL, TRPL, PLQY measure…"
+  },
+  {
+    "subject": "inverted perovskite solar cells",
+    "predicate": "use",
+    "object": "4cl-bzs",
+    "subject_type": "technology",
+    "object_type": "technology",
+    "chunk": 25,
+    "source": "## **Inverted Perovskite Solar Cells** 15 20 25 30 35 40 Using 4Cl-BZS-treated perovskite, we fabricated inverted PSCs with the structure FTO/SAM/perovskite/C60/SnO _x_ /Ag (Fig."
+  },
+  {
+    "subject": "inverted perovskite solar cells",
+    "predicate": "have structure",
+    "object": "fto/sam/perovskite/c60/snox/ag",
+    "subject_type": "technology",
+    "object_type": "technology",
+    "chunk": 1,
+    "source": "# Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands | 字段 | 内容 | |---|---| | 期刊 | Science | | 年份 | 2024 | | 引用量（Semantic Scholar） | 1167 | | 作者 | Hao Chen, Cheng Liu, Jian Xu, Aidan Maxwell, Wei Zhou, Yi Yang, Qi-Lin Zhou, Abdulaziz S. R. Bati et al."
+  },
+  {
+    "subject": "perovskite layer",
+    "predicate": "has thickness",
+    "object": "900 nm",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 25,
+    "source": "The thickness of the perovskite layer was 900 nm."
+  },
+  {
+    "subject": "control devices",
+    "predicate": "achieve",
+    "object": "24% pce",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 25,
+    "source": "Control devices had PCE 24%, while the 4Cl-BZS treated devices exhibited PCE 26.3% (Fig."
+  },
+  {
+    "subject": "4cl-bzs treated devices",
+    "predicate": "achieve",
+    "object": "26.3% pce",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 25,
+    "source": "Control devices had PCE 24%, while the 4Cl-BZS treated devices exhibited PCE 26.3% (Fig."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "increases",
+    "object": "open-circuit voltage",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 25,
+    "source": "Analysis of device statistics for both control and 4Cl-BZS treated PSCs revealed a substantial enhancement in PCE, primarily via increased open-circuit voltage ( _V_ OC)."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "increases",
+    "object": "fill factor",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 25,
+    "source": "Additionally, 4Cl-BZStreated PSCs showed a significantly higher FF compared to BZS and 4CH3-BZS-treated PSCs."
+  },
+  {
+    "subject": "fill factor improvement",
+    "predicate": "results from",
+    "object": "enhanced charge extraction",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 26,
+    "source": "This improvement in FF we attribute to enhanced charge extraction in 4Cl-BZS-treated PSCs (Fig."
+  },
+  {
+    "subject": "donating group",
+    "predicate": "enables",
+    "object": "dual-site passivation",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 26,
+    "source": "We posit that a stronger donating group, such as Cl or F, is beneficial in providing dual-site defect passivation."
+  },
+  {
+    "subject": "4f-bzsa",
+    "predicate": "achieve",
+    "object": "comparable pce",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 27,
+    "source": "Remarkably, treatments with 4F-BZSA resulted in comparable PCE as in the case of 4Cl-BZS, and 4I-BZSA also showed improved PCE compared to controls."
+  },
+  {
+    "subject": "4i-bzsa",
+    "predicate": "improves",
+    "object": "power conversion efficiency",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 27,
+    "source": "Remarkably, treatments with 4F-BZSA resulted in comparable PCE as in the case of 4Cl-BZS, and 4I-BZSA also showed improved PCE compared to controls."
+  },
+  {
+    "subject": "bimolecular surface passivation",
+    "predicate": "combines",
+    "object": "chemical passivation",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 28,
+    "source": "We then added the bimolecular surface passivation (BMP) approach, based on 3MTPAI and PDAI2, reported in ( _8_ ). This strategy has been reported to provide a combination of chemical and field-effect passivation (Methods)."
+  },
+  {
+    "subject": "bimolecular surface passivation",
+    "predicate": "combines",
+    "object": "field-effect passivation",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 28,
+    "source": "We then added the bimolecular surface passivation (BMP) approach, based on 3MTPAI and PDAI2, reported in ( _8_ ). This strategy has been reported to provide a combination of chemical and field-effect passivation (Methods)."
+  },
+  {
+    "subject": "bimolecular surface passivation",
+    "predicate": "increases",
+    "object": "photoluminescence quantum yield",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 19,
+    "source": "We observe an increase in PL quantum yield (PLQY) for each of the treated films and the full device stack (Fig."
+  },
+  {
+    "subject": "combined treatment",
+    "predicate": "achieve",
+    "object": "26.9% pce",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 28,
+    "source": "The combined treatment elevated the PCE of 4Cl-BZS-treated devices from 26.3% to 26.9%, featuring a _V_ OC of 1.18 V, FF of 86.2%, and short-circuit current density ( _J_ SC) of 26.4 mA cm<sup>-2</sup> (Fig."
+  },
+  {
+    "subject": "combined treatment",
+    "predicate": "achieve",
+    "object": "1.18 v",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 28,
+    "source": "The combined treatment elevated the PCE of 4Cl-BZS-treated devices from 26.3% to 26.9%, featuring a _V_ OC of 1.18 V, FF of 86.2%, and short-circuit current density ( _J_ SC) of 26.4 mA cm<sup>-2</sup> (Fig."
+  },
+  {
+    "subject": "combined treatment",
+    "predicate": "achieve",
+    "object": "86.2% fill factor",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 28,
+    "source": "The combined treatment elevated the PCE of 4Cl-BZS-treated devices from 26.3% to 26.9%, featuring a _V_ OC of 1.18 V, FF of 86.2%, and short-circuit current density ( _J_ SC) of 26.4 mA cm<sup>-2</sup> (Fig."
+  },
+  {
+    "subject": "combined treatment",
+    "predicate": "achieve",
+    "object": "26.4 ma/cm2",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 28,
+    "source": "The combined treatment elevated the PCE of 4Cl-BZS-treated devices from 26.3% to 26.9%, featuring a _V_ OC of 1.18 V, FF of 86.2%, and short-circuit current density ( _J_ SC) of 26.4 mA cm<sup>-2</sup> (Fig."
+  },
+  {
+    "subject": "inverted perovskite solar cells",
+    "predicate": "has",
+    "object": "1.53 ev bandgap",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 29,
+    "source": "The bandgap of the _pin_ PSCs was taken from external quantum efficiency (EQE) measurements as 1.53 eV (fig."
+  },
+  {
+    "subject": "external quantum efficiency",
+    "predicate": "measures",
+    "object": "bandgap",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 29,
+    "source": "The bandgap of the _pin_ PSCs was taken from external quantum efficiency (EQE) measurements as 1.53 eV (fig."
+  },
+  {
+    "subject": "newport",
+    "predicate": "certifies",
+    "object": "26.15% pce",
+    "subject_type": "organization",
+    "object_type": "concept",
+    "chunk": 5,
+    "source": "We fabricated _pin_ PSCs and report a certified quasi-steady state PCE of 26.15% and 24.74% for 0.05 and 1.04 square centimeter illuminated areas, respectively."
+  },
+  {
+    "subject": "newport",
+    "predicate": "certifies",
+    "object": "24.74% pce",
+    "subject_type": "organization",
+    "object_type": "concept",
+    "chunk": 5,
+    "source": "We fabricated _pin_ PSCs and report a certified quasi-steady state PCE of 26.15% and 24.74% for 0.05 and 1.04 square centimeter illuminated areas, respectively."
+  },
+  {
+    "subject": "inverted perovskite solar cells",
+    "predicate": "surpass",
+    "object": "nip perovskite solar cells",
+    "subject_type": "technology",
+    "object_type": "technology",
+    "chunk": 1,
+    "source": "# Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands | 字段 | 内容 | |---|---| | 期刊 | Science | | 年份 | 2024 | | 引用量（Semantic Scholar） | 1167 | | 作者 | Hao Chen, Cheng Liu, Jian Xu, Aidan Maxwell, Wei Zhou, Yi Yang, Qi-Lin Zhou, Abdulaziz S. R. Bati et al."
+  },
+  {
+    "subject": "isos-d-2i",
+    "predicate": "tests",
+    "object": "thermal stability",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 30,
+    "source": "4 Submitted Manuscript: Confidential 5 10 Next, we sought to test the thermal stability of the 4Cl-BZS treated PSCs following protocols established by the International Summit on Organic Photovoltaic Stability (ISOS)-D-2I, in which encapsulated devices were subjected to dark storage at 85℃ and test…"
+  },
+  {
+    "subject": "4cl-bzs treated devices",
+    "predicate": "retain",
+    "object": "95% pce after 1500 hours",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 30,
+    "source": "4Cl-BZS treated PSCs retained 95% of their initial efficiency after 1500 hours of storage at 85 ℃ (Fig."
+  },
+  {
+    "subject": "isos-l-3",
+    "predicate": "tests",
+    "object": "operating stability",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 31,
+    "source": "To evaluate operating stability further, we then also carried out ISOS-L-3 testing, in which encapsulated devices were subjected to continuous 1-sun equivalent illumination using a UV-free white-LED and held at the maximum power point (MPP) voltage, at 50% relative humidity and a heatsink temperatu…"
+  },
+  {
+    "subject": "4cl-bzs treated devices",
+    "predicate": "achieve",
+    "object": "t95 1200 hours",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 32,
+    "source": "4Cl-BZS treated PSCs achieved a _T_ 95 (the time taken for the device PCE to drop to 95% of the initial value) of 1200 hours after continuous MPP tracking at 65 °C, while control devices drop from an initial efficiency of 22% to 18.7% after 1200 hours (Table S5)."
+  },
+  {
+    "subject": "control devices",
+    "predicate": "drop from",
+    "object": "22% pce",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 32,
+    "source": "4Cl-BZS treated PSCs achieved a _T_ 95 (the time taken for the device PCE to drop to 95% of the initial value) of 1200 hours after continuous MPP tracking at 65 °C, while control devices drop from an initial efficiency of 22% to 18.7% after 1200 hours (Table S5)."
+  },
+  {
+    "subject": "4cl-bzs treated devices",
+    "predicate": "achieve",
+    "object": "t87 540 hours",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 32,
+    "source": "Furthermore, 4Cl-BZS treated PSCs achieved a _T_ 87 of 540 hours after continuous MPP tracking at 85 °C (fig."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "passivate",
+    "object": "undercoordinated pb2+",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 33,
+    "source": "The interaction of 4Cl-BZS with undercoordinated Pb<sup>2+</sup> ions reduce the surface defect density and minimize the energetic mismatch between the perovskite and C60."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "reduces",
+    "object": "surface defect density",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 33,
+    "source": "The interaction of 4Cl-BZS with undercoordinated Pb<sup>2+</sup> ions reduce the surface defect density and minimize the energetic mismatch between the perovskite and C60."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "minimizes",
+    "object": "energetic mismatch",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 33,
+    "source": "The interaction of 4Cl-BZS with undercoordinated Pb<sup>2+</sup> ions reduce the surface defect density and minimize the energetic mismatch between the perovskite and C60."
+  },
+  {
+    "subject": "energetic mismatch",
+    "predicate": "exists at",
+    "object": "perovskite/c60 interface",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 16,
+    "source": "45 2 Submitted Manuscript: Confidential 5 10 15 20 25 30 established a notably stronger binding strength with the C60 layer ( _E_ ads= -0.85 eV), in contrast to the BZS ( _E_ ads= -0.46 eV) and 4CH3-BZS ( _E_ ads= -0.39 eV) ( _36_ ). Fracture energy (Gc) results show that 4Cl-BZS increases the mech…"
+  },
+  {
+    "subject": "planar ligand orientation",
+    "predicate": "improves",
+    "object": "pin psc performance",
+    "subject_type": "concept",
+    "object_type": "concept",
+    "chunk": 33,
+    "source": "The study indicates that the approach was effective in increasing pin PSC performance, bringing it into the range of that achieved in the nip configuration."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "works for",
+    "object": "wide-bandgap perovskites",
+    "subject_type": "technology",
+    "object_type": "technology",
+    "chunk": 13,
+    "source": "We considered three ligands, one with no additional functional group (BZS), and two with methyl or chloride in the _para_ position of the benzene ring opposite to the sulfonate functional group (4-methylbenzenesulfonate, 4CH3-BZS, and 4- chlorobenzenesulfonate, 4Cl-BZS) (Fig."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "works for",
+    "object": "narrow-bandgap perovskites",
+    "subject_type": "technology",
+    "object_type": "technology",
+    "chunk": 13,
+    "source": "We considered three ligands, one with no additional functional group (BZS), and two with methyl or chloride in the _para_ position of the benzene ring opposite to the sulfonate functional group (4-methylbenzenesulfonate, 4CH3-BZS, and 4- chlorobenzenesulfonate, 4Cl-BZS) (Fig."
+  },
+  {
+    "subject": "wide-bandgap perovskites",
+    "predicate": "used in",
+    "object": "tandem solar cells",
+    "subject_type": "technology",
+    "object_type": "technology",
+    "chunk": 34,
+    "source": "To test whether the approach worked in a range of perovskite compositions, we fabricated 4ClBZS-treated 1.78 eV wide-bandgap mixed halide devices, as well as 1.25 eV narrow-bandgap mixed Pb-Sn PSCs – compositions of interest in all-perovskite tandem solar cells."
+  },
+  {
+    "subject": "narrow-bandgap perovskites",
+    "predicate": "used in",
+    "object": "tandem solar cells",
+    "subject_type": "technology",
+    "object_type": "technology",
+    "chunk": 34,
+    "source": "To test whether the approach worked in a range of perovskite compositions, we fabricated 4ClBZS-treated 1.78 eV wide-bandgap mixed halide devices, as well as 1.25 eV narrow-bandgap mixed Pb-Sn PSCs – compositions of interest in all-perovskite tandem solar cells."
+  },
+  {
+    "subject": "4cl-bzs",
+    "predicate": "increases",
+    "object": "power conversion efficiency",
+    "subject_type": "technology",
+    "object_type": "concept",
+    "chunk": 25,
+    "source": "Control devices had PCE 24%, while the 4Cl-BZS treated devices exhibited PCE 26.3% (Fig."
+  },
+  {
+    "subject": "1.53 ev bandgap",
+    "predicate": "is a",
+    "object": "bandgap",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "4cl-bzs treated devices",
+    "predicate": "involves",
+    "object": "4cl-bzs",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "86.2% fill factor",
+    "predicate": "is a",
+    "object": "fill factor",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "bimolecular surface passivation",
+    "predicate": "is a",
+    "object": "surface passivation",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "enhanced charge extraction",
+    "predicate": "is a",
+    "object": "charge extraction",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "fill factor improvement",
+    "predicate": "involves",
+    "object": "fill factor",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands",
+    "predicate": "involves",
+    "object": "charge extraction",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands",
+    "predicate": "involves",
+    "object": "inverted perovskite solar cells",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands",
+    "predicate": "involves",
+    "object": "dual-site-binding ligands",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands",
+    "predicate": "involves",
+    "object": "perovskite solar cells",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands",
+    "predicate": "involves",
+    "object": "perovskite",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "inverted perovskite solar cells",
+    "predicate": "is a",
+    "object": "perovskite solar cells",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "inverted perovskite solar cells",
+    "predicate": "involves",
+    "object": "perovskite",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "nip perovskite solar cells",
+    "predicate": "is a",
+    "object": "perovskite solar cells",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "nip perovskite solar cells",
+    "predicate": "involves",
+    "object": "perovskite",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "perovskite lattice",
+    "predicate": "involves",
+    "object": "perovskite",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "perovskite layer",
+    "predicate": "involves",
+    "object": "perovskite",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "perovskite solar cells",
+    "predicate": "involves",
+    "object": "perovskite",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "perovskite surface",
+    "predicate": "involves",
+    "object": "perovskite",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "photoluminescence quantum yield increase",
+    "predicate": "involves",
+    "object": "photoluminescence quantum yield",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "planar ligand orientation",
+    "predicate": "is a",
+    "object": "ligand orientation",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "power conversion efficiency deficit",
+    "predicate": "involves",
+    "object": "power conversion efficiency",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "reduced conduction band offset",
+    "predicate": "is a",
+    "object": "conduction band offset",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "t95 1200 hours",
+    "predicate": "is a",
+    "object": "1200 hours",
+    "inferred": true,
+    "method": "taxonomy"
+  },
+  {
+    "subject": "undercoordinated pb2+",
+    "predicate": "is a",
+    "object": "pb2+",
+    "inferred": true,
+    "method": "taxonomy"
+  }
+]

@@ -1,0 +1,108 @@
+{
+  "community_names": {
+    "0": "Perovskite solar cell architectures",
+    "1": "4Cl-BZS ligand effects",
+    "2": "Paper and authorship",
+    "3": "Ligand comparison and C60 interface",
+    "4": "Defect passivation and recombination",
+    "5": "Fill factor and combined treatment",
+    "6": "Charge extraction mechanisms",
+    "7": "Device stability",
+    "8": "Power conversion efficiency limits",
+    "9": "Photoelectron spectroscopy"
+  },
+  "communities": [
+    {
+      "id": 0,
+      "name": "Perovskite solar cell architectures",
+      "top": [
+        "inverted perovskite solar cells",
+        "perovskite",
+        "nip perovskite solar cells"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "4Cl-BZS ligand effects",
+      "top": [
+        "4cl-bzs",
+        "carrier lifetime",
+        "dual-site passivation"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Paper and authorship",
+      "top": [
+        "improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands",
+        "dual-site-binding ligands",
+        "hao chen"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ligand comparison and C60 interface",
+      "top": [
+        "4ch3-bzs",
+        "bzs",
+        "c60"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Defect passivation and recombination",
+      "top": [
+        "bimolecular surface passivation",
+        "nonradiative recombination",
+        "pb2+"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Fill factor and combined treatment",
+      "top": [
+        "fill factor",
+        "combined treatment",
+        "resistive barrier"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Charge extraction mechanisms",
+      "top": [
+        "charge extraction",
+        "ligand orientation",
+        "density functional theory"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Device stability",
+      "top": [
+        "4cl-bzs treated devices",
+        "1200 hours",
+        "t95 1200 hours"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Power conversion efficiency limits",
+      "top": [
+        "power conversion efficiency",
+        "charge-transport layer interface",
+        "power conversion efficiency deficit"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Photoelectron spectroscopy",
+      "top": [
+        "cl-pb interaction",
+        "x-ray photoelectron spectroscopy",
+        "nuclear magnetic resonance"
+      ]
+    }
+  ],
+  "generated": "2026-11-11 07:54",
+  "model": "manual extraction + rule-based taxonomy inference"
+}

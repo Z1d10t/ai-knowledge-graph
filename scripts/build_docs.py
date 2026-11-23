@@ -20,15 +20,14 @@ from knowledge_graph.visualization import TEMPLATE_DIR, build_graph_data, render
 
 SAMPLES = [
     # (file stem, title, domain)
-    ("industrial-revolution", "The Industrial Revolutions", "Technology history"),
-    ("marie-curie", "Marie Curie", "Biography"),
-    ("apollo-program", "The Apollo Program", "Program history"),
-    ("coffee-supply-chain", "Coffee, from farm to cup", "Process description"),
-    ("la-alhambra", "La Alhambra de Granada", "Spanish text"),
+    ("chen-2024-dual-site-ligands",
+     "Dual-site-binding ligands for inverted perovskite solar cells",
+     "Semiconductor paper"),
 ]
 
 
-def build(samples_dir=None, docs_dir=None, model="deepseek-v4.1-flash"):
+def build(samples_dir=None, docs_dir=None,
+          model="manual extraction + rule-based standardization/taxonomy"):
     samples_dir = samples_dir or os.path.join(ROOT, "data", "samples")
     docs_dir = docs_dir or os.path.join(ROOT, "docs")
     pages_dir = os.path.join(docs_dir, "samples")

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Knowledge Graph Library – samples + Chen 2024</title>
+<style>
+:root { --bg:#fff; --fg:#1f2328; --muted:#656d76; --panel:#f6f8fa; --border:#d0d7de; --accent:#0969da; }
+@media (prefers-color-scheme: dark) { :root { --bg:#0d1117; --fg:#e6edf3; --muted:#8b949e; --panel:#161b22; --border:#30363d; --accent:#388bfd; } }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+main { max-width:1000px; margin:0 auto; padding:40px 20px 60px; }
+h1 { font-size:28px; margin:0 0 6px; }
+.lead { color:var(--muted); max-width:760px; margin:0 0 8px; }
+.note { border-left:3px solid var(--accent); padding:6px 14px; color:var(--muted); font-size:14px; margin:18px 0 28px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(290px,1fr)); gap:14px; }
+.card { display:block; text-decoration:none; color:inherit; border:1px solid var(--border); background:var(--panel); border-radius:12px; padding:16px 18px; }
+.card:hover { border-color:var(--accent); }
+.card .domain { color:var(--accent); font-size:12px; text-transform:uppercase; letter-spacing:.05em; margin-bottom:4px; }
+.card .name { font-weight:650; font-size:17px; }
+.card .meta { color:var(--muted); font-size:13px; margin-top:6px; }
+.card .tag { display:inline-block; margin-top:8px; font-size:11px; border:1px dashed var(--muted); border-radius:10px; padding:1px 8px; color:var(--muted); }
+.card.new { border-color:var(--accent); border-width:2px; }
+footer { color:var(--muted); font-size:13px; margin-top:36px; }
+code { background:var(--panel); border:1px solid var(--border); border-radius:4px; padding:1px 6px; font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Knowledge Graph Library</h1>
+  <p class="lead">当前项目只保留论文 001_Chen_2024 的图。作者原来的 5 个示例已移到
+    <code>article/archive/author_samples/</code>，可随时恢复。</p>
+  <p class="note">点击卡片进入交互页面：搜索节点、点击节点看关系与原文、路径查找、按社区 / 实体类型过滤。
+    实线是原文抽取的关系，虚线是 taxonomy 推断关系。</p>
+
+  <div class="grid">
+    <a class="card new" href="/docs/samples/chen-2024-dual-site-ligands.html">
+      <div class="domain">Semiconductor paper</div>
+      <div class="name">Dual-site-binding ligands for inverted perovskite solar cells</div>
+      <div class="meta">149 entities · 156 relationships (25 inferred) · 22 communities</div>
+      <span class="tag">Chen et al., Science 2024 · 001</span>
+    </a>
+  </div>
+
+  <footer>新增页面由项目自身的 <code>generate-graph --from-json</code> 渲染；原始数据在
+    <code>article/extracted/半导体论文/triples_001_Chen_2024.enriched.json</code>。</footer>
+</main>
+</body>
+</html>

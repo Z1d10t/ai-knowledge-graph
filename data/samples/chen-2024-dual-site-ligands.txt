@@ -1,0 +1,478 @@
+# Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands
+
+| 字段 | 内容 |
+|---|---|
+| 期刊 | Science |
+| 年份 | 2024 |
+| 引用量（Semantic Scholar） | 1167 |
+| 作者 | Hao Chen, Cheng Liu, Jian Xu, Aidan Maxwell, Wei Zhou, Yi Yang, Qi-Lin Zhou, Abdulaziz S. R. Bati et al. |
+| DOI | 10.1126/science.adm9474 |
+| 源文件 | 001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit.pdf |
+
+---
+Submitted Manuscript: Confidential 
+
+15 
+
+20 
+
+# **Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands** 
+
+5 
+
+Hao Chen<sup>1,2</sup> †, Cheng Liu<sup>1</sup> †, Jian Xu<sup>2</sup> †, Aidan Maxwell<sup>2</sup> †, Wei Zhou<sup>4</sup> †, Yi Yang<sup>1</sup> , Qilin Zhou<sup>4</sup> , Abdulaziz S. R. Bati<sup>1</sup> , Haoyue Wan<sup>2</sup> , Zaiwei Wang<sup>2</sup> , Lewei Zeng<sup>2</sup> , Junke Wang<sup>2</sup> , Peter Serles<sup>5</sup> , Yuan Liu<sup>1</sup> , Sam Teale<sup>2</sup> , Yanjiang Liu<sup>2</sup> , Makhsud I. Saidaminov<sup>6</sup> , Muzhi Li<sup>7</sup> , Nicholas Rolston<sup>7</sup> , Sjoerd Hoogland<sup>2</sup> , Tobin Filleter<sup>5</sup> , Mercouri G. Kanatzidis<sup>1</sup> , Bin Chen<sup>1</sup> *, Zhijun Ning<sup>4</sup> *, Edward H. Sargent<sup>1,2,3</sup> * 
+
+**Affiliations:** 
+
+10 
+
+1Department of Chemistry, Northwestern University, 2145 Sheridan Rd, Evanston, Illinois 60208, United States 
+
+2Department of Electrical and Computer Engineering, University of Toronto, 35 St George Street, Toronto, Ontario, M5S 1A4, Canada 
+
+3Department of Electrical and Computer Engineering, Northwestern University, 2145 Sheridan Rd, Evanston, Illinois 60208, United States 
+
+4School of Physical Science and Technology, ShanghaiTech University, Shanghai, China 
+
+5Department of Mechanical & Industrial Engineering, University of Toronto, Toronto, Canada, M5S 3G8 
+
+6Department of Electrical & Computer Engineering, University of Victoria, 3800 Finnerty Road, Victoria, BC V8P 5C2, Canada 
+
+7Arizona State University, Tempe, Arizona, USA 
+
+†These authors contributed equally to this work. 
+
+*Corresponding author. bin.chen@northwestern.edu (B.C.), ningzhj@shanghaitech.edu.cn (Z.N.), ted.sargent@northwestern.edu (E.H.S.) 
+
+25 
+
+30 
+
+35 
+
+**Abstract:** Inverted ( _pin_ ) perovskite solar cells (PSCs) afford improved operating stability in comparison to their _nip_ counterparts but have lagged in power conversion efficiency (PCE). The energetic losses responsible for this PCE deficit in _pin_ PSCs occur primarily at the interfaces between the perovskite and the charge-transport layers. Additive and surface treatments employing passivating ligands usually bind to a single active binding site: this dense packing of electricallyresistive passivants perpendicular to the surface may limit the fill factor in _pin_ PSCs. We identified ligands that bind two neighboring Pb<sup>2+</sup> defect sites in a planar ligand orientation on the perovskite. We fabricated _pin_ PSCs and report a certified quasi-steady state PCE of 26.15% and 24.74% for 0.05 and 1.04 square centimeter illuminated areas, respectively. The devices retain 95% of their initial PCE following 1200 hours of continuous 1 sun MPP operation at 65 °C. 
+
+**One-Sentence Summary:** Tuning ligand orientation for planar adsorption increases the certified QSS efficiency of inverted perovskite solar cells to 26.15%. 
+
+1 
+
+Submitted Manuscript: Confidential 
+
+5 
+
+10 
+
+15 
+
+20 
+
+25 
+
+30 
+
+35 
+
+40 
+
+**Main Text:** The certified power conversion efficiency (PCE) of perovskite solar cells (PSCs) has reached an impressive 25.7% ( _1_ ). Nevertheless, the most efficient PSCs, fabricated in the _nip_ architecture, have yet to achieve the needed operating stability under accelerated aging tests ( _1_ , _2_ ). Inverted ( _pin_ ) perovskite solar cells, which do not rely on p-type dopants in their hole-transporting layers ( _3_ - _7_ ), have seen progress, but, until now, still lag behind their _nip_ counterparts: their stabilized PCE has so far reached only 25.1% ( _8_ ). The interfaces between the perovskite and the charge-transport layers limit the PCE of _pin_ cells ( _9-11_ ) through band misalignment ( _12_ ) and energy-level pinning ( _11_ ). These problems are aggravated by the presence of surface defects. For example, undercoordinated Pb<sup>2+</sup> ions ( _13-15_ ) resulting in nonradiative recombination at the perovskite/charge transport layer (CTL) interface, which limits photovoltage and fill factor (FF). 
+
+Surface passivation of the perovskite active layer is used to suppress interface nonradiative recombination ( _14_ , _16_ ). The efficacy of bulk additives as well as solution-based treatments with ammonium ligands is now well-established ( _17_ , _18_ ). However, these ligands bind at a single active binding site to the perovskite structure, and this has the potential to produce dense packing of passivants aligned perpendicular to the surface, introducing an unwanted resistive barrier between the perovskite and the electron transport layer (ETL) ( _16_ , _19_ - _25_ ). We sought routes to passivate undercoordinated Pb<sup>2+</sup> at the surfaces and grain boundaries of the perovskite, instead with passivator ligands aligning parallel to the perovskite surface. 
+
+## **Theoretical investigations** 
+
+We began by considering candidate molecules containing a benzene ring, since its flat structure is expected to lie parallel to a surface compared to the case of linear-chain ligands ( _21_ ). To enable strong binding with perovskite surfaces, we considered both -PO3<sup>2-</sup> and -SO3<sup>-</sup> functional groups, each reported to coordinate strongly with Pb<sup>2+</sup> ( _14_ , _26_ ). Since benzenephosphonates are not readily available, we focused on available sulfonates ( _27_ - _33_ ). We prioritized end functional groups having a high number of oxygen atoms, a feature recently reported to correlate positively with strong binding ( _26_ ). 
+
+We then evaluated steric constraints, seeking a ligand sufficiently long that it could bind at multiple surface Pb sites, these ~ 6.3 Å apart in the case of FA-based perovskites. These considerations pointed to benzenesulfonate (BZS) ligands and their derivatives, since these molecules have a length of ~ 5.7 Å. 
+
+We used density functional theory (DFT) calculations to investigate how the molecular structure of the ligand affects orientation. We considered three ligands, one with no additional functional group (BZS), and two with methyl or chloride in the _para_ position of the benzene ring opposite to the sulfonate functional group (4-methylbenzenesulfonate, 4CH3-BZS, and 4- chlorobenzenesulfonate, 4Cl-BZS) (Fig. 1A). 4CH3-BZS and 4Cl-BZS have lengths of 6.14 Å and 6.37 Å, respectively. We compared the formation energies of two configurations, one in which the ligands were oriented perpendicular to the perovskite surface (Conf-perp, Fig. 1B), and another in which the ligands adopted a parallel orientation with respect to the perovskite surface (Conf-para, Fig. 1C). Although Conf-perp was more energetically favorable for BZS and 4CH3-BZS, Confpara was energetically more favorable for 4Cl-BZS because of the additional Pb<sup>2+</sup> surface binding afforded by the Cl functional group (Fig. 1D) that would enable dual-site Pb<sup>2+</sup> passivation. We also investigated the effects of ligand orientation on charge transfer at the perovskite/ETL interface by examining fullerene (C60), which is widely used as ETL in _pin_ PSCs and known to induce energetic losses in devices ( _11_ , _12_ , _34_ , _35_ ). Analysis of the calculated charge density difference (Fig. 1E and fig. S1) provided evidence that 4Cl-BZS, when absorbed on the perovskite layer, 
+
+45 
+
+2 
+
+Submitted Manuscript: Confidential 
+
+5 
+
+10 
+
+15 
+
+20 
+
+25 
+
+30 
+
+established a notably stronger binding strength with the C60 layer ( _E_ ads= -0.85 eV), in contrast to the BZS ( _E_ ads= -0.46 eV) and 4CH3-BZS ( _E_ ads= -0.39 eV) ( _36_ ). Fracture energy (Gc) results show that 4Cl-BZS increases the mechanical strength of perovskite/C60 interface (fig. S2) ( _37_ ). 
+
+## **Ligand-Perovskite Binding Characterization** 
+
+In order to explore interactions between perovskite and BZS ligands, we began by adding each ligand directly into the precursor solutions and spin-coating Cs0.05FA0.85MA0.1PbI3 perovskite thin films, where FA is formamidinium and MA is methylamine. Time-of-flight secondary ion mass spectrometry (TOF-SIMS) of untreated (control) and treated films showed that BZS, 4CH3-BZS, and 4Cl-BZS were all concentrated near the top (ETL-facing) surface of the perovskite film (fig. S3). This result, combined with x-ray diffraction (XRD) patterns of control and treated perovskite films that showed no discernable peak-shifting after treatment (fig. S4), indicated that the ligands did not enter the lattice, but rather diffused toward the top surface during film crystallization. Scanning electron microscopy (SEM) images of perovskite films with additives are presented in Fig. S5, illustrating that the perovskite films (both additives and controls) exhibit substantially uniform morphology. 
+
+<mark>We used x-ray photoelectron spectroscopy (XPS) to check for possible evidence of interaction between the additives and perovskite. We observe a shift of the Pb 4</mark> _<mark>f</mark>_ <mark>XPS peaks to a lower binding energy for each treated film compared to controls (Fig. 2A). We saw evidence of interaction between Cl and Pb in 4Cl-BZS treated perovskite both from XPS spectra (Fig. 2B) and from nuclear magnetic resonance (NMR) spectra (fig. S6).</mark> 
+
+## **Optoelectronic Characterization of Perovskite Films and Device Stacks** 
+
+To evaluate the passivation efficacy of each ligand, we studied photoluminescence (PL) of neat control and treated perovskite films. We observe an increase in PL quantum yield (PLQY) for each of the treated films and the full device stack (Fig. 2C), with 4Cl-BZS exhibiting a twofold increase in PLQY (41%) compared to control films (20%), which corresponded to a projected 20 mV increase in quasi-Fermi level splitting (QFLS). The PLQY of full-device stacks (FTO/SAMs/perovskite/C60, which FTO is fluorinate tin oxide and SAMs are mixtures of 2PACz and Me-4PACz) revealed a significant improvement after 4Cl-BZS treatment, 5% for 4Cl-BZS compared to 0.6% for the control, corresponding to 1.17 V and 1.1 V in QFLS for 4Cl-BZS and control device, respectively. This improvement was consistent with reduced interface losses. Time-resolved photoluminescence (TRPL) revealed a similar increase in carrier lifetimes after treatment. Specifically, 4Cl-BZS-treated films exhibited a weighted-average lifetime of 3.0 µs compared to 0.6 µs for the control film (Fig. 2D, Table S1). 
+
+35 
+
+40 
+
+We fabricated partial and full perovskite/ETL device stacks to probe interface recombination and charge transfer. First, we conducted TRPL measurements of perovskite/C60 stacks, wherein decay was dictated by non-radiative surface/bulk recombination (monoexponential decay), radiative recombination (second-order decay), and charge extraction effects, which could be distinguished if the time constants for each process differed sufficiently ( _38_ ). The first interval at shorter times was dominated by the transfer of electrons from the bulk into the C60, and the second interval at longer delay times was dominated by interfacial recombination ( _39_ ). The sharp drop in emission for 4Cl-BZS/C60 indicated efficient electron transfer at the interface, and the longer second-order decay time was indicative of a reduced trap density compared with BZS and 4CH3BZS (fig. S7). This effect of this reduction was especially evident in fits to the TRPL traces to compute the differential lifetime as τ = –{ _d_ ln[ϕ( _t_ )]/ _dt_ }<sup>–1</sup> (Fig. 2E), where ϕ( _t_ ) is the time-dependent 
+
+3 
+
+Submitted Manuscript: Confidential 
+
+PL photon flux, as the sharpness of the rise implied the speed of the electron transfer from perovskite to C60. 
+
+5 
+
+10 
+
+Transient photocurrent measurements of full device stacks in which we used mixed self assembled monolayers (SAMs) as the HTL (see Methods) revealed a similar trend. Both BZS and 4CH3-BZS resulted in slower photocurrent decay, while 4Cl-BZS treatment led to faster photocurrent decay (Fig. 2F). This observation suggested that electron extraction became more efficient. Ultraviolet photoelectron spectroscopy (UPS) revealed an increased conduction band offset with C60 that was caused by a Fermi-level upshift after BZS and 4CH3-BZS treatment, whereas 4Cl-BZS caused a Fermi-level downshift and reduced conduction band offset (fig. S8, S9). This trend was further confirmed by Kelvin probe force microscopy (KPFM) measurements (fig. S10, Table S2) and DFT calculations (fig. S11). 
+
+## **Inverted Perovskite Solar Cells** 
+
+15 
+
+20 
+
+25 
+
+30 
+
+35 
+
+40 
+
+Using 4Cl-BZS-treated perovskite, we fabricated inverted PSCs with the structure FTO/SAM/perovskite/C60/SnO _x_ /Ag (Fig. 3A). The thickness of the perovskite layer was 900 nm. Control devices had PCE 24%, while the 4Cl-BZS treated devices exhibited PCE 26.3% (Fig. S12). Analysis of device statistics for both control and 4Cl-BZS treated PSCs revealed a substantial enhancement in PCE, primarily via increased open-circuit voltage ( _V_ OC). Additionally, 4Cl-BZStreated PSCs showed a significantly higher FF compared to BZS and 4CH3-BZS-treated PSCs. This improvement in FF we attribute to enhanced charge extraction in 4Cl-BZS-treated PSCs (Fig. 3B, fig. S13, S14). 
+
+We also evaluated the effectiveness of the additive change with a stronger or weaker donating group, namely 4F-BZS, 4Br-BZS and 4I-BZS. Notably, 4F-BZS exhibits a more negative averaged electrostatic potential (ESP), whereas 4I-BZS displays a more positive averaged ESP (fig. S15). We posit that a stronger donating group, such as Cl or F, is beneficial in providing dual-site defect passivation. Since 4F-BZS, 4Cl-BZS and 4I-BZS are not readily available, we utilized the structurally similar molecules 4-fluorobenzenesufonic acid (4F-BZSA) and 4-Iodobenzenesufonic acid (4I-BZSA) in our devices (fig. S16). Remarkably, treatments with 4F-BZSA resulted in comparable PCE as in the case of 4Cl-BZS, and 4I-BZSA also showed improved PCE compared to controls. 
+
+We then added the bimolecular surface passivation (BMP) approach, based on 3MTPAI and PDAI2, reported in ( _8_ ). This strategy has been reported to provide a combination of chemical and field-effect passivation (Methods). The PLQY of full-device stacks (FTO/SAMs/perovskite/BMP/C60) indicated a further improvement after the BMP treatment (fig. S17).  The combined treatment elevated the PCE of 4Cl-BZS-treated devices from 26.3% to 26.9%, featuring a _V_ OC of 1.18 V, FF of 86.2%, and short-circuit current density ( _J_ SC) of 26.4 mA cm<sup>-2</sup> (Fig. 3C). Statistics of photovoltaic parameters for devices with bimolecular passivation reveal additional improvements in both _VOC_ and PCE (Fig. S18).” 
+
+The bandgap of the _pin_ PSCs was taken from external quantum efficiency (EQE) measurements as 1.53 eV (fig. S19, S20). We sent devices with an active area of 0.05 cm<sup>2</sup> and 1.04 cm<sup>2</sup> to NRELaccredited independent PV calibration laboratory (Newport) for certification. The devices achieved a certified stabilized (QSS) PCE of 26.15% and 24.74% respectively (Fig. 3D, 3E, fig. S21, and S22). These reported _pin_ PSC PCEs surpass the record _nip_ device performance reported in recent years (Fig. 3E, Table S3, and S4). 
+
+4 
+
+Submitted Manuscript: Confidential 
+
+5 
+
+10 
+
+Next, we sought to test the thermal stability of the 4Cl-BZS treated PSCs following protocols established by the International Summit on Organic Photovoltaic Stability (ISOS)-D-2I, in which encapsulated devices were subjected to dark storage at 85℃ and tested periodically. 4Cl-BZS treated PSCs retained 95% of their initial efficiency after 1500 hours of storage at 85 ℃ (Fig. 3G). To evaluate operating stability further, we then also carried out ISOS-L-3 testing, in which encapsulated devices were subjected to continuous 1-sun equivalent illumination using a UV-free white-LED and held at the maximum power point (MPP) voltage, at 50% relative humidity and a heatsink temperature of 65 °C (Fig. 3H). 4Cl-BZS treated PSCs achieved a _T_ 95 (the time taken for the device PCE to drop to 95% of the initial value) of 1200 hours after continuous MPP tracking at 65 °C, while control devices drop from an initial efficiency of 22% to 18.7% after 1200 hours (Table S5). Furthermore, 4Cl-BZS treated PSCs achieved a _T_ 87 of 540 hours after continuous MPP tracking at 85 °C (fig. 23). 
+
+## **Discussion** 
+
+15 
+
+20 
+
+25 
+
+We began this study with the view that dense packing of passivator ligands perpendicular to the perovskite/C60 interface may increase resistance; and that this could potentially be addressed by instead introducing ligands prone to align in a planar orientation relative to the perovskite surface. The interaction of 4Cl-BZS with undercoordinated Pb<sup>2+</sup> ions reduce the surface defect density and minimize the energetic mismatch between the perovskite and C60. The study indicates that the approach was effective in increasing pin PSC performance, bringing it into the range of that achieved in the nip configuration. The approach retains the benefits of 65 °C 1 sun MPP operating stability seen in pin PSCs. 
+
+To test whether the approach worked in a range of perovskite compositions, we fabricated 4ClBZS-treated 1.78 eV wide-bandgap mixed halide devices, as well as 1.25 eV narrow-bandgap mixed Pb-Sn PSCs – compositions of interest in all-perovskite tandem solar cells. In each case we observed an increase in PCE following 4Cl-BZS treatment (fig. S24). 
+
+30 
+
+35 
+
+5 
+
+Submitted Manuscript: Confidential 
+
+## **References and Notes** 
+
+1. J. Park, J. Kim, H. S. Yun, M. J. Paik, E. Noh, H. J. Mun, M. G. Kim, T. J. Shin, S. Il Seok, Controlled growth of perovskite layers with volatile alkylammonium chlorides. _Nature_ **616** , 724-730 (2023). 
+
+5 
+
+10 
+
+15 
+
+2. Y. Zhao, F. Ma, Z. Qu, S. Yu, T. Shen, H. X. Deng, X. Chu, X. Peng, Y. Yuan, X. Zhang, J. You, Inactive (PbI2)2RbCl stabilizes perovskite films for efficient solar cells. _Science_ **377** , 531-534 (2022). 
+
+3.   H. Chen, Q. Wei, M. I. Saidaminov, F. Wang, A. Johnston, Y. Hou, Z. Peng, K, Xu, W. Zhou, Z. Liu, L. Qiao, X. Wang, S. Xu, J. Li, R. Long, Y. Ke, E. H. Sargent, Z. Ning, Efficient and Stable Inverted Perovskite Solar Cells Incorporating Secondary Amines. _Adv. Mater._ **31** , 1903559 (2019). 
+
+4.   B. Chen, H. Chen, Y. Hou, J. Xu, S. Teale, K. Bertens, H. Chen, A. Proppe, Q. Zhou, D. Yu, K. Xu, M. Vafaie, Y. Liu, Y. Dong, E. H. Jung, C. Zheng, T. Zhu, Z. Ning, E. H. Sargent, Passivation of the buried interface via preferential crystallization of 2D perovskite on metal oxide transport layers. _Adv. Mater._ **33** , 2103394 (2021). 
+
+5. Q. Jiang, J. Tong, Y. Xian, R. A. Kerner, S. P. Dunfield, C. Xiao, R. A. Scheidt, D. Kuciauskas, X. Wang, M. P. Hautzinger, R. Tirawat, M. C. Beard, D. P. Fenning, J. J. Berry, B. W. Larson, Y. Yan, K. Zhu, Surface reaction for efficient and stable inverted perovskite solar cells. _Nature_ **611** , 278-283 (2022). 
+
+20 
+
+25 
+
+30 
+
+35 
+
+6. S. You, H. Zeng, Y. Liu, B. Han, M. Li, L. Li, X. Zheng, R. Guo, L. Luo, Z. Li, C. Zhang, R. Liu, Y. Zhao, S. Zhang, Q. Peng, T. Wang, Q. Chen, F. T. Eickemeyer, B. Carlsen, S. M. Zakeeruddin, L. Mai, Y. Rong, M. Grätzel, X. Li, Radical polymeric p-doping and grain modulation for stable, efficient perovskite solar modules. _Science_ **379** , 288-294 (2023). 
+
+7. S. M. Park, M. Wei, N. Lempesis, W. Yu, T. Hossain, L. Agosta, V. Carnevali, H. R. Atapattu, P. Serles, F. T. Eickemeyer, H. Shin, M. Vafaie, D. Choi, K. Darabi, E. D. Jung, Y. Yang, D. Bin Kim, S. M. Zakeeruddin, B. Chen, A. Amassian, T. Filleter, M. G. Kanatzidis, K. R. Graham, L. Xiao, U. Rothlisberger, M. Grätzel, E. H. Sargent, Low-loss contacts on textured substrates for inverted perovskite solar cells. _Nature_ **624** , 289-294 (2023). 
+
+8. C. Liu, Y. Yang, H. Chen, J. Xu, A. Liu, A. Bati, H. Zhu, L. Grater, S. Hadke, C. Huang, V. Sangwan, T. Cai, D. Shin, L. Chen, M. Hersam, C. Mirkin, B. Chen, M. Kanatzidis, E. H. Sargent, Bimolecularly-passivated interface enables efficient and stable inverted perovskite solar cells. _Science_ **382** , 810-815 (2023). 
+
+9. S. Cacovich, G. Vidon, M. Degani, M. Legrand, L. Gouda, J. B. Puel, Y. Vaynzof, J. F. Guillemoles, D. Ory, G. Grancini, Imaging and quantifying non-radiative losses at 23% efficient inverted perovskite solar cells interfaces. _Nat. Commun._ **13** , 1-9 (2022). 
+
+10. M. Stolterfoht, C. M. Wolff, J. A. Márquez, S. Zhang, C. J. Hages, D. Rothhardt, S. Albrecht, P. L. Burn, P. Meredith, T. Unold, D. Neher, Visualization and suppression of interfacial recombination for high-efficiency large-area pin perovskite solar cells. _Nat. Energy_ **3** , 847854 (2018). 
+
+40 
+
+11. J. Warby, F. Zu, S. Zeiske, E. Gutierrez-Partida, L. Frohloff, S. Kahmann, K. Frohna, E. Mosconi, E. Radicchi, F. Lang, S. Shah, F. Peña-Camargo, H. Hempel, T. Unold, N. Koch, A. Armin, F. De Angelis, S. D. Stranks, D. Neher, M. Stolterfoht, Understanding 
+
+6 
+
+Submitted Manuscript: Confidential 
+
+35 
+
+Performance Limiting Interfacial Recombination in pin Perovskite Solar Cells. _Adv. Energy Mater._ **12** , 2103567 (2022). 
+
+5 
+
+10 
+
+12. M. Stolterfoht, P. Caprioglio, C. M. Wolff, J. A. Márquez, J. Nordmann, S. Zhang, D. Rothhardt, U. Hörmann, Y. Amir, A. Redinger, L. Kegelmann, F. Zu, S. Albrecht, N. Koch, T. Kirchartz, M. Saliba, T. Unold, D. Neher, The impact of energy alignment and interfacial recombination on the internal and external open-circuit voltage of perovskite solar cells. _Energy Environ. Sci._ **12** , 2778-2788 (2019). 
+
+13. X. Gu, W. Xiang, Q. Tian, S. Liu, X. Gu, W. Xiang, Q. Tian, S. Liu, Rational Surface-Defect Control via Designed Passivation for High-Efficiency Inorganic Perovskite Solar Cells. _Angew. Chem. Int. Ed._ **60** , 23164-23170 (2021). 
+
+14. C. Li, X. Wang, E. Bi, F. Jiang, S. M. Park, Y. Li, L. Chen, Z. Wang, L. Zeng, H. Chen, Y. Liu, C. R. Grice, A. Abudulimu, J. Chung, Y. Xian, T. Zhu, H. Lai, B. Chen, R. J. Ellingson, F. Fu, D. S. Ginger, Z. Song, E. H. Sargent, Y. Yan, Rational design of Lewis base molecules for stable and efficient inverted perovskite solar cells. _Science_ **379** , 690-694 (2023). 
+
+15 
+
+20 
+
+15. T. Yang, L. Gao, J. Lu, C. Ma, Y. Du, P. Wang, Z. Ding, S. Wang, P. Xu, D. Liu, H. Li, X. Chang, J. Fang, W. Tian, Y. Yang, S. Liu, K. Zhao, One-stone-for-two-birds strategy to attain beyond 25% perovskite solar cells. _Nat. Commun._ **14** , 1-10 (2023). 
+
+16. S. M. Park, M. Wei, J. Xu, H. R. Atapattu, F. T. Eickemeyer, K. Darabi, L. Grater, Y. Yang, C. Liu, S. Teale, B. Chen, H. Chen, T. Wang, L. Zeng, A. Maxwell, Z. Wang, K. R. Rao, Z. Cai, S. M. Zakeeruddin, J. T. Pham, C. M. Risko, A. Amassian, M. G. Kanatzidis, K. R. Graham, M. Grätzel, E. H. Sargent, Engineering ligand reactivity enables high-temperature operation of stable perovskite solar cells. _Science_ **381** , 209-215 (2023). 
+
+17. F. Gao, Y. Zhao, X. Zhang, J. You, Recent Progresses on Defect Passivation toward Efficient Perovskite Solar Cells. _Adv. Energy Mater._ **10** , 1902650 (2020). 
+
+25 
+
+30 
+
+18. J. Xia, C. Liang, H. Gu, S. Mei, S. Li, N. Zhang, S. Chen, Y. Cai, G. Xing, Surface Passivation Toward Efficient and Stable Perovskite Solar Cells. _Energy Environ. Mater._ **6** , e12296 (2023). 
+
+19. M. G. La-Placa, L. Gil-Escrig, D. Guo, F. Palazon, T. J. Savenije, M. Sessolo, H. J. Bolink, Vacuum-Deposited 2D/3D Perovskite Heterojunctions. _ACS Energy Lett._ **4** , 2893-2901 (2019). 
+
+20. S. M. Park, A. Abtahi, A. M. Boehm, K. R. Graham, Surface Ligands for Methylammonium Lead Iodide Films: Surface Coverage, Energetics, and Photovoltaic Performance. _ACS Energy Lett._ **5** , 799-806 (2020). 
+
+21. H. Chen, S. Teale, B. Chen, Y. Hou, L. Grater, T. Zhu, K. Bertens, S. M. Park, H. R. Atapattu, Y. Gao, M. Wei, A. K. Johnston, Q. Zhou, K. Xu, D. Yu, C. Han, T. Cui, E. H. Jung, C. Zhou, W. Zhou, A. H. Proppe, S. Hoogland, F. Laquai, T. Filleter, K. R. Graham, Z. Ning, E. H. Sargent, Quantum-size-tuned heterostructures enable efficient and stable inverted perovskite solar cells. _Nat. Photonics_ **16** , 352-358 (2022). 
+
+40 
+
+22. J. Chakkamalayath, N. Hiott, P. V. Kamat, How Stable Is the 2D/3D Interface of Metal Halide Perovskite under Light and Heat? _ACS Energy Lett._ **8** , 169-171 (2023). 
+
+23. C. Andrea, R. Perini, E. Rojas-Gatjens, M. Ravello, A.-F. Castro-Mendez, J. Hidalgo, Y. An, S. Kim, B. Lai, R. Li, C. Silva-Acuña, J.-P. Correa-Baena, C. A. R. Perini, M. Ravello, A.-F. 
+
+7 
+
+Submitted Manuscript: Confidential 
+
+25 
+
+30 
+
+35 
+
+Castro-Mendez, J. Hidalgo, Y. An, S. Kim, C. Silva-Acuña, J.-P. Correa-Baena, E. RojasGatjens, B. Lai, R. Li, Interface Reconstruction from Ruddlesden–Popper Structures Impacts Stability in Lead Halide Perovskite Solar Cells. _Adv. Mater._ **34** , 2204726 (2022). 
+
+5 
+
+10 
+
+24. K. Ma, H. R. Atapattu, Q. Zhao, Y. Gao, B. P. Finkenauer, K. Wang, K. Chen, S. Min Park, A. H. Coffey, C. Zhu, L. Huang, K. R. Graham, J. Mei, L. Dou, K. Ma, Y. Gao, B. P. Finkenauer, K. Wang, A. H. Coffey, L. Dou, H. R. Atapattu, S. M. Park, K. R. Graham, Q. Zhao, K. Chen, L. Huang, J. Mei, C. Zhu, Multifunctional Conjugated Ligand Engineering for Stable and Efficient Perovskite Solar Cells. _Adv. Mater._ **33** , 2100791 (2021). 
+
+25. Q. Jiang, Y. Zhao, X. Zhang, X. Yang, Y. Chen, Z. Chu, Q. Ye, X. Li, Z. Yin, J. You, Surface passivation of perovskite film for efficient solar cells. _Nat. Photonics_ **13** , 460-466 (2019). 
+
+26. J. Xu, H. Chen, L. Grater, C. Liu, Y. Yang, S. Teale, A. Maxwell, S. Mahesh, H. Wan, Y. Chang, B. Chen, B. Rehl, S. M. Park, M. G. Kanatzidis, E. H. Sargent, Anion optimization for bifunctional surface passivation in perovskite solar cells. _Nat. Mater._ **22** , 1507-1514 (2023). 
+
+15 
+
+20 
+
+27. S. Kajal, J. Jeong, J. Seo, R. Anand, Y. J. Kim, B. Bhaskararao, C. Beom Park, J. Yeop, A. Hagdfeldt, J. Young Kim, K. S. Kim, Coordination modulated passivation for stable organicinorganic perovskite solar cells. _Chem. Eng._ **451** , 138740 (2023). 
+
+28. Y. Hao, X. Wang, M. Zhu, X. Jiang, L. Wang, G. Cao, S. Pang, Z. Zhou, Sulfonyl passivation through synergistic hydrogen bonding and coordination interactions for efficient and stable perovskite solar cells. _J. Mater. Chem. A_ **10** , 13048-13054 (2022). 
+
+29. H. Wang, W. Zou, H. Luo, Y. Quan, L. Yang, X. Liu, H. Li, Ion migration inhibition and defect passivation via sulfonate salt coordination for high-performance perovskite solar cells with enhanced phase stability. _J. Mater. Chem. C_ **11** , 13518-13525 (2023). 
+
+30. R. Chen, Y. Wang, S. Nie, H. Shen, Y. Hui, J. Peng, B. Wu, J. Yin, J. Li, N. Zheng, Sulfonate-Assisted Surface Iodide Management for High-Performance Perovskite Solar Cells and Modules. _J. Am. Chem. Soc._ **143** , 10624-10632 (2021). 
+
+31. K. Liu, Q. Liang, M. Qin, D. Shen, H. Yin, Z. Ren, Y. Zhang, H. Zhang, P. W. K. Fong, Z. Wu, J. Huang, J. Hao, Z. Zheng, S. K. So, C. S. Lee, X. Lu, G. Li, Zwitterionic-SurfactantAssisted Room-Temperature Coating of Efficient Perovskite Solar Cells. _Joule_ **4** , 2404-2425 (2020). 
+
+32. J. C. Hamill, O. Romiluyi, S. A. Thomas, J. Cetola, J. Schwartz, M. F. Toney, P. Clancy, Y. L. Loo, Sulfur-Donor Solvents Strongly Coordinate Pb<sup>2+</sup> in Hybrid Organic-Inorganic Perovskite Precursor Solutions. _J. Phys_ . _Chem. C_ **124** , 14496-14502 (2020). 
+
+33. K. Hills-Kimball, H. Yang, T. Cai, J. Wang, O. Chen, Recent Advances in Ligand Design and Engineering in Lead Halide Perovskite Nanocrystals. _Adv. Sci._ **8** , 2100214 (2021). 
+
+40 
+
+34. H. Chen, A. Maxwell, C. Li, S. Teale, B. Chen, T. Zhu, E. Ugur, G. Harrison, L. Grater, J. Wang, Z. Wang, L. Zeng, S. M. Park, L. Chen, P. Serles, R. A. Awni, B. Subedi, X. Zheng, C. Xiao, N. J. Podraza, T. Filleter, C. Liu, Y. Yang, J. M. Luther, S. De Wolf, M. G. Kanatzidis, Y. Yan, E. H. Sargent, Regulating surface potential maximizes voltage in allperovskite tandems. _Nature_ **613** , 676-681 (2022). 
+
+35. J. Liu, M. De Bastiani, E. Aydin, G. T. Harrison, Y. Gao, R. R. Pradhan, M. K. Eswaran, M. Mandal, W. Yan, A. Seitkhan, M. Babics, A. S. Subbiah, E. Ugur, F. Xu, L. Xu, M. Wang, 
+
+8 
+
+Submitted Manuscript: Confidential 
+
+15 
+
+25 
+
+30 
+
+A. ur Rehman, A. Razzaq, J. Kang, R. Azmi, A. A. Said, F. H. Isikgor, T. G. Allen, D. Andrienko, U. Schwingenschlögl, F. Laquai, S. De Wolf, Efficient and stable perovskitesilicon tandem solar cells through contact displacement by MgFx. _Science_ **377** , 302-306 (2022). 
+
+5 
+
+10 
+
+36. B. Li, J. Zhen, Y. Wan, X. Lei, Q. Liu, Y. Liu, L. Jia, X. Wu, H. Zeng, W. Zhang, G. W. Wang, M. Chen, S. Yang, Anchoring Fullerene onto Perovskite Film via Grafting Pyridine toward Enhanced Electron Transport in High-Efficiency Solar Cells. _ACS Appl. Mater. Interfaces_ **10** , 32471-32482 (2018). 
+
+37. M. Li, S. Johnson, L. Gil-Escrig, M. Sohmer, C. A. Figueroa Morales, H. Kim, S. Sidhik, A. Mohite, X. Gong, L. Etgar, H. J. Bolink, A. Palmstrom, M. D. McGehee and N. Rolston, Strategies to improve the mechanical robustness of metal halide perovskite solar cells, _Energy Advances_ **3** _,_ 273-280 (2024). 
+
+38. A. Al-Ashouri, E. Köhnen, B. Li, A. Magomedov, H. Hempel, P. Caprioglio, J. A. Márquez, A. B. M. Vilches, E. Kasparavicius, J. A. Smith, N. Phung, D. Menzel, M. Grischek, L. Kegelmann, D. Skroblin, C. Gollwitzer, T. Malinauskas, M. Jošt, G. Matič, B. Rech, R. Schlatmann, M. Topič, L. Korte, A. Abate, B. Stannowski, D. Neher, M. Stolterfoht, T. Unold, V. Getautis, S. Albrecht, Monolithic perovskite/silicon tandem solar cell with >29% efficiency by enhanced hole extraction. _Science_ **370** , 1300-1309 (2020). 
+
+20 
+
+39. T. Li, J. Xu, R. Lin, S. Teale, H. Li, Z. Liu, C. Duan, Q. Zhao, K. Xiao, P. Wu, B. Chen, S. Jiang, S. Xiong, H. Luo, S. Wan, L. Li, Q. Bao, Y. Tian, X. Gao, J. Xie, E. H. Sargent, H. Tan, Inorganic wide-bandgap perovskite subcells with dipole bridge for all-perovskite tandems. _Nat. Energy_ **8** , 610-620 (2023). 
+
+40. J. He, W. Sheng, J. Yang, Y. Zhong, Q. Cai, Y. Liu, Z. Guo, L. Tan, Y. Chen, Synchronous Elimination of Excess Photoinstable PbI2 and Interfacial Band Mismatch for Efficient and Stable Perovskite Solar Cells. _Angewandte Chemie International Edition_ **63** , e202315233 (2024). 
+
+41. B. Liu, Q. Zhou, Y. Li, Y. Chen, D. He, D. Ma, X. Han. R. Li, K. Yang, Y. Yang, S. Lu, X. Ren, Z. Zhang, L. Ding, J. Feng, J. Yi, J. Chen, Polydentate Ligand Reinforced Chelating to Stabilize Buried Interface toward High-Performance Perovskite Solar Cells. _Angewandte Chemie International Edition_ **n/a** , e202317185 (2024). 
+
+42. H. Szatylowicz, A. Jezuita, T. <mark>Siodła, K. S. Varaksin, M. A. Domanski, K. Ejsmont, T. M. Krygowski, Toward the physical interpretation of inductive and resonance substituent effects and reexamination based on quantum chemical modeling.</mark> _<mark>ACS omega</mark>_ **<mark>2</mark>** <mark>, 7163-7171 (2017).</mark> 
+
+35 
+
+<mark>43. G</mark> . Kresse, J. Furthmüller, Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set. _J. Phys. Chem. A_ **54** , 11169–11186 (1996). 
+
+44. J. P. Perdew, K. Burke, M. Ernzerhof, Generaized gradient approximation made simple. _Phys. Rew. Lett_ . **77** , 3865-3868 (1996) 
+
+45. K. Lee, É. D. Murray, L. Kong, B. I. Lundqvist, D. C. Langreth, Higher-accuracy van der Waals density functional. _Phys. Rev. B Condens._ **82** , 081101 (2010). 
+
+40 
+
+46. H. Min, D. Y. Lee, J. Kim, G. Kim, K. S. Lee, J. Kim, M J. Paik, Y. K. Kim, K. S. Kim, M.G.Kim, T. J. Shin, S. I. Seok,  Perovskite solar cells with atomically coherent interlayers on SnO2 electrodes. _Nature_ **598** , 444-450 (2021). 
+
+9 
+
+Submitted Manuscript: Confidential 
+
+15 
+
+20 
+
+25 
+
+30 
+
+40 
+
+5 
+
+47. J. Jeong, M. Kim, J. Seo, H. Lu, P. Ahlawat, A. Mishra, Y. Yang, M. A. Hope, F. T. Eickemeyer, M. Kim, Y. J. Yoon, I. W. Choi, B. P. Darwich,  S. J. Choi, Y. Jo, J. H. Lee, B. Walker, S. M. Zakeeruddin, L. Emsley, U. Rothlisberger, A. Hagfeldt, D. S. Kim, M. Grätzel, J. Y. Kim, Pseudo-halide anion engineering for α-FAPbI3 perovskite solar cells. _Nature_ **592** , 381-385 (2021). 
+
+48. W. Peng, K. Mao, F. Cai, H. Meng, Z. Zhu, T. Li, S. Yuan, Z. Xu, X. Feng, J. Xu, M. D. McGehee, J. Xu, Reducing nonradiative recombination in perovskite solar cells with a porous insulator contact. _Science_ **379** , 683-690 (2023). 
+
+10 
+
+49. G. Kin, H. Min, K. S. Lee, D. Y. Lee, S. M. Yoon, S. I. Seok, Impact of strain relaxation on performance of α-formamidinium lead iodide perovskite solar cells. _Science_ **370** , 108-112 (2020). 
+
+50. X. Wu, D. Gao, X. Sun, S. Zhang, Q. Wang, B. Li, Z. Li, M. Qin, X. Jiang, C. Zhang, Z. Li, X. Lu, N. Li, S. Xiao, X. Zhong, S. Yang, Z. Li, Z. Zhu, Backbone Engineering Enables Highly Efficient Polymer Hole-Transporting Materials for Inverted Perovskite Solar Cells. _Adv. Mater._ **35** , 2208431 (2023). 
+
+51. S. Chen, X. Xiao, H. Gu, J. Huang, Iodine reduction for reproducible and high-performance perovskite solar cells and modules. _Sci. Adv._ **_<mark>7</mark>_** <mark>, eabe8130 (2021).</mark> 
+
+52. X. Zheng, Y. Hou, C. Bao, J. Yin, F. Yuan, Z. Huang, K. Song, J. Liu, J. Troughton, N. Gasparini, C. Zhou, Y. Lin, D. Xue, B. Chen, A. K. Johnston, N. Wei, M. N. Hedhili, M. Wei, A. Y. Alsalloim, P. Maity, B. Turedi, C. Yang, D.Baran, T. D. Anthopoulos, Y. Han, Z. Lu, O. F. Mohammed, F. Gao, E. H. Sargent, O. M. Bakr, Managing grains and interfaces via ligand anchoring enables 22.3%-efficiency inverted perovskite solar cells. _Nat. Ener._ **5** , 131–140 (2020). 
+
+53. J. Peng, D. Walter, Y. Ren, M. Tebyetekerwa, Y. Wu, T. Duong, Q. Lin, J. Li, T. Lu, M. A. Mahmud, O. L. Cheong, S. Zhao, Y. Liu, H. Shen, L. Li, F. Kremer, H. T. Nguyen, D. Y. Choi, K. J. Weber, K. R. Catchpole, T. P. White, Nanoscale localized contacts for high fill factors in polymer-passivated perovskite solar cells. _Science_ **371** , 390-395 (2021). 
+
+54. Y. H. Lin, N. Sakai, P. Da, J. Wu, H. C. Sansom, A. J. Ramadan, S. Mahesh, J. Liu, R. D. J. Oliver, J. Lim, L. Aspitarte, K. Sharma, P. K. Madhu, A. B. Hohnston, J. G. Labram, J. R. Durrant, J. M. Ball, B. Wenger, B. Stannowski, H. J. Snaith, A piperidinium salt stabilizes efficient metal-halide perovskite solar cells. _Science_ **369** , 96-102 (2020) 
+
+35 
+
+**Acknowledgments:** This work was supported in part by the Ontario Research Fund-Research Excellence program (ORF7-Ministry of Research and Innovation, Ontario Research FundResearch Excellence Round 7). This work was also supported by the Natural Sciences and Engineering Council of Canada and the Vanier Canada Graduate Scholarship. ASRB acknowledges support from King Abdullah University of Science and Technology (KAUST) through the Ibn Rushd Postdoctoral Fellowship Award. 
+
+**Funding:** 
+
+This research was made possible by the U.S. Department of Energy’s Office of Energy Efficiency and Renewable Energy (EERE) under the Solar Energy Technologies Office Award Number DE-EE0008753 and DE-EE0010502. This work was partially funded by the Trienens Institute for Sustainability and Energy at Northwestern University. 
+
+10 
+
+Submitted Manuscript: Confidential 
+
+Z.N. is grateful for support by the National Key Research Program (2021YFA0715502) and the National Science Fund of China (61935016, 22175118, 92056119). 
+
+5 
+
+This work made use of the SPID, EPIC, and Keck-II facilities of Northwestern University’s NUANCE Center, which has received support from the SHyNE Resource (NSF ECCS-2025633), 
+
+The International Institute of Nanotechnology, Northwestern University and Northwestern’s MRSEC program (NSF DMR-1720139). 
+
+## **Author contributions:** 
+
+10 
+
+15 
+
+Conceptualization: HC Device fabrication: HC 
+
+Film fabrication and Characterization: HC, CL, WZ, YY TPC and TOF-SIMIS: YY, CL DFT calculation: JX UPS and XRD measurement: WZ, QZ SEM and XPS measurement: CL, YY, AB, YL KPFM measurement: YY, PS 
+
+PL, TRPL, PLQY measurement: AM, YY, CL, HW, ZW, LZ, JW, YL, ST Fracture energy measurement: ML, NR Writing – original draft: AM 20 Writing – review & editing: HC, CL, JX, BC, MIS, SH, TF, MGK, ZN, EHS Supervision: BC, ZN, EHS 
+
+**Competing interests:** Authors declare that they have no competing interests. 
+
+**Data and materials availability:** All data are available in the main text or the supplementary materials. 
+
+25 
+
+## **Supplementary Materials** 
+
+Materials and Methods Figs. S1 to S24 
+
+Tables S1 to S5 
+
+11 
+
+Submitted Manuscript: Confidential 
+
+5 
+
+
+
+**Fig. 1. DFT studies of ligand binding and predicted orientation.** ( **A** ) Structure and electrostatic potential of BZS, 4CH3-BZS and 4Cl-BZS ligands. ( **B** ) Atomic structures of ligand adsorbed in a perpendicular orientation (Conf-perp) on the perovskite surface. ( **C** ) Atomic structures of ligand adsorbed in a planar/parallel orientation (Conf-para) on the perovskite surface. ( **D** ) Formation energy difference between parallel and perpendicular ligand-surface orientations ( _E_ Conf-para- _E_ Confperp). ( **E** ) The adsorption energies (Eads) of C60 with different molecules (BZS, 4CH3-BZS and 4ClBZS) adsorbed perovskite surface. 
+
+12 
+
+Submitted Manuscript: Confidential 
+
+5 
+
+10 
+
+
+
+**Fig. 2. Surface coordination and passivation of perovskite films.** ( **A** ) Pb 4f XPS spectra of control and treated perovskite surfaces. ( **B** ) Cl 2p XPS spectra of pure 4Cl-BZS film, compared with perovskite treated with 4Cl-BZS. ( **C** ) PLQY of neat control and treated perovskite films on quartz substrates and PLQY results for full device stacks (FTO/SAM/Perovskite/C60) with and without treatment. ( **D** ) TRPL lifetimes of neat control and treated perovskite films. The lifetimes for each trace were calculated using a biexponential decay model and can be found in Table S1. ( **E** ) Differential carrier lifetimes extracted from TRPL spectrum (fig. S7). ( **F** ) TPC measurements of control and treated devices. 
+
+13 
+
+Submitted Manuscript: Confidential 
+
+5 
+
+10 
+
+
+
+**Fig. 3. PV Performance and stability of inverted solar cells** ( **A** ) Schematic diagram of device structure. ( **B** ) PCE statistics for 30 control and 4Cl-BZS treated devices. ( **C** ) _J-V_ curves of 4ClBZS-treated device with bimolecular passivation. ( **D** ) Newport-certified QSS _J-V_ curve of champion 0.05 cm<sup>2</sup> device (fig. S15). ( **E** ) Newport-certified QSS _J-V_ curve of champion 1.04 cm<sup>2</sup> device (fig. S16). ( **F** ) Summary of published _nip_ and _pin_ PSC performance in recent years. ( **G** ) ISOS-D-2I device stability during storage at 85 °C for 1500 hours. ( **H** ) MPP stability tracking of encapsulated control and 4Cl-BZS treated devices under simulated 1 sun illumination at 50% relative humidity and a heatsink temperature of 65 °C. The 4Cl-BZS treated device retains 95% of initial efficiency after 1200 hours of operation. 
+
+14 
+

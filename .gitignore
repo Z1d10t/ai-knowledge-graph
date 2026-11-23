@@ -7,6 +7,7 @@ lib/
 *.egg-info
 __pycache__
 venv/
+.venv/
 
 # Generated outputs in the repo root (generate-graph writes here by default) and local configs
 /*.html
@@ -17,6 +18,10 @@ config.local.toml
 
 # Test/tooling caches
 .pytest_cache/
+
+# Large local paper archive and extracted corpus (data stays local)
+article/*.zip
+article/extracted/
 
 # LLM response cache
 .kg-cache/

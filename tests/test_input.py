@@ -33,7 +33,9 @@ def test_cp1252_fallback(tmp_path, caplog):
 def test_pdf_rejected_with_hint(tmp_path):
     p = tmp_path / "doc.pdf"
     p.write_bytes(b"%PDF-1.4 \x80 binary")
-    with pytest.raises(InputError, match="pdftotext"):
+    # Without pypdf the message points at pdftotext; with pypdf installed a corrupt
+    # PDF is reported as "Could not read PDF". Both are clear InputErrors.
+    with pytest.raises(InputError, match=r"pdftotext|Could not read PDF"):
         read_input_text(str(p))
 
 
