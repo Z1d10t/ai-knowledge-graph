@@ -1,0 +1,36 @@
+{
+ "terms_total": 96,
+ "term_verdicts": {
+  "correct_not_normalized": 43,
+  "confirmed_missing": 12,
+  "correct_concept": 36,
+  "granularity_different": 5
+ },
+ "v2_semantic_coverage": 0.8229,
+ "v2_covered_including_granularity": 0.875,
+ "term_type_conflicts": 18,
+ "missing_kinds": {
+  "model_omission": 2,
+  "extracted_not_noded": 8,
+  "preprocess_loss": 2
+ },
+ "actions": {
+  "alias_split": 22,
+  "canonicalize": 28,
+  "split_attribute": 10,
+  "targeted_reextract": 11,
+  "keep": 36,
+  "add_edge": 5,
+  "type_fix": 18,
+  "split_compound": 10,
+  "split_composite": 3
+ },
+ "relations_total": 36,
+ "relation_verdicts": {
+  "supported": 16,
+  "not_found": 12,
+  "partially_supported": 8
+ },
+ "relation_support_rate": 0.4444,
+ "relation_support_or_partial": 0.6667
+}

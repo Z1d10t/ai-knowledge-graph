@@ -1,0 +1,475 @@
+{
+ "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+ "prompt_version": "v3",
+ "model": "deepseek-flash",
+ "created": "2026-11-25 14:33:19",
+ "source_sha256": "616f963b6cb092985b6a00398ee6909ac7de3cdda990245228a2fee71dfb82d0",
+ "scope_lines": [
+  23,
+  31
+ ],
+ "passages": [
+  {
+   "lines": [
+    22,
+    32
+   ],
+   "chars": 3431,
+   "relations": 16,
+   "terms": 26
+  }
+ ],
+ "terms": [
+  {
+   "name": "MXene",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "MXene is one of the fast-growing family of 2D materials"
+  },
+  {
+   "name": "two-dimensional material",
+   "type": "material_class",
+   "aliases": [
+    "2D material"
+   ],
+   "evidence": "Two-dimensional materials have gained immense attention"
+  },
+  {
+   "name": "graphene",
+   "type": "material",
+   "aliases": [],
+   "evidence": "the graphene discovery"
+  },
+  {
+   "name": "boron nitride",
+   "type": "material",
+   "aliases": [],
+   "evidence": "boron nitride"
+  },
+  {
+   "name": "transition metal dichalcogenide",
+   "type": "material_class",
+   "aliases": [
+    "TMDC"
+   ],
+   "evidence": "transition metal dichalcogenides (TMDCs)"
+  },
+  {
+   "name": "silicene",
+   "type": "material",
+   "aliases": [],
+   "evidence": "silicene"
+  },
+  {
+   "name": "germanene",
+   "type": "material",
+   "aliases": [],
+   "evidence": "germanene"
+  },
+  {
+   "name": "phosphorene",
+   "type": "material",
+   "aliases": [],
+   "evidence": "phosphorene"
+  },
+  {
+   "name": "clay",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "such as clays"
+  },
+  {
+   "name": "transition metal carbide",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "carbides and/or nitrides of a transition metal, termed as MXenes"
+  },
+  {
+   "name": "transition metal nitride",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "carbides and/or nitrides of a transition metal, termed as MXenes"
+  },
+  {
+   "name": "MAX phase",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "ordered double transition metal MAX phases"
+  },
+  {
+   "name": "(Ti, Nb)CTx",
+   "type": "material",
+   "aliases": [],
+   "evidence": "(Ti, Nb)CTx"
+  },
+  {
+   "name": "Mo2TiC2Tx",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Mo2TiC2Tx"
+  },
+  {
+   "name": "(Mo2/3Y1/3)2CTx",
+   "type": "material",
+   "aliases": [],
+   "evidence": "(Mo2/3Y1/3)2CTx"
+  },
+  {
+   "name": "solid solution",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "The double transition metals form solid solutions"
+  },
+  {
+   "name": "ordered structure",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "ordered structures"
+  },
+  {
+   "name": "in-plane well-ordered structure",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "in-plane well-ordered structures"
+  },
+  {
+   "name": "atomic sandwich",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "transition metals atomic sandwiches"
+  },
+  {
+   "name": "exfoliation",
+   "type": "process",
+   "aliases": [],
+   "evidence": "prepared by exfoliating the 3D bulk to 2D planer structures"
+  },
+  {
+   "name": "van der Waals interaction",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "stacked with weak Van der Waals interactions"
+  },
+  {
+   "name": "physiochemical property",
+   "type": "property",
+   "aliases": [],
+   "evidence": "exhibits remarkable physiochemical properties"
+  },
+  {
+   "name": "electronic property",
+   "type": "property",
+   "aliases": [],
+   "evidence": "exceptional electronic, mechanical, and optical properties"
+  },
+  {
+   "name": "mechanical property",
+   "type": "property",
+   "aliases": [],
+   "evidence": "exceptional electronic, mechanical, and optical properties"
+  },
+  {
+   "name": "optical property",
+   "type": "property",
+   "aliases": [],
+   "evidence": "exceptional electronic, mechanical, and optical properties"
+  },
+  {
+   "name": "computational method",
+   "type": "characterization",
+   "aliases": [],
+   "evidence": "surveyed through computational means"
+  }
+ ],
+ "triples": [
+  {
+   "subject": "transition metal carbide",
+   "subject_type": "material_class",
+   "predicate": "is a",
+   "object": "MXene",
+   "object_type": "material_class",
+   "evidence": "The addition to the family are the carbides and/or nitrides of a transition metal, termed as MXenes",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    22,
+    32
+   ]
+  },
+  {
+   "subject": "transition metal nitride",
+   "subject_type": "material_class",
+   "predicate": "is a",
+   "object": "MXene",
+   "object_type": "material_class",
+   "evidence": "The addition to the family are the carbides and/or nitrides of a transition metal, termed as MXenes",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    22,
+    32
+   ]
+  },
+  {
+   "subject": "MXene",
+   "subject_type": "material_class",
+   "predicate": "is a",
+   "object": "two-dimensional material",
+   "object_type": "material_class",
+   "evidence": "MXene is one of the fast-growing family of 2D materials",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    22,
+    32
+   ]
+  },
+  {
+   "subject": "transition metal dichalcogenide",
+   "subject_type": "material_class",
+   "predicate": "is a",
+   "object": "two-dimensional material",
+   "object_type": "material_class",
+   "evidence": "vast planar materials like boron nitride and transition metal dichalcogenides (TMDCs) prepared by exfoliating the 3D bulk to 2D planer structures",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    22,
+    32
+   ]
+  },
+  {
+   "subject": "boron nitride",
+   "subject_type": "material",
+   "predicate": "is a",
+   "object": "two-dimensional material",
+   "object_type": "material_class",
+   "evidence": "vast planar materials like boron nitride and transition metal dichalcogenides (TMDCs) prepared by exfoliating the 3D bulk to 2D planer structures",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    22,
+    32
+   ]
+  },
+  {
+   "subject": "two-dimensional material",
+   "subject_type": "material_class",
+   "predicate": "synthesized by",
+   "object": "exfoliation",
+   "object_type": "process",
+   "evidence": "prepared by exfoliating the 3D bulk to 2D planer structures stacked with weak Van der Waals interactions",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    22,
+    32
+   ]
+  },
+  {
+   "subject": "two-dimensional material",
+   "subject_type": "material_class",
+   "predicate": "has structure",
+   "object": "van der Waals interaction",
+   "object_type": "mechanism",
+   "evidence": "2D planer structures stacked with weak Van der Waals interactions",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    22,
+    32
+   ]
+  },
+  {
+   "subject": "MXene",
+   "subject_type": "material_class",
+   "predicate": "exhibits",
+   "object": "physiochemical property",
+   "object_type": "property",
+   "evidence": "MXene is one of the fast-growing family of 2D materials that exhibits remarkable physiochemical properties",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    22,
+    32
+   ]
+  },
+  {
+   "subject": "two-dimensional material",
+   "subject_type": "material_class",
+   "predicate": "exhibits",
+   "object": "electronic property",
+   "object_type": "property",
+   "evidence": "The 2D materials possess exceptional electronic, mechanical, and optical properties",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    22,
+    32
+   ]
+  },
+  {
+   "subject": "two-dimensional material",
+   "subject_type": "material_class",
+   "predicate": "exhibits",
+   "object": "mechanical property",
+   "object_type": "property",
+   "evidence": "The 2D materials possess exceptional electronic, mechanical, and optical properties",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    22,
+    32
+   ]
+  },
+  {
+   "subject": "two-dimensional material",
+   "subject_type": "material_class",
+   "predicate": "exhibits",
+   "object": "optical property",
+   "object_type": "property",
+   "evidence": "The 2D materials possess exceptional electronic, mechanical, and optical properties",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    22,
+    32
+   ]
+  },
+  {
+   "subject": "(Ti, Nb)CTx",
+   "subject_type": "material",
+   "predicate": "has structure",
+   "object": "solid solution",
+   "object_type": "structure",
+   "evidence": "The double transition metals form solid solutions, for example (Ti, Nb)CTx",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    22,
+    32
+   ]
+  },
+  {
+   "subject": "Mo2TiC2Tx",
+   "subject_type": "material",
+   "predicate": "has structure",
+   "object": "atomic sandwich",
+   "object_type": "structure",
+   "evidence": "building transition metals atomic sandwiches like Mo2TiC2Tx",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    22,
+    32
+   ]
+  },
+  {
+   "subject": "(Mo2/3Y1/3)2CTx",
+   "subject_type": "material",
+   "predicate": "has structure",
+   "object": "in-plane well-ordered structure",
+   "object_type": "structure",
+   "evidence": "in-plane well-ordered structures like (Mo2/3Y1/3)2CTx",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    22,
+    32
+   ]
+  },
+  {
+   "subject": "MXene",
+   "subject_type": "material_class",
+   "predicate": "has structure",
+   "object": "ordered structure",
+   "object_type": "structure",
+   "evidence": "the transition metals can also build a single flake of 2D MXene with ordered structures",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    22,
+    32
+   ]
+  },
+  {
+   "subject": "MXene",
+   "subject_type": "material_class",
+   "predicate": "characterized by",
+   "object": "computational method",
+   "object_type": "characterization",
+   "evidence": "several others have been surveyed through computational means",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    22,
+    32
+   ]
+  }
+ ],
+ "errors": []
+}

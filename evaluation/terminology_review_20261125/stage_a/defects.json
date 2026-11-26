@@ -1,0 +1,76 @@
+[
+ {
+  "id": "d-250-direction",
+  "kind": "reversed_causal_direction",
+  "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+  "edge_position": 157,
+  "edge": "absorption coefficients of ternary AgBiS2 NCs -> improves -> cation disorder homogenization under mild annealing conditions",
+  "evidence": "the absorption coefficients of ternary AgBiS2 NCs can be enhanced via cation disorder homogenization under mild annealing conditions (raw md line 164)",
+  "repair": "rewrite as process -> property: 'cation disorder homogenization under mild annealing conditions -> improves -> absorption coefficients of ternary AgBiS2 NCs', keep the annealing qualifier",
+  "evidence_line": 164
+ },
+ {
+  "id": "d-001-duplicate",
+  "kind": "duplicate_relation",
+  "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+  "edge_positions": [
+   28,
+   34
+  ],
+  "edge": "4Cl-BZS -> enables -> dual-site Pb2+ passivation",
+  "repair": "merge into one relation with two evidence records"
+ },
+ {
+  "id": "d-052-duplicate",
+  "kind": "duplicate_relation",
+  "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+  "edge_positions": [
+   0,
+   196,
+   328
+  ],
+  "edge": "MXenes -> is a -> 2D material",
+  "repair": "merge into one relation with three evidence records"
+ },
+ {
+  "id": "d-250-longphrase",
+  "kind": "attribute_phrase_node",
+  "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+  "node": "absorption coefficient enhanced by up to a factor of two after annealing",
+  "repair": "concept = absorption coefficient; change/condition/number moved to fact fields"
+ },
+ {
+  "id": "d-021-quantum-confinement",
+  "kind": "compound_label",
+  "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+  "node": "quantum- and dielectric-confinement effects",
+  "repair": "split into quantum confinement and dielectric confinement"
+ },
+ {
+  "id": "d-043-fe-order",
+  "kind": "compound_label",
+  "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+  "node": "mixed ferroelectric-antiferroelectric order",
+  "repair": "keep the mixed-order concept and add ferroelectric order / antiferroelectric order as components; FE and AFE stay paper-scoped aliases"
+ },
+ {
+  "id": "d-201-grain-boundaries",
+  "kind": "attribute_phrase_node",
+  "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+  "node": "defects near the grain boundaries",
+  "repair": "grain boundary (structure) + defects (defect) as separate concepts, relation kept as fact"
+ },
+ {
+  "id": "d-005-type-conflict",
+  "kind": "type_conflict",
+  "paper": "multiple",
+  "examples": [
+   "perovskite solar cells: device/material_class",
+   "quasi-2D perovskite: material/material_class",
+   "energy transfer: mechanism/process/property",
+   "operating temperature: condition/property",
+   "MXenes: material/material_class"
+  ],
+  "repair": "concept type resolved by the head-noun rules, conflicts recorded in type_conflicts.json"
+ }
+]

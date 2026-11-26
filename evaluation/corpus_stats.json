@@ -1,0 +1,74 @@
+{
+ "papers": 30,
+ "triples": 8894,
+ "observations": 2226,
+ "numeric": 4059,
+ "canonical_predicate_types": 33,
+ "unmapped_predicate_types": 227,
+ "unmapped_edges": 422,
+ "unmapped_top": [
+  [
+   "not reported",
+   64
+  ],
+  [
+   "increases",
+   11
+  ],
+  [
+   "removed by",
+   9
+  ],
+  [
+   "depends on",
+   7
+  ],
+  [
+   "dissolved in",
+   7
+  ],
+  [
+   "fabricated on",
+   6
+  ],
+  [
+   "requires",
+   6
+  ],
+  [
+   "has response",
+   6
+  ],
+  [
+   "immersed in",
+   6
+  ],
+  [
+   "added to",
+   5
+  ]
+ ],
+ "evidence_rows": 6668,
+ "evidence_text_match": 5550,
+ "types": {
+  "device": 1891,
+  "measurement": 4385,
+  "material": 2920,
+  "property": 3113,
+  "sample": 1433,
+  "process": 1165,
+  "structure": 589,
+  "mechanism": 481,
+  "interface": 167,
+  "material_class": 643,
+  "characterization": 421,
+  "condition": 286,
+  "defect": 292,
+  "null": 2
+ },
+ "chunks": 610,
+ "empty_retried": 44,
+ "empty_recovered": 13,
+ "empty_failed": 31,
+ "elapsed_sec": 1027.5
+}

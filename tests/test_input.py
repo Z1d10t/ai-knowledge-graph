@@ -1,6 +1,7 @@
 import json
 import sys
 import types
+from pathlib import Path
 
 import pytest
 
@@ -75,7 +76,7 @@ def test_load_triples_from_json_accepts_list_and_wrapper(tmp_path):
 
 def test_markdown_is_plain_text(tmp_path):
     p = tmp_path / "notes.md"
-    p.write_text("# Title\n\nSome *text*.")
+    p.write_text("# Title\n\nSome *text*.", newline="\n")
     assert read_input_text(str(p)) == "# Title\n\nSome *text*."
 
 
@@ -116,7 +117,7 @@ def test_collect_input_files_expands_directories_and_validates(tmp_path):
     (tmp_path / "skip.png").write_bytes(b"x")
     (tmp_path / ".hidden.txt").write_text("h")
     files = collect_input_files([str(tmp_path)])
-    assert [p.rsplit("/", 1)[-1] for p in files] == ["a.md", "b.txt"]
+    assert [Path(p).name for p in files] == ["a.md", "b.txt"]
     with pytest.raises(InputError, match="not found"):
         collect_input_files([str(tmp_path / "nope.txt")])
     empty = tmp_path / "empty"

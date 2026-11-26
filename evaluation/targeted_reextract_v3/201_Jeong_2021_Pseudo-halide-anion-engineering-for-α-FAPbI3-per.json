@@ -1,0 +1,852 @@
+{
+ "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+ "prompt_version": "v3",
+ "model": "deepseek-flash",
+ "created": "2026-11-25 14:33:31",
+ "source_sha256": "f0a439485401659510b689120d3ccadaf74734a7f09268ad88f3f7edd50d2878",
+ "scope_lines": [
+  21,
+  31
+ ],
+ "passages": [
+  {
+   "lines": [
+    20,
+    32
+   ],
+   "chars": 4624,
+   "relations": 32,
+   "terms": 37
+  }
+ ],
+ "terms": [
+  {
+   "name": "metal halide perovskite",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "Metal halide perovskites of the general formula ABX3"
+  },
+  {
+   "name": "formamidinium lead triiodide",
+   "type": "material",
+   "aliases": [
+    "FAPbI3"
+   ],
+   "evidence": "formamidinium lead triiodide (FAPbI3)"
+  },
+  {
+   "name": "alpha-FAPbI3",
+   "type": "structure",
+   "aliases": [
+    "α-phase",
+    "α-FAPbI3"
+   ],
+   "evidence": "the cubic α-phase of formamidinium lead triiodide (FAPbI3)"
+  },
+  {
+   "name": "delta-FAPbI3",
+   "type": "structure",
+   "aliases": [
+    "δ-phase"
+   ],
+   "evidence": "photoinactive yellow δ-phase"
+  },
+  {
+   "name": "formate",
+   "type": "material",
+   "aliases": [
+    "HCOO−"
+   ],
+   "evidence": "pseudo-halide anion formate (HCOO−)"
+  },
+  {
+   "name": "anion-vacancy defect",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "anion-vacancy defects that are present at grain boundaries"
+  },
+  {
+   "name": "grain boundary",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "present at grain boundaries"
+  },
+  {
+   "name": "crystallinity",
+   "type": "property",
+   "aliases": [],
+   "evidence": "augment the crystallinity of the films"
+  },
+  {
+   "name": "perovskite solar cell",
+   "type": "device",
+   "aliases": [
+    "PSC"
+   ],
+   "evidence": "Perovskite solar cells (PSCs)"
+  },
+  {
+   "name": "power conversion efficiency",
+   "type": "property",
+   "aliases": [
+    "PCE"
+   ],
+   "evidence": "power conversion efficiency (PCE)"
+  },
+  {
+   "name": "operational stability",
+   "type": "property",
+   "aliases": [],
+   "evidence": "long-term operational stability"
+  },
+  {
+   "name": "electroluminescence",
+   "type": "property",
+   "aliases": [],
+   "evidence": "intense electroluminescence"
+  },
+  {
+   "name": "external quantum efficiency",
+   "type": "property",
+   "aliases": [],
+   "evidence": "external quantum efficiencies of more than 10 per cent"
+  },
+  {
+   "name": "lattice defect",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "deleterious lattice defects present in metal halide perovskites"
+  },
+  {
+   "name": "solution processing",
+   "type": "process",
+   "aliases": [],
+   "evidence": "low-cost solution processing"
+  },
+  {
+   "name": "bandgap",
+   "type": "property",
+   "aliases": [],
+   "evidence": "a tunable bandgap"
+  },
+  {
+   "name": "absorption coefficient",
+   "type": "property",
+   "aliases": [],
+   "evidence": "high absorption coefficient"
+  },
+  {
+   "name": "recombination rate",
+   "type": "property",
+   "aliases": [],
+   "evidence": "low recombination rate"
+  },
+  {
+   "name": "charge carrier mobility",
+   "type": "property",
+   "aliases": [],
+   "evidence": "high mobility of charge carriers"
+  },
+  {
+   "name": "single-junction PSC",
+   "type": "device",
+   "aliases": [],
+   "evidence": "single-junction PSCs"
+  },
+  {
+   "name": "additive engineering",
+   "type": "process",
+   "aliases": [],
+   "evidence": "additive and interface engineering strategies"
+  },
+  {
+   "name": "interface engineering",
+   "type": "process",
+   "aliases": [],
+   "evidence": "additive and interface engineering strategies"
+  },
+  {
+   "name": "compositional engineering",
+   "type": "process",
+   "aliases": [],
+   "evidence": "Compositional engineering plays a key part"
+  },
+  {
+   "name": "methylammonium lead triiodide",
+   "type": "material",
+   "aliases": [
+    "MAPbI3"
+   ],
+   "evidence": "methylammonium lead triiodide (MAPbI3)"
+  },
+  {
+   "name": "methylammonium",
+   "type": "material",
+   "aliases": [
+    "MA+"
+   ],
+   "evidence": "methylammonium (MA+)"
+  },
+  {
+   "name": "caesium",
+   "type": "material",
+   "aliases": [
+    "Cs+"
+   ],
+   "evidence": "caesium (Cs+)"
+  },
+  {
+   "name": "bromide",
+   "type": "material",
+   "aliases": [
+    "Br−"
+   ],
+   "evidence": "bromide (Br−)"
+  },
+  {
+   "name": "phase segregation",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "phase segregation under operational conditions"
+  },
+  {
+   "name": "spin-coating",
+   "type": "process",
+   "aliases": [],
+   "evidence": "spin-coating a precursor solution"
+  },
+  {
+   "name": "methylammonium chloride",
+   "type": "material",
+   "aliases": [
+    "MACl"
+   ],
+   "evidence": "methylammonium chloride (MACl)"
+  },
+  {
+   "name": "mesoporous FAPbI3 PSC",
+   "type": "device",
+   "aliases": [],
+   "evidence": "mesoporous FAPbI3 PSC"
+  },
+  {
+   "name": "light management",
+   "type": "process",
+   "aliases": [],
+   "evidence": "proper light management"
+  },
+  {
+   "name": "short-circuit current density",
+   "type": "property",
+   "aliases": [
+    "Jsc"
+   ],
+   "evidence": "short-circuit current density (Jsc)"
+  },
+  {
+   "name": "open-circuit voltage",
+   "type": "property",
+   "aliases": [
+    "Voc"
+   ],
+   "evidence": "open-circuit voltage (Voc)"
+  },
+  {
+   "name": "non-radiative recombination",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "non-radiative recombination of charge carriers"
+  },
+  {
+   "name": "defect density",
+   "type": "property",
+   "aliases": [],
+   "evidence": "reduce the density of defects"
+  },
+  {
+   "name": "perovskite film",
+   "type": "component",
+   "aliases": [],
+   "evidence": "the perovskite films"
+  }
+ ],
+ "triples": [
+  {
+   "subject": "formamidinium lead triiodide",
+   "subject_type": "material",
+   "predicate": "has formula",
+   "object": "ABX3",
+   "object_type": "material_class",
+   "evidence": "Metal halide perovskites of the general formula ABX3",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "alpha-FAPbI3",
+   "subject_type": "structure",
+   "predicate": "is a",
+   "object": "formamidinium lead triiodide",
+   "object_type": "material",
+   "evidence": "the cubic α-phase of formamidinium lead triiodide (FAPbI3)",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "formate",
+   "subject_type": "material",
+   "predicate": "suppresses",
+   "object": "anion-vacancy defect",
+   "object_type": "defect",
+   "evidence": "uses the pseudo-halide anion formate (HCOO−) to suppress anion-vacancy defects that are present at grain boundaries and at the surface of the perovskite films",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "formate",
+   "subject_type": "material",
+   "predicate": "improves",
+   "object": "crystallinity",
+   "object_type": "property",
+   "evidence": "to augment the crystallinity of the films",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "perovskite solar cell",
+   "subject_type": "device",
+   "predicate": "achieves",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "The resulting solar cell devices attain a power conversion efficiency of 25.6 per cent (certified 25.2 per cent)",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "25.6",
+   "unit": "%",
+   "property": "power conversion efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "perovskite solar cell",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "operational stability",
+   "object_type": "property",
+   "evidence": "have long-term operational stability (450 hours)",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "450",
+   "unit": "hours",
+   "property": "operational stability",
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "perovskite solar cell",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "electroluminescence",
+   "object_type": "property",
+   "evidence": "show intense electroluminescence with external quantum efficiencies of more than 10 per cent",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "perovskite solar cell",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "external quantum efficiency",
+   "object_type": "property",
+   "evidence": "external quantum efficiencies of more than 10 per cent",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "10",
+   "unit": "%",
+   "property": "external quantum efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "perovskite solar cell",
+   "subject_type": "device",
+   "predicate": "depends on",
+   "object": "solution processing",
+   "object_type": "process",
+   "evidence": "driven by their low-cost solution processing",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "perovskite solar cell",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "bandgap",
+   "object_type": "property",
+   "evidence": "attractive optoelectronic properties, including a tunable bandgap",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "perovskite solar cell",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "absorption coefficient",
+   "object_type": "property",
+   "evidence": "high absorption coefficient",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "perovskite solar cell",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "recombination rate",
+   "object_type": "property",
+   "evidence": "low recombination rate",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "perovskite solar cell",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "charge carrier mobility",
+   "object_type": "property",
+   "evidence": "high mobility of charge carriers",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "single-junction PSC",
+   "subject_type": "device",
+   "predicate": "achieves",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "the power conversion efficiency (PCE) of single-junction PSCs progressed from 3% to a certified value of 25.5%",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "25.5",
+   "unit": "%",
+   "property": "power conversion efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "additive engineering",
+   "subject_type": "process",
+   "predicate": "improves",
+   "object": "operational stability",
+   "object_type": "property",
+   "evidence": "through the use of additive and interface engineering strategies, the long-term operational stability of PSCs now exceeds 1,000 hours in full sunlight",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "interface engineering",
+   "subject_type": "process",
+   "predicate": "improves",
+   "object": "operational stability",
+   "object_type": "property",
+   "evidence": "through the use of additive and interface engineering strategies, the long-term operational stability of PSCs now exceeds 1,000 hours in full sunlight",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "compositional engineering",
+   "subject_type": "process",
+   "predicate": "enables",
+   "object": "perovskite solar cell",
+   "object_type": "device",
+   "evidence": "Compositional engineering plays a key part in achieving highly efficient and stable PSCs",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "formamidinium lead triiodide",
+   "subject_type": "material",
+   "predicate": "is a",
+   "object": "methylammonium lead triiodide",
+   "object_type": "material",
+   "evidence": "mixtures of methylammonium lead triiodide (MAPbI3) with formamidinium lead triiodide (FAPbI3)",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "formamidinium lead triiodide",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "bandgap",
+   "object_type": "property",
+   "evidence": "FAPbI3 is thermally more stable and has a bandgap closer to the Shockley–Queisser limit",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "formamidinium lead triiodide",
+   "subject_type": "material",
+   "predicate": "undergoes phase transition",
+   "object": "delta-FAPbI3",
+   "object_type": "structure",
+   "evidence": "thin FAPbI3 films undergo a phase transition from the black α-phase to a photoinactive yellow δ-phase below a temperature of 150 °C",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "methylammonium",
+   "subject_type": "material",
+   "predicate": "causes",
+   "object": "phase segregation",
+   "object_type": "mechanism",
+   "evidence": "mixing FAPbI3 with a combination of methylammonium (MA+), caesium (Cs+) and bromide (Br−) ions; however, this comes at the cost of blue-shifted absorbance and phase segregation under operational conditions",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "caesium",
+   "subject_type": "material",
+   "predicate": "causes",
+   "object": "phase segregation",
+   "object_type": "mechanism",
+   "evidence": "mixing FAPbI3 with a combination of methylammonium (MA+), caesium (Cs+) and bromide (Br−) ions; however, this comes at the cost of blue-shifted absorbance and phase segregation under operational conditions",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "bromide",
+   "subject_type": "material",
+   "predicate": "causes",
+   "object": "phase segregation",
+   "object_type": "mechanism",
+   "evidence": "mixing FAPbI3 with a combination of methylammonium (MA+), caesium (Cs+) and bromide (Br−) ions; however, this comes at the cost of blue-shifted absorbance and phase segregation under operational conditions",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "alpha-FAPbI3",
+   "subject_type": "structure",
+   "predicate": "synthesized by",
+   "object": "spin-coating",
+   "object_type": "process",
+   "evidence": "We have previously prepared α-FAPbI3 by spin-coating a precursor solution of FAPbI3 mixed with excess methylammonium chloride (MACl)",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "spin-coating",
+   "subject_type": "process",
+   "predicate": "treated with",
+   "object": "methylammonium chloride",
+   "object_type": "material",
+   "evidence": "spin-coating a precursor solution of FAPbI3 mixed with excess methylammonium chloride (MACl)",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "mesoporous FAPbI3 PSC",
+   "subject_type": "device",
+   "predicate": "achieves",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "achieved a certified efficiency of 23.48% for the resulting mesoporous FAPbI3 PSC",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "23.48",
+   "unit": "%",
+   "property": "power conversion efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "light management",
+   "subject_type": "process",
+   "predicate": "improves",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "By fully exploiting the absorption spectrum of FAPbI3 together with proper light management, a certified efficiency of 23.73% was reported",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "23.73",
+   "unit": "%",
+   "property": "power conversion efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "formamidinium lead triiodide",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "short-circuit current density",
+   "object_type": "property",
+   "evidence": "with a short-circuit current density (Jsc) of 26.7 mA cm−2",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": "26.7",
+   "unit": "mA cm−2",
+   "property": "short-circuit current density",
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "formamidinium lead triiodide",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "open-circuit voltage",
+   "object_type": "property",
+   "evidence": "the open-circuit voltage (Voc) of around 1.15 V for FAPbI3 PSCs still lags behind the radiative limit",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": "1.15",
+   "unit": "V",
+   "property": "open-circuit voltage",
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "defect density",
+   "subject_type": "property",
+   "predicate": "causes",
+   "object": "non-radiative recombination",
+   "object_type": "mechanism",
+   "evidence": "reduce the density of defects in the FAPbI3 perovskite films to suppress the non-radiative recombination of charge carriers",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "lattice defect",
+   "subject_type": "defect",
+   "predicate": "part of",
+   "object": "metal halide perovskite",
+   "object_type": "material_class",
+   "evidence": "eliminate the most abundant and deleterious lattice defects present in metal halide perovskites",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  },
+  {
+   "subject": "anion-vacancy defect",
+   "subject_type": "defect",
+   "predicate": "part of",
+   "object": "perovskite film",
+   "object_type": "component",
+   "evidence": "anion-vacancy defects that are present at grain boundaries and at the surface of the perovskite films",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    20,
+    32
+   ]
+  }
+ ],
+ "errors": []
+}

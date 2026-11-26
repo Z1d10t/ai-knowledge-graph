@@ -406,6 +406,11 @@ def _coerce(parsed, expect: str):
         if isinstance(parsed, dict):
             if "subject" in parsed and "object" in parsed:
                 return [parsed]  # a single triple returned bare
+            # The term-first prompt returns {"terms": [...], "relations": [...]}; the terms
+            # are handled by the terminology layer, the relations are the triples.
+            for key in ("relations", "triples", "facts", "edges"):
+                if isinstance(parsed.get(key), list):
+                    return parsed[key]
             lists = [v for v in parsed.values() if isinstance(v, list)]
             if len(lists) == 1:
                 return lists[0]  # e.g. {"triples": [...]} from JSON mode

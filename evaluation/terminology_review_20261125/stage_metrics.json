@@ -1,0 +1,1861 @@
+{
+ "stage_a_metrics": {
+  "terms_total": 96,
+  "term_verdicts": {
+   "correct_not_normalized": 43,
+   "confirmed_missing": 12,
+   "correct_concept": 36,
+   "granularity_different": 5
+  },
+  "v2_semantic_coverage": 0.8229,
+  "v2_covered_including_granularity": 0.875,
+  "term_type_conflicts": 18,
+  "missing_kinds": {
+   "model_omission": 2,
+   "extracted_not_noded": 8,
+   "preprocess_loss": 2
+  },
+  "actions": {
+   "alias_split": 22,
+   "canonicalize": 28,
+   "split_attribute": 10,
+   "targeted_reextract": 11,
+   "keep": 36,
+   "add_edge": 5,
+   "type_fix": 18,
+   "split_compound": 10,
+   "split_composite": 3
+  },
+  "relations_total": 36,
+  "relation_verdicts": {
+   "supported": 16,
+   "not_found": 12,
+   "partially_supported": 8
+  },
+  "relation_support_rate": 0.4444,
+  "relation_support_or_partial": 0.6667
+ },
+ "v3_concept_coverage": {
+  "total": 96,
+  "covered_clean": 88,
+  "covered_any": 89,
+  "coverage_clean": 0.9167,
+  "coverage_any": 0.9271,
+  "rows": [
+   {
+    "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+    "term": "4-chlorobenzenesulfonate",
+    "status": "clean",
+    "concept": "4-chlorobenzenesulfonate",
+    "concept_id": "c-e34e47e09e03",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+    "term": "benzenesulfonate",
+    "status": "clean",
+    "concept": "benzenesulfonate",
+    "concept_id": "c-a3f750826748",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+    "term": "undercoordinated Pb2+",
+    "status": "clean",
+    "concept": "undercoordinated Pb2+",
+    "concept_id": "c-3c9240beec5a",
+    "type": "defect",
+    "quality": "clean"
+   },
+   {
+    "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+    "term": "density functional theory",
+    "status": "clean",
+    "concept": "density functional theory",
+    "concept_id": "c-465aa5e08b1c",
+    "type": "characterization",
+    "quality": "clean"
+   },
+   {
+    "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+    "term": "electron transport layer",
+    "status": "clean",
+    "concept": "electron transport layer",
+    "concept_id": "c-2a4470bd3890",
+    "type": "component",
+    "quality": "clean"
+   },
+   {
+    "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+    "term": "nonradiative recombination",
+    "status": "clean",
+    "concept": "nonradiative recombination",
+    "concept_id": "c-627c64c124c3",
+    "type": "mechanism",
+    "quality": "clean"
+   },
+   {
+    "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+    "term": "fill factor",
+    "status": "clean",
+    "concept": "fill factor",
+    "concept_id": "c-28b5e60d2f79",
+    "type": "property",
+    "quality": "clean"
+   },
+   {
+    "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+    "term": "inverted perovskite solar cells",
+    "status": "missing",
+    "concept": null
+   },
+   {
+    "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+    "term": "Ga2O3",
+    "status": "clean",
+    "concept": "Ga2O3",
+    "concept_id": "c-be9ccc163fe2",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+    "term": "NiOx",
+    "status": "clean",
+    "concept": "NiOx",
+    "concept_id": "c-b0e7c8226263",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+    "term": "GaN",
+    "status": "clean",
+    "concept": "GaN",
+    "concept_id": "c-96197e0e1940",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+    "term": "SiC",
+    "status": "clean",
+    "concept": "SiC",
+    "concept_id": "c-b1b54d5c3368",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+    "term": "heterojunction PN diodes",
+    "status": "clean",
+    "concept": "heterojunction PN diode",
+    "concept_id": "c-9347adcd749f",
+    "type": "device",
+    "quality": "clean"
+   },
+   {
+    "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+    "term": "conductivity modulation",
+    "status": "clean",
+    "concept": "conductivity modulation",
+    "concept_id": "c-3c1d9cb2dc53",
+    "type": "mechanism",
+    "quality": "clean"
+   },
+   {
+    "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+    "term": "specific on-resistance",
+    "status": "clean",
+    "concept": "specific on-resistance",
+    "concept_id": "c-ac96d4c8193b",
+    "type": "property",
+    "quality": "clean"
+   },
+   {
+    "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+    "term": "breakdown voltage",
+    "status": "clean",
+    "concept": "breakdown voltage",
+    "concept_id": "c-f00ba9a12e2f",
+    "type": "property",
+    "quality": "clean"
+   },
+   {
+    "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+    "term": "quasi-2D perovskites",
+    "status": "clean",
+    "concept": "quasi-2D perovskite",
+    "concept_id": "c-c3383f82cc61",
+    "type": "material_class",
+    "quality": "clean"
+   },
+   {
+    "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+    "term": "quantum-well structure",
+    "status": "clean",
+    "concept": "quantum-well structures",
+    "concept_id": "c-2038db35764a",
+    "type": "structure",
+    "quality": "clean"
+   },
+   {
+    "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+    "term": "dielectric confinement",
+    "status": "clean",
+    "concept": "dielectric confinement",
+    "concept_id": "c-341ac4581775",
+    "type": "mechanism",
+    "quality": "clean"
+   },
+   {
+    "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+    "term": "quantum confinement",
+    "status": "clean",
+    "concept": "quantum confinement",
+    "concept_id": "c-8a231b3b239c",
+    "type": "mechanism",
+    "quality": "clean"
+   },
+   {
+    "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+    "term": "exciton binding energy",
+    "status": "clean",
+    "concept": "exciton binding energy",
+    "concept_id": "c-5134ee1277a1",
+    "type": "property",
+    "quality": "clean"
+   },
+   {
+    "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+    "term": "energy transfer",
+    "status": "clean",
+    "concept": "energy transfer",
+    "concept_id": "c-4c11a9a59cb5",
+    "type": "mechanism",
+    "quality": "clean"
+   },
+   {
+    "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+    "term": "photoluminescence quantum yield",
+    "status": "clean",
+    "concept": "photoluminescence quantum yield",
+    "concept_id": "c-3eed19c0feb2",
+    "type": "property",
+    "quality": "clean"
+   },
+   {
+    "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+    "term": "perovskite LEDs",
+    "status": "missing",
+    "concept": null
+   },
+   {
+    "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+    "term": "AlGaN",
+    "status": "clean",
+    "concept": "AlGaN",
+    "concept_id": "c-eb0a7996c095",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+    "term": "III-nitride",
+    "status": "clean",
+    "concept": "III-nitride",
+    "concept_id": "c-b92c628a4869",
+    "type": "material_class",
+    "quality": "clean"
+   },
+   {
+    "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+    "term": "solar-blind ultraviolet photodetectors",
+    "status": "clean",
+    "concept": "solar-blind ultraviolet photodetector",
+    "concept_id": "c-0e136fb1468d",
+    "type": "device",
+    "quality": "clean"
+   },
+   {
+    "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+    "term": "focal plane arrays",
+    "status": "clean",
+    "concept": "focal plane arrays",
+    "concept_id": "c-3c43bac5a931",
+    "type": "device",
+    "quality": "clean"
+   },
+   {
+    "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+    "term": "metal-semiconductor-metal photodetectors",
+    "status": "clean",
+    "concept": "metal-semiconductor-metal photodetectors",
+    "concept_id": "c-66d27d498aa4",
+    "type": "device",
+    "quality": "clean"
+   },
+   {
+    "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+    "term": "avalanche photodiodes",
+    "status": "clean",
+    "concept": "avalanche photodiodes",
+    "concept_id": "c-99d89fc2d019",
+    "type": "device",
+    "quality": "clean"
+   },
+   {
+    "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+    "term": "epitaxy",
+    "status": "clean",
+    "concept": "epitaxy",
+    "concept_id": "c-2cbae7f59a9b",
+    "type": "process",
+    "quality": "clean"
+   },
+   {
+    "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+    "term": "p-type doping",
+    "status": "clean",
+    "concept": "p-type doping",
+    "concept_id": "c-10aecba7323a",
+    "type": "process",
+    "quality": "clean"
+   },
+   {
+    "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+    "term": "metal oxide semiconductors",
+    "status": "clean",
+    "concept": "Metal oxide semiconductors",
+    "concept_id": "c-c604ee26d0cf",
+    "type": "material_class",
+    "quality": "clean"
+   },
+   {
+    "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+    "term": "flexible room-temperature gas sensors",
+    "status": "clean",
+    "concept": "flexible room-temperature gas sensor",
+    "concept_id": "c-f579104f8161",
+    "type": "device",
+    "quality": "clean"
+   },
+   {
+    "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+    "term": "noble metal nanoparticles",
+    "status": "clean",
+    "concept": "noble metal nanoparticles",
+    "concept_id": "c-df5e03d60afa",
+    "type": "material_class",
+    "quality": "clean"
+   },
+   {
+    "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+    "term": "organic polymers",
+    "status": "clean",
+    "concept": "organic polymers",
+    "concept_id": "c-c06f16c40b79",
+    "type": "material_class",
+    "quality": "clean"
+   },
+   {
+    "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+    "term": "carbon nanotubes",
+    "status": "clean",
+    "concept": "carbon nanotubes",
+    "concept_id": "c-8b68be67f8c5",
+    "type": "material_class",
+    "quality": "clean"
+   },
+   {
+    "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+    "term": "graphene derivatives",
+    "status": "clean",
+    "concept": "graphene derivatives",
+    "concept_id": "c-71682eb772b8",
+    "type": "material_class",
+    "quality": "clean"
+   },
+   {
+    "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+    "term": "transition metal dichalcogenides",
+    "status": "clean",
+    "concept": "transition metal dichalcogenide",
+    "concept_id": "c-ed3f56e3bc4e",
+    "type": "material_class",
+    "quality": "clean"
+   },
+   {
+    "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+    "term": "operating temperature",
+    "status": "clean",
+    "concept": "operating temperature",
+    "concept_id": "c-d5ed8fff8469",
+    "type": "property",
+    "quality": "clean"
+   },
+   {
+    "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+    "term": "HfO2",
+    "status": "clean",
+    "concept": "HfO2",
+    "concept_id": "c-9825c664e48d",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+    "term": "ZrO2",
+    "status": "clean",
+    "concept": "ZrO2",
+    "concept_id": "c-bfa5bfb33c9b",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+    "term": "SiO2",
+    "status": "clean",
+    "concept": "SiO2",
+    "concept_id": "c-0162eeaa6490",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+    "term": "HfO2-ZrO2 superlattice",
+    "status": "clean",
+    "concept": "HfO2-ZrO2 superlattices",
+    "concept_id": "c-107923edf773",
+    "type": "structure",
+    "quality": "clean"
+   },
+   {
+    "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+    "term": "atomic layer deposition",
+    "status": "clean",
+    "concept": "atomic layer deposition",
+    "concept_id": "c-80e78a9703b2",
+    "type": "process",
+    "quality": "clean"
+   },
+   {
+    "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+    "term": "ferroelectric order",
+    "status": "clean",
+    "concept": "ferroelectric order",
+    "concept_id": "c-1e5bc22828df",
+    "type": "structure",
+    "quality": "clean"
+   },
+   {
+    "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+    "term": "antiferroelectric order",
+    "status": "clean",
+    "concept": "antiferroelectric order",
+    "concept_id": "c-c24637c806c8",
+    "type": "structure",
+    "quality": "clean"
+   },
+   {
+    "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+    "term": "effective oxide thickness",
+    "status": "clean",
+    "concept": "effective oxide thickness",
+    "concept_id": "c-c670d28c60cc",
+    "type": "property",
+    "quality": "clean"
+   },
+   {
+    "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+    "term": "MXenes",
+    "status": "clean",
+    "concept": "MXene",
+    "concept_id": "c-6aae09098ec8",
+    "type": "material_class",
+    "quality": "clean"
+   },
+   {
+    "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+    "term": "transition metal carbides",
+    "status": "clean",
+    "concept": "transition metal carbides",
+    "concept_id": "c-37b3ca4ca2d9",
+    "type": "material_class",
+    "quality": "clean"
+   },
+   {
+    "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+    "term": "transition metal nitrides",
+    "status": "clean",
+    "concept": "transition metal nitride",
+    "concept_id": "c-4f70f8d5d55a",
+    "type": "material_class",
+    "quality": "clean"
+   },
+   {
+    "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+    "term": "graphene",
+    "status": "clean",
+    "concept": "graphene",
+    "concept_id": "c-3a5a33d7f1db",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+    "term": "transition metal dichalcogenides",
+    "status": "clean",
+    "concept": "transition metal dichalcogenide",
+    "concept_id": "c-ed3f56e3bc4e",
+    "type": "material_class",
+    "quality": "clean"
+   },
+   {
+    "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+    "term": "exfoliation",
+    "status": "clean",
+    "concept": "exfoliation",
+    "concept_id": "c-d1d09c9b803e",
+    "type": "process",
+    "quality": "clean"
+   },
+   {
+    "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+    "term": "solid solutions",
+    "status": "clean",
+    "concept": "solid solution",
+    "concept_id": "c-75384f84b056",
+    "type": "structure",
+    "quality": "clean"
+   },
+   {
+    "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+    "term": "Mo2TiC2Tx",
+    "status": "clean",
+    "concept": "Mo2TiC2Tx",
+    "concept_id": "c-30484743f155",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+    "term": "phosphonic acids",
+    "status": "clean",
+    "concept": "phosphonic acid",
+    "concept_id": "c-7858f374035b",
+    "type": "material_class",
+    "quality": "clean"
+   },
+   {
+    "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+    "term": "carboxylic acids",
+    "status": "clean",
+    "concept": "carboxylic acids",
+    "concept_id": "c-a93934498819",
+    "type": "material_class",
+    "quality": "clean"
+   },
+   {
+    "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+    "term": "indium tin oxide",
+    "status": "clean",
+    "concept": "indium tin oxide",
+    "concept_id": "c-9ab27a8b637c",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+    "term": "self-assembled monolayer",
+    "status": "clean",
+    "concept": "Self-assembled monolayers",
+    "concept_id": "c-95aef9c5ca65",
+    "type": "structure",
+    "quality": "clean"
+   },
+   {
+    "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+    "term": "hole-selective contact",
+    "status": "clean",
+    "concept": "hole-selective contact",
+    "concept_id": "c-c995f3fe6f95",
+    "type": "component",
+    "quality": "clean"
+   },
+   {
+    "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+    "term": "perovskite light absorber",
+    "status": "clean",
+    "concept": "perovskite light absorbers",
+    "concept_id": "c-31dd43a5311a",
+    "type": "component",
+    "quality": "clean"
+   },
+   {
+    "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+    "term": "one-step solution-coating",
+    "status": "clean",
+    "concept": "one-step solution-coating",
+    "concept_id": "c-3106322a11e3",
+    "type": "process",
+    "quality": "clean"
+   },
+   {
+    "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+    "term": "wettability",
+    "status": "clean",
+    "concept": "wettability",
+    "concept_id": "c-c7eae3837a94",
+    "type": "property",
+    "quality": "clean"
+   },
+   {
+    "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+    "term": "Sb2O3",
+    "status": "clean",
+    "concept": "Sb2O3",
+    "concept_id": "c-19d3e9eec991",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+    "term": "Sb4O6",
+    "status": "clean",
+    "concept": "Sb4O6",
+    "concept_id": "c-d61f29a2fa8e",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+    "term": "MoS2",
+    "status": "clean",
+    "concept": "MoS2",
+    "concept_id": "c-b1931f72f277",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+    "term": "inorganic molecular crystal",
+    "status": "clean",
+    "concept": "inorganic molecular",
+    "concept_id": "c-42b18e9bec12",
+    "type": "material_class",
+    "quality": "clean"
+   },
+   {
+    "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+    "term": "van der Waals dielectrics",
+    "status": "clean",
+    "concept": "van der Waals dielectrics",
+    "concept_id": "c-cf76b982b0a8",
+    "type": "material_class",
+    "quality": "clean"
+   },
+   {
+    "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+    "term": "standard thermal evaporation deposition",
+    "status": "clean",
+    "concept": "standard thermal evaporation deposition",
+    "concept_id": "c-157ec8b7521b",
+    "type": "process",
+    "quality": "clean"
+   },
+   {
+    "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+    "term": "electron mobility",
+    "status": "clean",
+    "concept": "electron mobility",
+    "concept_id": "c-2d95267c8693",
+    "type": "property",
+    "quality": "clean"
+   },
+   {
+    "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+    "term": "transfer-curve hysteresis",
+    "status": "clean",
+    "concept": "hysteresis",
+    "concept_id": "c-ed0baff6f2a0",
+    "type": "property",
+    "quality": "clean"
+   },
+   {
+    "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+    "term": "wide-bandgap perovskites",
+    "status": "clean",
+    "concept": "wide-bandgap perovskites",
+    "concept_id": "c-1b4d0c543afc",
+    "type": "material_class",
+    "quality": "clean"
+   },
+   {
+    "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+    "term": "tandem solar cells",
+    "status": "clean",
+    "concept": "tandem solar cell",
+    "concept_id": "c-35a24a645652",
+    "type": "device",
+    "quality": "clean"
+   },
+   {
+    "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+    "term": "front absorber",
+    "status": "clean",
+    "concept": "front absorber",
+    "concept_id": "c-a898caae125b",
+    "type": "component",
+    "quality": "clean"
+   },
+   {
+    "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+    "term": "photo-induced phase separation",
+    "status": "clean",
+    "concept": "photo-induced phase separation",
+    "concept_id": "c-a6f4b7ee8086",
+    "type": "mechanism",
+    "quality": "clean"
+   },
+   {
+    "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+    "term": "open-circuit voltage deficit",
+    "status": "missing",
+    "concept": null
+   },
+   {
+    "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+    "term": "thermalization losses",
+    "status": "clean",
+    "concept": "thermalization loss",
+    "concept_id": "c-311ba6b22129",
+    "type": "mechanism",
+    "quality": "clean"
+   },
+   {
+    "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+    "term": "charge transport layers",
+    "status": "clean",
+    "concept": "charge transport layers",
+    "concept_id": "c-ff375c198e44",
+    "type": "component",
+    "quality": "clean"
+   },
+   {
+    "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+    "term": "bandgap complementarity",
+    "status": "missing",
+    "concept": null
+   },
+   {
+    "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+    "term": "alpha-FAPbI3",
+    "status": "clean",
+    "concept": "alpha-FAPbI3",
+    "concept_id": "c-db2e352a9ada",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+    "term": "delta-FAPbI3",
+    "status": "clean",
+    "concept": "delta-FAPbI3",
+    "concept_id": "c-447ab0bb6f70",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+    "term": "formamidinium lead triiodide",
+    "status": "noisy",
+    "concept": "formamidinium lead triiodide",
+    "concept_id": "c-dde076f4e123",
+    "type": "material",
+    "quality": "fragment"
+   },
+   {
+    "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+    "term": "formate",
+    "status": "clean",
+    "concept": "formate",
+    "concept_id": "c-f5cb261487da",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+    "term": "anion-vacancy defects",
+    "status": "clean",
+    "concept": "anion vacancy defects",
+    "concept_id": "c-d40f5c23e629",
+    "type": "defect",
+    "quality": "clean"
+   },
+   {
+    "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+    "term": "grain boundaries",
+    "status": "missing",
+    "concept": null
+   },
+   {
+    "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+    "term": "anion engineering",
+    "status": "missing",
+    "concept": null
+   },
+   {
+    "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+    "term": "crystallinity",
+    "status": "clean",
+    "concept": "crystallinity",
+    "concept_id": "c-e5ee31c98613",
+    "type": "property",
+    "quality": "clean"
+   },
+   {
+    "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+    "term": "AgBiS2",
+    "status": "clean",
+    "concept": "AgBiS2",
+    "concept_id": "c-01d535a8ea19",
+    "type": "material",
+    "quality": "clean"
+   },
+   {
+    "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+    "term": "colloidal nanocrystals",
+    "status": "missing",
+    "concept": null
+   },
+   {
+    "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+    "term": "cation disorder",
+    "status": "clean",
+    "concept": "cation disorder",
+    "concept_id": "c-59bc4baab208",
+    "type": "structure",
+    "quality": "clean"
+   },
+   {
+    "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+    "term": "cation segregation",
+    "status": "clean",
+    "concept": "cation segregation",
+    "concept_id": "c-e92e3ca6ad57",
+    "type": "structure",
+    "quality": "clean"
+   },
+   {
+    "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+    "term": "optical transition matrix elements",
+    "status": "clean",
+    "concept": "optical transition matrix element",
+    "concept_id": "c-4c86fbccec03",
+    "type": "property",
+    "quality": "clean"
+   },
+   {
+    "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+    "term": "absorption coefficient",
+    "status": "clean",
+    "concept": "absorption coefficient",
+    "concept_id": "c-7ed7600c3ee6",
+    "type": "property",
+    "quality": "clean"
+   },
+   {
+    "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+    "term": "valence band maximum",
+    "status": "clean",
+    "concept": "valence band maximum",
+    "concept_id": "c-8e0d58966d38",
+    "type": "property",
+    "quality": "clean"
+   },
+   {
+    "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+    "term": "conduction band minimum",
+    "status": "clean",
+    "concept": "conduction band minimum",
+    "concept_id": "c-4945eb0a7f85",
+    "type": "property",
+    "quality": "clean"
+   }
+  ]
+ },
+ "v3_relation_coverage": {
+  "total": 36,
+  "supported": 24,
+  "coverage": 0.6667,
+  "rows": [
+   {
+    "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+    "subject": "4-chlorobenzenesulfonate",
+    "predicate": "enables",
+    "object": "dual-site Pb2+ passivation",
+    "status": "supported",
+    "edge": "4-chlorobenzenesulfonate -> enables -> dual-site Pb2+ passivation",
+    "evidence_line": 87
+   },
+   {
+    "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+    "subject": "undercoordinated Pb2+ ions",
+    "predicate": "results in",
+    "object": "nonradiative recombination",
+    "status": "supported",
+    "edge": "undercoordinated Pb2+ -> exhibits -> nonradiative recombination",
+    "evidence_line": 77
+   },
+   {
+    "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+    "subject": "nonradiative recombination",
+    "predicate": "limits",
+    "object": "fill factor",
+    "status": "supported",
+    "edge": "nonradiative recombination -> limits -> photovoltage and fill factor",
+    "evidence_line": 77
+   },
+   {
+    "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+    "subject": "holes injection",
+    "predicate": "induces",
+    "object": "conductivity modulation",
+    "status": "not_found",
+    "edge": null,
+    "evidence_line": null
+   },
+   {
+    "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+    "subject": "Ga2O3",
+    "predicate": "used in",
+    "object": "power electronics",
+    "status": "not_found",
+    "edge": null,
+    "evidence_line": null
+   },
+   {
+    "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+    "subject": "p-NiOx",
+    "predicate": "combined with",
+    "object": "n-Ga2O3",
+    "status": "not_found",
+    "edge": null,
+    "evidence_line": null
+   },
+   {
+    "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+    "subject": "quasi-2D perovskites",
+    "predicate": "has structure",
+    "object": "quantum-well structures",
+    "status": "supported",
+    "edge": "quasi-2D perovskite -> exhibits -> quantum-well structures",
+    "evidence_line": 27
+   },
+   {
+    "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+    "subject": "quantum-well structures",
+    "predicate": "induces",
+    "object": "quantum-confinement effects",
+    "status": "supported",
+    "edge": "quantum-well structures -> induces -> quantum confinement",
+    "evidence_line": 55
+   },
+   {
+    "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+    "subject": "quasi-2D perovskites",
+    "predicate": "used in",
+    "object": "LEDs",
+    "status": "not_found",
+    "edge": null,
+    "evidence_line": null
+   },
+   {
+    "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+    "subject": "AlGaN",
+    "predicate": "used in",
+    "object": "solar-blind UV photodetectors",
+    "status": "not_found",
+    "edge": null,
+    "evidence_line": null
+   },
+   {
+    "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+    "subject": "AlGaN-based focal plane arrays",
+    "predicate": "enables",
+    "object": "solar-blind imaging",
+    "status": "supported",
+    "edge": "focal plane array -> exhibits -> solar-blind imaging",
+    "evidence_line": 27
+   },
+   {
+    "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+    "subject": "avalanche photodiodes",
+    "predicate": "is a",
+    "object": "photodetectors",
+    "status": "not_found",
+    "edge": null,
+    "evidence_line": null
+   },
+   {
+    "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+    "subject": "metal oxide semiconductors",
+    "predicate": "used in",
+    "object": "gas sensors",
+    "status": "supported",
+    "edge": "Metal oxide semiconductors -> used in -> commercial gas sensors",
+    "evidence_line": 39
+   },
+   {
+    "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+    "subject": "noble metal nanoparticles",
+    "predicate": "modifies",
+    "object": "metal oxide semiconductors",
+    "status": "supported",
+    "edge": "noble metal nanoparticles -> modifies -> Metal oxide semiconductors",
+    "evidence_line": 39
+   },
+   {
+    "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+    "subject": "organic polymers",
+    "predicate": "modifies",
+    "object": "metal oxide semiconductors",
+    "status": "supported",
+    "edge": "organic polymers -> modifies -> Metal oxide semiconductors",
+    "evidence_line": 39
+   },
+   {
+    "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+    "subject": "HfO2",
+    "predicate": "used as",
+    "object": "high-k dielectric layer",
+    "status": "not_found",
+    "edge": null,
+    "evidence_line": null
+   },
+   {
+    "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+    "subject": "doped-HfO2",
+    "predicate": "grown by",
+    "object": "atomic layer deposition",
+    "status": "not_found",
+    "edge": null,
+    "evidence_line": null
+   },
+   {
+    "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+    "subject": "HfO2-ZrO2 superlattice gate stack",
+    "predicate": "exploits",
+    "object": "mixed ferroelectric-antiferroelectric order",
+    "status": "not_found",
+    "edge": null,
+    "evidence_line": null
+   },
+   {
+    "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+    "subject": "MXenes",
+    "predicate": "is a",
+    "object": "2D materials",
+    "status": "supported",
+    "edge": "MXene -> is a -> 2D materials",
+    "evidence_line": 23
+   },
+   {
+    "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+    "subject": "transition metal dichalcogenides",
+    "predicate": "prepared by",
+    "object": "exfoliation",
+    "status": "supported",
+    "edge": "transition metal dichalcogenide -> synthesized by -> exfoliation",
+    "evidence_line": 29
+   },
+   {
+    "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+    "subject": "Mo2TiC2Tx",
+    "predicate": "has structure",
+    "object": "ordered transition metal atomic sandwiches",
+    "status": "supported",
+    "edge": "Mo2TiC2Tx -> has structure -> atomic sandwich",
+    "evidence_line": 31
+   },
+   {
+    "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+    "subject": "phosphonic or carboxylic acids",
+    "predicate": "self-assemble on",
+    "object": "indium tin oxide substrate",
+    "status": "supported",
+    "edge": "phosphonic or carboxylic acids -> self-assemble on -> indium tin oxide substrate",
+    "evidence_line": 31
+   },
+   {
+    "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+    "subject": "self-assembled monolayer",
+    "predicate": "used as",
+    "object": "hole-selective contact",
+    "status": "supported",
+    "edge": "Self-assembled monolayers -> used in -> hole-selective contact",
+    "evidence_line": 31
+   },
+   {
+    "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+    "subject": "one-step solution-coating",
+    "predicate": "forms",
+    "object": "perovskite light absorber",
+    "status": "supported",
+    "edge": "one-step solution-coating -> results in -> perovskite light absorbers",
+    "evidence_line": 31
+   },
+   {
+    "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+    "subject": "Sb2O3 dielectric film",
+    "predicate": "fabricated via",
+    "object": "standard thermal evaporation deposition",
+    "status": "supported",
+    "edge": "Sb2O3 -> deposited by -> standard thermal evaporation deposition",
+    "evidence_line": 66
+   },
+   {
+    "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+    "subject": "Sb2O3 powder",
+    "predicate": "consists of",
+    "object": "Sb4O6 molecules",
+    "status": "supported",
+    "edge": "Sb2O3 -> composed of -> Sb4O6",
+    "evidence_line": 72
+   },
+   {
+    "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+    "subject": "Sb4O6 molecules",
+    "predicate": "bonded via",
+    "object": "van der Waals interaction",
+    "status": "supported",
+    "edge": "Sb4O6 -> bonded by -> van der Waals interaction",
+    "evidence_line": 72
+   },
+   {
+    "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+    "subject": "wide-bandgap perovskites",
+    "predicate": "acts as",
+    "object": "front absorber",
+    "status": "supported",
+    "edge": "wide-bandgap perovskites -> acts as -> front absorber",
+    "evidence_line": 40
+   },
+   {
+    "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+    "subject": "front cell with WBG absorber",
+    "predicate": "reduces",
+    "object": "thermalization loss",
+    "status": "not_found",
+    "edge": null,
+    "evidence_line": null
+   },
+   {
+    "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+    "subject": "wide-bandgap perovskite solar cells",
+    "predicate": "has issue",
+    "object": "photo-induced phase separation",
+    "status": "supported",
+    "edge": "wide-bandgap perovskites -> undergoes -> photo-induced phase separation",
+    "evidence_line": 40
+   },
+   {
+    "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+    "subject": "formate",
+    "predicate": "suppresses",
+    "object": "anion-vacancy defects",
+    "status": "supported",
+    "edge": "formate -> eliminates -> anion vacancy defects",
+    "evidence_line": 79
+   },
+   {
+    "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+    "subject": "formate",
+    "predicate": "improves",
+    "object": "crystallinity",
+    "status": "supported",
+    "edge": "formate -> improves -> crystallinity",
+    "evidence_line": 21
+   },
+   {
+    "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+    "subject": "FAPbI3 films",
+    "predicate": "undergo phase transition",
+    "object": "black alpha-phase to yellow delta-phase below 150 C",
+    "status": "supported",
+    "edge": "FAPbI3 -> has phase -> alpha phase",
+    "evidence_line": 58
+   },
+   {
+    "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+    "subject": "cation disorder engineering",
+    "predicate": "enhances",
+    "object": "optical transition matrix elements",
+    "status": "supported",
+    "edge": "cation disorder -> enhances -> optical transition matrix element",
+    "evidence_line": 26
+   },
+   {
+    "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+    "subject": "cation-disorder-engineered AgBiS2 colloidal nanocrystals",
+    "predicate": "enables",
+    "object": "extremely thin absorber photovoltaic devices",
+    "status": "not_found",
+    "edge": null,
+    "evidence_line": null
+   },
+   {
+    "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+    "subject": "AgBiS2 valence band maximum",
+    "predicate": "derives from",
+    "object": "Ag d and S p states",
+    "status": "not_found",
+    "edge": null,
+    "evidence_line": null
+   }
+  ]
+ },
+ "alias_audit": {
+  "alias_groups": 11377,
+  "verified_paper_defined": 5149,
+  "paper_scoped": 6228,
+  "global": 0,
+  "alias_checks": 8,
+  "alias_checks_passed": 8,
+  "sample": [
+   {
+    "concept": "analog-todigital converter",
+    "alias": "ADC",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "polyethylene terephthalate",
+    "alias": "PET",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "polyethylene terephthalate",
+    "alias": "PET",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "polyethylene terephthalate",
+    "alias": "PET",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "polyethylene terephthalate",
+    "alias": "PET",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "polyethylene terephthalate",
+    "alias": "PET",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "polyethylene terephthalate",
+    "alias": "PET",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "polyethylene terephthalate",
+    "alias": "PET",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": false
+   },
+   {
+    "concept": "polyethylene terephthalate",
+    "alias": "PET",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": false
+   },
+   {
+    "concept": "electrochemical workstation",
+    "alias": "CHI660E",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": false
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": false
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": false
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": false
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": false
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": false
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   },
+   {
+    "concept": "scanning electron microscopy",
+    "alias": "SEM",
+    "scope": "paper",
+    "kind": "abbreviation",
+    "verified": true
+   }
+  ]
+ },
+ "alias_paper_checks": [
+  {
+   "paper": "043",
+   "alias": "ALD",
+   "expansion": "atomic layer deposition",
+   "status": "passed",
+   "holders": [
+    "atomic layer deposition",
+    "advent of atomic layer deposition"
+   ],
+   "expansion_concept": "atomic layer deposition"
+  },
+  {
+   "paper": "023",
+   "alias": "FPAs",
+   "expansion": "focal plane arrays",
+   "status": "passed",
+   "holders": [
+    "focal plane arrays"
+   ],
+   "expansion_concept": "focal plane arrays"
+  },
+  {
+   "paper": "052",
+   "alias": "TMDCs",
+   "expansion": "transition metal dichalcogenides",
+   "status": "passed",
+   "holders": [
+    "transition metal dichalcogenide"
+   ],
+   "expansion_concept": "transition metal dichalcogenide"
+  },
+  {
+   "paper": "095",
+   "alias": "STED",
+   "expansion": "standard thermal evaporation deposition",
+   "status": "passed",
+   "holders": [
+    "standard thermal evaporation deposition"
+   ],
+   "expansion_concept": "standard thermal evaporation deposition"
+  },
+  {
+   "paper": "038",
+   "alias": "MOS",
+   "expansion": "metal oxide semiconductors",
+   "status": "passed",
+   "holders": [
+    "Metal oxide semiconductors"
+   ],
+   "expansion_concept": "Metal oxide semiconductors"
+  },
+  {
+   "paper": "201",
+   "alias": "HCOO−",
+   "expansion": "formate",
+   "status": "passed",
+   "holders": [
+    "formate"
+   ],
+   "expansion_concept": "formate"
+  },
+  {
+   "paper": "065",
+   "alias": "ITO",
+   "expansion": "indium tin oxide",
+   "status": "passed",
+   "holders": [
+    "indium tin oxide"
+   ],
+   "expansion_concept": "indium tin oxide"
+  }
+ ],
+ "mis_merge_audit": [
+  {
+   "a": "α-FAPbI3",
+   "b": "δ-FAPbI3",
+   "expect_same": false,
+   "actual_same": false,
+   "status": "passed",
+   "a_concept": "alpha-FAPbI3",
+   "b_concept": "delta-FAPbI3",
+   "reason": "different phases of the same formula"
+  },
+  {
+   "a": "Sb2O3",
+   "b": "Sb4O6",
+   "expect_same": false,
+   "actual_same": false,
+   "status": "passed",
+   "a_concept": "Sb2O3",
+   "b_concept": "Sb4O6",
+   "reason": "different stoichiometry / molecule vs crystal"
+  },
+  {
+   "a": "GaN",
+   "b": "Ga2O3",
+   "expect_same": false,
+   "actual_same": false,
+   "status": "passed",
+   "a_concept": "GaN",
+   "b_concept": "Ga2O3",
+   "reason": "different materials"
+  },
+  {
+   "a": "SnO2",
+   "b": "SnO",
+   "expect_same": false,
+   "actual_same": false,
+   "status": "passed",
+   "a_concept": "SnO2",
+   "b_concept": null,
+   "reason": "different stoichiometry"
+  },
+  {
+   "a": "HfO2",
+   "b": "ZrO2",
+   "expect_same": false,
+   "actual_same": false,
+   "status": "passed",
+   "a_concept": "HfO2",
+   "b_concept": "ZrO2",
+   "reason": "different oxides"
+  },
+  {
+   "a": "perovskite solar cells",
+   "b": "inverted perovskite solar cells",
+   "expect_same": false,
+   "actual_same": false,
+   "status": "passed",
+   "a_concept": "perovskite solar cells",
+   "b_concept": "inverted perovskite solar cells",
+   "reason": "class vs subclass"
+  },
+  {
+   "a": "formate",
+   "b": "formamidinium lead triiodide",
+   "expect_same": false,
+   "actual_same": false,
+   "status": "passed",
+   "a_concept": "formate",
+   "b_concept": "formamidinium lead triiodide",
+   "reason": "ion vs salt"
+  },
+  {
+   "a": "HfO2-ZrO2 superlattice",
+   "b": "HfO2-ZrO2 multilayers",
+   "expect_same": false,
+   "actual_same": false,
+   "status": "passed",
+   "a_concept": "HfO2-ZrO2 superlattices",
+   "b_concept": "HfO2-ZrO2 multilayers",
+   "reason": "structure vs stack wording"
+  },
+  {
+   "a": "MXene",
+   "b": "MXenes",
+   "expect_same": true,
+   "actual_same": true,
+   "status": "passed",
+   "a_concept": "MXene",
+   "b_concept": "MXene",
+   "reason": "singular/plural surface forms"
+  },
+  {
+   "a": "formate",
+   "b": "HCOO−",
+   "expect_same": true,
+   "actual_same": true,
+   "status": "passed",
+   "a_concept": "formate",
+   "b_concept": "formate",
+   "reason": "paper-defined ion abbreviation"
+  }
+ ],
+ "type_conflicts": {
+  "concepts": 51408,
+  "concepts_with_conflict": 19043,
+  "conflict_rate": 0.3704,
+  "reference_terms_with_type_issue": 18,
+  "reference_terms_with_type_issue_list": [
+   "specific on-resistance",
+   "quasi-2D perovskites",
+   "dielectric confinement",
+   "energy transfer",
+   "AlGaN",
+   "p-type doping",
+   "graphene derivatives",
+   "operating temperature",
+   "HfO2-ZrO2 superlattice",
+   "MXenes",
+   "solid solutions",
+   "self-assembled monolayer",
+   "van der Waals dielectrics",
+   "wide-bandgap perovskites",
+   "photo-induced phase separation",
+   "charge transport layers",
+   "cation disorder",
+   "cation segregation"
+  ]
+ },
+ "before_after": [
+  {
+   "metric": "参考概念语义覆盖（v2 判定）",
+   "before": 0.8229,
+   "before_note": "79/96, Stage A 语义判定"
+  },
+  {
+   "metric": "参考概念覆盖（v3，干净概念）",
+   "after": 0.9167,
+   "after_note": "88/96"
+  },
+  {
+   "metric": "参考概念覆盖（v3，含待规范概念）",
+   "after": 0.9271,
+   "after_note": "89/96"
+  },
+  {
+   "metric": "参考关系支持（v2 判定）",
+   "before": 0.4444,
+   "before_note": "16/36 严格支持，另有 8 条部分支持"
+  },
+  {
+   "metric": "参考关系覆盖（v3，关系检索判定）",
+   "after": 0.6667,
+   "after_note": "24/36"
+  },
+  {
+   "metric": "别名可检索（固定检查）",
+   "after": 1.0,
+   "after_note": "8/8"
+  },
+  {
+   "metric": "论文内缩写别名解析",
+   "after": 1.0,
+   "after_note": "7/7"
+  },
+  {
+   "metric": "误合并审计（固定对照）",
+   "after": 1.0,
+   "after_note": "10/10"
+  },
+  {
+   "metric": "检索任务通过",
+   "after": 1.0,
+   "after_note": "10/10"
+  }
+ ],
+ "gates": {
+  "stage_a_all_items_adjudicated": true,
+  "confirmed_direction_error_fixed": true,
+  "mis_merges_fixed": true,
+  "paper_defined_aliases_resolve": true,
+  "ten_retrieval_tasks_supported": true,
+  "same_reference_set_before_after": true,
+  "no_re_extraction_for_concepts_already_present": true
+ },
+ "v3_stats": {
+  "version": "v3.0",
+  "papers": 285,
+  "v2_triples": 70802,
+  "numeric_facts": 12649,
+  "concepts": 51408,
+  "concepts_by_type": {
+   "characterization": 2571,
+   "component": 2075,
+   "defect": 1125,
+   "device": 5570,
+   "interface": 414,
+   "material": 12106,
+   "material_class": 3654,
+   "mechanism": 3251,
+   "process": 5078,
+   "property": 12003,
+   "structure": 3561
+  },
+  "concepts_by_quality": {
+   "clean": 47565,
+   "fragment": 3812,
+   "instrument": 29,
+   "symbol": 2
+  },
+  "concepts_by_type_status": {
+   "conflict_resolved": 7132,
+   "consistent": 15323,
+   "instance_only": 7373,
+   "type_pending": 2600,
+   "v2_fallback": 18980
+  },
+  "type_conflicts": 7132,
+  "type_v2_fallbacks": 21580,
+  "concepts_with_zh_label": 56,
+  "concepts_merged_across_papers": 5088,
+  "instances": 920,
+  "instances_linked_to_concept": 805,
+  "mentions": 145260,
+  "mentions_by_kind": {
+   "concept": 110712,
+   "observation": 16829,
+   "instance": 2287,
+   "value": 15315,
+   "symbol": 117
+  },
+  "value_mentions": 15315,
+  "symbol_fragments_excluded": 117,
+  "observations": 16829,
+  "relations": 39400,
+  "relations_by_family": {
+   "application": 2295,
+   "characterization": 3122,
+   "composition": 1923,
+   "dependency": 3218,
+   "effect": 15894,
+   "other": 3993,
+   "phase_transition": 8,
+   "process": 4532,
+   "structure": 1339,
+   "taxonomy": 3076
+  },
+  "relations_raw": 41324,
+  "duplicates_merged": 2609,
+  "composite_relations_added": 331,
+  "compound_splits": 12,
+  "targeted_relations": 340,
+  "direction_flagged": 159,
+  "paper_aliases_mined": 10211,
+  "embedded_alias_split": 910,
+  "aliases_verified": 5121,
+  "alias_index_keys": 52154,
+  "fixes_applied": 15,
+  "relations_skipped_nonconcept": 31306,
+  "median_relations_per_paper": 105
+ },
+ "retrieval_summary": {
+  "tasks": 10,
+  "tasks_passed": 10,
+  "tasks_pass_rate": 1.0,
+  "alias_checks": 8,
+  "alias_checks_passed": 8,
+  "alias_pass_rate": 1.0,
+  "graph": {
+   "concepts": 51408,
+   "relations": 39400,
+   "aliases": 52154,
+   "instances": 920,
+   "observations": 16829,
+   "papers": 285
+  },
+  "failed_tasks": []
+ }
+}

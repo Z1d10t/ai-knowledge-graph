@@ -55,6 +55,8 @@ from knowledge_graph.config import load_config  # noqa: E402
 from knowledge_graph.entity_standardization import infer_relationships, standardize_entities  # noqa: E402
 from knowledge_graph.logging_utils import configure_logging  # noqa: E402
 from knowledge_graph.main import InputError, process_documents, read_input_text  # noqa: E402
+from knowledge_graph.postprocess import collect_parse_failures, count_by_origin  # noqa: E402
+from knowledge_graph.profiles import apply_profile_overrides, is_materials, profile_name  # noqa: E402
 from knowledge_graph.visualization import build_graph_data, render_knowledge_graph  # noqa: E402
 
 ARCHIVE = ROOT / "article" / "extracted" / "半导体论文"
@@ -64,9 +66,13 @@ DEFAULT_OUTPUT = ARCHIVE / "kg_output"
 DEFAULT_CONFIG = ROOT / "config-deepseek.toml"
 
 SUMMARY_FIELDS = ["id", "title", "status", "source", "md_words", "pdf_words", "md_pdf_ratio", "source_reason",
+                  "stripped_front_matter", "front_removed_chars",
                   "stripped_back_matter", "removed_chars", "text_chars", "strip_reason",
-                  "raw_triples", "enriched_triples", "inferred", "communities", "elapsed_sec", "error",
-                  "raw_path", "enriched_path", "html_path"]
+                  "raw_triples", "enriched_triples", "extracted", "observation", "inferred", "unmapped",
+                  "canonical_predicates", "unmapped_predicate_types",
+                  "chunks", "empty_retried", "empty_recovered", "empty_failed", "failed_chunk_indices",
+                  "parse_failures",
+                  "communities", "elapsed_sec", "error", "raw_path", "enriched_path", "html_path"]
 
 
 def parse_args(argv=None):
@@ -99,6 +105,10 @@ def parse_args(argv=None):
     parser.add_argument("--llm-inference", action="store_true", help="Enable only the LLM bridge/hub/within passes")
     parser.add_argument("--keep-back-matter", action="store_true",
                         help="Keep references/acknowledgements/author contributions (default: strip them)")
+    parser.add_argument("--keep-front-matter", action="store_true",
+                        help="Keep cover page / author list / affiliations (default: strip them)")
+    parser.add_argument("--profile", default="",
+                        help="Extraction profile override (materials, generic); default from the config file")
     parser.add_argument("--no-taxonomy", action="store_true", help="Disable the deterministic taxonomy rule")
     parser.add_argument("--transitive", action="store_true", help="Enable transitive rule inference")
     parser.add_argument("--verbose", action="store_true", help="Show the pipeline's INFO logs")
@@ -267,7 +277,7 @@ def write_summary(summary_path: Path, rows: list) -> None:
     os.replace(tmp, csv_path)
 
 
-def extract_raw(doc_path: Path, text: str, config: dict, args) -> list:
+def extract_raw(doc_path: Path, text: str, config: dict, args, stats: dict | None = None) -> list:
     """Phase 1 only: chunk the paper and call the LLM for every chunk."""
     phase1 = copy.deepcopy(config)
     phase1.setdefault("standardization", {})["enabled"] = False
@@ -278,7 +288,7 @@ def extract_raw(doc_path: Path, text: str, config: dict, args) -> list:
     for attempt in range(1, max(1, args.retries) + 1):
         try:
             raw = process_documents(phase1, [(doc_path.name, text)],
-                                    continue_on_error=args.continue_on_error)
+                                    continue_on_error=args.continue_on_error, stats=stats)
             if raw:
                 return raw
             last_error = "no triples extracted"
@@ -291,12 +301,63 @@ def extract_raw(doc_path: Path, text: str, config: dict, args) -> list:
     raise RuntimeError(last_error or "extraction failed")
 
 
+def strip_front_matter(text: str) -> tuple[str, dict]:
+    """Drop cover pages, line numbers, title, author list and affiliations.
+
+    Only the leading block is cut (the abstract is the anchor); the reference tail is
+    handled by :func:`strip_back_matter`.
+    """
+    m = ABSTRACT_RE.search(text, 0, 12000)
+    if m:
+        cut = m.start()
+        return text[cut:].lstrip(), {"stripped_front_matter": True, "front_removed_chars": cut}
+    lines = text.splitlines()
+    offset = 0
+    for line in lines:
+        s = line.strip()
+        start = offset
+        offset += len(line) + 1
+        if (not s or s.startswith(">") or "<sup>" in s.lower() or HEADER_RE.match(s.lstrip("*_ "))
+                or AFFIL_RE.search(s) or _looks_like_authors(s)):
+            continue
+        if s.startswith("|"):
+            parts = [p.strip() for p in s.split("|") if p.strip()]
+            if parts and len(parts[-1]) > 250:
+                s = parts[-1]
+        if len(s) < 300 or sum(ch.isdigit() for ch in s) / len(s) > 0.08:
+            continue
+        return text[start:].lstrip(), {"stripped_front_matter": True, "front_removed_chars": start}
+    return text, {"stripped_front_matter": False, "front_removed_chars": 0}
+
+
+ABSTRACT_RE = re.compile(r"(?im)^\s*(?:#+\s*)?(?:\*\*)?\s*(abstract|summary)\b")
+AFFIL_RE = re.compile(r"(?i)\b(affiliations?|corresponding author|e-?mails?)\b")
+HEADER_RE = re.compile(r"(?i)^(received|accepted|published|doi|keywords|affiliations?|corresponding|"
+                       r"submitted manuscript|contents?|citation|version|preprint)")
+
+
+def _looks_like_authors(s: str) -> bool:
+    """Name lists: many commas, capitalised tokens, no sentence punctuation."""
+    if s.count(",") < 4:
+        return False
+    if s.count(",") < 8 and any(p in s[:260] for p in (". ", "! ", "? ", "; ")):
+        return False
+    words = [w for w in re.split(r"[\s,]+", s) if w]
+    if len(words) < 8:
+        return False
+    return sum(1 for w in words if w[:1].isupper()) / len(words) > 0.55
+
+
 def enrich(raw: list, config: dict, args) -> list:
     """Phases 2-3: rule-based by default, LLM passes only when requested."""
     cfg = copy.deepcopy(config)
     std = cfg.setdefault("standardization", {})
     inf = cfg.setdefault("inference", {})
     std["use_llm_for_entities"] = bool(args.full_pipeline or args.llm_standardization)
+    if is_materials(cfg):
+        # materials profile: every fact must come from the text, no inference at all
+        inf["enabled"] = False
+        return standardize_entities(raw, cfg) if std.get("enabled", True) else raw
     inf["use_llm_for_inference"] = bool(args.full_pipeline or args.llm_inference)
     inf["taxonomy"] = not args.no_taxonomy
     inf["apply_transitive"] = bool(args.transitive)
@@ -334,6 +395,11 @@ def main(argv=None) -> int:
               "  export DEEPSEEK_API_KEY=sk-...\n"
               "or replace the api_key line in config-deepseek.toml.", flush=True)
         return 2
+
+    if args.profile:
+        config.setdefault("profile", {})["name"] = args.profile.strip().lower()
+        apply_profile_overrides(config)
+    print(f"Profile         : {profile_name(config)}")
 
     input_dir = Path(args.input_dir)
     if not input_dir.is_dir():
@@ -400,7 +466,9 @@ def main(argv=None) -> int:
         html_path = html_dir / f"{stem}.html"
         started = time.time()
         raw, triples, status = [], [], ""
+        chunk_stats: dict = {}
         source_fields = ("source", "md_words", "pdf_words", "md_pdf_ratio", "source_reason",
+                         "stripped_front_matter", "front_removed_chars",
                          "stripped_back_matter", "removed_chars", "text_chars", "strip_reason")
         source_info = {}
 
@@ -417,12 +485,21 @@ def main(argv=None) -> int:
                     source_info = {key: summary.get(stem, {}).get(key, "") for key in source_fields}
                     source_info["source"] = source_info.get("source") or "raw-reused"
                     source_info["source_reason"] = source_info.get("source_reason") or "raw json reused"
+                    # keep the extraction-phase counters measured by the original run
+                    prev = summary.get(stem, {})
+                    for key in ("chunks", "empty_retried", "empty_recovered", "empty_failed",
+                                "failed_chunk_indices"):
+                        if prev.get(key) not in (None, ""):
+                            chunk_stats.setdefault(key, prev[key])
                 else:
                     doc_path, doc_text, source_info = choose_source(md_path, pdf_dir, args)
+                    if not args.keep_front_matter:
+                        doc_text, front_info = strip_front_matter(doc_text)
+                        source_info.update(front_info)
                     if not args.keep_back_matter:
                         doc_text, strip_info = strip_back_matter(doc_text)
                         source_info.update(strip_info)
-                    raw = extract_raw(doc_path, doc_text, config, args)
+                    raw = extract_raw(doc_path, doc_text, config, args, chunk_stats)
                     write_json(raw_path, raw)
                     status = "extracted"
                 if not raw:
@@ -431,6 +508,11 @@ def main(argv=None) -> int:
                 write_json(enriched_path, triples)
 
             stats = build_graph_data(triples)["meta"]["stats"]
+            counts = count_by_origin(triples)
+            unmapped = sum(1 for t in triples if t.get("unmapped"))
+            parse_failures = collect_parse_failures(triples)
+            if parse_failures:
+                write_json(out_dir / "failures" / f"{stem}.json", parse_failures)
             if args.html and (args.force or args.re_enrich or not html_path.exists()):
                 render_page(triples, html_path, config)
 
@@ -441,7 +523,18 @@ def main(argv=None) -> int:
                 **{key: source_info.get(key, "") for key in source_fields},
                 "raw_triples": len(raw),
                 "enriched_triples": len(triples),
-                "inferred": stats["inferred_edges"],
+                "extracted": counts["extracted"],
+                "observation": counts["observation"],
+                "inferred": counts["inferred"],
+                "unmapped": unmapped,
+                "canonical_predicates": chunk_stats.get("canonical_predicate_types", ""),
+                "unmapped_predicate_types": chunk_stats.get("unmapped_predicate_types", ""),
+                "chunks": chunk_stats.get("chunks", ""),
+                "empty_retried": chunk_stats.get("empty_retried", 0),
+                "empty_recovered": chunk_stats.get("empty_recovered", 0),
+                "empty_failed": chunk_stats.get("empty_failed", 0),
+                "failed_chunk_indices": ";".join(str(x) for x in chunk_stats.get("failed_chunk_indices", [])),
+                "parse_failures": len(parse_failures),
                 "communities": stats["communities"],
                 "elapsed_sec": round(time.time() - started, 1),
                 "error": "",
@@ -450,8 +543,9 @@ def main(argv=None) -> int:
                 "html_path": rel(html_path) if html_path.exists() else "",
             }
             print(f"[{index}/{len(papers)}] {stem}: {status} [{source_info.get('source', '?')}], "
-                  f"{len(raw)} raw -> {len(triples)} enriched, {stats['inferred_edges']} inferred, "
-                  f"{row['elapsed_sec']}s", flush=True)
+                  f"{len(raw)} raw -> {len(triples)} enriched "
+                  f"(extracted={counts['extracted']} obs={counts['observation']} inferred={counts['inferred']} "
+                  f"unmapped={unmapped}), {row['elapsed_sec']}s", flush=True)
         except Exception as e:
             row = {
                 "id": stem,
@@ -460,7 +554,18 @@ def main(argv=None) -> int:
                 **{key: source_info.get(key, "") for key in source_fields},
                 "raw_triples": len(raw),
                 "enriched_triples": len(triples),
+                "extracted": "",
+                "observation": "",
                 "inferred": "",
+                "unmapped": "",
+                "canonical_predicates": "",
+                "unmapped_predicate_types": "",
+                "chunks": chunk_stats.get("chunks", ""),
+                "empty_retried": chunk_stats.get("empty_retried", 0),
+                "empty_recovered": chunk_stats.get("empty_recovered", 0),
+                "empty_failed": chunk_stats.get("empty_failed", 0),
+                "failed_chunk_indices": ";".join(str(x) for x in chunk_stats.get("failed_chunk_indices", [])),
+                "parse_failures": "",
                 "communities": "",
                 "elapsed_sec": round(time.time() - started, 1),
                 "error": f"{type(e).__name__}: {e}",

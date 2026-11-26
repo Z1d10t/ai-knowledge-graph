@@ -1,0 +1,28 @@
+{
+  "sample": "20 concepts sampled with random.seed(23) from evaluation/full_v3_normalized/type_conflicts.json",
+  "scale": {"concepts": 52069, "conflicts": 7371, "conflict_rate": 0.1416},
+  "verdicts": [
+    {"label": "Keithly 4200 semiconductor analyzer", "resolved_type": "material_class", "v2_types": ["characterization"], "verdict": "v2_better", "reason": "an instrument is a characterization tool; material_class is wrong"},
+    {"label": "crosslinked ion diffusion inhibitor", "resolved_type": "mechanism", "v2_types": ["material_class"], "verdict": "v2_better", "reason": "an inhibitor is a substance; the rule latched onto 'diffusion'"},
+    {"label": "n-type electron transport layer", "resolved_type": "component", "v2_types": ["material_class", "structure"], "verdict": "rule_better", "reason": "a transport layer is a functional component"},
+    {"label": "PEN flexible substrate", "resolved_type": "component", "v2_types": ["material"], "verdict": "rule_better", "reason": "a substrate is a component of the stack"},
+    {"label": "charge carrier kinetics", "resolved_type": "mechanism", "v2_types": ["property"], "verdict": "rule_better", "reason": "kinetics is a process phenomenon, not a measured quantity"},
+    {"label": "PFI layer", "resolved_type": "component", "v2_types": ["material"], "verdict": "rule_better", "reason": "the head noun 'layer' makes it a component"},
+    {"label": "all calculations", "resolved_type": "characterization", "v2_types": ["process"], "verdict": "rule_better", "reason": "a calculation method is characterization/computation, not a physical process"},
+    {"label": "perfluorinated polymeric acid added into PEDOT:PSS", "resolved_type": "material_class", "v2_types": ["process"], "verdict": "rule_better", "reason": "the fragment names a material; the process part belongs in the evidence"},
+    {"label": "reduction of grain boundaries", "resolved_type": "structure", "v2_types": ["property"], "verdict": "both_unusable", "reason": "a nominalized change over a structure; the concept should be 'grain boundary' plus a change fact"},
+    {"label": "three-electrode configuration", "resolved_type": "component", "v2_types": ["process"], "verdict": "rule_better", "reason": "a configuration is a component/arrangement, not a process"},
+    {"label": "graphene/hBN stack", "resolved_type": "component", "v2_types": ["structure"], "verdict": "rule_better", "reason": "a stack is a functional component; either reading is defensible, component matches the layer model"},
+    {"label": "transfer characteristics (ID - VGS)", "resolved_type": "mechanism", "v2_types": ["characterization"], "verdict": "v2_better", "reason": "transfer characteristics are a measured property/curve"},
+    {"label": "nondestructive method to characterize a device", "resolved_type": "device", "v2_types": ["characterization"], "verdict": "v2_better", "reason": "'method' makes it a characterization method; the device word is incidental"},
+    {"label": "reduction of density of vacancies", "resolved_type": "defect", "v2_types": ["property"], "verdict": "both_unusable", "reason": "fragment: the concept is 'vacancy density' (property) with a change"},
+    {"label": "aging (PbI2 crystals decomposed, pinholes formed)", "resolved_type": "defect", "v2_types": ["process"], "verdict": "both_unusable", "reason": "sentence fragment describing a process and its outcomes"},
+    {"label": "'95:5 triple halide (TH)' perovskite precursor solution", "resolved_type": "structure", "v2_types": ["process"], "verdict": "both_unusable", "reason": "a sample/formulation, not a structure or process concept"},
+    {"label": "WS2 nanotube", "resolved_type": "material_class", "v2_types": ["material"], "verdict": "rule_better", "reason": "nanotube is a material class; the formula keeps it specific"},
+    {"label": "strained halide perovskite", "resolved_type": "material_class", "v2_types": ["material"], "verdict": "rule_better", "reason": "a halide perovskite family member; class is the intended level"},
+    {"label": "silicon driver circuits", "resolved_type": "material", "v2_types": ["device"], "verdict": "v2_better", "reason": "a circuit is a device, not a material"},
+    {"label": "multiple layers", "resolved_type": "component", "v2_types": ["structure"], "verdict": "rule_better", "reason": "layers are components; structure would need a stacking pattern"}
+  ],
+  "tally": {"rule_better": 11, "v2_better": 5, "both_unusable": 4},
+  "conclusion": "On this sample the head-noun rules win 11/20 and the original v2 type wins 5/20; four labels are unusable either way and are marked fragment. Type conflicts are therefore reported as a review queue, not as an accuracy claim."
+}

@@ -1,0 +1,28 @@
+{
+ "papers": [
+  {
+   "paper": "141_Cheng_2022_High-thermal-conductivity-in-wafer-scale-cubic-s",
+   "gold_facts": 10,
+   "pred_facts": 28,
+   "relation_tp": 8,
+   "relation_p": 0.286,
+   "relation_r": 0.8,
+   "relation_f1": 0.421,
+   "entity_tp": 9,
+   "entity_p": 0.059,
+   "entity_r": 0.529,
+   "entity_f1": 0.106,
+   "numeric_matched": 5,
+   "numeric_strict": 2,
+   "evidence_rows": 127,
+   "evidence_text_match": 120,
+   "merge_errors": 0,
+   "unmapped_verdicts": {}
+  }
+ ],
+ "micro": {
+  "p": 0.2857142857142857,
+  "r": 0.8,
+  "f1": 0.4210526315789473
+ }
+}

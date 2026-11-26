@@ -1,0 +1,1345 @@
+{
+ "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+ "prompt_version": "v3",
+ "model": "deepseek-flash",
+ "created": "2026-11-25 14:33:02",
+ "source_sha256": "90bbe7f586c9f029fe7f6b42e9d09dbef48b1b3ed3be04b427bef841a44e5633",
+ "scope_lines": [
+  27,
+  39
+ ],
+ "passages": [
+  {
+   "lines": [
+    26,
+    40
+   ],
+   "chars": 2706,
+   "relations": 5,
+   "terms": 16
+  },
+  {
+   "lines": [
+    322,
+    328
+   ],
+   "chars": 1177,
+   "relations": 8,
+   "terms": 14
+  },
+  {
+   "lines": [
+    335,
+    337
+   ],
+   "chars": 2439,
+   "relations": 12,
+   "terms": 24
+  },
+  {
+   "lines": [
+    348,
+    354
+   ],
+   "chars": 2274,
+   "relations": 7,
+   "terms": 22
+  },
+  {
+   "lines": [
+    447,
+    449
+   ],
+   "chars": 840,
+   "relations": 8,
+   "terms": 12
+  },
+  {
+   "lines": [
+    1015,
+    1025
+   ],
+   "chars": 970,
+   "relations": 0,
+   "terms": 0
+  }
+ ],
+ "terms": [
+  {
+   "name": "solar-blind ultraviolet photodetector",
+   "type": "device",
+   "aliases": [
+    "solar-blind UV PD",
+    "PD"
+   ],
+   "evidence": "Solar-blind ultraviolet (UV) photodetectors (PDs)"
+  },
+  {
+   "name": "AlGaN",
+   "type": "material",
+   "aliases": [],
+   "evidence": "AlGaN alloys"
+  },
+  {
+   "name": "III-nitride",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "representative III-nitride material"
+  },
+  {
+   "name": "focal plane array",
+   "type": "device",
+   "aliases": [
+    "FPA"
+   ],
+   "evidence": "AlGaN-based focal plane arrays (FPAs)"
+  },
+  {
+   "name": "epitaxy",
+   "type": "process",
+   "aliases": [],
+   "evidence": "The epitaxy and p-type doping problems of AlGaN alloys"
+  },
+  {
+   "name": "p-type doping",
+   "type": "process",
+   "aliases": [],
+   "evidence": "p-type doping problems of AlGaN alloys"
+  },
+  {
+   "name": "photoconductor",
+   "type": "device",
+   "aliases": [],
+   "evidence": "Diverse PDs, including photoconductors"
+  },
+  {
+   "name": "Schottky photodiode",
+   "type": "device",
+   "aliases": [],
+   "evidence": "Schottky, metal–semiconductor–metal (MSM), p-i-n, and avalanche photodiodes"
+  },
+  {
+   "name": "metal–semiconductor–metal photodiode",
+   "type": "device",
+   "aliases": [
+    "MSM"
+   ],
+   "evidence": "metal–semiconductor–metal (MSM)"
+  },
+  {
+   "name": "p-i-n photodiode",
+   "type": "device",
+   "aliases": [],
+   "evidence": "p-i-n, and avalanche photodiodes (APDs)"
+  },
+  {
+   "name": "avalanche photodiode",
+   "type": "device",
+   "aliases": [
+    "APD"
+   ],
+   "evidence": "avalanche photodiodes (APDs)"
+  },
+  {
+   "name": "solar-blind imaging",
+   "type": "property",
+   "aliases": [],
+   "evidence": "exhibit outstanding solar-blind imaging capability"
+  },
+  {
+   "name": "bandgap",
+   "type": "property",
+   "aliases": [],
+   "evidence": "tunable wide bandgaps for intrinsic UV detection"
+  },
+  {
+   "name": "ultraviolet radiation",
+   "type": "property",
+   "aliases": [
+    "UV"
+   ],
+   "evidence": "Ultraviolet (UV) radiation, which covers the electromagnetic spectrum from 400 to 10 nm"
+  },
+  {
+   "name": "solar-blind UV waveband",
+   "type": "property",
+   "aliases": [],
+   "evidence": "the UVC solar spectrum is also called the solar-blind UV waveband"
+  },
+  {
+   "name": "ozonosphere",
+   "type": "material",
+   "aliases": [],
+   "evidence": "UVC light it typically absorbed by the ozonosphere"
+  },
+  {
+   "name": "metal–semiconductor–metal photodetector",
+   "type": "device",
+   "aliases": [
+    "MSM PD"
+   ],
+   "evidence": "A metal–semiconductor–metal (MSM) PD"
+  },
+  {
+   "name": "Schottky diode",
+   "type": "device",
+   "aliases": [],
+   "evidence": "two back-to-back Schottky diodes"
+  },
+  {
+   "name": "interdigital structure",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "the electrode spacing of the interdigital structure"
+  },
+  {
+   "name": "RC time constant",
+   "type": "property",
+   "aliases": [],
+   "evidence": "The RC time constant can be reduced"
+  },
+  {
+   "name": "electrode spacing",
+   "type": "property",
+   "aliases": [],
+   "evidence": "controlling the electrode spacing"
+  },
+  {
+   "name": "photoelectric conversion",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "high-speed photoelectric conversion applications"
+  },
+  {
+   "name": "GaN",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Schottky GaN UV detector"
+  },
+  {
+   "name": "UV detector",
+   "type": "device",
+   "aliases": [],
+   "evidence": "Schottky GaN UV detector"
+  },
+  {
+   "name": "dark current",
+   "type": "property",
+   "aliases": [],
+   "evidence": "had a dark current of 57 pA"
+  },
+  {
+   "name": "responsivity",
+   "type": "property",
+   "aliases": [],
+   "evidence": "0.4 A/W responsivity"
+  },
+  {
+   "name": "response time",
+   "type": "property",
+   "aliases": [],
+   "evidence": "response times of 10 and 200 ns"
+  },
+  {
+   "name": "AlGaN",
+   "type": "material",
+   "aliases": [],
+   "evidence": "AlGaN solar-blind UV detectors"
+  },
+  {
+   "name": "solar-blind UV detector",
+   "type": "device",
+   "aliases": [],
+   "evidence": "AlGaN solar-blind UV detector"
+  },
+  {
+   "name": "HT-AlN epitaxy",
+   "type": "process",
+   "aliases": [],
+   "evidence": "based on HT-AlN epitaxy"
+  },
+  {
+   "name": "Ni/Pt",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Ni/Pt-schottky contact"
+  },
+  {
+   "name": "Schottky contact",
+   "type": "component",
+   "aliases": [],
+   "evidence": "Ni/Pt-schottky contact"
+  },
+  {
+   "name": "Ti/Al/Ti/Pt",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Ti/Al/Ti/Pt ohmic contact"
+  },
+  {
+   "name": "ohmic contact",
+   "type": "component",
+   "aliases": [],
+   "evidence": "Ti/Al/Ti/Pt ohmic contact"
+  },
+  {
+   "name": "Al0.47Ga0.53N",
+   "type": "material",
+   "aliases": [],
+   "evidence": "i-Al0.47Ga0.53N"
+  },
+  {
+   "name": "Al0.52Ga0.48N",
+   "type": "material",
+   "aliases": [],
+   "evidence": "n-Al0.52Ga0.48N"
+  },
+  {
+   "name": "AlN",
+   "type": "material",
+   "aliases": [],
+   "evidence": "AlN(5nm)"
+  },
+  {
+   "name": "AlGaN",
+   "type": "material",
+   "aliases": [],
+   "evidence": "AlGan(5nm)SLs"
+  },
+  {
+   "name": "superlattice",
+   "type": "structure",
+   "aliases": [
+    "SL"
+   ],
+   "evidence": "AlN(5nm)/AlGan(5nm)SLs"
+  },
+  {
+   "name": "AlGaN",
+   "type": "material",
+   "aliases": [],
+   "evidence": "AlGaN(320nm)"
+  },
+  {
+   "name": "sapphire",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Sapphire"
+  },
+  {
+   "name": "AlGaN Schottky barrier photodiode",
+   "type": "device",
+   "aliases": [],
+   "evidence": "AlGaN Schottky barrier photodiodes"
+  },
+  {
+   "name": "responsivity",
+   "type": "property",
+   "aliases": [],
+   "evidence": "Responsivity of the fabricated device at 0 V"
+  },
+  {
+   "name": "dark current",
+   "type": "property",
+   "aliases": [],
+   "evidence": "Dark current of the fabricated AlGaN photodetector"
+  },
+  {
+   "name": "pulse response",
+   "type": "property",
+   "aliases": [],
+   "evidence": "Pulse response of the devices at different applied voltages"
+  },
+  {
+   "name": "fast Fourier transform",
+   "type": "characterization",
+   "aliases": [
+    "FFT"
+   ],
+   "evidence": "Corresponding fast Fourier transform curves"
+  },
+  {
+   "name": "Ni/Au",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Ni/Au"
+  },
+  {
+   "name": "UID AlGaN",
+   "type": "material",
+   "aliases": [],
+   "evidence": "UlD AlGaN (0.3 5  μ m μ m)"
+  },
+  {
+   "name": "AlN",
+   "type": "material",
+   "aliases": [],
+   "evidence": "AlN (0.5  μ m)"
+  },
+  {
+   "name": "sapphire substrate",
+   "type": "component",
+   "aliases": [],
+   "evidence": "Sapphire substrate"
+  },
+  {
+   "name": "Schottky metal-semiconductor-metal photodetector",
+   "type": "device",
+   "aliases": [
+    "MSM photodetector"
+   ],
+   "evidence": "Schottky metal-semiconductor-metal photodetector"
+  },
+  {
+   "name": "photocurrent",
+   "type": "property",
+   "aliases": [],
+   "evidence": "Photocurrent (RT)"
+  },
+  {
+   "name": "I-V curve",
+   "type": "characterization",
+   "aliases": [],
+   "evidence": "I-V curves of the MSM detectors"
+  },
+  {
+   "name": "spectral response",
+   "type": "property",
+   "aliases": [],
+   "evidence": "Spectral response of the devices"
+  },
+  {
+   "name": "AlGaN",
+   "type": "material",
+   "aliases": [],
+   "evidence": "AlGaN"
+  },
+  {
+   "name": "Al nanoparticle",
+   "type": "material",
+   "aliases": [
+    "Al"
+   ],
+   "evidence": "Al nanoparticles"
+  },
+  {
+   "name": "LT-AlN",
+   "type": "material",
+   "aliases": [
+    "low-temperature AlN"
+   ],
+   "evidence": "low-temperature (LT) AlN layer"
+  },
+  {
+   "name": "sapphire",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Sapphire substrate"
+  },
+  {
+   "name": "GaN",
+   "type": "material",
+   "aliases": [],
+   "evidence": "GaN epilayer"
+  },
+  {
+   "name": "Ni/Au",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Ni/Au (3 nm/6 nm)"
+  },
+  {
+   "name": "MSM photodetector",
+   "type": "device",
+   "aliases": [
+    "MSM PD"
+   ],
+   "evidence": "AlGaN MSM photodetector"
+  },
+  {
+   "name": "recessed electrode structure",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "recessed electrode structure"
+  },
+  {
+   "name": "cap layer",
+   "type": "component",
+   "aliases": [],
+   "evidence": "LT-AIN cap layer"
+  },
+  {
+   "name": "epilayer",
+   "type": "component",
+   "aliases": [],
+   "evidence": "AlGaN epilayer"
+  },
+  {
+   "name": "buffer layer",
+   "type": "component",
+   "aliases": [],
+   "evidence": "GaN buffer layer"
+  },
+  {
+   "name": "substrate",
+   "type": "component",
+   "aliases": [],
+   "evidence": "Sapphire substrate"
+  },
+  {
+   "name": "electrode",
+   "type": "component",
+   "aliases": [],
+   "evidence": "recessed electrodes"
+  },
+  {
+   "name": "dark current",
+   "type": "property",
+   "aliases": [],
+   "evidence": "lower dark current"
+  },
+  {
+   "name": "responsivity",
+   "type": "property",
+   "aliases": [],
+   "evidence": "enhancement in responsivity"
+  },
+  {
+   "name": "electric field intensity",
+   "type": "property",
+   "aliases": [],
+   "evidence": "enhanced electric field intensity between electrodes"
+  },
+  {
+   "name": "photoconductive gain",
+   "type": "property",
+   "aliases": [],
+   "evidence": "higher photoconductive gain"
+  },
+  {
+   "name": "potential barrier",
+   "type": "property",
+   "aliases": [],
+   "evidence": "higher potential barrier"
+  },
+  {
+   "name": "polarization engineering",
+   "type": "process",
+   "aliases": [],
+   "evidence": "polarization engineering"
+  },
+  {
+   "name": "conventional MSM",
+   "type": "sample",
+   "aliases": [],
+   "evidence": "Conventional MSM"
+  },
+  {
+   "name": "MSM with LT-AlN cap layer",
+   "type": "sample",
+   "aliases": [],
+   "evidence": "MSM with LT-AIN cap layer"
+  },
+  {
+   "name": "MSM with LT-AlN and recessed electrodes",
+   "type": "sample",
+   "aliases": [],
+   "evidence": "MSM with LT-AIN and recessed electrodes"
+  },
+  {
+   "name": "AlGaN",
+   "type": "material",
+   "aliases": [],
+   "evidence": "AlGaN devices"
+  },
+  {
+   "name": "photoconductive device",
+   "type": "device",
+   "aliases": [],
+   "evidence": "photoconductive devices"
+  },
+  {
+   "name": "Schottky structure",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "Using the Schottky structure"
+  },
+  {
+   "name": "dark current",
+   "type": "property",
+   "aliases": [],
+   "evidence": "the high dark current"
+  },
+  {
+   "name": "solar-blind UV/visible rejection ratio",
+   "type": "property",
+   "aliases": [],
+   "evidence": "The solar-blind UV/visible rejection ratio can reach 10<sup>4</sup>"
+  },
+  {
+   "name": "back-to-back Schottky MSM structure",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "the back-to-back Schottky MSM structure"
+  },
+  {
+   "name": "photogenerated carrier",
+   "type": "property",
+   "aliases": [],
+   "evidence": "the extraction of photogenerated carriers"
+  },
+  {
+   "name": "solar-blind UV detection",
+   "type": "process",
+   "aliases": [],
+   "evidence": "AlGaN solar-blind UV detection"
+  },
+  {
+   "name": "one-step lithography",
+   "type": "process",
+   "aliases": [],
+   "evidence": "typically one-step lithography"
+  },
+  {
+   "name": "planar structure",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "The planar structure of the AlGaN PD"
+  },
+  {
+   "name": "AlGaN PD",
+   "type": "device",
+   "aliases": [],
+   "evidence": "the AlGaN PD"
+  },
+  {
+   "name": "nanoplasmonic enhancement",
+   "type": "process",
+   "aliases": [],
+   "evidence": "the nanoplasmonic enhancement method"
+  }
+ ],
+ "triples": [
+  {
+   "subject": "AlGaN",
+   "subject_type": "material",
+   "predicate": "is a",
+   "object": "III-nitride",
+   "object_type": "material_class",
+   "evidence": "As a representative III-nitride material, AlGaN alloys have broad development prospects",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    40
+   ]
+  },
+  {
+   "subject": "AlGaN",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "bandgap",
+   "object_type": "property",
+   "evidence": "AlGaN alloys have broad development prospects in the field of solar-blind detection due to their superior properties, such as tunable wide bandgaps for intrinsic UV detection",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    40
+   ]
+  },
+  {
+   "subject": "focal plane array",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "solar-blind imaging",
+   "object_type": "property",
+   "evidence": "AlGaN-based focal plane arrays (FPAs) are manufactured and exhibit outstanding solar-blind imaging capability",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    40
+   ]
+  },
+  {
+   "subject": "solar-blind ultraviolet photodetector",
+   "subject_type": "device",
+   "predicate": "used in",
+   "object": "solar-blind UV waveband",
+   "object_type": "property",
+   "evidence": "This feature ensures that the detection of solar-blind UV photon signals within the Earth’s atmosphere is not affected by background radiation from sunlight",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    40
+   ]
+  },
+  {
+   "subject": "ozonosphere",
+   "subject_type": "material",
+   "predicate": "absorbs",
+   "object": "ultraviolet radiation",
+   "object_type": "property",
+   "evidence": "UVC light it typically absorbed by the ozonosphere when it passes through the atmosphere",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    40
+   ]
+  },
+  {
+   "subject": "metal–semiconductor–metal photodetector",
+   "subject_type": "device",
+   "predicate": "composed of",
+   "object": "Schottky diode",
+   "object_type": "device",
+   "evidence": "A metal–semiconductor–metal (MSM) PD is composed of two back-to-back Schottky diodes",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    322,
+    328
+   ]
+  },
+  {
+   "subject": "RC time constant",
+   "subject_type": "property",
+   "predicate": "reduced by",
+   "object": "electrode spacing",
+   "object_type": "property",
+   "evidence": "The RC time constant can be reduced by controlling the electrode spacing of the interdigital structure",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    322,
+    328
+   ]
+  },
+  {
+   "subject": "metal–semiconductor–metal photodetector",
+   "subject_type": "device",
+   "predicate": "used in",
+   "object": "photoelectric conversion",
+   "object_type": "mechanism",
+   "evidence": "which is suitable for high-speed photoelectric conversion applications",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    322,
+    328
+   ]
+  },
+  {
+   "subject": "UV detector",
+   "subject_type": "device",
+   "predicate": "has structure",
+   "object": "metal–semiconductor–metal photodetector",
+   "object_type": "device",
+   "evidence": "a Schottky GaN UV detector with an MSM structure",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    322,
+    328
+   ]
+  },
+  {
+   "subject": "UV detector",
+   "subject_type": "device",
+   "predicate": "has dark current",
+   "object": "57 pA",
+   "object_type": "measurement",
+   "evidence": "had a dark current of 57 pA at 10 V",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "57",
+   "unit": "pA",
+   "property": "dark current",
+   "chunk": 0,
+   "passage_lines": [
+    322,
+    328
+   ]
+  },
+  {
+   "subject": "UV detector",
+   "subject_type": "device",
+   "predicate": "achieves responsivity",
+   "object": "0.4 A/W",
+   "object_type": "measurement",
+   "evidence": "achieved a 0.4 A/W responsivity under a bias of 6 V",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "0.4",
+   "unit": "A/W",
+   "property": "responsivity",
+   "chunk": 0,
+   "passage_lines": [
+    322,
+    328
+   ]
+  },
+  {
+   "subject": "UV detector",
+   "subject_type": "device",
+   "predicate": "has response time",
+   "object": "4.9 ps",
+   "object_type": "measurement",
+   "evidence": "an MSM-structured GaN UV PD with a response time of 4.9 ps",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "4.9",
+   "unit": "ps",
+   "property": "response time",
+   "chunk": 0,
+   "passage_lines": [
+    322,
+    328
+   ]
+  },
+  {
+   "subject": "solar-blind UV detector",
+   "subject_type": "device",
+   "predicate": "synthesized by",
+   "object": "HT-AlN epitaxy",
+   "object_type": "process",
+   "evidence": "fabricated an AlGaN MSM solar-blind UV detector with an ultralow dark current based on HT-AlN epitaxy",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    322,
+    328
+   ]
+  },
+  {
+   "subject": "Ni/Pt",
+   "subject_type": "material",
+   "predicate": "used as",
+   "object": "Schottky contact",
+   "object_type": "component",
+   "evidence": "Ni/Pt-schottky contact",
+   "evidence_level": "figure",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    335,
+    337
+   ]
+  },
+  {
+   "subject": "Ti/Al/Ti/Pt",
+   "subject_type": "material",
+   "predicate": "used as",
+   "object": "ohmic contact",
+   "object_type": "component",
+   "evidence": "Ti/Al/Ti/Pt ohmic contact",
+   "evidence_level": "figure",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    335,
+    337
+   ]
+  },
+  {
+   "subject": "superlattice",
+   "subject_type": "structure",
+   "predicate": "composed of",
+   "object": "AlN",
+   "object_type": "material",
+   "evidence": "AlN(5nm)/AlGan(5nm)SLs",
+   "evidence_level": "figure",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    335,
+    337
+   ]
+  },
+  {
+   "subject": "superlattice",
+   "subject_type": "structure",
+   "predicate": "composed of",
+   "object": "AlGaN",
+   "object_type": "material",
+   "evidence": "AlN(5nm)/AlGan(5nm)SLs",
+   "evidence_level": "figure",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    335,
+    337
+   ]
+  },
+  {
+   "subject": "AlGaN Schottky barrier photodiode",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "responsivity",
+   "object_type": "property",
+   "evidence": "Responsivity of the fabricated device at 0 V",
+   "evidence_level": "figure",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    335,
+    337
+   ]
+  },
+  {
+   "subject": "AlGaN Schottky barrier photodiode",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "dark current",
+   "object_type": "property",
+   "evidence": "Dark current of the fabricated AlGaN photodetector",
+   "evidence_level": "figure",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    335,
+    337
+   ]
+  },
+  {
+   "subject": "AlGaN Schottky barrier photodiode",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "pulse response",
+   "object_type": "property",
+   "evidence": "Pulse response of the devices at different applied voltages",
+   "evidence_level": "figure",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    335,
+    337
+   ]
+  },
+  {
+   "subject": "pulse response",
+   "subject_type": "property",
+   "predicate": "characterized by",
+   "object": "fast Fourier transform",
+   "object_type": "characterization",
+   "evidence": "Corresponding fast Fourier transform curves",
+   "evidence_level": "figure",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    335,
+    337
+   ]
+  },
+  {
+   "subject": "Ni/Au",
+   "subject_type": "material",
+   "predicate": "used as",
+   "object": "Schottky metal-semiconductor-metal photodetector",
+   "object_type": "device",
+   "evidence": "Ni/AuUlD AlGaN (0.3 5  μ m μ m)Ni/Au",
+   "evidence_level": "figure",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    335,
+    337
+   ]
+  },
+  {
+   "subject": "Schottky metal-semiconductor-metal photodetector",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "photocurrent",
+   "object_type": "property",
+   "evidence": "Photocurrent (RT)",
+   "evidence_level": "figure",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    335,
+    337
+   ]
+  },
+  {
+   "subject": "Schottky metal-semiconductor-metal photodetector",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "spectral response",
+   "object_type": "property",
+   "evidence": "Spectral response of the devices measured at b RT and c 150 °C",
+   "evidence_level": "figure",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    335,
+    337
+   ]
+  },
+  {
+   "subject": "Schottky metal-semiconductor-metal photodetector",
+   "subject_type": "device",
+   "predicate": "characterized by",
+   "object": "I-V curve",
+   "object_type": "characterization",
+   "evidence": "I-V curves of the MSM detectors measured in dark and under 254 nm UV illumination",
+   "evidence_level": "figure",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    335,
+    337
+   ]
+  },
+  {
+   "subject": "MSM with LT-AlN and recessed electrodes",
+   "subject_type": "sample",
+   "predicate": "has lower dark current than",
+   "object": "conventional MSM",
+   "object_type": "sample",
+   "evidence": "The improved structure shows a lower dark current than the conventional structure in Fig. 12e.",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    348,
+    354
+   ]
+  },
+  {
+   "subject": "LT-AlN",
+   "subject_type": "material",
+   "predicate": "provides",
+   "object": "potential barrier",
+   "object_type": "property",
+   "evidence": "Highly resistive LT-AlN provides a higher potential barrier.",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    348,
+    354
+   ]
+  },
+  {
+   "subject": "MSM with LT-AlN and recessed electrodes",
+   "subject_type": "sample",
+   "predicate": "yields",
+   "object": "responsivity",
+   "object_type": "property",
+   "evidence": "the LT-AlN and a recessed electrode structure yield a higher responsivity",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    348,
+    354
+   ]
+  },
+  {
+   "subject": "electric field intensity",
+   "subject_type": "property",
+   "predicate": "causes",
+   "object": "responsivity",
+   "object_type": "property",
+   "evidence": "which can be ascribed to the enhanced electric field intensity between electrodes and higher photoconductive gain",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    348,
+    354
+   ]
+  },
+  {
+   "subject": "photoconductive gain",
+   "subject_type": "property",
+   "predicate": "causes",
+   "object": "responsivity",
+   "object_type": "property",
+   "evidence": "which can be ascribed to the enhanced electric field intensity between electrodes and higher photoconductive gain",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    348,
+    354
+   ]
+  },
+  {
+   "subject": "polarization engineering",
+   "subject_type": "process",
+   "predicate": "enhances",
+   "object": "responsivity",
+   "object_type": "property",
+   "evidence": "polarization engineering can also be used to enhance the performance of AlGaN solar-blind detectors",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    348,
+    354
+   ]
+  },
+  {
+   "subject": "Al nanoparticle",
+   "subject_type": "material",
+   "predicate": "enhances",
+   "object": "responsivity",
+   "object_type": "property",
+   "evidence": "to the enhancement in responsivity of the MSM detectors",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    348,
+    354
+   ]
+  },
+  {
+   "subject": "photoconductive device",
+   "subject_type": "device",
+   "predicate": "has",
+   "object": "simple fabrication process",
+   "object_type": "property",
+   "evidence": "Although photoconductive devices have a simple fabrication process, the signal recognition rate is low due to the high dark current.",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    447,
+    449
+   ]
+  },
+  {
+   "subject": "high dark current",
+   "subject_type": "property",
+   "predicate": "causes",
+   "object": "low signal recognition rate",
+   "object_type": "property",
+   "evidence": "the signal recognition rate is low due to the high dark current",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    447,
+    449
+   ]
+  },
+  {
+   "subject": "Schottky structure",
+   "subject_type": "structure",
+   "predicate": "reduces",
+   "object": "dark current",
+   "object_type": "property",
+   "evidence": "Using the Schottky structure, the dark current can be reduced by several orders of magnitude.",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    447,
+    449
+   ]
+  },
+  {
+   "subject": "Schottky structure",
+   "subject_type": "structure",
+   "predicate": "achieves",
+   "object": "solar-blind UV/visible rejection ratio",
+   "object_type": "property",
+   "evidence": "The solar-blind UV/visible rejection ratio can reach 10<sup>4</sup>",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "10^4",
+   "unit": "",
+   "property": "solar-blind UV/visible rejection ratio",
+   "chunk": 0,
+   "passage_lines": [
+    447,
+    449
+   ]
+  },
+  {
+   "subject": "back-to-back Schottky MSM structure",
+   "subject_type": "structure",
+   "predicate": "promotes",
+   "object": "extraction of photogenerated carriers",
+   "object_type": "property",
+   "evidence": "the back-to-back Schottky MSM structure can promote the extraction of photogenerated carriers",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    447,
+    449
+   ]
+  },
+  {
+   "subject": "back-to-back Schottky MSM structure",
+   "subject_type": "structure",
+   "predicate": "enables",
+   "object": "solar-blind UV detection",
+   "object_type": "process",
+   "evidence": "In addition to realizing AlGaN solar-blind UV detection, this structure also has the advantage of a simple preparation technique (typically one-step lithography).",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    447,
+    449
+   ]
+  },
+  {
+   "subject": "back-to-back Schottky MSM structure",
+   "subject_type": "structure",
+   "predicate": "has",
+   "object": "simple preparation technique",
+   "object_type": "property",
+   "evidence": "this structure also has the advantage of a simple preparation technique (typically one-step lithography)",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    447,
+    449
+   ]
+  },
+  {
+   "subject": "planar structure",
+   "subject_type": "structure",
+   "predicate": "combined with",
+   "object": "nanoplasmonic enhancement",
+   "object_type": "process",
+   "evidence": "The planar structure of the AlGaN PD can also be combined with the nanoplasmonic enhancement method",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    447,
+    449
+   ]
+  }
+ ],
+ "errors": []
+}

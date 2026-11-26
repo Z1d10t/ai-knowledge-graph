@@ -2,6 +2,7 @@
 Knowledge Graph Generator and Visualizer main module.
 """
 import argparse
+import copy
 import json
 import logging
 import os
@@ -13,9 +14,11 @@ from knowledge_graph.entity_standardization import infer_relationships, limit_pr
 from knowledge_graph.exports import export_graph, parse_formats
 from knowledge_graph.llm import LLMClient, LLMError, extract_json_from_text
 from knowledge_graph.logging_utils import configure_logging, level_from_flags
-from knowledge_graph.prompts import prompt_factory, system_prompt_for
+from knowledge_graph.postprocess import build_observations, conditions as cond_pp, count_by_origin, predicate_stats
+from knowledge_graph.profiles import entity_types, is_materials, map_predicate
+from knowledge_graph.prompts import main_prompt_pair, prompt_factory, system_prompt_for
 from knowledge_graph.text_utils import chunk_text, find_source_sentence
-from knowledge_graph.visualization import ENTITY_TYPES, render_knowledge_graph, sample_data_visualization
+from knowledge_graph.visualization import render_knowledge_graph, sample_data_visualization
 
 log = logging.getLogger("knowledge_graph.main")
 
@@ -35,9 +38,8 @@ def process_with_llm(config, input_text, debug=False, client=None):
     Raises:
         LLMError: if the request failed or the response was truncated/empty
     """
-    # Use prompts from the centralized prompt factory
-    system_prompt = system_prompt_for("main_system", config)
-    user_prompt = prompt_factory.get_prompt("main_user")
+    # Use prompts from the centralized prompt factory (generic or profile-specific)
+    system_prompt, user_prompt = main_prompt_pair(config)
     user_prompt += f"```\n{input_text}```\n"
 
     if client is None:
@@ -63,7 +65,7 @@ def process_with_llm(config, input_text, debug=False, client=None):
         for item in result:
             if isinstance(item, dict) and "subject" in item and "predicate" in item and "object" in item \
                     and isinstance(item["subject"], str) and isinstance(item["object"], str):
-                valid_triples.append(normalize_triple(item, input_text))
+                valid_triples.append(normalize_triple(item, input_text, config))
             else:
                 invalid_count += 1
 
@@ -89,17 +91,53 @@ def process_with_llm(config, input_text, debug=False, client=None):
         log.error("Could not extract valid JSON from response: " + str(response) + "\n\n")
         return None
 
-def normalize_triple(item, chunk_text_value):
-    """Keep the known fields of an extracted triple, validate types and attach the source sentence."""
-    triple = {"subject": item["subject"].strip(), "predicate": str(item["predicate"]).strip(),
-              "object": item["object"].strip()}
+EXTENSION_FIELDS = ("property", "value", "value_raw", "unit", "normalized_value", "normalized_unit",
+                    "comparator", "uncertainty", "range", "conditions", "sample_id", "device_id",
+                    "value_type", "source_study", "condition_status", "conditions_source", "attribution",
+                    "evidence_level", "section", "page", "table_id", "row_label", "column_header")
+
+
+def normalize_triple(item, chunk_text_value, config=None):
+    """Keep every field an extraction returned, validate it and attach verified evidence.
+
+    The generic profile historically kept only ``subject/predicate/object`` and the two
+    entity types; scientific profiles need the measurement and provenance fields as well,
+    so unknown-but-declared extension fields are preserved instead of being dropped.
+    """
+    allowed = set(entity_types(config))
+    triple = {"subject": str(item["subject"]).strip(), "predicate": str(item["predicate"]).strip(),
+              "object": str(item["object"]).strip()}
+
     for key in ("subject_type", "object_type"):
         value = item.get(key)
-        if isinstance(value, str) and value.strip().lower() in ENTITY_TYPES:
+        if isinstance(value, str) and value.strip().lower() in allowed:
             triple[key] = value.strip().lower()
-    source = find_source_sentence(chunk_text_value, triple["subject"], triple["object"])
-    if source:
-        triple["source"] = source
+
+    canonical, unmapped = map_predicate(triple["predicate"], config)
+    triple["predicate"] = canonical
+    if unmapped:
+        triple["unmapped"] = True
+
+    for key in EXTENSION_FIELDS:
+        value = item.get(key)
+        if value not in (None, "", []):
+            triple[key] = value
+
+    evidence = str(item.get("evidence") or "").strip()
+    haystack = chunk_text_value.lower()
+    if evidence:
+        triple["evidence_quote"] = evidence[:300]
+        # Automatic check: does the quote occur verbatim in the chunk? This is NOT a
+        # claim that the evidence supports the fact — that needs a human reviewer.
+        triple["evidence_text_match"] = evidence[:80].lower() in haystack
+        triple["evidence_supported"] = None
+        triple["evidence_level"] = str(item.get("evidence_level") or "stated")
+    if evidence and triple["evidence_text_match"]:
+        triple["source"] = evidence[:300]
+    else:
+        source = find_source_sentence(chunk_text_value, triple["subject"], triple["object"])
+        if source:
+            triple["source"] = source
     return triple
 
 
@@ -108,7 +146,7 @@ def process_text_in_chunks(config, full_text, debug=False, continue_on_error=Fal
     return process_documents(config, [(None, full_text)], debug, continue_on_error)
 
 
-def process_documents(config, documents, debug=False, continue_on_error=False):
+def process_documents(config, documents, debug=False, continue_on_error=False, stats=None):
     """
     Chunk every document, extract triples from all chunks in parallel, then run the
     standardization and inference phases over the combined result.
@@ -159,6 +197,18 @@ def process_documents(config, documents, debug=False, continue_on_error=False):
             return i, None, e
         return i, results, None
 
+    def retry_empty_chunk(i, chunk):
+        """One low-reasoning retry for a chunk that produced an empty array."""
+        retry_cfg = copy.deepcopy(config)
+        retry_cfg.setdefault("llm", {})["extra_body"] = {"reasoning_effort": "low"}
+        retry_cfg["llm"]["max_tokens"] = max(int(retry_cfg["llm"].get("max_tokens", 8000)), 24000)
+        log.warning(f"Chunk {i+1} returned no triples; retrying with reasoning_effort=low")
+        try:
+            return process_with_llm(retry_cfg, chunk, debug)
+        except LLMError as e:
+            log.error(f"Retry for chunk {i+1} failed: {e}")
+            return None
+
     with ThreadPoolExecutor(max_workers=concurrency) as pool:
         outcomes = list(pool.map(run_chunk, enumerate(text_chunks)))
     cache_hits = getattr(client, "cache_hits", 0)
@@ -167,6 +217,8 @@ def process_documents(config, documents, debug=False, continue_on_error=False):
 
     all_results = []
     failed_chunks = []
+    empty_retried = empty_recovered = empty_failed = 0
+    empty_failed_indices = []
     for i, chunk_results, error in outcomes:
         if error is not None:
             if not continue_on_error:
@@ -175,6 +227,14 @@ def process_documents(config, documents, debug=False, continue_on_error=False):
             log.warning(f"skipping chunk {i+1}: {error}")
             failed_chunks.append(i + 1)
             continue
+        if not chunk_results:
+            empty_retried += 1
+            chunk_results = retry_empty_chunk(i, text_chunks[i])
+            if chunk_results:
+                empty_recovered += 1
+            else:
+                empty_failed += 1
+                empty_failed_indices.append(i + 1)
         if chunk_results:
             for item in chunk_results:
                 item["chunk"] = i + 1
@@ -184,6 +244,15 @@ def process_documents(config, documents, debug=False, continue_on_error=False):
             log.info(f"Chunk {i+1}: {len(chunk_results)} triples")
         else:
             log.warning(f"Failed to extract triples from chunk {i+1}")
+
+    if stats is not None:
+        stats.update({"chunks": len(text_chunks), "failed_chunks": len(failed_chunks),
+                      "failed_chunk_indices": failed_chunks,
+                      "empty_failed_indices": empty_failed_indices,
+                      "empty_retried": empty_retried, "empty_recovered": empty_recovered,
+                      "empty_failed": empty_failed})
+    if empty_retried:
+        log.info(f"Empty-array retries: {empty_retried} (recovered {empty_recovered}, failed {empty_failed})")
 
     log.info(f"\nExtracted a total of {len(all_results)} triples from all chunks")
     if failed_chunks:
@@ -235,6 +304,26 @@ def process_documents(config, documents, debug=False, continue_on_error=False):
         log.info(f"\nAdded {inferred_count} inferred relationships")
         log.info(f"Final knowledge graph: {len(all_results)} triples")
 
+    if is_materials(config) and all_results:
+        paper_id = os.path.splitext((documents[0][0] if documents and documents[0][0] else "paper"))[0]
+        all_results, obs = build_observations(all_results, paper_id)
+        for _t in all_results:
+            _t.setdefault("paper_id", paper_id)
+        pp = cond_pp.postprocess(all_results)
+        all_results = [t for t in all_results]
+        if obs:
+            log.info("Built %d observation nodes; conditions backfilled %d, deduplicated %d",
+                     obs, pp["conditions_backfilled"], pp["observations_deduplicated"])
+
+    counts = count_by_origin(all_results)
+    pstats = predicate_stats(all_results)
+    log.info("Edge origins: extracted=%d observation=%d inferred=%d ontology=%d",
+             counts["extracted"], counts["observation"], counts["inferred"], counts["ontology"])
+    log.info("Predicates: canonical=%d unmapped=%d (%d edges)",
+             pstats["canonical_predicate_types"], pstats["unmapped_predicate_types"], pstats["unmapped_edges"])
+    if stats is not None:
+        stats.update(counts)
+        stats.update(pstats)
     return all_results
 
 TEXT_ENCODINGS = ("utf-8-sig", "cp1252", "latin-1")  # utf-8-sig also reads plain UTF-8 and strips a BOM
@@ -462,6 +551,8 @@ def main():
     parser.add_argument('--library-path', type=str, metavar='DIR',
                         help='Reference the vis-network library from DIR (copied there if missing) instead of embedding it; '
                              'useful when publishing many pages, e.g. on GitHub Pages')
+    parser.add_argument('--profile', type=str, metavar='NAME',
+                        help='Override the extraction profile (generic, materials)')
 
     args = parser.parse_args()
     configure_logging(level_from_flags(verbose=args.debug, quiet=args.quiet))
@@ -471,6 +562,15 @@ def main():
     if not config:
         print(f"Failed to load configuration from {args.config}. Exiting.")
         sys.exit(1)
+
+    if args.profile:
+        from knowledge_graph.profiles import PROFILES, apply_profile_overrides
+        name = args.profile.strip().lower()
+        if name not in PROFILES:
+            print(f"Error: unknown profile {args.profile!r}; choose from {sorted(PROFILES)}")
+            sys.exit(2)
+        config.setdefault("profile", {})["name"] = name
+        apply_profile_overrides(config)
 
     # If test flag is provided, generate a sample visualization
     if args.test:

@@ -1,0 +1,640 @@
+{
+ "summary": {
+  "tasks": 10,
+  "tasks_passed": 10,
+  "tasks_pass_rate": 1.0,
+  "alias_checks": 8,
+  "alias_checks_passed": 8,
+  "alias_pass_rate": 1.0,
+  "graph": {
+   "concepts": 51408,
+   "relations": 39400,
+   "aliases": 52154,
+   "instances": 920,
+   "observations": 16829,
+   "papers": 285
+  },
+  "failed_tasks": []
+ },
+ "tasks": [
+  {
+   "task": {
+    "id": 1,
+    "question": "哪些配体与 Pb 缺陷钝化有关？",
+    "subjects": [
+     "4-chlorobenzenesulfonate",
+     "4Cl-BZS"
+    ],
+    "objects": [
+     "dual-site Pb2+ passivation",
+     "Pb2+ passivation",
+     "dual-site Pb 2+ passivation"
+    ],
+    "families": [
+     "effect"
+    ],
+    "paper": "001",
+    "line": 87,
+    "tolerance": 30
+   },
+   "status": "passed",
+   "relation": {
+    "relation_id": "r-f1ccaa804588",
+    "paper_id": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+    "subject_id": "c-e34e47e09e03",
+    "object_id": "c-b4f2d670a2da",
+    "subject": "4-chlorobenzenesulfonate",
+    "predicate": "enables",
+    "object": "dual-site Pb2+ passivation",
+    "family": "effect",
+    "evidence": "the additional Pb<sup>2+</sup> surface binding afforded by the Cl functional group (Fig. 1D) that would enable dual-site Pb<sup>2+</sup> passivation",
+    "evidence_line": 87,
+    "polarity": "positive",
+    "modality": "hedged",
+    "direction_ok": true,
+    "duplicate_count": 2,
+    "review_status": "machine",
+    "source": "v2_enriched",
+    "evidence_all": [
+     {
+      "evidence": "the additional Pb<sup>2+</sup> surface binding afforded by the Cl functional group (Fig. 1D) that would enable dual-site Pb<sup>2+</sup> passivation",
+      "evidence_line": 87,
+      "chunk": 2,
+      "v2_index": 28
+     },
+     {
+      "evidence": "Although Conf-perp was more energetically favorable for BZS and 4CH3-BZS, Confpara was energetically more favorable for 4Cl-BZS because of the additional Pb<sup>2+</sup> surface binding afforded by the Cl functional group (Fig.",
+      "evidence_line": 87,
+      "chunk": 3,
+      "v2_index": 34
+     }
+    ]
+   },
+   "evidence_line": 87,
+   "subject_concept": "4-chlorobenzenesulfonate"
+  },
+  {
+   "task": {
+    "id": 2,
+    "question": "甲酸根作用于什么缺陷？",
+    "subjects": [
+     "formate",
+     "HCOO−"
+    ],
+    "objects": [
+     "anion-vacancy defects",
+     "anion vacancy",
+     "anion vacancy defects",
+     "I− vacancy",
+     "I-vacancy",
+     "iodide vacancy"
+    ],
+    "families": [
+     "effect"
+    ],
+    "paper": "201",
+    "line": 21,
+    "tolerance": 150
+   },
+   "status": "passed",
+   "relation": {
+    "relation_id": "r-44859873a35d",
+    "paper_id": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+    "subject_id": "c-f5cb261487da",
+    "object_id": "c-d40f5c23e629",
+    "subject": "formate",
+    "predicate": "eliminates",
+    "object": "anion vacancy defects",
+    "family": "effect",
+    "evidence": "We therefore conclude that the HCOO<sup>−</sup> anion acts by eliminating anion-vacancy defects.",
+    "evidence_line": 79,
+    "polarity": "positive",
+    "modality": "asserted",
+    "direction_ok": true,
+    "duplicate_count": 1,
+    "review_status": "machine",
+    "source": "v2_enriched",
+    "evidence_all": [
+     {
+      "evidence": "We therefore conclude that the HCOO<sup>−</sup> anion acts by eliminating anion-vacancy defects.",
+      "evidence_line": 79,
+      "chunk": 5,
+      "v2_index": 53
+     }
+    ]
+   },
+   "evidence_line": 79,
+   "subject_concept": "formate"
+  },
+  {
+   "task": {
+    "id": 3,
+    "question": "哪种材料可用于热蒸发 vdW 介质？",
+    "subjects": [
+     "Sb2O3"
+    ],
+    "objects": [
+     "standard thermal evaporation deposition",
+     "thermal evaporation deposition",
+     "thermal evaporation"
+    ],
+    "families": [
+     "process"
+    ],
+    "paper": "095",
+    "line": 66,
+    "tolerance": 40
+   },
+   "status": "passed",
+   "relation": {
+    "relation_id": "r-ed8cb9102b8e",
+    "paper_id": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+    "subject_id": "c-19d3e9eec991",
+    "object_id": "c-157ec8b7521b",
+    "subject": "Sb2O3",
+    "predicate": "deposited by",
+    "object": "standard thermal evaporation deposition",
+    "family": "process",
+    "evidence": "can be readily fabricated via standard thermal evaporation deposition (STED) process",
+    "evidence_line": 66,
+    "polarity": "positive",
+    "modality": "hedged",
+    "direction_ok": true,
+    "duplicate_count": 1,
+    "review_status": "machine",
+    "source": "v2_enriched",
+    "evidence_all": [
+     {
+      "evidence": "can be readily fabricated via standard thermal evaporation deposition (STED) process",
+      "evidence_line": 66,
+      "chunk": 1,
+      "v2_index": 1
+     }
+    ]
+   },
+   "evidence_line": 66,
+   "subject_concept": "Sb2O3"
+  },
+  {
+   "task": {
+    "id": 4,
+    "question": "准二维钙钛矿有什么特征结构？",
+    "subjects": [
+     "quasi-2D perovskites",
+     "quasi-2D perovskite"
+    ],
+    "objects": [
+     "quantum-well structure",
+     "quantum-well structures"
+    ],
+    "families": [
+     "structure",
+     "effect"
+    ],
+    "paper": "021",
+    "line": 55,
+    "tolerance": 60
+   },
+   "status": "passed",
+   "relation": {
+    "relation_id": "r-d672ec6899e1",
+    "paper_id": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+    "subject_id": "c-c3383f82cc61",
+    "object_id": "c-2038db35764a",
+    "subject": "quasi-2D perovskite",
+    "predicate": "exhibits",
+    "object": "quantum-well structures",
+    "family": "effect",
+    "evidence": "the inherent quantum-well structure endows them with a large exciton binding energy",
+    "evidence_line": 27,
+    "polarity": "positive",
+    "modality": "asserted",
+    "direction_ok": true,
+    "duplicate_count": 2,
+    "review_status": "machine",
+    "source": "v2_enriched",
+    "evidence_all": [
+     {
+      "evidence": "the inherent quantum-well structure endows them with a large exciton binding energy",
+      "evidence_line": 27,
+      "chunk": 1,
+      "v2_index": 0
+     },
+     {
+      "evidence": "the “quantum-well” (QW) structures of a quasi2D perovskite are formed naturally with an atomically sharp interface between “barriers” and “wells”",
+      "evidence_line": 67,
+      "chunk": 4,
+      "v2_index": 42
+     }
+    ]
+   },
+   "evidence_line": 27,
+   "subject_concept": "quasi-2D perovskite"
+  },
+  {
+   "task": {
+    "id": 5,
+    "question": "哪些修饰材料用于 MOS 气敏体系？",
+    "subjects": [
+     "noble metal nanoparticles",
+     "organic polymers",
+     "carbon nanotubes",
+     "graphene derivatives",
+     "transition metal dichalcogenides"
+    ],
+    "objects": [
+     "metal oxide semiconductors",
+     "MOS",
+     "metal oxide semiconductor"
+    ],
+    "families": [
+     "effect"
+    ],
+    "paper": "038",
+    "line": 39,
+    "tolerance": 40
+   },
+   "status": "passed",
+   "relation": {
+    "relation_id": "r-e3d84349edae",
+    "paper_id": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+    "subject_id": "c-df5e03d60afa",
+    "object_id": "c-c604ee26d0cf",
+    "subject": "noble metal nanoparticles",
+    "predicate": "modifies",
+    "object": "Metal oxide semiconductors",
+    "family": "effect",
+    "evidence": "noble metal nanoparticles modified MOS, organic polymers modified MOS",
+    "evidence_line": 39,
+    "polarity": "positive",
+    "modality": "asserted",
+    "direction_ok": true,
+    "duplicate_count": 2,
+    "review_status": "adjudicated",
+    "source": "adjudicated_mention_split",
+    "evidence_all": [
+     {
+      "evidence": "noble metal nanoparticles modified MOS, organic polymers modified MOS",
+      "evidence_line": 39,
+      "chunk": 0,
+      "v2_index": null
+     },
+     {
+      "evidence": "noble metal nanoparticles modified MOS",
+      "evidence_line": 39,
+      "chunk": 0,
+      "v2_index": null
+     }
+    ]
+   },
+   "evidence_line": 39,
+   "subject_concept": "noble metal nanoparticles"
+  },
+  {
+   "task": {
+    "id": 6,
+    "question": "HfO2-ZrO2 栅堆叠利用什么有序状态？",
+    "subjects": [
+     "HfO2-ZrO2 superlattice",
+     "HfO2-ZrO2 multilayers",
+     "HfO2-ZrO2 superlattice gate stack"
+    ],
+    "objects": [
+     "mixed ferroelectric-antiferroelectric order",
+     "mixed FE-AFE order"
+    ],
+    "families": [
+     "structure",
+     "effect",
+     "composition"
+    ],
+    "paper": "043",
+    "line": 194,
+    "tolerance": 60
+   },
+   "status": "passed",
+   "relation": {
+    "relation_id": "r-6e3e0ccaef65",
+    "paper_id": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+    "subject_id": "c-f681a422486b",
+    "object_id": "c-d94dbaa643bd",
+    "subject": "HfO2-ZrO2 multilayers",
+    "predicate": "exhibits",
+    "object": "mixed ferroelectric-antiferroelectric order",
+    "family": "effect",
+    "evidence": "Note that previous 247 studies have shown that negative capacitance stabilization is favored under states of high suscep248 tibility<sup>39,40,48</sup> . Here, the competing ferroic order in HfO2-ZrO2 multilayers substantially increases 249 its susceptibility and is thus expected to facilitate nega…",
+    "evidence_line": 238,
+    "polarity": "positive",
+    "modality": "hedged",
+    "direction_ok": true,
+    "duplicate_count": 1,
+    "review_status": "machine",
+    "source": "v2_enriched",
+    "evidence_all": [
+     {
+      "evidence": "Note that previous 247 studies have shown that negative capacitance stabilization is favored under states of high suscep248 tibility<sup>39,40,48</sup> . Here, the competing ferroic order in HfO2-ZrO2 multilayers substantially increases 249 its susceptibility and is thus expected to facilitate nega…",
+      "evidence_line": 238,
+      "chunk": 7,
+      "v2_index": 63
+     }
+    ]
+   },
+   "evidence_line": 238,
+   "subject_concept": "HfO2-ZrO2 multilayers"
+  },
+  {
+   "task": {
+    "id": 7,
+    "question": "一步涂覆如何形成空穴选择接触？",
+    "subjects": [
+     "one-step solution-coating",
+     "one-step solution-coating procedure"
+    ],
+    "objects": [
+     "perovskite light absorber",
+     "perovskite absorber"
+    ],
+    "families": [
+     "process",
+     "effect"
+    ],
+    "paper": "065",
+    "line": 31,
+    "tolerance": 40
+   },
+   "status": "passed",
+   "relation": {
+    "relation_id": "r-f45cfc64b69f",
+    "paper_id": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+    "subject_id": "c-3106322a11e3",
+    "object_id": "c-31dd43a5311a",
+    "subject": "one-step solution-coating",
+    "predicate": "results in",
+    "object": "perovskite light absorbers",
+    "family": "effect",
+    "evidence": "a one-step solution-coating procedure in which the hole-selective contact and perovskite light absorber spontaneously form",
+    "evidence_line": 31,
+    "polarity": "positive",
+    "modality": "asserted",
+    "direction_ok": true,
+    "duplicate_count": 1,
+    "review_status": "adjudicated",
+    "source": "targeted_reextract",
+    "evidence_all": [
+     {
+      "evidence": "a one-step solution-coating procedure in which the hole-selective contact and perovskite light absorber spontaneously form",
+      "evidence_line": 31,
+      "chunk": 0,
+      "v2_index": null
+     }
+    ]
+   },
+   "evidence_line": 31,
+   "subject_concept": "one-step solution-coating"
+  },
+  {
+   "task": {
+    "id": 8,
+    "question": "AgBiS2 吸收增强与什么调控有关？",
+    "subjects": [
+     "cation disorder homogenization under mild annealing conditions",
+     "cation disorder",
+     "homogeneous cation disorder"
+    ],
+    "objects": [
+     "absorption coefficient",
+     "absorption coefficients",
+     "optical transition matrix elements"
+    ],
+    "families": [
+     "effect",
+     "property"
+    ],
+    "paper": "250",
+    "line": 36,
+    "tolerance": 150
+   },
+   "status": "passed",
+   "relation": {
+    "relation_id": "r-4d0d61eb37e8",
+    "paper_id": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+    "subject_id": "c-7ec6efa970c5",
+    "object_id": "c-2c53b2c618a5",
+    "subject": "cation disorder homogenization under mild annealing conditions",
+    "predicate": "improves",
+    "object": "absorption coefficients of ternary AgBiS2 NCs",
+    "family": "effect",
+    "evidence": "the absorption coefficients of ternary AgBiS2 NCs can be enhanced via cation disorder homogenization under mild annealing conditions",
+    "evidence_line": 164,
+    "polarity": "positive",
+    "modality": "hedged",
+    "direction_ok": true,
+    "duplicate_count": 1,
+    "review_status": "adjudicated",
+    "source": "adjudicated_fix",
+    "evidence_all": [
+     {
+      "evidence": "the absorption coefficients of ternary AgBiS2 NCs can be enhanced via cation disorder homogenization under mild annealing conditions",
+      "evidence_line": 164,
+      "chunk": 8,
+      "v2_index": 157
+     }
+    ]
+   },
+   "evidence_line": 164,
+   "subject_concept": "cation disorder homogenization under mild annealing conditions"
+  },
+  {
+   "task": {
+    "id": 9,
+    "question": "宽带隙钙钛矿用于叠层的什么位置？",
+    "subjects": [
+     "wide-bandgap perovskites",
+     "WBG perovskites"
+    ],
+    "objects": [
+     "front absorber",
+     "front perovskite absorber"
+    ],
+    "families": [
+     "application",
+     "structure",
+     "effect"
+    ],
+    "paper": "153",
+    "line": 40,
+    "tolerance": 60
+   },
+   "status": "passed",
+   "relation": {
+    "relation_id": "r-0da193918fdd",
+    "paper_id": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+    "subject_id": "c-1b4d0c543afc",
+    "object_id": "c-a898caae125b",
+    "subject": "wide-bandgap perovskites",
+    "predicate": "acts as",
+    "object": "front absorber",
+    "family": "application",
+    "evidence": "the wide-bandgap (WBG) perovskites act as the front absorber to offer higher open-circuit voltage",
+    "evidence_line": 40,
+    "polarity": "positive",
+    "modality": "asserted",
+    "direction_ok": true,
+    "duplicate_count": 1,
+    "review_status": "adjudicated",
+    "source": "targeted_reextract",
+    "evidence_all": [
+     {
+      "evidence": "the wide-bandgap (WBG) perovskites act as the front absorber to offer higher open-circuit voltage",
+      "evidence_line": 40,
+      "chunk": 0,
+      "v2_index": null
+     }
+    ]
+   },
+   "evidence_line": 40,
+   "subject_concept": "wide-bandgap perovskites"
+  },
+  {
+   "task": {
+    "id": 10,
+    "question": "AlGaN 关联哪些探测器类型？",
+    "subjects": [
+     "AlGaN"
+    ],
+    "objects": [
+     "solar-blind ultraviolet photodetectors",
+     "photodetectors",
+     "avalanche photodiodes",
+     "focal plane arrays",
+     "metal-semiconductor-metal photodetectors",
+     "PDs"
+    ],
+    "families": [
+     "application",
+     "taxonomy"
+    ],
+    "paper": "023",
+    "line": 27,
+    "tolerance": 60
+   },
+   "status": "passed",
+   "relation": {
+    "relation_id": "r-bae0f3fdb164",
+    "paper_id": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+    "subject_id": "c-eb0a7996c095",
+    "object_id": "c-99d89fc2d019",
+    "subject": "AlGaN",
+    "predicate": "used in",
+    "object": "avalanche photodiodes",
+    "family": "application",
+    "evidence": "AlGaN alloys play a significant role in the LEDs, avalanche photodiodes (APDs), single photon detectors, and focal plane arrays (FPAs)",
+    "evidence_line": 55,
+    "polarity": "positive",
+    "modality": "asserted",
+    "direction_ok": true,
+    "duplicate_count": 1,
+    "review_status": "machine",
+    "source": "v2_enriched",
+    "evidence_all": [
+     {
+      "evidence": "AlGaN alloys play a significant role in the LEDs, avalanche photodiodes (APDs), single photon detectors, and focal plane arrays (FPAs)",
+      "evidence_line": 55,
+      "chunk": 3,
+      "v2_index": 38
+     }
+    ]
+   },
+   "evidence_line": 55,
+   "subject_concept": "AlGaN"
+  }
+ ],
+ "alias_checks": [
+  {
+   "query": "甲酸根",
+   "expected": "formate",
+   "status": "passed",
+   "found": [
+    "|↑↓↓↓↓↑⟩ (alias:surface)",
+    "formate (zh_label)"
+   ],
+   "matched_concept": "c-f5cb261487da"
+  },
+  {
+   "query": "HCOO−",
+   "expected": "formate",
+   "status": "passed",
+   "found": [
+    "formate (alias:surface)",
+    "FAHCOO (alias_partial)",
+    "2% FAHCOO (alias_partial)"
+   ],
+   "matched_concept": "c-f5cb261487da"
+  },
+  {
+   "query": "原子层沉积",
+   "expected": "atomic layer deposition",
+   "status": "passed",
+   "found": [
+    "|↑↓↓↓↓↑⟩ (alias:surface)",
+    "atomic layer deposition (zh_label)"
+   ],
+   "matched_concept": "c-80e78a9703b2"
+  },
+  {
+   "query": "ALD",
+   "expected": "atomic layer deposition",
+   "status": "passed",
+   "found": [
+    "atomic layer deposition (alias:surface)",
+    "ALD (alias:surface)",
+    "an atomic layer deposition (alias:surface)"
+   ],
+   "matched_concept": "c-80e78a9703b2"
+  },
+  {
+   "query": "4Cl-BZS",
+   "expected": "4-chlorobenzenesulfonate",
+   "status": "passed",
+   "found": [
+    "4-chlorobenzenesulfonate (alias:abbreviation)",
+    "4Cl-BZS/C60 (alias_partial)",
+    "4Cl-BZS device (alias_partial)"
+   ],
+   "matched_concept": "c-e34e47e09e03"
+  },
+  {
+   "query": "AgBiS2",
+   "expected": "AgBiS2",
+   "status": "passed",
+   "found": [
+    "AgBiS2 (alias:surface)",
+    "AgBiS2 NCs (alias_partial)",
+    "AgBiS2 NC layer (alias_partial)"
+   ],
+   "matched_concept": "c-01d535a8ea19"
+  },
+  {
+   "query": "MXenes",
+   "expected": "MXenes",
+   "status": "passed",
+   "found": [
+    "MXene (alias:surface)",
+    "i-MXenes (alias_partial)",
+    "MXene sheet (alias_partial)"
+   ],
+   "matched_concept": "c-6aae09098ec8"
+  },
+  {
+   "query": "fpAs",
+   "expected": "focal plane arrays",
+   "status": "passed",
+   "found": [
+    "focal plane arrays (alias:surface)",
+    "self-passivation (alias_partial)",
+    "LiF passivation layer (alias_partial)"
+   ],
+   "matched_concept": "c-3c43bac5a931"
+  }
+ ]
+}

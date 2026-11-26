@@ -1,0 +1,41 @@
+{
+ "v1": {
+  "triples": 92000,
+  "obs": 15466,
+  "with_conditions": 4056,
+  "value_type": {
+   "null": 15466
+  },
+  "condition_status": {
+   "null": 15466
+  },
+  "sample_unstated": 0,
+  "source_study": 0,
+  "evidence_matched": 51584,
+  "evidence_marked": 61068,
+  "depends_on": 2935,
+  "unmapped": 4544
+ },
+ "v2": {
+  "triples": 89459,
+  "obs": 16829,
+  "with_conditions": 6430,
+  "value_type": {
+   "certified": 351,
+   "measured": 15397,
+   "calculated": 870,
+   "simulated": 124,
+   "theoretical": 87
+  },
+  "condition_status": {
+   "reported": 6430,
+   "not_reported": 10399
+  },
+  "sample_unstated": 1779,
+  "source_study": 1181,
+  "evidence_matched": 47109,
+  "evidence_marked": 55801,
+  "depends_on": 3506,
+  "unmapped": 5373
+ }
+}

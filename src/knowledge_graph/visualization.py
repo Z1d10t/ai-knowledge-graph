@@ -30,12 +30,22 @@ INFERRED_EDGE_COLOR = "#8a8a8a"
 FREEZE_PHYSICS_ABOVE = 300  # nodes; larger graphs stop simulating once laid out
 
 ENTITY_TYPES = ("person", "organization", "place", "event", "technology", "product", "work", "date", "concept")
+# Scientific profiles add their own types; keep the shapes here so both can render.
+MATERIALS_TYPES = ("material", "material_class", "sample", "structure", "device", "process", "condition",
+                   "property", "measurement", "characterization", "mechanism", "defect", "interface")
+ALL_ENTITY_TYPES = ENTITY_TYPES + MATERIALS_TYPES
 # vis-network shapes with the label drawn outside the shape, one per entity type.
 TYPE_SHAPES = {
     "person": "diamond", "organization": "square", "place": "triangle", "event": "star",
     "technology": "hexagon", "product": "hexagon", "work": "triangleDown", "date": "square", "concept": "dot",
+    # materials profile
+    "material": "hexagon", "material_class": "hexagon", "sample": "box", "structure": "box",
+    "device": "box", "process": "ellipse", "condition": "ellipse", "property": "dot",
+    "measurement": "circle", "characterization": "ellipse", "mechanism": "dot",
+    "defect": "diamond", "interface": "triangle",
 }
-TYPE_GLYPHS = {"diamond": "◆", "square": "■", "triangle": "▲", "star": "★", "hexagon": "⬢", "triangleDown": "▼", "dot": "●"}
+TYPE_GLYPHS = {"diamond": "◆", "square": "■", "triangle": "▲", "star": "★", "hexagon": "⬢", "triangleDown": "▼",
+               "dot": "●", "box": "▣", "ellipse": "◯", "circle": "●"}
 
 
 _SMALL_WORDS = {"a", "an", "and", "as", "at", "by", "for", "from", "in", "of", "on", "or", "the", "to", "via", "with"}
@@ -58,13 +68,14 @@ def display_name(name):
     return " ".join(cap(w) if i == 0 or w not in _SMALL_WORDS else w for i, w in enumerate(words))
 
 
-def entity_types(triples):
+def entity_types(triples, allowed=None):
     """Majority-vote entity type per node from the ``subject_type``/``object_type`` fields."""
+    allowed = set(allowed or ENTITY_TYPES)
     votes = {}
     for t in triples:
         for name, key in ((t["subject"], "subject_type"), (t["object"], "object_type")):
             value = t.get(key)
-            if isinstance(value, str) and value.strip().lower() in ENTITY_TYPES:
+            if isinstance(value, str) and value.strip().lower() in allowed:
                 votes.setdefault(name, {}).setdefault(value.strip().lower(), 0)
                 votes[name][value.strip().lower()] += 1
     return {name: max(counts.items(), key=lambda kv: (kv[1], kv[0]))[0] for name, counts in votes.items()}
@@ -163,7 +174,7 @@ def build_graph_data(triples, edge_smooth=False, community_names=None, show_infe
     node_communities, community_count = _detect_communities(G_undirected, all_nodes)
     node_sizes = _calculate_node_sizes(all_nodes, centrality["betweenness"], degree, centrality["eigenvector"])
 
-    types = entity_types(triples)
+    types = entity_types(triples, allowed=ALL_ENTITY_TYPES)
     nodes = []
     for node in sorted(all_nodes):
         community = node_communities[node]

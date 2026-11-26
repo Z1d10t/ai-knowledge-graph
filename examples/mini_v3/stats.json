@@ -1,0 +1,20 @@
+{
+ "version": "v3.0-mini",
+ "papers": 2,
+ "concepts": 95,
+ "instances": 4,
+ "relations": 52,
+ "observations": 30,
+ "relations_by_family": {
+  "process": 7,
+  "dependency": 9,
+  "effect": 9,
+  "characterization": 17,
+  "other": 6,
+  "composition": 2,
+  "taxonomy": 1,
+  "structure": 1
+ },
+ "direction_flagged": 0,
+ "type_conflicts": 0
+}

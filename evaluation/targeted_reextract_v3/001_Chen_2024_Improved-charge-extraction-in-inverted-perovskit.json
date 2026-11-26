@@ -1,0 +1,1672 @@
+{
+ "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+ "prompt_version": "v3",
+ "model": "deepseek-flash",
+ "created": "2026-11-25 14:33:09",
+ "source_sha256": "7c4719af1a042eca7750c391ed9a184686d823c4e9ffcff66452739ea295ee6e",
+ "scope_lines": [
+  53,
+  87
+ ],
+ "passages": [
+  {
+   "lines": [
+    52,
+    88
+   ],
+   "chars": 5487,
+   "relations": 16,
+   "terms": 38
+  },
+  {
+   "lines": [
+    110,
+    112
+   ],
+   "chars": 985,
+   "relations": 12,
+   "terms": 20
+  },
+  {
+   "lines": [
+    122,
+    124
+   ],
+   "chars": 1090,
+   "relations": 8,
+   "terms": 15
+  },
+  {
+   "lines": [
+    134,
+    136
+   ],
+   "chars": 780,
+   "relations": 11,
+   "terms": 14
+  },
+  {
+   "lines": [
+    426,
+    428
+   ],
+   "chars": 197,
+   "relations": 0,
+   "terms": 0
+  },
+  {
+   "lines": [
+    450,
+    452
+   ],
+   "chars": 653,
+   "relations": 6,
+   "terms": 12
+  }
+ ],
+ "terms": [
+  {
+   "name": "perovskite solar cell",
+   "type": "device",
+   "aliases": [
+    "PSC"
+   ],
+   "evidence": "perovskite solar cells (PSCs)"
+  },
+  {
+   "name": "inverted perovskite solar cell",
+   "type": "device",
+   "aliases": [
+    "pin PSC"
+   ],
+   "evidence": "Inverted (pin) perovskite solar cells (PSCs)"
+  },
+  {
+   "name": "power conversion efficiency",
+   "type": "property",
+   "aliases": [
+    "PCE"
+   ],
+   "evidence": "power conversion efficiency (PCE)"
+  },
+  {
+   "name": "fill factor",
+   "type": "property",
+   "aliases": [
+    "FF"
+   ],
+   "evidence": "fill factor (FF)"
+  },
+  {
+   "name": "photovoltage",
+   "type": "property",
+   "aliases": [],
+   "evidence": "limits photovoltage and fill factor"
+  },
+  {
+   "name": "perovskite",
+   "type": "material",
+   "aliases": [],
+   "evidence": "interfaces between the perovskite and the charge-transport layers"
+  },
+  {
+   "name": "charge transport layer",
+   "type": "component",
+   "aliases": [
+    "CTL"
+   ],
+   "evidence": "perovskite/charge transport layer (CTL) interface"
+  },
+  {
+   "name": "electron transport layer",
+   "type": "component",
+   "aliases": [
+    "ETL"
+   ],
+   "evidence": "electron transport layer (ETL)"
+  },
+  {
+   "name": "hole-transporting layer",
+   "type": "component",
+   "aliases": [],
+   "evidence": "hole-transporting layers"
+  },
+  {
+   "name": "surface defect",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "presence of surface defects"
+  },
+  {
+   "name": "undercoordinated Pb2+",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "undercoordinated Pb2+ ions"
+  },
+  {
+   "name": "nonradiative recombination",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "nonradiative recombination at the perovskite/charge transport layer (CTL) interface"
+  },
+  {
+   "name": "surface passivation",
+   "type": "process",
+   "aliases": [],
+   "evidence": "Surface passivation of the perovskite active layer"
+  },
+  {
+   "name": "ligand",
+   "type": "material",
+   "aliases": [],
+   "evidence": "passivating ligands"
+  },
+  {
+   "name": "ammonium ligand",
+   "type": "material",
+   "aliases": [],
+   "evidence": "solution-based treatments with ammonium ligands"
+  },
+  {
+   "name": "benzenesulfonate",
+   "type": "material",
+   "aliases": [
+    "BZS"
+   ],
+   "evidence": "benzenesulfonate (BZS) ligands"
+  },
+  {
+   "name": "4-methylbenzenesulfonate",
+   "type": "material",
+   "aliases": [
+    "4CH3-BZS"
+   ],
+   "evidence": "4-methylbenzenesulfonate, 4CH3-BZS"
+  },
+  {
+   "name": "4-chlorobenzenesulfonate",
+   "type": "material",
+   "aliases": [
+    "4Cl-BZS"
+   ],
+   "evidence": "4-chlorobenzenesulfonate, 4Cl-BZS"
+  },
+  {
+   "name": "sulfonate",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "we focused on available sulfonates"
+  },
+  {
+   "name": "benzenephosphonate",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "benzenephosphonates are not readily available"
+  },
+  {
+   "name": "benzene ring",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "candidate molecules containing a benzene ring"
+  },
+  {
+   "name": "sulfonate functional group",
+   "type": "component",
+   "aliases": [],
+   "evidence": "-SO3- functional groups"
+  },
+  {
+   "name": "phosphonate functional group",
+   "type": "component",
+   "aliases": [],
+   "evidence": "-PO3 2- functional groups"
+  },
+  {
+   "name": "chloride functional group",
+   "type": "component",
+   "aliases": [],
+   "evidence": "Cl functional group"
+  },
+  {
+   "name": "fullerene",
+   "type": "material",
+   "aliases": [
+    "C60"
+   ],
+   "evidence": "fullerene (C60)"
+  },
+  {
+   "name": "density functional theory",
+   "type": "characterization",
+   "aliases": [
+    "DFT"
+   ],
+   "evidence": "density functional theory (DFT) calculations"
+  },
+  {
+   "name": "formation energy",
+   "type": "property",
+   "aliases": [],
+   "evidence": "formation energies of two configurations"
+  },
+  {
+   "name": "charge density difference",
+   "type": "property",
+   "aliases": [],
+   "evidence": "calculated charge density difference"
+  },
+  {
+   "name": "charge transfer",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "charge transfer at the perovskite/ETL interface"
+  },
+  {
+   "name": "band misalignment",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "through band misalignment"
+  },
+  {
+   "name": "energy-level pinning",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "energy-level pinning"
+  },
+  {
+   "name": "perovskite/ETL interface",
+   "type": "interface",
+   "aliases": [],
+   "evidence": "perovskite/ETL interface"
+  },
+  {
+   "name": "perovskite/CTL interface",
+   "type": "interface",
+   "aliases": [],
+   "evidence": "perovskite/charge transport layer (CTL) interface"
+  },
+  {
+   "name": "grain boundary",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "surfaces and grain boundaries of the perovskite"
+  },
+  {
+   "name": "planar ligand orientation",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "planar ligand orientation on the perovskite"
+  },
+  {
+   "name": "Conf-perp",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "ligands were oriented perpendicular to the perovskite surface (Conf-perp, Fig. 1B)"
+  },
+  {
+   "name": "Conf-para",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "parallel orientation with respect to the perovskite surface (Conf-para, Fig. 1C)"
+  },
+  {
+   "name": "dual-site Pb2+ passivation",
+   "type": "process",
+   "aliases": [],
+   "evidence": "dual-site Pb2+ passivation"
+  },
+  {
+   "name": "perovskite",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "interactions between perovskite and BZS ligands"
+  },
+  {
+   "name": "BZS",
+   "type": "material",
+   "aliases": [],
+   "evidence": "BZS, 4CH3-BZS, and 4Cl-BZS"
+  },
+  {
+   "name": "4CH3-BZS",
+   "type": "material",
+   "aliases": [],
+   "evidence": "BZS, 4CH3-BZS, and 4Cl-BZS"
+  },
+  {
+   "name": "4Cl-BZS",
+   "type": "material",
+   "aliases": [],
+   "evidence": "BZS, 4CH3-BZS, and 4Cl-BZS"
+  },
+  {
+   "name": "ligand",
+   "type": "material",
+   "aliases": [],
+   "evidence": "adding each ligand directly into the precursor solutions"
+  },
+  {
+   "name": "Cs0.05FA0.85MA0.1PbI3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Cs0.05FA0.85MA0.1PbI3 perovskite thin films"
+  },
+  {
+   "name": "formamidinium",
+   "type": "material",
+   "aliases": [
+    "FA"
+   ],
+   "evidence": "FA is formamidinium"
+  },
+  {
+   "name": "methylamine",
+   "type": "material",
+   "aliases": [
+    "MA"
+   ],
+   "evidence": "MA is methylamine"
+  },
+  {
+   "name": "precursor solution",
+   "type": "material",
+   "aliases": [],
+   "evidence": "adding each ligand directly into the precursor solutions"
+  },
+  {
+   "name": "thin film",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "Cs0.05FA0.85MA0.1PbI3 perovskite thin films"
+  },
+  {
+   "name": "time-of-flight secondary ion mass spectrometry",
+   "type": "characterization",
+   "aliases": [
+    "TOF-SIMS"
+   ],
+   "evidence": "Time-of-flight secondary ion mass spectrometry (TOF-SIMS)"
+  },
+  {
+   "name": "x-ray diffraction",
+   "type": "characterization",
+   "aliases": [
+    "XRD"
+   ],
+   "evidence": "x-ray diffraction (XRD) patterns"
+  },
+  {
+   "name": "scanning electron microscopy",
+   "type": "characterization",
+   "aliases": [
+    "SEM"
+   ],
+   "evidence": "Scanning electron microscopy (SEM) images"
+  },
+  {
+   "name": "spin-coating",
+   "type": "process",
+   "aliases": [],
+   "evidence": "spin-coating Cs0.05FA0.85MA0.1PbI3 perovskite thin films"
+  },
+  {
+   "name": "crystallization",
+   "type": "process",
+   "aliases": [],
+   "evidence": "diffused toward the top surface during film crystallization"
+  },
+  {
+   "name": "lattice",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "the ligands did not enter the lattice"
+  },
+  {
+   "name": "morphology",
+   "type": "property",
+   "aliases": [],
+   "evidence": "exhibit substantially uniform morphology"
+  },
+  {
+   "name": "electron transport layer",
+   "type": "component",
+   "aliases": [
+    "ETL"
+   ],
+   "evidence": "top (ETL-facing) surface"
+  },
+  {
+   "name": "control film",
+   "type": "sample",
+   "aliases": [],
+   "evidence": "untreated (control) and treated films"
+  },
+  {
+   "name": "treated film",
+   "type": "sample",
+   "aliases": [],
+   "evidence": "untreated (control) and treated films"
+  },
+  {
+   "name": "perovskite",
+   "type": "material",
+   "aliases": [],
+   "evidence": "perovskite/ETL device stacks"
+  },
+  {
+   "name": "electron transport layer",
+   "type": "component",
+   "aliases": [
+    "ETL"
+   ],
+   "evidence": "perovskite/ETL device stacks"
+  },
+  {
+   "name": "C60",
+   "type": "material",
+   "aliases": [],
+   "evidence": "perovskite/C60 stacks"
+  },
+  {
+   "name": "4Cl-BZS",
+   "type": "material",
+   "aliases": [],
+   "evidence": "4Cl-BZS/C60"
+  },
+  {
+   "name": "BZS",
+   "type": "material",
+   "aliases": [],
+   "evidence": "compared with BZS and 4CH3BZS"
+  },
+  {
+   "name": "4CH3BZS",
+   "type": "material",
+   "aliases": [],
+   "evidence": "compared with BZS and 4CH3BZS"
+  },
+  {
+   "name": "time-resolved photoluminescence",
+   "type": "characterization",
+   "aliases": [
+    "TRPL"
+   ],
+   "evidence": "TRPL measurements"
+  },
+  {
+   "name": "interface recombination",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "probe interface recombination"
+  },
+  {
+   "name": "charge transfer",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "charge transfer"
+  },
+  {
+   "name": "non-radiative recombination",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "non-radiative surface/bulk recombination"
+  },
+  {
+   "name": "radiative recombination",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "radiative recombination (second-order decay)"
+  },
+  {
+   "name": "charge extraction",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "charge extraction effects"
+  },
+  {
+   "name": "electron transfer",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "efficient electron transfer at the interface"
+  },
+  {
+   "name": "trap density",
+   "type": "property",
+   "aliases": [],
+   "evidence": "reduced trap density"
+  },
+  {
+   "name": "differential lifetime",
+   "type": "property",
+   "aliases": [],
+   "evidence": "compute the differential lifetime"
+  },
+  {
+   "name": "transient photocurrent",
+   "type": "characterization",
+   "aliases": [],
+   "evidence": "Transient photocurrent measurements"
+  },
+  {
+   "name": "self assembled monolayer",
+   "type": "material",
+   "aliases": [
+    "SAM"
+   ],
+   "evidence": "mixed self assembled monolayers (SAMs)"
+  },
+  {
+   "name": "hole transport layer",
+   "type": "component",
+   "aliases": [
+    "HTL"
+   ],
+   "evidence": "as the HTL"
+  },
+  {
+   "name": "BZS",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Both BZS and 4CH3-BZS"
+  },
+  {
+   "name": "4CH3-BZS",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Both BZS and 4CH3-BZS"
+  },
+  {
+   "name": "4Cl-BZS",
+   "type": "material",
+   "aliases": [],
+   "evidence": "4Cl-BZS treatment"
+  },
+  {
+   "name": "photocurrent decay",
+   "type": "property",
+   "aliases": [],
+   "evidence": "slower photocurrent decay"
+  },
+  {
+   "name": "electron extraction",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "electron extraction became more efficient"
+  },
+  {
+   "name": "ultraviolet photoelectron spectroscopy",
+   "type": "characterization",
+   "aliases": [
+    "UPS"
+   ],
+   "evidence": "Ultraviolet photoelectron spectroscopy (UPS)"
+  },
+  {
+   "name": "conduction band offset",
+   "type": "property",
+   "aliases": [],
+   "evidence": "increased conduction band offset"
+  },
+  {
+   "name": "C60",
+   "type": "material",
+   "aliases": [],
+   "evidence": "conduction band offset with C60"
+  },
+  {
+   "name": "Fermi-level",
+   "type": "property",
+   "aliases": [],
+   "evidence": "Fermi-level upshift"
+  },
+  {
+   "name": "Kelvin probe force microscopy",
+   "type": "characterization",
+   "aliases": [
+    "KPFM"
+   ],
+   "evidence": "Kelvin probe force microscopy (KPFM)"
+  },
+  {
+   "name": "DFT",
+   "type": "characterization",
+   "aliases": [],
+   "evidence": "DFT calculations"
+  },
+  {
+   "name": "BZS",
+   "type": "material",
+   "aliases": [],
+   "evidence": "BZS"
+  },
+  {
+   "name": "4CH3-BZS",
+   "type": "material",
+   "aliases": [],
+   "evidence": "4CH3-BZS"
+  },
+  {
+   "name": "4Cl-BZS",
+   "type": "material",
+   "aliases": [],
+   "evidence": "4Cl-BZS"
+  },
+  {
+   "name": "perovskite",
+   "type": "material",
+   "aliases": [],
+   "evidence": "perovskite surface"
+  },
+  {
+   "name": "C60",
+   "type": "material",
+   "aliases": [],
+   "evidence": "C60"
+  },
+  {
+   "name": "ligand",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "ligand adsorbed"
+  },
+  {
+   "name": "perovskite surface",
+   "type": "interface",
+   "aliases": [],
+   "evidence": "perovskite surface"
+  },
+  {
+   "name": "perpendicular orientation",
+   "type": "structure",
+   "aliases": [
+    "Conf-perp"
+   ],
+   "evidence": "perpendicular orientation (Conf-perp)"
+  },
+  {
+   "name": "planar/parallel orientation",
+   "type": "structure",
+   "aliases": [
+    "Conf-para"
+   ],
+   "evidence": "planar/parallel orientation (Conf-para)"
+  },
+  {
+   "name": "formation energy difference",
+   "type": "property",
+   "aliases": [],
+   "evidence": "Formation energy difference between parallel and perpendicular ligand-surface orientations"
+  },
+  {
+   "name": "adsorption energy",
+   "type": "property",
+   "aliases": [
+    "Eads"
+   ],
+   "evidence": "adsorption energies (Eads)"
+  },
+  {
+   "name": "DFT",
+   "type": "characterization",
+   "aliases": [],
+   "evidence": "DFT studies"
+  }
+ ],
+ "triples": [
+  {
+   "subject": "inverted perovskite solar cell",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "Inverted (pin) perovskite solar cells (PSCs) afford improved operating stability in comparison to their nip counterparts but have lagged in power conversion efficiency (PCE).",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    52,
+    88
+   ]
+  },
+  {
+   "subject": "perovskite/CTL interface",
+   "subject_type": "interface",
+   "predicate": "limits",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "The interfaces between the perovskite and the charge-transport layers limit the PCE of pin cells",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    52,
+    88
+   ]
+  },
+  {
+   "subject": "band misalignment",
+   "subject_type": "mechanism",
+   "predicate": "limits",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "limit the PCE of pin cells (9-11) through band misalignment (12) and energy-level pinning (11)",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    52,
+    88
+   ]
+  },
+  {
+   "subject": "energy-level pinning",
+   "subject_type": "mechanism",
+   "predicate": "limits",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "limit the PCE of pin cells (9-11) through band misalignment (12) and energy-level pinning (11)",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    52,
+    88
+   ]
+  },
+  {
+   "subject": "undercoordinated Pb2+",
+   "subject_type": "defect",
+   "predicate": "causes",
+   "object": "nonradiative recombination",
+   "object_type": "mechanism",
+   "evidence": "undercoordinated Pb2+ ions (13-15) resulting in nonradiative recombination at the perovskite/charge transport layer (CTL) interface",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    52,
+    88
+   ]
+  },
+  {
+   "subject": "nonradiative recombination",
+   "subject_type": "mechanism",
+   "predicate": "limits",
+   "object": "photovoltage",
+   "object_type": "property",
+   "evidence": "nonradiative recombination at the perovskite/charge transport layer (CTL) interface, which limits photovoltage and fill factor (FF)",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    52,
+    88
+   ]
+  },
+  {
+   "subject": "nonradiative recombination",
+   "subject_type": "mechanism",
+   "predicate": "limits",
+   "object": "fill factor",
+   "object_type": "property",
+   "evidence": "nonradiative recombination at the perovskite/charge transport layer (CTL) interface, which limits photovoltage and fill factor (FF)",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    52,
+    88
+   ]
+  },
+  {
+   "subject": "surface passivation",
+   "subject_type": "process",
+   "predicate": "suppresses",
+   "object": "nonradiative recombination",
+   "object_type": "mechanism",
+   "evidence": "Surface passivation of the perovskite active layer is used to suppress interface nonradiative recombination",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    52,
+    88
+   ]
+  },
+  {
+   "subject": "ammonium ligand",
+   "subject_type": "material",
+   "predicate": "binds to",
+   "object": "perovskite",
+   "object_type": "material",
+   "evidence": "these ligands bind at a single active binding site to the perovskite structure",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    52,
+    88
+   ]
+  },
+  {
+   "subject": "density functional theory",
+   "subject_type": "characterization",
+   "predicate": "calculated by",
+   "object": "formation energy",
+   "object_type": "property",
+   "evidence": "We used density functional theory (DFT) calculations to investigate how the molecular structure of the ligand affects orientation.",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    52,
+    88
+   ]
+  },
+  {
+   "subject": "4Cl-BZS",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "Conf-para",
+   "object_type": "structure",
+   "evidence": "Confpara was energetically more favorable for 4Cl-BZS because of the additional Pb2+ surface binding afforded by the Cl functional group",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    52,
+    88
+   ]
+  },
+  {
+   "subject": "BZS",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "Conf-perp",
+   "object_type": "structure",
+   "evidence": "Although Conf-perp was more energetically favorable for BZS and 4CH3-BZS",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    52,
+    88
+   ]
+  },
+  {
+   "subject": "4CH3-BZS",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "Conf-perp",
+   "object_type": "structure",
+   "evidence": "Although Conf-perp was more energetically favorable for BZS and 4CH3-BZS",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    52,
+    88
+   ]
+  },
+  {
+   "subject": "chloride functional group",
+   "subject_type": "component",
+   "predicate": "enables",
+   "object": "dual-site Pb2+ passivation",
+   "object_type": "process",
+   "evidence": "the additional Pb2+ surface binding afforded by the Cl functional group (Fig. 1D) that would enable dual-site Pb2+ passivation",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    52,
+    88
+   ]
+  },
+  {
+   "subject": "fullerene",
+   "subject_type": "material",
+   "predicate": "used as",
+   "object": "electron transport layer",
+   "object_type": "component",
+   "evidence": "fullerene (C60), which is widely used as ETL in pin PSCs",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    52,
+    88
+   ]
+  },
+  {
+   "subject": "fullerene",
+   "subject_type": "material",
+   "predicate": "induces",
+   "object": "energetic losses",
+   "object_type": "property",
+   "evidence": "fullerene (C60), which is widely used as ETL in pin PSCs and known to induce energetic losses in devices",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    52,
+    88
+   ]
+  },
+  {
+   "subject": "Cs0.05FA0.85MA0.1PbI3",
+   "subject_type": "material",
+   "predicate": "deposited by",
+   "object": "spin-coating",
+   "object_type": "process",
+   "evidence": "spin-coating Cs0.05FA0.85MA0.1PbI3 perovskite thin films",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    110,
+    112
+   ]
+  },
+  {
+   "subject": "Cs0.05FA0.85MA0.1PbI3",
+   "subject_type": "material",
+   "predicate": "composed of",
+   "object": "formamidinium",
+   "object_type": "material",
+   "evidence": "Cs0.05FA0.85MA0.1PbI3 perovskite thin films, where FA is formamidinium",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    110,
+    112
+   ]
+  },
+  {
+   "subject": "Cs0.05FA0.85MA0.1PbI3",
+   "subject_type": "material",
+   "predicate": "composed of",
+   "object": "methylamine",
+   "object_type": "material",
+   "evidence": "MA is methylamine",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    110,
+    112
+   ]
+  },
+  {
+   "subject": "treated film",
+   "subject_type": "sample",
+   "predicate": "characterized by",
+   "object": "time-of-flight secondary ion mass spectrometry",
+   "object_type": "characterization",
+   "evidence": "Time-of-flight secondary ion mass spectrometry (TOF-SIMS) of untreated (control) and treated films",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    110,
+    112
+   ]
+  },
+  {
+   "subject": "treated film",
+   "subject_type": "sample",
+   "predicate": "characterized by",
+   "object": "x-ray diffraction",
+   "object_type": "characterization",
+   "evidence": "x-ray diffraction (XRD) patterns of control and treated perovskite films",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    110,
+    112
+   ]
+  },
+  {
+   "subject": "treated film",
+   "subject_type": "sample",
+   "predicate": "characterized by",
+   "object": "scanning electron microscopy",
+   "object_type": "characterization",
+   "evidence": "Scanning electron microscopy (SEM) images of perovskite films with additives",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    110,
+    112
+   ]
+  },
+  {
+   "subject": "BZS",
+   "subject_type": "material",
+   "predicate": "concentrated near",
+   "object": "electron transport layer",
+   "object_type": "component",
+   "evidence": "BZS, 4CH3-BZS, and 4Cl-BZS were all concentrated near the top (ETL-facing) surface of the perovskite film",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    110,
+    112
+   ]
+  },
+  {
+   "subject": "4CH3-BZS",
+   "subject_type": "material",
+   "predicate": "concentrated near",
+   "object": "electron transport layer",
+   "object_type": "component",
+   "evidence": "BZS, 4CH3-BZS, and 4Cl-BZS were all concentrated near the top (ETL-facing) surface of the perovskite film",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    110,
+    112
+   ]
+  },
+  {
+   "subject": "4Cl-BZS",
+   "subject_type": "material",
+   "predicate": "concentrated near",
+   "object": "electron transport layer",
+   "object_type": "component",
+   "evidence": "BZS, 4CH3-BZS, and 4Cl-BZS were all concentrated near the top (ETL-facing) surface of the perovskite film",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    110,
+    112
+   ]
+  },
+  {
+   "subject": "ligand",
+   "subject_type": "material",
+   "predicate": "diffuses toward",
+   "object": "electron transport layer",
+   "object_type": "component",
+   "evidence": "the ligands did not enter the lattice, but rather diffused toward the top surface during film crystallization",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    110,
+    112
+   ]
+  },
+  {
+   "subject": "ligand",
+   "subject_type": "material",
+   "predicate": "does not enter",
+   "object": "lattice",
+   "object_type": "structure",
+   "evidence": "indicated that the ligands did not enter the lattice",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    110,
+    112
+   ]
+  },
+  {
+   "subject": "treated film",
+   "subject_type": "sample",
+   "predicate": "exhibits",
+   "object": "morphology",
+   "object_type": "property",
+   "evidence": "the perovskite films (both additives and controls) exhibit substantially uniform morphology",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    110,
+    112
+   ]
+  },
+  {
+   "subject": "perovskite/C60 stack",
+   "subject_type": "sample",
+   "predicate": "characterized by",
+   "object": "time-resolved photoluminescence",
+   "object_type": "characterization",
+   "evidence": "we conducted TRPL measurements of perovskite/C60 stacks",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    122,
+    124
+   ]
+  },
+  {
+   "subject": "perovskite/C60 stack",
+   "subject_type": "sample",
+   "predicate": "exhibits",
+   "object": "non-radiative recombination",
+   "object_type": "mechanism",
+   "evidence": "decay was dictated by non-radiative surface/bulk recombination (monoexponential decay)",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    122,
+    124
+   ]
+  },
+  {
+   "subject": "perovskite/C60 stack",
+   "subject_type": "sample",
+   "predicate": "exhibits",
+   "object": "radiative recombination",
+   "object_type": "mechanism",
+   "evidence": "radiative recombination (second-order decay)",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    122,
+    124
+   ]
+  },
+  {
+   "subject": "perovskite/C60 stack",
+   "subject_type": "sample",
+   "predicate": "exhibits",
+   "object": "charge extraction",
+   "object_type": "mechanism",
+   "evidence": "charge extraction effects",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    122,
+    124
+   ]
+  },
+  {
+   "subject": "perovskite/C60 stack",
+   "subject_type": "sample",
+   "predicate": "exhibits",
+   "object": "interface recombination",
+   "object_type": "mechanism",
+   "evidence": "the second interval at longer delay times was dominated by interfacial recombination",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    122,
+    124
+   ]
+  },
+  {
+   "subject": "4Cl-BZS/C60",
+   "subject_type": "sample",
+   "predicate": "enables",
+   "object": "electron transfer",
+   "object_type": "mechanism",
+   "evidence": "The sharp drop in emission for 4Cl-BZS/C60 indicated efficient electron transfer at the interface",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    122,
+    124
+   ]
+  },
+  {
+   "subject": "4Cl-BZS/C60",
+   "subject_type": "sample",
+   "predicate": "exhibits",
+   "object": "trap density",
+   "object_type": "property",
+   "evidence": "the longer second-order decay time was indicative of a reduced trap density compared with BZS and 4CH3BZS",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    122,
+    124
+   ]
+  },
+  {
+   "subject": "time-resolved photoluminescence",
+   "subject_type": "characterization",
+   "predicate": "used to compute",
+   "object": "differential lifetime",
+   "object_type": "property",
+   "evidence": "fits to the TRPL traces to compute the differential lifetime",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    122,
+    124
+   ]
+  },
+  {
+   "subject": "BZS",
+   "subject_type": "material",
+   "predicate": "results in",
+   "object": "photocurrent decay",
+   "object_type": "property",
+   "evidence": "Both BZS and 4CH3-BZS resulted in slower photocurrent decay",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    134,
+    136
+   ]
+  },
+  {
+   "subject": "4CH3-BZS",
+   "subject_type": "material",
+   "predicate": "results in",
+   "object": "photocurrent decay",
+   "object_type": "property",
+   "evidence": "Both BZS and 4CH3-BZS resulted in slower photocurrent decay",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    134,
+    136
+   ]
+  },
+  {
+   "subject": "4Cl-BZS",
+   "subject_type": "material",
+   "predicate": "results in",
+   "object": "photocurrent decay",
+   "object_type": "property",
+   "evidence": "4Cl-BZS treatment led to faster photocurrent decay",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    134,
+    136
+   ]
+  },
+  {
+   "subject": "BZS",
+   "subject_type": "material",
+   "predicate": "causes",
+   "object": "Fermi-level",
+   "object_type": "property",
+   "evidence": "Fermi-level upshift after BZS and 4CH3-BZS treatment",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    134,
+    136
+   ]
+  },
+  {
+   "subject": "4CH3-BZS",
+   "subject_type": "material",
+   "predicate": "causes",
+   "object": "Fermi-level",
+   "object_type": "property",
+   "evidence": "Fermi-level upshift after BZS and 4CH3-BZS treatment",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    134,
+    136
+   ]
+  },
+  {
+   "subject": "4Cl-BZS",
+   "subject_type": "material",
+   "predicate": "causes",
+   "object": "Fermi-level",
+   "object_type": "property",
+   "evidence": "4Cl-BZS caused a Fermi-level downshift",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    134,
+    136
+   ]
+  },
+  {
+   "subject": "Fermi-level",
+   "subject_type": "property",
+   "predicate": "causes",
+   "object": "conduction band offset",
+   "object_type": "property",
+   "evidence": "increased conduction band offset with C60 that was caused by a Fermi-level upshift after BZS and 4CH3-BZS treatment",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    134,
+    136
+   ]
+  },
+  {
+   "subject": "4Cl-BZS",
+   "subject_type": "material",
+   "predicate": "reduces",
+   "object": "conduction band offset",
+   "object_type": "property",
+   "evidence": "4Cl-BZS caused a Fermi-level downshift and reduced conduction band offset",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    134,
+    136
+   ]
+  },
+  {
+   "subject": "conduction band offset",
+   "subject_type": "property",
+   "predicate": "measured by",
+   "object": "ultraviolet photoelectron spectroscopy",
+   "object_type": "characterization",
+   "evidence": "Ultraviolet photoelectron spectroscopy (UPS) revealed an increased conduction band offset with C60",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    134,
+    136
+   ]
+  },
+  {
+   "subject": "Fermi-level",
+   "subject_type": "property",
+   "predicate": "measured by",
+   "object": "Kelvin probe force microscopy",
+   "object_type": "characterization",
+   "evidence": "This trend was further confirmed by Kelvin probe force microscopy (KPFM) measurements",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    134,
+    136
+   ]
+  },
+  {
+   "subject": "Fermi-level",
+   "subject_type": "property",
+   "predicate": "calculated by",
+   "object": "DFT",
+   "object_type": "characterization",
+   "evidence": "This trend was further confirmed by ... DFT calculations",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    134,
+    136
+   ]
+  },
+  {
+   "subject": "formation energy difference",
+   "subject_type": "property",
+   "predicate": "calculated by",
+   "object": "DFT",
+   "object_type": "characterization",
+   "evidence": "DFT studies of ligand binding and predicted orientation",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    450,
+    452
+   ]
+  },
+  {
+   "subject": "adsorption energy",
+   "subject_type": "property",
+   "predicate": "calculated by",
+   "object": "DFT",
+   "object_type": "characterization",
+   "evidence": "DFT studies of ligand binding and predicted orientation",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    450,
+    452
+   ]
+  },
+  {
+   "subject": "ligand",
+   "subject_type": "material_class",
+   "predicate": "adsorbed on",
+   "object": "perovskite surface",
+   "object_type": "interface",
+   "evidence": "Atomic structures of ligand adsorbed in a perpendicular orientation (Conf-perp) on the perovskite surface",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    450,
+    452
+   ]
+  },
+  {
+   "subject": "ligand",
+   "subject_type": "material_class",
+   "predicate": "has structure",
+   "object": "perpendicular orientation",
+   "object_type": "structure",
+   "evidence": "Atomic structures of ligand adsorbed in a perpendicular orientation (Conf-perp) on the perovskite surface",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    450,
+    452
+   ]
+  },
+  {
+   "subject": "ligand",
+   "subject_type": "material_class",
+   "predicate": "has structure",
+   "object": "planar/parallel orientation",
+   "object_type": "structure",
+   "evidence": "Atomic structures of ligand adsorbed in a planar/parallel orientation (Conf-para) on the perovskite surface",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    450,
+    452
+   ]
+  },
+  {
+   "subject": "C60",
+   "subject_type": "material",
+   "predicate": "adsorbed on",
+   "object": "perovskite surface",
+   "object_type": "interface",
+   "evidence": "The adsorption energies (Eads) of C60 with different molecules (BZS, 4CH3-BZS and 4ClBZS) adsorbed perovskite surface",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    450,
+    452
+   ]
+  }
+ ],
+ "errors": []
+}
