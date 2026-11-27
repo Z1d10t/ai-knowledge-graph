@@ -1,0 +1,727 @@
+{
+ "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+ "prompt_version": "v3",
+ "model": "deepseek-flash",
+ "created": "2026-11-25 14:32:44",
+ "source_sha256": "c274b16034413913697d3354d3f1e6243f3a7ef7073d1608aa73651a573302e6",
+ "scope_lines": [
+  27,
+  55
+ ],
+ "passages": [
+  {
+   "lines": [
+    26,
+    56
+   ],
+   "chars": 7052,
+   "relations": 24,
+   "terms": 41
+  }
+ ],
+ "terms": [
+  {
+   "name": "quasi-2D perovskite",
+   "type": "material_class",
+   "aliases": [
+    "quasi-2D perovskite"
+   ],
+   "evidence": "Quasi-two-dimensional (quasi-2D) perovskites"
+  },
+  {
+   "name": "light-emitting diode",
+   "type": "device",
+   "aliases": [
+    "LED"
+   ],
+   "evidence": "lightemitting diodes (LEDs)"
+  },
+  {
+   "name": "perovskite light-emitting diode",
+   "type": "device",
+   "aliases": [
+    "PeLED"
+   ],
+   "evidence": "Perovskite LEDs (PeLEDs)"
+  },
+  {
+   "name": "quantum-well structure",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "inherent quantum-well structure"
+  },
+  {
+   "name": "exciton binding energy",
+   "type": "property",
+   "aliases": [
+    "Eb"
+   ],
+   "evidence": "large exciton binding energy (Eb)"
+  },
+  {
+   "name": "dielectric confinement",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "dielectric- and quantum-confinement effects"
+  },
+  {
+   "name": "quantum confinement",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "dielectric- and quantum-confinement effects"
+  },
+  {
+   "name": "energy transfer",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "corresponding energy transfer among different n-value species"
+  },
+  {
+   "name": "photoluminescence quantum yield",
+   "type": "property",
+   "aliases": [
+    "PLQY"
+   ],
+   "evidence": "photoluminescence quantum yields (PLQYs)"
+  },
+  {
+   "name": "metal halide perovskite",
+   "type": "material_class",
+   "aliases": [
+    "MHP"
+   ],
+   "evidence": "metal halide perovskites (MHPs)"
+  },
+  {
+   "name": "full width at half maximum",
+   "type": "property",
+   "aliases": [
+    "FWHM"
+   ],
+   "evidence": "narrow full width at half maximum (FWHM)"
+  },
+  {
+   "name": "spectral tunability",
+   "type": "property",
+   "aliases": [],
+   "evidence": "feasible spectral tunability"
+  },
+  {
+   "name": "3D perovskite",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "3D perovskites"
+  },
+  {
+   "name": "perovskite nanocrystal",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "perovskite nanocrystals"
+  },
+  {
+   "name": "emitter layer",
+   "type": "component",
+   "aliases": [],
+   "evidence": "emitter layer of PeLEDs"
+  },
+  {
+   "name": "external quantum efficiency",
+   "type": "property",
+   "aliases": [
+    "EQE"
+   ],
+   "evidence": "EQEs of more than 20%"
+  },
+  {
+   "name": "organic light-emitting diode",
+   "type": "device",
+   "aliases": [
+    "OLED"
+   ],
+   "evidence": "organic LEDs (OLEDs)"
+  },
+  {
+   "name": "quantum-dot light-emitting diode",
+   "type": "device",
+   "aliases": [
+    "QLED"
+   ],
+   "evidence": "quantum-dot LEDs (QLEDs)"
+  },
+  {
+   "name": "III-V semiconductor",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "III–V semiconductor LEDs"
+  },
+  {
+   "name": "carrier transport",
+   "type": "property",
+   "aliases": [],
+   "evidence": "low carrier transport capability"
+  },
+  {
+   "name": "exciton recombination",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "exciton recombination"
+  },
+  {
+   "name": "brightness",
+   "type": "property",
+   "aliases": [],
+   "evidence": "improvement of the brightness"
+  },
+  {
+   "name": "stability",
+   "type": "property",
+   "aliases": [],
+   "evidence": "hinders their stability"
+  },
+  {
+   "name": "electrical conductivity",
+   "type": "property",
+   "aliases": [],
+   "evidence": "electrical conductivity"
+  },
+  {
+   "name": "MAPbI3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "MAPbI3 (n = ∞) perovskite"
+  },
+  {
+   "name": "(RNH3)2PbI4",
+   "type": "material",
+   "aliases": [],
+   "evidence": "(RNH3)2PbI4 (n = 1) perovskite"
+  },
+  {
+   "name": "PEA2MAPb2I7",
+   "type": "material",
+   "aliases": [],
+   "evidence": "PEA2MAPb2I7"
+  },
+  {
+   "name": "bilayer structure",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "“bilayer” structure"
+  },
+  {
+   "name": "Sn-based perovskite",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "Sn-based perovskites (C4H9NH3)2(CH3NH3)n−1SnnI3n+1"
+  },
+  {
+   "name": "layered structure",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "structural “layered” characteristic"
+  },
+  {
+   "name": "crystallographic characterization",
+   "type": "characterization",
+   "aliases": [],
+   "evidence": "through crystallographic characterization"
+  },
+  {
+   "name": "mixed phase",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "feature a mixed-phase rather than a single phase"
+  },
+  {
+   "name": "formation energy",
+   "type": "property",
+   "aliases": [],
+   "evidence": "formation energies for different quasi-2D phases"
+  },
+  {
+   "name": "photocarrier transfer",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "photocarriers transfer from higher bandgap species to lower bandgap species"
+  },
+  {
+   "name": "recombination center",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "accumulated carriers in the recombination centers"
+  },
+  {
+   "name": "defect state",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "passivates the defect states"
+  },
+  {
+   "name": "radiative recombination efficiency",
+   "type": "property",
+   "aliases": [],
+   "evidence": "improving the radiative recombination efficiency"
+  },
+  {
+   "name": "composition engineering",
+   "type": "process",
+   "aliases": [],
+   "evidence": "modulated through composition and dimensionality engineering"
+  },
+  {
+   "name": "dimensionality engineering",
+   "type": "process",
+   "aliases": [],
+   "evidence": "modulated through composition and dimensionality engineering"
+  },
+  {
+   "name": "photoluminescence wavelength tuning",
+   "type": "property",
+   "aliases": [
+    "PL wavelength tuning"
+   ],
+   "evidence": "continuous photoluminescence (PL) wavelength tuning"
+  },
+  {
+   "name": "2D perovskite",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "two-dimensional (2D) perovskites"
+  }
+ ],
+ "triples": [
+  {
+   "subject": "quantum-well structure",
+   "subject_type": "structure",
+   "predicate": "induces",
+   "object": "dielectric confinement",
+   "object_type": "mechanism",
+   "evidence": "quasi-2D perovskites possess natural quantum-well structures, which can induce both dielectric- and quantum-confinement effects",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "quantum-well structure",
+   "subject_type": "structure",
+   "predicate": "induces",
+   "object": "quantum confinement",
+   "object_type": "mechanism",
+   "evidence": "quasi-2D perovskites possess natural quantum-well structures, which can induce both dielectric- and quantum-confinement effects",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "dielectric confinement",
+   "subject_type": "mechanism",
+   "predicate": "results in",
+   "object": "exciton binding energy",
+   "object_type": "property",
+   "evidence": "Such strong confinements thus afford a large exciton binding energy (Eb).",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "quantum confinement",
+   "subject_type": "mechanism",
+   "predicate": "results in",
+   "object": "exciton binding energy",
+   "object_type": "property",
+   "evidence": "Such strong confinements thus afford a large exciton binding energy (Eb).",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "energy transfer",
+   "subject_type": "mechanism",
+   "predicate": "results in",
+   "object": "photoluminescence quantum yield",
+   "object_type": "property",
+   "evidence": "the corresponding energy transfer among different n-value species thus results in high photoluminescence quantum yields (PLQYs)",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "photocarrier transfer",
+   "subject_type": "mechanism",
+   "predicate": "results in",
+   "object": "recombination center",
+   "object_type": "defect",
+   "evidence": "the photocarriers transfer from higher bandgap species to lower bandgap species rapidly and efficiently, leading to accumulated carriers in the recombination centers",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "defect state",
+   "subject_type": "defect",
+   "predicate": "passivated by",
+   "object": "carrier density",
+   "object_type": "property",
+   "evidence": "The increased carrier density then effectively passivates the defect states",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "defect state",
+   "subject_type": "defect",
+   "predicate": "improves",
+   "object": "radiative recombination efficiency",
+   "object_type": "property",
+   "evidence": "effectively passivates the defect states, thereby significantly improving the radiative recombination efficiency",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "radiative recombination efficiency",
+   "subject_type": "property",
+   "predicate": "improves",
+   "object": "photoluminescence quantum yield",
+   "object_type": "property",
+   "evidence": "significantly improving the radiative recombination efficiency and the resulting PLQYs",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "composition engineering",
+   "subject_type": "process",
+   "predicate": "enables",
+   "object": "photoluminescence wavelength tuning",
+   "object_type": "property",
+   "evidence": "quasi-2D perovskites exhibit tunability of their spectra, which can be modulated through composition and dimensionality engineering respectively. These characteristics enable continuous photoluminescence (PL) wavelength tuning",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "dimensionality engineering",
+   "subject_type": "process",
+   "predicate": "enables",
+   "object": "photoluminescence wavelength tuning",
+   "object_type": "property",
+   "evidence": "quasi-2D perovskites exhibit tunability of their spectra, which can be modulated through composition and dimensionality engineering respectively. These characteristics enable continuous photoluminescence (PL) wavelength tuning",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "quasi-2D perovskite",
+   "subject_type": "material_class",
+   "predicate": "used in",
+   "object": "emitter layer",
+   "object_type": "component",
+   "evidence": "Three types of perovskite materials with different dimensions (i.e., 3D perovskites, quasi-2D perovskites, and perovskite nanocrystals) are commonly included in the emitter layer of PeLEDs",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "3D perovskite",
+   "subject_type": "material_class",
+   "predicate": "used in",
+   "object": "emitter layer",
+   "object_type": "component",
+   "evidence": "Three types of perovskite materials with different dimensions (i.e., 3D perovskites, quasi-2D perovskites, and perovskite nanocrystals) are commonly included in the emitter layer of PeLEDs",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "perovskite nanocrystal",
+   "subject_type": "material_class",
+   "predicate": "used in",
+   "object": "emitter layer",
+   "object_type": "component",
+   "evidence": "Three types of perovskite materials with different dimensions (i.e., 3D perovskites, quasi-2D perovskites, and perovskite nanocrystals) are commonly included in the emitter layer of PeLEDs",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "PEA2MAPb2I7",
+   "subject_type": "material",
+   "predicate": "has structure",
+   "object": "bilayer structure",
+   "object_type": "structure",
+   "evidence": "they reported the first quasi-2D perovskite, PEA2MAPb2I7, and the obtained crystallography data unambiguously confirmed the “bilayer” structure",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "Sn-based perovskite",
+   "subject_type": "material_class",
+   "predicate": "has structure",
+   "object": "layered structure",
+   "object_type": "structure",
+   "evidence": "highlighted the structural “layered” characteristic of Sn-based perovskites",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "Sn-based perovskite",
+   "subject_type": "material_class",
+   "predicate": "characterized by",
+   "object": "crystallographic characterization",
+   "object_type": "characterization",
+   "evidence": "highlighted the structural “layered” characteristic of Sn-based perovskites (C4H9NH3)2(CH3NH3)n−1SnnI3n+1 (n = 1–5) through crystallographic characterization",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "quasi-2D perovskite",
+   "subject_type": "material_class",
+   "predicate": "has structure",
+   "object": "mixed phase",
+   "object_type": "structure",
+   "evidence": "quasi-2D films feature a mixed-phase rather than a single phase because the formation energies for different quasi-2D phases are quite similar",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "mixed phase",
+   "subject_type": "structure",
+   "predicate": "depends on",
+   "object": "formation energy",
+   "object_type": "property",
+   "evidence": "quasi-2D films feature a mixed-phase rather than a single phase because the formation energies for different quasi-2D phases are quite similar",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "organic light-emitting diode",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "carrier transport",
+   "object_type": "property",
+   "evidence": "OLEDs have low carrier transport capability and exciton recombination, which hinders the improvement of the brightness.",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "organic light-emitting diode",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "exciton recombination",
+   "object_type": "mechanism",
+   "evidence": "OLEDs have low carrier transport capability and exciton recombination, which hinders the improvement of the brightness.",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "organic light-emitting diode",
+   "subject_type": "device",
+   "predicate": "limits",
+   "object": "brightness",
+   "object_type": "property",
+   "evidence": "OLEDs have low carrier transport capability and exciton recombination, which hinders the improvement of the brightness.",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "quantum-dot light-emitting diode",
+   "subject_type": "device",
+   "predicate": "limits",
+   "object": "stability",
+   "object_type": "property",
+   "evidence": "the reliance on hydrophobic insulating long ligands also hinders their stability and electrical conductivity",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  },
+  {
+   "subject": "quantum-dot light-emitting diode",
+   "subject_type": "device",
+   "predicate": "limits",
+   "object": "electrical conductivity",
+   "object_type": "property",
+   "evidence": "the reliance on hydrophobic insulating long ligands also hinders their stability and electrical conductivity",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    26,
+    56
+   ]
+  }
+ ],
+ "errors": []
+}

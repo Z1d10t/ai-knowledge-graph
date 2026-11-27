@@ -1,0 +1,5072 @@
+[
+ {
+  "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+  "paper_kind": "research",
+  "canonical": "4-chlorobenzenesulfonate",
+  "category": "material",
+  "aliases": [
+   "4Cl-BZS",
+   "4- chlorobenzenesulfonate"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_not_normalized",
+  "v2_label": "4Cl-BZS",
+  "missing_kind": "",
+  "actions": [
+   "alias_split",
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "concept present, but only under the ligand abbreviation; the full name must be the canonical label with 4Cl-BZS (and the hyphen/space variant) as paper-scoped aliases",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 87,
+     "form": "4Cl-BZS"
+    }
+   ],
+   "source_chunks": [
+    2
+   ],
+   "chunk_triple_counts": {
+    "2": 14
+   },
+   "body_mentions": 16,
+   "body_lines_in_extracted_text": 13,
+   "exact_labels": [
+    {
+     "label": "4Cl-BZS",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [
+    "BZS",
+    "4Cl-BZS/C60",
+    "4Cl-BZS device",
+    "4Cl-BZS treatment",
+    "4Cl-BZS-treated devices"
+   ],
+   "observed_in_fields": [
+    "4Cl-BZS",
+    "4Cl-BZS absorbed on perovskite layer",
+    "4Cl-BZS device",
+    "4Cl-BZS full-device stack",
+    "4Cl-BZS treated PSCs"
+   ],
+   "observed_in_evidence_text": [
+    "4CH3-BZS and 4Cl-BZS have lengths of 6.14 Å and 6.37 Å, respectively",
+    "4Cl-BZS increases the mechanical strength of perovskite/C60 interface"
+   ]
+  }
+ },
+ {
+  "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+  "paper_kind": "research",
+  "canonical": "benzenesulfonate",
+  "category": "material",
+  "aliases": [
+   "BZS"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_not_normalized",
+  "v2_label": "BZS",
+  "missing_kind": "",
+  "actions": [
+   "alias_split",
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "same as the previous entry: BZS is an alias, and the four ring-substituted ligands (BZS, 4CH3-BZS, 4Cl-BZS) must stay separate concepts",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 85,
+     "form": "benzenesulfonate"
+    },
+    {
+     "line": 87,
+     "form": "benzenesulfonate"
+    }
+   ],
+   "source_chunks": [
+    2
+   ],
+   "chunk_triple_counts": {
+    "2": 14
+   },
+   "body_mentions": 17,
+   "body_lines_in_extracted_text": 14,
+   "exact_labels": [
+    {
+     "label": "BZS",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [],
+   "observed_in_fields": [
+    "4CH3-BZS",
+    "4Cl-BZS",
+    "4Cl-BZS absorbed on perovskite layer",
+    "4Cl-BZS device",
+    "4Cl-BZS full-device stack"
+   ],
+   "observed_in_evidence_text": [
+    "4CH3-BZS and 4Cl-BZS have lengths of 6.14 Å and 6.37 Å, respectively",
+    "4Cl-BZS increases the mechanical strength of perovskite/C60 interface"
+   ]
+  }
+ },
+ {
+  "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+  "paper_kind": "research",
+  "canonical": "undercoordinated Pb2+",
+  "category": "defect",
+  "aliases": [
+   "undercoordinated Pb",
+   "Pb2+ defect sites"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "undercoordinated Pb2+ ions",
+  "missing_kind": "",
+  "actions": [
+   "split_attribute",
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "v2 keeps the sentence fragment ('... ions', 'interaction with ...') as node names; the defect concept is the head and the interaction belongs to the mechanism node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 77,
+     "form": "undercoordinated Pb"
+    },
+    {
+     "line": 79,
+     "form": "undercoordinated Pb"
+    }
+   ],
+   "source_chunks": [
+    1,
+    2
+   ],
+   "chunk_triple_counts": {
+    "1": 17,
+    "2": 14
+   },
+   "body_mentions": 3,
+   "body_lines_in_extracted_text": 3,
+   "exact_labels": [],
+   "near_labels": [
+    "undercoordinated Pb2+ ions",
+    "two neighboring Pb2+ defect sites",
+    "interaction with undercoordinated Pb2+ ions",
+    "interaction of 4Cl-BZS with undercoordinated Pb2+ ions"
+   ],
+   "observed_in_fields": [
+    "interaction with undercoordinated Pb2+ ions",
+    "two neighboring Pb2+ defect sites"
+   ],
+   "observed_in_evidence_text": [
+    "The interaction of 4Cl-BZS with undercoordinated Pb<sup>2+</sup> ions reduce the surface defect density",
+    "We identified ligands that bind two neighboring Pb<sup>2+</sup> defect sites in a planar ligand orientation on the perovskite."
+   ]
+  }
+ },
+ {
+  "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+  "paper_kind": "research",
+  "canonical": "density functional theory",
+  "category": "method",
+  "aliases": [
+   "DFT"
+  ],
+  "v2_label_status": "not_located_by_labels",
+  "verdict": "confirmed_missing",
+  "v2_label": "",
+  "missing_kind": "model_omission",
+  "actions": [
+   "targeted_reextract"
+  ],
+  "type_issue": "",
+  "reason": "the paragraph was extracted (chunk 2 produced 14 triples) and mentions DFT, but neither the method name nor the abbreviation was ever emitted as a node or field",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 87,
+     "form": "density functional theory"
+    }
+   ],
+   "source_chunks": [
+    2
+   ],
+   "chunk_triple_counts": {
+    "2": 14
+   },
+   "body_mentions": 4,
+   "body_lines_in_extracted_text": 2,
+   "exact_labels": [],
+   "near_labels": [],
+   "observed_in_fields": [],
+   "observed_in_evidence_text": []
+  }
+ },
+ {
+  "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+  "paper_kind": "research",
+  "canonical": "electron transport layer",
+  "category": "component",
+  "aliases": [
+   "ETL"
+  ],
+  "v2_label_status": "not_located_by_labels",
+  "verdict": "confirmed_missing",
+  "v2_label": "",
+  "missing_kind": "extracted_not_noded",
+  "actions": [
+   "split_attribute",
+   "targeted_reextract"
+  ],
+  "type_issue": "",
+  "reason": "ETL appears only inside the interface label 'top (ETL-facing) surface of the perovskite film' and in evidence; the layer concept itself was never created",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 79,
+     "form": "electron transport layer"
+    },
+    {
+     "line": 87,
+     "form": "ETL"
+    }
+   ],
+   "source_chunks": [
+    2
+   ],
+   "chunk_triple_counts": {
+    "2": 14
+   },
+   "body_mentions": 4,
+   "body_lines_in_extracted_text": 4,
+   "exact_labels": [],
+   "near_labels": [],
+   "observed_in_fields": [
+    "top (ETL-facing) surface of the perovskite film"
+   ],
+   "observed_in_evidence_text": [
+    "BZS, 4CH3-BZS, and 4Cl-BZS were all concentrated near the top (ETL-facing) surface of the perovskite film"
+   ]
+  }
+ },
+ {
+  "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+  "paper_kind": "research",
+  "canonical": "nonradiative recombination",
+  "category": "mechanism",
+  "aliases": [
+   "non-radiative recombination"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "nonradiative recombination at the perovskite/CTL interface",
+  "missing_kind": "",
+  "actions": [
+   "split_attribute",
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "the mechanism is stored as two long variants (interface qualifier inside the name); the head concept plus an interface qualifier is what a searcher needs",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 77,
+     "form": "nonradiative recombination"
+    },
+    {
+     "line": 79,
+     "form": "nonradiative recombination"
+    }
+   ],
+   "source_chunks": [
+    1,
+    2
+   ],
+   "chunk_triple_counts": {
+    "1": 17,
+    "2": 14
+   },
+   "body_mentions": 3,
+   "body_lines_in_extracted_text": 2,
+   "exact_labels": [],
+   "near_labels": [
+    "interface nonradiative recombination",
+    "nonradiative recombination at the perovskite/CTL interface"
+   ],
+   "observed_in_fields": [
+    "interface nonradiative recombination",
+    "nonradiative recombination at the perovskite/CTL interface"
+   ],
+   "observed_in_evidence_text": [
+    "Surface passivation of the perovskite active layer is used to suppress interface nonradiative recombination",
+    "nonradiative recombination at the perovskite/charge transport layer (CTL) interface, which limits photovoltage and fill factor (FF)"
+   ]
+  }
+ },
+ {
+  "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+  "paper_kind": "research",
+  "canonical": "fill factor",
+  "category": "property",
+  "aliases": [
+   "FF"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "fill factor",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "clean property node; FF appears in measurements as a separate abbreviation and should be registered as an alias",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 53,
+     "form": "fill factor"
+    },
+    {
+     "line": 77,
+     "form": "fill factor"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 17
+   },
+   "body_mentions": 3,
+   "body_lines_in_extracted_text": 2,
+   "exact_labels": [
+    {
+     "label": "fill factor",
+     "types": [
+      "property"
+     ]
+    }
+   ],
+   "near_labels": [
+    "photovoltage and fill factor",
+    "fill factor in pin PSCs"
+   ],
+   "observed_in_fields": [
+    "fill factor",
+    "fill factor in pin PSCs",
+    "photovoltage and fill factor",
+    "significantly higher FF compared to BZS and 4CH3-BZS-treated PSCs"
+   ],
+   "observed_in_evidence_text": [
+    "4Cl-BZStreated PSCs showed a significantly higher FF compared to BZS and 4CH3-BZS-treated PSCs",
+    "FF of 86.2%"
+   ]
+  }
+ },
+ {
+  "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+  "paper_kind": "research",
+  "canonical": "inverted perovskite solar cells",
+  "category": "device",
+  "aliases": [
+   "pin PSCs"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "granularity_different",
+  "v2_label": "perovskite solar cells",
+  "missing_kind": "",
+  "actions": [
+   "add_edge",
+   "type_fix"
+  ],
+  "type_issue": "",
+  "reason": "only the parent class (typed device *and* material_class) and sample-level 'pin PSC' instances exist; the inverted/pin device concept is missing",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 55,
+     "form": "inverted perovskite solar cells"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 17
+   },
+   "body_mentions": 14,
+   "body_lines_in_extracted_text": 3,
+   "exact_labels": [],
+   "near_labels": [
+    "pin PSC",
+    "perovskite solar cells",
+    "fill factor in pin PSCs"
+   ],
+   "observed_in_fields": [
+    "fill factor in pin PSCs",
+    "perovskite solar cells",
+    "pin PSCs"
+   ],
+   "observed_in_evidence_text": [
+    "The approach retains the benefits of 65 °C 1 sun MPP operating stability seen in pin PSCs.",
+    "The bandgap of the _pin_ PSCs was taken from external quantum efficiency (EQE) measurements as 1.53 eV"
+   ]
+  }
+ },
+ {
+  "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+  "paper_kind": "research",
+  "canonical": "Ga2O3",
+  "category": "material",
+  "aliases": [
+   "gallium oxide"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "Ga2O3",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "correct material node; qualified forms (n-Ga2O3, Ga2O3 layer) should hang off it",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 25,
+     "form": "Ga2O3"
+    },
+    {
+     "line": 39,
+     "form": "Ga2O3"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 66,
+   "body_lines_in_extracted_text": 47,
+   "exact_labels": [
+    {
+     "label": "Ga2O3",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [
+    "n-Ga2O3",
+    "Ga2O3 SBD",
+    "Ga2O3 layer",
+    "Ga2O3 device",
+    "Ga2O3 epi-layer"
+   ],
+   "observed_in_fields": [
+    "13-μm Ga2O3 drift layer",
+    "7-μm low level injected Ga2O3 layer",
+    "Ga2O3 HJ PN diode",
+    "Ga2O3 HJ PN diode (TGa2O3 = 13 μm)",
+    "Ga2O3 HJ PN diode (TGa2O3 = 7.5 μm)"
+   ],
+   "observed_in_evidence_text": [
+    "4 Hole lifetime determination in Ga2O3 layer.",
+    "5 Benchmarking UWB Ga2O3 power diodes against state-of-the-art other diodes."
+   ]
+  }
+ },
+ {
+  "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+  "paper_kind": "research",
+  "canonical": "NiOx",
+  "category": "material",
+  "aliases": [
+   "p-NiOx"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_not_normalized",
+  "v2_label": "p-NiOx",
+  "missing_kind": "",
+  "actions": [
+   "alias_split",
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "only the p-doped form is a node; the material concept NiOx needs the p- prefix as a doping qualifier and 'p-NiOx' as a paper-scoped alias",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 39,
+     "form": "NiOx"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 14,
+   "body_lines_in_extracted_text": 12,
+   "exact_labels": [
+    {
+     "label": "p-NiOx",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [
+    "p-NiOx layer",
+    "p-NiOx/n-Ga2O3 HJ",
+    "p-NiOx first layer",
+    "p-NiOx second layer",
+    "p-NiOx/n-Ga2O3 HJ structure"
+   ],
+   "observed_in_fields": [
+    "p-NiOx",
+    "p-NiOx first layer",
+    "p-NiOx in anode field plate region",
+    "p-NiOx second layer",
+    "p-NiOx/n-Ga2O3 HJ"
+   ],
+   "observed_in_evidence_text": [
+    "Currentvoltage behavior of the Ni pads on p-NiOx with NA = 10<sup>19</sup> cm<sup>−3</sup> , showing an Ohmic contact",
+    "Heavily doped p-NiOx layer on top is utilized to form an Ohmic contact"
+   ]
+  }
+ },
+ {
+  "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+  "paper_kind": "research",
+  "canonical": "GaN",
+  "category": "material",
+  "aliases": [
+   "gallium nitride"
+  ],
+  "v2_label_status": "not_located_by_labels",
+  "verdict": "confirmed_missing",
+  "v2_label": "",
+  "missing_kind": "extracted_not_noded",
+  "actions": [
+   "targeted_reextract"
+  ],
+  "type_issue": "",
+  "reason": "GaN is used in the text as a comparison baseline and appears inside the long property label 'breaking the 1-D unipolar ... limit of GaN and SiC'; no GaN node exists",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 25,
+     "form": "GaN"
+    },
+    {
+     "line": 39,
+     "form": "GaN"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 17,
+   "body_lines_in_extracted_text": 5,
+   "exact_labels": [],
+   "near_labels": [],
+   "observed_in_fields": [
+    "breaking the 1-D unipolar figure-of-merit limit of GaN and SiC",
+    "performance exceeding the 1-D unipolar limit of the SiC and GaN"
+   ],
+   "observed_in_evidence_text": [
+    "Our Ga2O3 power diodes set a milestone for the UWB power diodes by breaking the 1-D unipolar figure-of-merit limit of GaN and SiC",
+    "the performance of the Ga2O3 device exceeds the 1-D unipolar limit of the SiC and GaN"
+   ]
+  }
+ },
+ {
+  "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+  "paper_kind": "research",
+  "canonical": "SiC",
+  "category": "material",
+  "aliases": [
+   "silicon carbide"
+  ],
+  "v2_label_status": "not_located_by_labels",
+  "verdict": "confirmed_missing",
+  "v2_label": "",
+  "missing_kind": "extracted_not_noded",
+  "actions": [
+   "targeted_reextract"
+  ],
+  "type_issue": "",
+  "reason": "same paragraph as GaN; SiC occurs only inside a property phrase and evidence, never as a material node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 25,
+     "form": "SiC"
+    },
+    {
+     "line": 39,
+     "form": "SiC"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 14,
+   "body_lines_in_extracted_text": 6,
+   "exact_labels": [],
+   "near_labels": [],
+   "observed_in_fields": [
+    "P-FOM surpassing the 1-D unipolar limit of the SiC",
+    "breaking the 1-D unipolar figure-of-merit limit of GaN and SiC",
+    "performance exceeding the 1-D unipolar limit of the SiC and GaN"
+   ],
+   "observed_in_evidence_text": [
+    "Our Ga2O3 power diodes set a milestone for the UWB power diodes by breaking the 1-D unipolar figure-of-merit limit of GaN and SiC",
+    "the performance of the Ga2O3 device exceeds the 1-D unipolar limit of the SiC and GaN"
+   ]
+  }
+ },
+ {
+  "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+  "paper_kind": "research",
+  "canonical": "heterojunction PN diodes",
+  "category": "device",
+  "aliases": [
+   "HJ PN diodes",
+   "PN hetero-junction"
+  ],
+  "v2_label_status": "not_located_by_labels",
+  "verdict": "confirmed_missing",
+  "v2_label": "",
+  "missing_kind": "extracted_not_noded",
+  "actions": [
+   "targeted_reextract"
+  ],
+  "type_issue": "",
+  "reason": "'Ga2O3 HJ PN diodes' appears in evidence and in device names, but the device concept 'heterojunction PN diode' was never created",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 25,
+     "form": "heterojunction PN diodes"
+    },
+    {
+     "line": 39,
+     "form": "HJ PN diodes"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 7,
+   "body_lines_in_extracted_text": 4,
+   "exact_labels": [],
+   "near_labels": [],
+   "observed_in_fields": [],
+   "observed_in_evidence_text": [
+    "our Ga2O3 HJ PN diodes achieve a record of nowadays power diodes, as compared in Fig. 5b"
+   ]
+  }
+ },
+ {
+  "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+  "paper_kind": "research",
+  "canonical": "conductivity modulation",
+  "category": "mechanism",
+  "aliases": [],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "conductivity modulation effect",
+  "missing_kind": "",
+  "actions": [
+   "split_attribute",
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "mechanism present as 'conductivity modulation effect' and 'hole injection and conductivity modulation'; the head concept should be one node, the qualifiers separate facts",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 25,
+     "form": "conductivity modulation"
+    },
+    {
+     "line": 39,
+     "form": "conductivity modulation"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 15,
+   "body_lines_in_extracted_text": 11,
+   "exact_labels": [],
+   "near_labels": [
+    "conductivity modulation effect",
+    "hole injection and conductivity modulation"
+   ],
+   "observed_in_fields": [],
+   "observed_in_evidence_text": [
+    "6 and 7. That is to say, the hole injection-related conductivity modulation can help to reduce the Ron,sp only with VF ≥ 3.5 V, since the hole is with more than 1 order of magnitude lower mobility.",
+    "holes at the Fermi tail witness no significant barrier height to travel across the PN HJ-interface and then diffuse in the Ga2O3 layer, leading to the conductivity modulation effect"
+   ]
+  }
+ },
+ {
+  "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+  "paper_kind": "research",
+  "canonical": "specific on-resistance",
+  "category": "property",
+  "aliases": [
+   "Ron,sp"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_not_normalized",
+  "v2_label": "Ron,sp",
+  "missing_kind": "",
+  "actions": [
+   "alias_split",
+   "canonicalize"
+  ],
+  "type_issue": "symbol-only label",
+  "reason": "only the symbol Ron,sp is a node; the property needs its full name as canonical and the symbol as alias (the symbol also occurs as part of longer labels)",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 25,
+     "form": "specific on-resistance"
+    },
+    {
+     "line": 39,
+     "form": "Ron,sp"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 25,
+   "body_lines_in_extracted_text": 17,
+   "exact_labels": [
+    {
+     "label": "Ron,sp",
+     "types": [
+      "property"
+     ]
+    }
+   ],
+   "near_labels": [
+    "record high BV2/Ron,sp"
+   ],
+   "observed_in_fields": [
+    "differential specific on-resistance",
+    "minimal differential specific on-resistance (Diff. Ron,sp)",
+    "on-resistance Ron,sp",
+    "overall Ron,sp",
+    "overall specific on-resistance"
+   ],
+   "observed_in_evidence_text": [
+    "6 and 7. That is to say, the hole injection-related conductivity modulation can help to reduce the Ron,sp only with VF ≥ 3.5 V, since the hole is with more than 1 order of magnitude lower mobility.",
+    "By adding up another 7-μm low level injected Ga2O3 layer resistance of 6.77/ 13 × 7 = 3.65 mΩ cm<sup>2</sup> , the 13-μm Ga2O3 drift layer owns a Ron,sp of 4.97 mΩ cm<sup>2</sup> . This estimation of the Ron,sp coincides with our extracted Ron,sp from the IF–VF, verifying the correctness of the exp…"
+   ]
+  }
+ },
+ {
+  "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+  "paper_kind": "research",
+  "canonical": "breakdown voltage",
+  "category": "property",
+  "aliases": [
+   "BV"
+  ],
+  "v2_label_status": "not_located_by_labels",
+  "verdict": "confirmed_missing",
+  "v2_label": "",
+  "missing_kind": "extracted_not_noded",
+  "actions": [
+   "targeted_reextract"
+  ],
+  "type_issue": "",
+  "reason": "BV appears only inside device labels such as 'diode with BV = 8.32 kV'; the property concept itself was never created",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 25,
+     "form": "breakdown voltage"
+    },
+    {
+     "line": 39,
+     "form": "breakdown voltage"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 6,
+   "body_lines_in_extracted_text": 3,
+   "exact_labels": [],
+   "near_labels": [],
+   "observed_in_fields": [
+    "HJ PND with TGa2O3 = 13 μm and BV = 8.32 kV",
+    "breakdown voltage"
+   ],
+   "observed_in_evidence_text": [
+    "A BV of 5.1 kV and 8.32 kV are achieved for diodes with TGa2O3 = 7.5 and 13 μm",
+    "Combined with the Ron,sp = 2.9 mΩ cm<sup>2</sup> , the P-FOM = BV<sup>2</sup> /Ron,sp is yielded to be 8.97 GW/cm<sup>2</sup> . As for the diode with TGa2O3 = 13 μm, a maximum BV of 8.32 kV is acquired at an IR = 0.2 mA/cm<sup>2</sup> , as exhibited in Fig."
+   ]
+  }
+ },
+ {
+  "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+  "paper_kind": "review",
+  "canonical": "quasi-2D perovskites",
+  "category": "material_class",
+  "aliases": [
+   "quasi-two-dimensional perovskites",
+   "quasi2D perovskites"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_concept",
+  "v2_label": "quasi-2D perovskite",
+  "missing_kind": "",
+  "actions": [
+   "keep",
+   "type_fix"
+  ],
+  "type_issue": "material vs material_class",
+  "reason": "the class node exists (singular); the type is split between material and material_class and must be fixed to material_class",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 37,
+     "form": "quasi-2D perovskites"
+    },
+    {
+     "line": 39,
+     "form": "quasi-2D perovskites"
+    },
+    {
+     "line": 55,
+     "form": "quasi-2D perovskites"
+    }
+   ],
+   "source_chunks": [
+    1,
+    2
+   ],
+   "chunk_triple_counts": {
+    "1": 7,
+    "2": 14
+   },
+   "body_mentions": 35,
+   "body_lines_in_extracted_text": 32,
+   "exact_labels": [],
+   "near_labels": [
+    "A",
+    "N",
+    "A′",
+    "quasi-2D",
+    "perovskites"
+   ],
+   "observed_in_fields": [
+    "N",
+    "PbBr2 on quasi-2D perovskite surface coordinated with GABA and PEA",
+    "perovskites",
+    "quasi-2D perovskite"
+   ],
+   "observed_in_evidence_text": [
+    "DFT-calculated destabilization energy of PbBr2 on the quasi-2D perovskite surface when coordinated with GABA and PEA",
+    "Electronic properties of quasi-2D perovskites, which are determined by the degree of quantum- and dielectric-confinement effects"
+   ]
+  }
+ },
+ {
+  "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+  "paper_kind": "review",
+  "canonical": "quantum-well structure",
+  "category": "structure",
+  "aliases": [
+   "quantum-well structures"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "quantum-well structures",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "clean structure node; the qualified variants (natural, self-assembled multi-) should be sub-structures",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 27,
+     "form": "quantum-well structure"
+    },
+    {
+     "line": 55,
+     "form": "quantum-well structure"
+    }
+   ],
+   "source_chunks": [
+    1,
+    2
+   ],
+   "chunk_triple_counts": {
+    "1": 7,
+    "2": 14
+   },
+   "body_mentions": 3,
+   "body_lines_in_extracted_text": 2,
+   "exact_labels": [
+    {
+     "label": "quantum-well structures",
+     "types": [
+      "structure"
+     ]
+    }
+   ],
+   "near_labels": [
+    "A",
+    "N",
+    "A′",
+    "quantum wells",
+    "natural quantum-well structures"
+   ],
+   "observed_in_fields": [
+    "N",
+    "natural quantum-well structures",
+    "quantum wells",
+    "quantum-well structures",
+    "self-assembled multi-quantum-well structures"
+   ],
+   "observed_in_evidence_text": [
+    "Quasi-2D perovskites represent an important category of perovskites that possess self-assembled multi-quantum-well structures",
+    "quasi-2D perovskites possess natural quantum-well structures"
+   ]
+  }
+ },
+ {
+  "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+  "paper_kind": "review",
+  "canonical": "dielectric confinement",
+  "category": "mechanism",
+  "aliases": [
+   "dielectric-confinement"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "dielectric confinement",
+  "missing_kind": "",
+  "actions": [
+   "keep",
+   "type_fix"
+  ],
+  "type_issue": "mechanism vs property",
+  "reason": "node exists with conflicting types; the mechanism reading is the one the paper uses",
+  "evidence": {
+   "source_mentions": [],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 8,
+   "body_lines_in_extracted_text": 6,
+   "exact_labels": [
+    {
+     "label": "dielectric confinement",
+     "types": [
+      "mechanism",
+      "property"
+     ]
+    }
+   ],
+   "near_labels": [
+    "N",
+    "quantum- and dielectric-confinement effects",
+    "more pronounced dielectric confinement effect"
+   ],
+   "observed_in_fields": [
+    "N",
+    "dielectric confinement",
+    "more pronounced dielectric confinement effect",
+    "quantum- and dielectric-confinement effects"
+   ],
+   "observed_in_evidence_text": [
+    "Due to the quantum- and dielectric-confinement effects arising from the QW structure, the Eb of a quasi-2D perovskite becomes larger than that of its 3D analog",
+    "Electronic properties of quasi-2D perovskites, which are determined by the degree of quantum- and dielectric-confinement effects"
+   ]
+  }
+ },
+ {
+  "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+  "paper_kind": "review",
+  "canonical": "quantum confinement",
+  "category": "mechanism",
+  "aliases": [
+   "quantum-confinement"
+  ],
+  "v2_label_status": "not_located_by_labels",
+  "verdict": "correct_not_normalized",
+  "v2_label": "quantum- and dielectric-confinement effects",
+  "missing_kind": "",
+  "actions": [
+   "split_compound",
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "only the combined compound node exists; quantum confinement and dielectric confinement are separate mechanisms",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 27,
+     "form": "quantum-confinement"
+    },
+    {
+     "line": 55,
+     "form": "quantum-confinement"
+    }
+   ],
+   "source_chunks": [
+    1,
+    2
+   ],
+   "chunk_triple_counts": {
+    "1": 7,
+    "2": 14
+   },
+   "body_mentions": 4,
+   "body_lines_in_extracted_text": 4,
+   "exact_labels": [],
+   "near_labels": [
+    "A",
+    "N",
+    "A′"
+   ],
+   "observed_in_fields": [
+    "N"
+   ],
+   "observed_in_evidence_text": [
+    "Reducing the average <n> value of the film enhances the quantum-confinement effect, broadens the perovskite bandgap, and results in spectral blueshift.",
+    "the inherent quantum-well structure endows them with a large exciton binding energy due to the strong dielectricand quantum-confinement effects"
+   ]
+  }
+ },
+ {
+  "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+  "paper_kind": "review",
+  "canonical": "exciton binding energy",
+  "category": "property",
+  "aliases": [],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "exciton binding energy",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "clean property node with observation nodes attached",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 27,
+     "form": "exciton binding energy"
+    },
+    {
+     "line": 55,
+     "form": "exciton binding energy"
+    }
+   ],
+   "source_chunks": [
+    1,
+    2
+   ],
+   "chunk_triple_counts": {
+    "1": 7,
+    "2": 14
+   },
+   "body_mentions": 3,
+   "body_lines_in_extracted_text": 3,
+   "exact_labels": [
+    {
+     "label": "exciton binding energy",
+     "types": [
+      "property"
+     ]
+    }
+   ],
+   "near_labels": [
+    "B",
+    "X",
+    "N",
+    "large exciton binding energy",
+    "exciton binding energy of quasi-2D perovskite"
+   ],
+   "observed_in_fields": [
+    "N",
+    "exciton binding energy",
+    "large exciton binding energy"
+   ],
+   "observed_in_evidence_text": [
+    "Such strong confinements thus afford a large exciton binding energy (Eb)",
+    "the inherent quantum-well structure endows them with a large exciton binding energy"
+   ]
+  }
+ },
+ {
+  "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+  "paper_kind": "review",
+  "canonical": "energy transfer",
+  "category": "mechanism",
+  "aliases": [],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "energy transfer",
+  "missing_kind": "",
+  "actions": [
+   "keep",
+   "type_fix"
+  ],
+  "type_issue": "mechanism/process/property",
+  "reason": "node exists but carries three types; the paper uses it as a mechanism",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 27,
+     "form": "energy transfer"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 7
+   },
+   "body_mentions": 16,
+   "body_lines_in_extracted_text": 15,
+   "exact_labels": [
+    {
+     "label": "energy transfer",
+     "types": [
+      "mechanism",
+      "process",
+      "property"
+     ]
+    }
+   ],
+   "near_labels": [
+    "A",
+    "N",
+    "A′",
+    "efficient energy transfer",
+    "energy transfer efficiency"
+   ],
+   "observed_in_fields": [
+    "N",
+    "efficient energy transfer",
+    "efficient energy transfer among different species",
+    "energy transfer",
+    "faster Förster resonance energy transfer (FRET) than a randomly oriented film"
+   ],
+   "observed_in_evidence_text": [
+    "Energy transfer in quasi-2D perovskite films originates from the graded band structure because of mixed n-value species.",
+    "For quasi-2D perovskite films, the n-value distribution affects their energy transfer and corresponding radiative exciton recombination efficiency."
+   ]
+  }
+ },
+ {
+  "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+  "paper_kind": "review",
+  "canonical": "photoluminescence quantum yield",
+  "category": "property",
+  "aliases": [
+   "PLQY",
+   "PLQYs"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "photoluminescence quantum yield",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "full name and PLQY are both nodes; they should be one concept with PLQY as alias, not two nodes",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 27,
+     "form": "photoluminescence quantum yield"
+    },
+    {
+     "line": 37,
+     "form": "photoluminescence quantum yield"
+    },
+    {
+     "line": 55,
+     "form": "PLQY"
+    }
+   ],
+   "source_chunks": [
+    1,
+    2
+   ],
+   "chunk_triple_counts": {
+    "1": 7,
+    "2": 14
+   },
+   "body_mentions": 26,
+   "body_lines_in_extracted_text": 26,
+   "exact_labels": [
+    {
+     "label": "PLQY",
+     "types": [
+      "property"
+     ]
+    },
+    {
+     "label": "photoluminescence quantum yield",
+     "types": [
+      "property"
+     ]
+    }
+   ],
+   "near_labels": [
+    "A",
+    "N",
+    "A′",
+    "ηPL",
+    "high PLQYs"
+   ],
+   "observed_in_fields": [
+    "N",
+    "PLQY",
+    "high PLQY and near invariant dependence at carrier densities below 10^16 cm^3",
+    "high PLQY and nucleation density",
+    "high PLQYs"
+   ],
+   "observed_in_evidence_text": [
+    "6f), and over 70% PLQY in blue emission was obtained<sup>45</sup> . Lanzetta et al.<sup>111</sup> reported the 2D Zhang et al.",
+    "At high N, k3 increases sharply and gradually dominates, resulting in a decrease in PLQY"
+   ]
+  }
+ },
+ {
+  "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+  "paper_kind": "review",
+  "canonical": "perovskite LEDs",
+  "category": "device",
+  "aliases": [
+   "PeLEDs"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "PeLED",
+  "missing_kind": "",
+  "actions": [
+   "alias_split",
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "only the singular abbreviation 'PeLED' (plus generic LEDs and qualified variants) exists; the device concept needs its full name and PeLEDs alias",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 27,
+     "form": "PeLEDs"
+    },
+    {
+     "line": 37,
+     "form": "perovskite LEDs"
+    },
+    {
+     "line": 53,
+     "form": "PeLEDs"
+    }
+   ],
+   "source_chunks": [
+    1,
+    2
+   ],
+   "chunk_triple_counts": {
+    "1": 7,
+    "2": 14
+   },
+   "body_mentions": 53,
+   "body_lines_in_extracted_text": 53,
+   "exact_labels": [],
+   "near_labels": [
+    "LEDs",
+    "PeLED",
+    "3D PeLEDs",
+    "white PeLEDs",
+    "quasi2D PeLEDs"
+   ],
+   "observed_in_fields": [
+    "3D PeLEDs",
+    "NIR quasi-2D PeLEDs",
+    "PeLEDs based on perovskite nanocrystals",
+    "blue quasi-2D PeLEDs",
+    "flexible quasi-2D PeLEDs"
+   ],
+   "observed_in_evidence_text": [
+    "3D PeLEDs have achieved EQEs of more than 20% in both the near-infrared and green regimes",
+    "8 Device engineering and characterization of quasi-2D PeLEDs."
+   ]
+  }
+ },
+ {
+  "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+  "paper_kind": "review",
+  "canonical": "AlGaN",
+  "category": "material",
+  "aliases": [
+   "AlGaN alloys"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "AlGaN",
+  "missing_kind": "",
+  "actions": [
+   "keep",
+   "type_fix"
+  ],
+  "type_issue": "material vs material_class",
+  "reason": "material node exists; material_class is also recorded for the ternary alloy, which is a type conflict to resolve",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 27,
+     "form": "AlGaN"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 12
+   },
+   "body_mentions": 291,
+   "body_lines_in_extracted_text": 125,
+   "exact_labels": [
+    {
+     "label": "AlGaN",
+     "types": [
+      "material",
+      "material_class"
+     ]
+    }
+   ],
+   "near_labels": [
+    "GaN",
+    "n-AlGaN",
+    "i-AlGaN",
+    "p-AlGaN",
+    "AlGaN APD"
+   ],
+   "observed_in_fields": [
+    "Al composition of the p-AlGaN layer",
+    "AlGaN",
+    "AlGaN APD",
+    "AlGaN APD with a conventional p-i-n structure",
+    "AlGaN APDs with polarization engineering"
+   ],
+   "observed_in_evidence_text": [
+    "#### Schottky barrier photodiodes The structure and fabrication process of AlGaN-based Schottky detectors are relatively simple and consist of a Schottky contact metal and an ohmic contact metal.",
+    "16 Hybrid-packaged AlGaN focal plane arrays."
+   ]
+  }
+ },
+ {
+  "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+  "paper_kind": "review",
+  "canonical": "III-nitride",
+  "category": "material_class",
+  "aliases": [
+   "III-nitride material"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_not_normalized",
+  "v2_label": "III-nitride material",
+  "missing_kind": "",
+  "actions": [
+   "canonicalize",
+   "alias_split"
+  ],
+  "type_issue": "",
+  "reason": "the class node carries the generic noun 'material'; 'Group-III nitride semiconductors' is a second surface form that should map to the same concept",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 27,
+     "form": "III-nitride"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 12
+   },
+   "body_mentions": 13,
+   "body_lines_in_extracted_text": 6,
+   "exact_labels": [
+    {
+     "label": "III-nitride material",
+     "types": [
+      "material_class"
+     ]
+    }
+   ],
+   "near_labels": [
+    "III-nitride semiconductors",
+    "Group-III nitride semiconductors"
+   ],
+   "observed_in_fields": [
+    "III-nitride material"
+   ],
+   "observed_in_evidence_text": [
+    "As a representative III-nitride material, AlGaN alloys have broad development prospects",
+    "Group-III nitride semiconductors exhibit superior properties, such as a wide energy bandgap"
+   ]
+  }
+ },
+ {
+  "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+  "paper_kind": "review",
+  "canonical": "solar-blind ultraviolet photodetectors",
+  "category": "device",
+  "aliases": [
+   "solar-blind UV PDs"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "granularity_different",
+  "v2_label": "PDs",
+  "missing_kind": "",
+  "actions": [
+   "add_edge"
+  ],
+  "type_issue": "",
+  "reason": "only the generic 'PDs' device and the process phrase 'development of AlGaN-based solar-blind UV PDs' exist; the specific device concept is missing",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 27,
+     "form": "solar-blind UV PDs"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 12
+   },
+   "body_mentions": 11,
+   "body_lines_in_extracted_text": 7,
+   "exact_labels": [],
+   "near_labels": [
+    "PD",
+    "PDs",
+    "development of AlGaN-based solar-blind UV PDs"
+   ],
+   "observed_in_fields": [
+    "PD",
+    "PDs",
+    "development of AlGaN-based solar-blind UV PDs"
+   ],
+   "observed_in_evidence_text": [
+    "The biggest bottleneck in the development of AlGaN-based solar-blind UV PDs is the high-quality film epitaxy of high-Al-content AlGaN alloys"
+   ]
+  }
+ },
+ {
+  "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+  "paper_kind": "review",
+  "canonical": "focal plane arrays",
+  "category": "device",
+  "aliases": [
+   "FPAs"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_not_normalized",
+  "v2_label": "FPAs",
+  "missing_kind": "",
+  "actions": [
+   "alias_split",
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "only the abbreviation is a node; the full name appears in evidence and in 'AlGaN-based focal plane arrays (FPAs)'",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 27,
+     "form": "focal plane arrays"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 12
+   },
+   "body_mentions": 38,
+   "body_lines_in_extracted_text": 23,
+   "exact_labels": [
+    {
+     "label": "FPAs",
+     "types": [
+      "device"
+     ]
+    }
+   ],
+   "near_labels": [
+    "focal plane arrays (FPAs)",
+    "AlGaN-based focal plane arrays (FPAs)"
+   ],
+   "observed_in_fields": [
+    "AlGaN FPAs on 2-inch sapphire wafer",
+    "back-illuminated 256 × 256 AlGaN UV FPAs",
+    "focal plane arrays (FPAs)",
+    "reported FPAs",
+    "superior alternative material for the development of small-size, lightweight, and low-power solar-blind FPAs"
+   ],
+   "observed_in_evidence_text": [
+    "16 Hybrid-packaged AlGaN focal plane arrays.",
+    "320 × 256 AlGaN FPAs on 2-inch sapphire wafer"
+   ]
+  }
+ },
+ {
+  "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+  "paper_kind": "review",
+  "canonical": "metal-semiconductor-metal photodetectors",
+  "category": "device",
+  "aliases": [
+   "MSM"
+  ],
+  "v2_label_status": "not_located_by_labels",
+  "verdict": "confirmed_missing",
+  "v2_label": "",
+  "missing_kind": "extracted_not_noded",
+  "actions": [
+   "targeted_reextract"
+  ],
+  "type_issue": "",
+  "reason": "MSM appears as 'MSM PD' and 'metal-semiconductor-metal (MSM) PD' in text and evidence but no MSM device node exists",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 27,
+     "form": "MSM"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 12
+   },
+   "body_mentions": 26,
+   "body_lines_in_extracted_text": 15,
+   "exact_labels": [],
+   "near_labels": [],
+   "observed_in_fields": [
+    "Al0.4Ga0.6N MSM",
+    "Al0.5Ga0.5N MSM",
+    "Al0.6Ga0.4N MSM",
+    "Al0.6Ga0.4N/Al0.5Ga0.5N MSM",
+    "MSM-structured GaN UV PD"
+   ],
+   "observed_in_evidence_text": [
+    "A metal–semiconductor–metal (MSM) PD is composed of two back-to-back Schottky diodes",
+    "Al nanoparticles enhanced the responsivity of an AlGaN MSM solar-blind detector"
+   ]
+  }
+ },
+ {
+  "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+  "paper_kind": "review",
+  "canonical": "avalanche photodiodes",
+  "category": "device",
+  "aliases": [
+   "APDs"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "avalanche photodiodes (APDs)",
+  "missing_kind": "",
+  "actions": [
+   "alias_split"
+  ],
+  "type_issue": "",
+  "reason": "node exists with the abbreviation inside the label; APDs must become an alias, not part of the name",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 27,
+     "form": "avalanche photodiodes"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 12
+   },
+   "body_mentions": 35,
+   "body_lines_in_extracted_text": 12,
+   "exact_labels": [],
+   "near_labels": [
+    "photodiodes",
+    "avalanche photodiodes (APDs)"
+   ],
+   "observed_in_fields": [
+    "AlGaN APDs with polarization engineering",
+    "UV GaN APDs",
+    "avalanche photodiodes (APDs)",
+    "photodiodes"
+   ],
+   "observed_in_evidence_text": [
+    "AlGaN alloys play a significant role in the LEDs, avalanche photodiodes (APDs), single photon detectors, and focal plane arrays (FPAs)",
+    "Bulmer et al. calculated that the reasonable design of AlGaN APDs with polarization engineering could reduce operating avalanche voltage by nearly 40%"
+   ]
+  }
+ },
+ {
+  "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+  "paper_kind": "review",
+  "canonical": "epitaxy",
+  "category": "process",
+  "aliases": [],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "AlGaN epitaxy",
+  "missing_kind": "",
+  "actions": [
+   "canonicalize",
+   "split_compound"
+  ],
+  "type_issue": "",
+  "reason": "only qualified forms (AlGaN epitaxy, direct epitaxy, HT-AlN epitaxy) exist; the generic process concept is missing as a node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 27,
+     "form": "epitaxy"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 12
+   },
+   "body_mentions": 45,
+   "body_lines_in_extracted_text": 17,
+   "exact_labels": [],
+   "near_labels": [
+    "AlGaN epitaxy",
+    "direct epitaxy",
+    "HT-AlN epitaxy",
+    "modified epitaxy",
+    "migration-enhanced epitaxy"
+   ],
+   "observed_in_fields": [
+    "HT-AlN epitaxy",
+    "ammonia pulse-flow multilayer epitaxy",
+    "direct epitaxy",
+    "migration-enhanced epitaxy",
+    "modified epitaxy"
+   ],
+   "observed_in_evidence_text": [
+    "AlGaN epitaxy requires temperatures in excess of 1300 °C",
+    "Compared to direct epitaxy (dislocation density: ~5 × 10<sup>9</sup> cm<sup>−2</sup> )"
+   ]
+  }
+ },
+ {
+  "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+  "paper_kind": "review",
+  "canonical": "p-type doping",
+  "category": "process",
+  "aliases": [],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "polarization-induced p-type doping",
+  "missing_kind": "",
+  "actions": [
+   "canonicalize",
+   "type_fix"
+  ],
+  "type_issue": "p-type recorded as property",
+  "reason": "the process appears only in qualified form; 'p-type' is separately a property node, mixing a process with its qualifier",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 27,
+     "form": "p-type doping"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 12
+   },
+   "body_mentions": 13,
+   "body_lines_in_extracted_text": 13,
+   "exact_labels": [],
+   "near_labels": [
+    "p-type",
+    "polarization-induced p-type doping",
+    "low p-type doping efficiency",
+    "p-type doping of high-Al-content AlGaN"
+   ],
+   "observed_in_fields": [
+    "low p-type doping efficiency",
+    "p-type"
+   ],
+   "observed_in_evidence_text": [
+    "Another problem is the low p-type doping efficiency of AlGaN",
+    "Mg, Zn, and Be elements are typically used for p-type doping"
+   ]
+  }
+ },
+ {
+  "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+  "paper_kind": "review",
+  "canonical": "metal oxide semiconductors",
+  "category": "material_class",
+  "aliases": [
+   "MOS"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "Metal oxide semiconductors",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "clean class node with the MOS abbreviation as a second node; the two should be one concept",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 35,
+     "form": "MOS"
+    },
+    {
+     "line": 37,
+     "form": "MOS"
+    },
+    {
+     "line": 39,
+     "form": "metal oxide semiconductors"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 12
+   },
+   "body_mentions": 122,
+   "body_lines_in_extracted_text": 112,
+   "exact_labels": [
+    {
+     "label": "Metal oxide semiconductors",
+     "types": [
+      "material_class"
+     ]
+    },
+    {
+     "label": "MOS",
+     "types": [
+      "material_class"
+     ]
+    }
+   ],
+   "near_labels": [
+    "O−",
+    "SEM",
+    "metal oxide"
+   ],
+   "observed_in_fields": [
+    "MOS-based FRT gas sensor",
+    "SEM",
+    "conductivity of MOS-based nanocomposite",
+    "direct effect on MOS resistance",
+    "flexible all-inorganic RT MOS gas sensor"
+   ],
+   "observed_in_evidence_text": [
+    "### **6 Carbon‑Based Materials Modified MOS FRT Gas Sensors** 1D carbon nanotubes (CNTs) and 2D graphene deriva‑ tives are emerging materials for gas sensing owing to their high sensitivity, large surface‑to‑volume ratio, and abun‑ dant adsorption sites [120, 193, 194].",
+    "(2022) 14:206 ### **2 Gas Sensing Mechanism of MOS Chemiresistive Gas Sensors** ##### **2.1 Pristine MOS Gas Sensing Mechanism** The gas sensing mechanism of MOS is based on the oxy‑ gen adsorption model, which assumes that the change in resistance is related to chemisorbed oxygen [150–152]."
+   ]
+  }
+ },
+ {
+  "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+  "paper_kind": "review",
+  "canonical": "flexible room-temperature gas sensors",
+  "category": "device",
+  "aliases": [
+   "FRT gas sensors"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_not_normalized",
+  "v2_label": "FRT gas sensors",
+  "missing_kind": "",
+  "actions": [
+   "alias_split",
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "only the abbreviation is a node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 37,
+     "form": "FRT gas sensors"
+    },
+    {
+     "line": 39,
+     "form": "FRT gas sensors"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 12
+   },
+   "body_mentions": 46,
+   "body_lines_in_extracted_text": 44,
+   "exact_labels": [
+    {
+     "label": "FRT gas sensors",
+     "types": [
+      "device"
+     ]
+    }
+   ],
+   "near_labels": [
+    "O−",
+    "sensor",
+    "RT gas sensors",
+    "pristine MOS FRT gas sensors",
+    "application in FRT gas sensors"
+   ],
+   "observed_in_fields": [
+    "FRT gas sensors",
+    "RT gas sensors",
+    "application in FRT gas sensors",
+    "flexible substrates for MOS-based FRT gas sensors"
+   ],
+   "observed_in_evidence_text": [
+    "### **6 Carbon‑Based Materials Modified MOS FRT Gas Sensors** 1D carbon nanotubes (CNTs) and 2D graphene deriva‑ tives are emerging materials for gas sensing owing to their high sensitivity, large surface‑to‑volume ratio, and abun‑ dant adsorption sites [120, 193, 194].",
+    "- (3) Organic conducting polymers especially PANI has been widely used in MOS‑based FRT gas sensors owing to their tunable electrical properties, excellent mechani‑ cal flexibility, RT operation, and morphological tun‑ ability."
+   ]
+  }
+ },
+ {
+  "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+  "paper_kind": "review",
+  "canonical": "noble metal nanoparticles",
+  "category": "material_class",
+  "aliases": [],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "noble metal nanoparticles",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "clean class node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 35,
+     "form": "noble metal nanoparticles"
+    },
+    {
+     "line": 39,
+     "form": "noble metal nanoparticles"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 12
+   },
+   "body_mentions": 10,
+   "body_lines_in_extracted_text": 9,
+   "exact_labels": [
+    {
+     "label": "noble metal nanoparticles",
+     "types": [
+      "material_class"
+     ]
+    }
+   ],
+   "near_labels": [
+    "O−",
+    "PA",
+    "noble metal nanoparticles modification",
+    "noble metal nanoparticles modified MOS"
+   ],
+   "observed_in_fields": [],
+   "observed_in_evidence_text": [
+    "Noble metal nanoparticles modification is considered to be a valuable strategy to improve the response and selectivity",
+    "Surface modification with noble metals refers to doping Pt, Pd, Au, Ag, and other noble metal nanoparticles on MOS"
+   ]
+  }
+ },
+ {
+  "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+  "paper_kind": "review",
+  "canonical": "organic polymers",
+  "category": "material_class",
+  "aliases": [],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "organic polymers modified MOS",
+  "missing_kind": "",
+  "actions": [
+   "split_composite"
+  ],
+  "type_issue": "",
+  "reason": "the polymer concept only exists inside the composite mention 'organic polymers modified MOS'; keep the composite and add the standalone concept",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 35,
+     "form": "organic polymers"
+    },
+    {
+     "line": 39,
+     "form": "organic polymers"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 12
+   },
+   "body_mentions": 9,
+   "body_lines_in_extracted_text": 8,
+   "exact_labels": [],
+   "near_labels": [
+    "O−",
+    "organic polymers modified MOS"
+   ],
+   "observed_in_fields": [],
+   "observed_in_evidence_text": [
+    "MOS are often hybrids with other MOS, organic polymers, carbon‑based materials and TDMCs",
+    "noble metal nanoparticles modified MOS, organic polymers modified MOS"
+   ]
+  }
+ },
+ {
+  "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+  "paper_kind": "review",
+  "canonical": "carbon nanotubes",
+  "category": "material_class",
+  "aliases": [],
+  "v2_label_status": "not_located_by_labels",
+  "verdict": "confirmed_missing",
+  "v2_label": "",
+  "missing_kind": "extracted_not_noded",
+  "actions": [
+   "split_composite"
+  ],
+  "type_issue": "",
+  "reason": "carbon nanotubes appear in the evidence of the composite 'carbon-based materials modified MOS' and in the body text, but never as a node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 39,
+     "form": "carbon nanotubes"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 12
+   },
+   "body_mentions": 8,
+   "body_lines_in_extracted_text": 4,
+   "exact_labels": [],
+   "near_labels": [
+    "O−"
+   ],
+   "observed_in_fields": [],
+   "observed_in_evidence_text": [
+    "### **6 Carbon‑Based Materials Modified MOS FRT Gas Sensors** 1D carbon nanotubes (CNTs) and 2D graphene deriva‑ tives are emerging materials for gas sensing owing to their high sensitivity, large surface‑to‑volume ratio, and abun‑ dant adsorption sites [120, 193, 194].",
+    "[100] prepared flexible nylon fiber gas sensors with SWCNTs, multi‑walled carbon nanotubes (MWCNTs) and ZnO quantum dot modified SWCNTs as sensing materials."
+   ]
+  }
+ },
+ {
+  "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+  "paper_kind": "review",
+  "canonical": "graphene derivatives",
+  "category": "material_class",
+  "aliases": [],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "graphene derivatives",
+  "missing_kind": "",
+  "actions": [
+   "keep",
+   "type_fix"
+  ],
+  "type_issue": "material vs material_class",
+  "reason": "node exists; a family of derivatives is a material_class",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 39,
+     "form": "graphene derivatives"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 12
+   },
+   "body_mentions": 5,
+   "body_lines_in_extracted_text": 5,
+   "exact_labels": [
+    {
+     "label": "graphene derivatives",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [
+    "graphene"
+   ],
+   "observed_in_fields": [],
+   "observed_in_evidence_text": [
+    "### **6 Carbon‑Based Materials Modified MOS FRT Gas Sensors** 1D carbon nanotubes (CNTs) and 2D graphene deriva‑ tives are emerging materials for gas sensing owing to their high sensitivity, large surface‑to‑volume ratio, and abun‑ dant adsorption sites [120, 193, 194].",
+    "In general, both CNTs and graphene derivatives exhibit p‑type properties."
+   ]
+  }
+ },
+ {
+  "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+  "paper_kind": "review",
+  "canonical": "transition metal dichalcogenides",
+  "category": "material_class",
+  "aliases": [],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "two-dimensional transition metal dichalcogenides materials modified MOS",
+  "missing_kind": "",
+  "actions": [
+   "split_composite",
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "TMDCs only exist inside the composite mention; the class concept itself is missing",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 39,
+     "form": "transition metal dichalcogenides"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 12
+   },
+   "body_mentions": 3,
+   "body_lines_in_extracted_text": 2,
+   "exact_labels": [],
+   "near_labels": [
+    "O−",
+    "two-dimensional transition metal dichalcogenides materials modified MOS"
+   ],
+   "observed_in_fields": [],
+   "observed_in_evidence_text": [
+    "two‑dimensional transition metal dichalcogenides materials modified MOS"
+   ]
+  }
+ },
+ {
+  "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+  "paper_kind": "review",
+  "canonical": "operating temperature",
+  "category": "property",
+  "aliases": [],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "operating temperature",
+  "missing_kind": "",
+  "actions": [
+   "keep",
+   "type_fix"
+  ],
+  "type_issue": "condition vs property",
+  "reason": "node exists; it is stored as both condition and property and must be unified (property, with measurements in observation nodes)",
+  "evidence": {
+   "source_mentions": [],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 17,
+   "body_lines_in_extracted_text": 16,
+   "exact_labels": [
+    {
+     "label": "operating temperature",
+     "types": [
+      "condition",
+      "property"
+     ]
+    }
+   ],
+   "near_labels": [
+    "O−",
+    "high operating temperature",
+    "reduction of operating temperature",
+    "operation at lower operating temperatures",
+    "operating temperature and response/recovery time reduction"
+   ],
+   "observed_in_fields": [
+    "high operating temperature",
+    "lower LODs, shorter response/recovery times, lower operating temperatures, and better mechanical flexibility",
+    "operating temperature",
+    "operating temperature and response/recovery time reduction",
+    "operation at lower operating temperatures"
+   ],
+   "observed_in_evidence_text": [
+    "Both UV and visible light irradiation can effectively reduce the operating temperature, increase the response value, and speed up the response/recovery process",
+    "Both UV‑light and visible‑light illumination have been employed to manufacture FRT gas sensors, effectively reducing the operating temperature, increasing the response value, and speeding up the response/recovery process."
+   ]
+  }
+ },
+ {
+  "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+  "paper_kind": "research",
+  "canonical": "HfO2",
+  "category": "material",
+  "aliases": [],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "HfO2",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "clean formula node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 190,
+     "form": "HfO2"
+    },
+    {
+     "line": 192,
+     "form": "HfO2"
+    },
+    {
+     "line": 194,
+     "form": "HfO2"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 56,
+   "body_lines_in_extracted_text": 43,
+   "exact_labels": [
+    {
+     "label": "HfO2",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [],
+   "observed_in_fields": [
+    "2 nm HfO2-ZrO2 heterostructure",
+    "2 nm HfO2-ZrO2-HfO2 multilayer film",
+    "2 nm HfO2-ZrO2-HfO2 trilayer",
+    "HfO2",
+    "HfO2 thickness series"
+   ],
+   "observed_in_evidence_text": [
+    "(a) 409 MIM C-V hysteresis loops for a mixed FE-AFE HfO2-ZrO2 multilayer demonstrating higher ca410 pacitance compared against its AFE (ZrO2) and FE (Zr:HfO2) counterparts of the same thickness.",
+    "(c) Schematic 390 of the HfO2-ZrO2 fluorite-structure multilayer on Si; the heterostructures maintain distinct layers 391 (i.e."
+   ]
+  }
+ },
+ {
+  "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+  "paper_kind": "research",
+  "canonical": "ZrO2",
+  "category": "material",
+  "aliases": [],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "ZrO2",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "clean formula node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 194,
+     "form": "ZrO2"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 40,
+   "body_lines_in_extracted_text": 33,
+   "exact_labels": [
+    {
+     "label": "ZrO2",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [],
+   "observed_in_fields": [
+    "2 nm HfO2-ZrO2 heterostructure",
+    "2 nm HfO2-ZrO2-HfO2 multilayer film",
+    "2 nm HfO2-ZrO2-HfO2 trilayer",
+    "HfO2-ZrO2 heterostructure",
+    "HfO2-ZrO2 superlattice"
+   ],
+   "observed_in_evidence_text": [
+    "(a) 409 MIM C-V hysteresis loops for a mixed FE-AFE HfO2-ZrO2 multilayer demonstrating higher ca410 pacitance compared against its AFE (ZrO2) and FE (Zr:HfO2) counterparts of the same thickness.",
+    "(c) Schematic 390 of the HfO2-ZrO2 fluorite-structure multilayer on Si; the heterostructures maintain distinct layers 391 (i.e."
+   ]
+  }
+ },
+ {
+  "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+  "paper_kind": "research",
+  "canonical": "SiO2",
+  "category": "material",
+  "aliases": [],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "SiO2",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "clean formula node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 190,
+     "form": "SiO2"
+    },
+    {
+     "line": 192,
+     "form": "SiO2"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 32,
+   "body_lines_in_extracted_text": 26,
+   "exact_labels": [
+    {
+     "label": "SiO2",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [],
+   "observed_in_fields": [
+    "1.0-1.5 Å lower EOT than constituent SiO2 thickness",
+    "ILD SiO2",
+    "SiO2",
+    "SiO2 interlayer",
+    "SiO2 interlayer and Si charge layer"
+   ],
+   "observed_in_evidence_text": [
+    "2f), pulsed electrical measurements of the superlattice gate stack MOS capacitors 244 – which can quantify the amount of stored charge as a function of voltage<sup>47</sup> (Methods) – demon245 strate larger stored charge than if just interfacial SiO2 was sitting on top of Si, providing further 10…",
+    "436 (a) Leakage-effective oxide thickness (JG-EOT) scaling of the multilayer gate stacks (black) bench437 marked against reported HKMG literature<sup>3</sup> , including interlayer-scavenged 2 nm HfO2 (red), high438 κ doped HfO2 (blue), and SiO2/poly-Si (gray)."
+   ]
+  }
+ },
+ {
+  "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+  "paper_kind": "research",
+  "canonical": "HfO2-ZrO2 superlattice",
+  "category": "structure",
+  "aliases": [],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "HfO2-ZrO2 superlattices",
+  "missing_kind": "",
+  "actions": [
+   "canonicalize",
+   "type_fix"
+  ],
+  "type_issue": "material/sample",
+  "reason": "the superlattice is recorded as material and sample; it is a structure concept that the sample instances realise",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 194,
+     "form": "HfO2-ZrO2 superlattice"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 4,
+   "body_lines_in_extracted_text": 1,
+   "exact_labels": [],
+   "near_labels": [
+    "HfO2",
+    "ZrO2",
+    "HfO2-ZrO2",
+    "HfO2-ZrO2 superlattices"
+   ],
+   "observed_in_fields": [
+    "HfO2",
+    "HfO2-ZrO2 superlattice",
+    "HfO2-ZrO2 superlattices"
+   ],
+   "observed_in_evidence_text": [
+    "2b, Methods), which is 121 larger than both FE orthorhombic Zr:HfO2 and AFE tetragonal ZrO2 values<sup>23</sup> . 122 To further understand the ferroic evolution in these HfO2-ZrO2 superlattices, we performed 123 low temperature measurements where enhanced FE phase stabilization is expected."
+   ]
+  }
+ },
+ {
+  "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+  "paper_kind": "research",
+  "canonical": "atomic layer deposition",
+  "category": "process",
+  "aliases": [
+   "ALD"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_not_normalized",
+  "v2_label": "ALD",
+  "missing_kind": "",
+  "actions": [
+   "alias_split",
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "only the abbreviation is a node; ALD with temperature variants is the same process",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 190,
+     "form": "atomic layer deposition"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 10,
+   "body_lines_in_extracted_text": 9,
+   "exact_labels": [
+    {
+     "label": "ALD",
+     "types": [
+      "process"
+     ]
+    }
+   ],
+   "near_labels": [
+    "atomic layer deposition (ALD)"
+   ],
+   "observed_in_fields": [
+    "ALD",
+    "ALD (250°C, 20 cycles, 15 Å)",
+    "ALD at 270°C",
+    "atomic layer deposition (ALD)"
+   ],
+   "observed_in_evidence_text": [
+    "(e) Accumulation C-V of the HfO2-ZrO2-HfO2 trilayer compared to bilayer and solid so421 lutions films of the same thickness (ALD cycles) and composition (Hf:Zr cycles).",
+    "22 # 460 Methods # 461 Gate stack 462 Gate oxide Thin films of HfO2-ZrO2 were grown by atomic layer deposition (ALD) in a 463 Fiji Ultratech/Cambridge Nanotech tool (U.C."
+   ]
+  }
+ },
+ {
+  "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+  "paper_kind": "research",
+  "canonical": "ferroelectric order",
+  "category": "structure",
+  "aliases": [
+   "FE",
+   "ferroelectric"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "mixed ferroelectric-antiferroelectric order",
+  "missing_kind": "",
+  "actions": [
+   "split_compound",
+   "alias_split"
+  ],
+  "type_issue": "",
+  "reason": "only the mixed FE-AFE compound and phase-specific labels exist; the ferroelectric order concept is missing, and FE must not be promoted to a global alias",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 190,
+     "form": "ferroelectric"
+    },
+    {
+     "line": 194,
+     "form": "ferroelectric"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 36,
+   "body_lines_in_extracted_text": 32,
+   "exact_labels": [],
+   "near_labels": [
+    "ferroelectric orthorhombic phase",
+    "ferroelectric orthorhombic (Pca21)",
+    "antiferroelectric tetragonal phase",
+    "mixed ferroelectric-antiferroelectric order",
+    "antiferroelectric tetragonal (P42/nmc) fluorite structure"
+   ],
+   "observed_in_fields": [
+    "FE orthorhombic (Pca21) phase",
+    "antiferroelectric tetragonal (P42/nmc) fluorite structure",
+    "clear indexing to the ferroelectric orthorhombic (Pca21) and antiferroelectric tetragonal (P42/nmc) fluorite structure",
+    "evolution from mixed ferroic to FE-like hysteresis upon cooling slightly below room temperature (∼ 240 K)",
+    "evolution from mixed-ferroic to FE-like hysteresis upon cooling slightly below room temperature"
+   ],
+   "observed_in_evidence_text": [
+    "# 816 Modeling 817 Landau phenomenology of antiferroelectric-ferroelectric system The qualitative en818 ergy landscape for a mixed ferroelectric-antiferroelectric material (Fig.",
+    "(a) 409 MIM C-V hysteresis loops for a mixed FE-AFE HfO2-ZrO2 multilayer demonstrating higher ca410 pacitance compared against its AFE (ZrO2) and FE (Zr:HfO2) counterparts of the same thickness."
+   ]
+  }
+ },
+ {
+  "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+  "paper_kind": "research",
+  "canonical": "antiferroelectric order",
+  "category": "structure",
+  "aliases": [
+   "AFE",
+   "antiferroelectric"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "mixed ferroelectric-antiferroelectric order",
+  "missing_kind": "",
+  "actions": [
+   "split_compound",
+   "alias_split"
+  ],
+  "type_issue": "",
+  "reason": "same compound node as ferroelectric order; AFE must stay paper-scoped",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 194,
+     "form": "AFE"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 21,
+   "body_lines_in_extracted_text": 17,
+   "exact_labels": [],
+   "near_labels": [
+    "antiferroelectric tetragonal phase",
+    "mixed ferroelectric-antiferroelectric order",
+    "antiferroelectric tetragonal (P42/nmc) fluorite structure",
+    "energy landscape for a mixed ferroelectric-antiferroelectric material",
+    "clear indexing to the ferroelectric orthorhombic (Pca21) and antiferroelectric tetragonal (P42/nmc) fluorite structure"
+   ],
+   "observed_in_fields": [
+    "AFE tetragonal (P42/nmc) phase",
+    "antiferroelectric tetragonal (P42/nmc) fluorite structure",
+    "clear indexing to the ferroelectric orthorhombic (Pca21) and antiferroelectric tetragonal (P42/nmc) fluorite structure",
+    "mixed ferroelectric-antiferroelectric order",
+    "significantly larger capacitance in comparison to other conventional stacks – DE HfO2, AFE ZrO2, FE Zr:HfO2 – of the same 20 Å thickness"
+   ],
+   "observed_in_evidence_text": [
+    "# 816 Modeling 817 Landau phenomenology of antiferroelectric-ferroelectric system The qualitative en818 ergy landscape for a mixed ferroelectric-antiferroelectric material (Fig.",
+    "(a) 409 MIM C-V hysteresis loops for a mixed FE-AFE HfO2-ZrO2 multilayer demonstrating higher ca410 pacitance compared against its AFE (ZrO2) and FE (Zr:HfO2) counterparts of the same thickness."
+   ]
+  }
+ },
+ {
+  "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+  "paper_kind": "research",
+  "canonical": "effective oxide thickness",
+  "category": "property",
+  "aliases": [
+   "EOT"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_not_normalized",
+  "v2_label": "EOT",
+  "missing_kind": "",
+  "actions": [
+   "alias_split",
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "symbol-only node; the full name occurs in 'leakage-effective oxide thickness (EOT)'",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 192,
+     "form": "effective oxide thickness"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 19,
+   "body_lines_in_extracted_text": 14,
+   "exact_labels": [
+    {
+     "label": "EOT",
+     "types": [
+      "property"
+     ]
+    }
+   ],
+   "near_labels": [
+    "thickness",
+    "leakage-effective oxide thickness (EOT)"
+   ],
+   "observed_in_fields": [
+    "1.0-1.5 Å lower EOT than constituent SiO2 thickness",
+    "2 nm EOT",
+    "8 Å EOT",
+    "EOT",
+    "EOT below 9 Å"
+   ],
+   "observed_in_evidence_text": [
+    "3a, 185 which shows leakage current vs EOT behavior.",
+    "436 (a) Leakage-effective oxide thickness (JG-EOT) scaling of the multilayer gate stacks (black) bench437 marked against reported HKMG literature<sup>3</sup> , including interlayer-scavenged 2 nm HfO2 (red), high438 κ doped HfO2 (blue), and SiO2/poly-Si (gray)."
+   ]
+  }
+ },
+ {
+  "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+  "paper_kind": "review",
+  "canonical": "MXenes",
+  "category": "material_class",
+  "aliases": [
+   "MXene"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "MXenes",
+  "missing_kind": "",
+  "actions": [
+   "keep",
+   "type_fix"
+  ],
+  "type_issue": "material vs material_class",
+  "reason": "class node exists with two types",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 23,
+     "form": "MXene"
+    },
+    {
+     "line": 29,
+     "form": "MXenes"
+    },
+    {
+     "line": 31,
+     "form": "MXenes"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 17
+   },
+   "body_mentions": 167,
+   "body_lines_in_extracted_text": 89,
+   "exact_labels": [
+    {
+     "label": "MXenes",
+     "types": [
+      "material",
+      "material_class"
+     ]
+    }
+   ],
+   "near_labels": [
+    "SA-MXene",
+    "Fe–N–C@MXene",
+    "MXene inks",
+    "MXene Pens",
+    "bare MXene"
+   ],
+   "observed_in_fields": [
+    "1D CdS/2D Ti3C2 MXene composite photocatalyst",
+    "2D transition metal nitride MXene",
+    "70 wt% d-Ti2C-S MXene composite",
+    "Directly printed additive-free MXene ink-based m-SC",
+    "Fe–N–C@MXene"
+   ],
+   "observed_in_evidence_text": [
+    "### MXenes and Lithium-ion batteries The accomplishment of LIBs for portable devices was recognized by awarding the Nobel Prize in Chemistry in 2019 to John B. Goodenough, M. Stanley Whittingham, and Akira Yoshino for their research in improving modernized portable electronics<sup>121</sup> . LIBs…",
+    "### SHELF-STABILITY OF MXENE DISPERSION Delamination of MXene sheets aqueous colloidal solutions produce all types of products; for example, thin films, MXene inks, coatings, and electrodes, etc. However, these 2D materials are extremely prone to oxidation<sup>156</sup> , which could result in chem…"
+   ]
+  }
+ },
+ {
+  "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+  "paper_kind": "review",
+  "canonical": "transition metal carbides",
+  "category": "material_class",
+  "aliases": [
+   "carbides"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "carbides, carbonitrides, and nitrides",
+  "missing_kind": "",
+  "actions": [
+   "split_compound"
+  ],
+  "type_issue": "",
+  "reason": "carbides and nitrides are merged into one compound node; the paper treats them as a family, so the node should be split and linked",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 29,
+     "form": "carbides"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 17
+   },
+   "body_mentions": 26,
+   "body_lines_in_extracted_text": 13,
+   "exact_labels": [],
+   "near_labels": [
+    "carbides, carbonitrides, and nitrides",
+    "inorganic ternary carbides or nitrides",
+    "more metallic properties than titanium carbides",
+    "carbides and/or nitrides of a transition metal",
+    "multilayered and hexagonal geometric metal nitrides, carbides, or carbonitrides"
+   ],
+   "observed_in_fields": [
+    "carbides and/or nitrides of a transition metal",
+    "inorganic ternary carbides or nitrides",
+    "more metallic properties than titanium carbides",
+    "multilayered and hexagonal geometric metal nitrides, carbides, or carbonitrides"
+   ],
+   "observed_in_evidence_text": [
+    "MXenes are derived either from inorganic ternary carbides or from nitrides",
+    "Talapin et al. designed a versatile synthesis strategy to introduce and eliminate the surface functional groups on 2D transition metal carbides (MXenes) flakes by conducting substitution and elimination reactions in molten inorganic salts."
+   ]
+  }
+ },
+ {
+  "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+  "paper_kind": "review",
+  "canonical": "transition metal nitrides",
+  "category": "material_class",
+  "aliases": [
+   "nitrides"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "carbides, carbonitrides, and nitrides",
+  "missing_kind": "",
+  "actions": [
+   "split_compound"
+  ],
+  "type_issue": "",
+  "reason": "same compound node as the carbides; nitrides need their own concept",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 29,
+     "form": "nitrides"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 17
+   },
+   "body_mentions": 13,
+   "body_lines_in_extracted_text": 7,
+   "exact_labels": [],
+   "near_labels": [
+    "titanium nitrides",
+    "carbides, carbonitrides, and nitrides",
+    "inorganic ternary carbides or nitrides",
+    "carbides and/or nitrides of a transition metal",
+    "multilayered and hexagonal geometric metal nitrides, carbides, or carbonitrides"
+   ],
+   "observed_in_fields": [
+    "carbides and/or nitrides of a transition metal",
+    "inorganic ternary carbides or nitrides",
+    "multilayered and hexagonal geometric metal nitrides, carbides, or carbonitrides"
+   ],
+   "observed_in_evidence_text": [
+    "A huge number of non-stoichiometric MXenes, with finely tuned properties and mixed transition metals or carbon nitrides, can be synthesized by the creation of solid solutions on M and X sites",
+    "MXenes are derived either from inorganic ternary carbides or from nitrides"
+   ]
+  }
+ },
+ {
+  "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+  "paper_kind": "review",
+  "canonical": "graphene",
+  "category": "material",
+  "aliases": [],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "graphene",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "clean material node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 29,
+     "form": "graphene"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 17
+   },
+   "body_mentions": 17,
+   "body_lines_in_extracted_text": 6,
+   "exact_labels": [
+    {
+     "label": "graphene",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [],
+   "observed_in_fields": [],
+   "observed_in_evidence_text": [
+    "The research interest in 2D type materials originated with the graphene discovery",
+    "many 2D materials possessing a single element have been synthesized, some examples include graphene, silicene, germanene, and phosphorene"
+   ]
+  }
+ },
+ {
+  "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+  "paper_kind": "review",
+  "canonical": "transition metal dichalcogenides",
+  "category": "material_class",
+  "aliases": [
+   "TMDCs"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "transition metal dichalcogenides (TMDCs)",
+  "missing_kind": "",
+  "actions": [
+   "alias_split"
+  ],
+  "type_issue": "",
+  "reason": "node carries the abbreviation inside the label",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 29,
+     "form": "transition metal dichalcogenides"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 17
+   },
+   "body_mentions": 3,
+   "body_lines_in_extracted_text": 2,
+   "exact_labels": [],
+   "near_labels": [
+    "transition metal dichalcogenides (TMDCs)"
+   ],
+   "observed_in_fields": [],
+   "observed_in_evidence_text": []
+  }
+ },
+ {
+  "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+  "paper_kind": "review",
+  "canonical": "exfoliation",
+  "category": "process",
+  "aliases": [
+   "exfoliating"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "exfoliating the 3D bulk to 2D planer structures",
+  "missing_kind": "",
+  "actions": [
+   "canonicalize",
+   "split_attribute"
+  ],
+  "type_issue": "",
+  "reason": "the process is stored as the action sentence; the concept is exfoliation and the object ('3D bulk to 2D structures') belongs to the fact",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 29,
+     "form": "exfoliating"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 17
+   },
+   "body_mentions": 5,
+   "body_lines_in_extracted_text": 3,
+   "exact_labels": [],
+   "near_labels": [
+    "exfoliating the 3D bulk to 2D planer structures"
+   ],
+   "observed_in_fields": [
+    "exfoliating the 3D bulk to 2D planer structures"
+   ],
+   "observed_in_evidence_text": [
+    "prepared by exfoliating the 3D bulk to 2D planer structures stacked with weak Van der Waals interactions"
+   ]
+  }
+ },
+ {
+  "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+  "paper_kind": "review",
+  "canonical": "solid solutions",
+  "category": "structure",
+  "aliases": [
+   "solid solution"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "solid solution",
+  "missing_kind": "",
+  "actions": [
+   "keep",
+   "type_fix"
+  ],
+  "type_issue": "material_class vs structure",
+  "reason": "node exists (singular); the structure reading is the one used in the paper",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 31,
+     "form": "solid solutions"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 17
+   },
+   "body_mentions": 3,
+   "body_lines_in_extracted_text": 3,
+   "exact_labels": [
+    {
+     "label": "solid solution",
+     "types": [
+      "material_class",
+      "structure"
+     ]
+    }
+   ],
+   "near_labels": [
+    "creation of solid solutions on M and X sites"
+   ],
+   "observed_in_fields": [
+    "creation of solid solutions on M and X sites",
+    "solid solution"
+   ],
+   "observed_in_evidence_text": [
+    "A huge number of non-stoichiometric MXenes, with finely tuned properties and mixed transition metals or carbon nitrides, can be synthesized by the creation of solid solutions on M and X sites",
+    "The double transition metals form solid solutions, for example (Ti, Nb)CTx"
+   ]
+  }
+ },
+ {
+  "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+  "paper_kind": "review",
+  "canonical": "Mo2TiC2Tx",
+  "category": "material",
+  "aliases": [],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "Mo2TiC2Tx",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "clean formula node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 31,
+     "form": "Mo2TiC2Tx"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 17
+   },
+   "body_mentions": 5,
+   "body_lines_in_extracted_text": 5,
+   "exact_labels": [
+    {
+     "label": "Mo2TiC2Tx",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [
+    "MoS2/Mo2TiC2Tx-500",
+    "MoS2/Mo2TiC2Tx-700",
+    "MoS2/Mo2TiC2Tx500 electrode",
+    "MoS2/Mo2TiC2Tx-500 electrode",
+    "layered material on Mo2TiC2Tx"
+   ],
+   "observed_in_fields": [
+    "Mo2TiC2Tx",
+    "MoS2/Mo2TiC2Tx-500",
+    "MoS2/Mo2TiC2Tx-500 electrode",
+    "MoS2/Mo2TiC2Tx-700",
+    "MoS2/Mo2TiC2Tx500 electrode"
+   ],
+   "observed_in_evidence_text": [
+    "GCD curves of MoS2/Mo2TiC2Tx-500 at 100 mA g<sup>−1</sup>",
+    "Mo2CTx and Mo2TiC2Tx show semiconductor behavior"
+   ]
+  }
+ },
+ {
+  "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+  "paper_kind": "research",
+  "canonical": "phosphonic acids",
+  "category": "material_class",
+  "aliases": [
+   "phosphonic"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_concept",
+  "v2_label": "phosphonic acid",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "class node exists (singular); plural is a surface form",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 31,
+     "form": "phosphonic"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 8
+   },
+   "body_mentions": 10,
+   "body_lines_in_extracted_text": 9,
+   "exact_labels": [],
+   "near_labels": [
+    "phosphonic acid",
+    "2-aminoethylphosphonic acid",
+    "carbazole-containing phosphonic acid",
+    "phosphonic acid SAM molecule",
+    "phosphonic or carboxylic acids"
+   ],
+   "observed_in_fields": [
+    "carbazole- and phenothiazine-based with a phosphonic or carboxylic acid headgroup",
+    "carbazole-containing phosphonic acid",
+    "phosphonic acid",
+    "phosphonic acid SAM molecule"
+   ],
+   "observed_in_evidence_text": [
+    "2-aminoethylphosphonic acid, has been demonstrated to passivate positively charged defects (such as iodine vacancies and lead−iodine anti-sites)",
+    "Phosphonic acid (Me-4PACz, Br-2EPT and so on)"
+   ]
+  }
+ },
+ {
+  "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+  "paper_kind": "research",
+  "canonical": "carboxylic acids",
+  "category": "material_class",
+  "aliases": [
+   "carboxylic"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_concept",
+  "v2_label": "carboxylic acid",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "class node exists (singular)",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 31,
+     "form": "carboxylic acids"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 8
+   },
+   "body_mentions": 4,
+   "body_lines_in_extracted_text": 4,
+   "exact_labels": [],
+   "near_labels": [
+    "carboxylic acid",
+    "carboxylic acid SAM molecule",
+    "phosphonic or carboxylic acids",
+    "carbazole- and phenothiazine-based with a phosphonic or carboxylic acid headgroup"
+   ],
+   "observed_in_fields": [
+    "carbazole- and phenothiazine-based with a phosphonic or carboxylic acid headgroup",
+    "carboxylic acid",
+    "carboxylic acid SAM molecule"
+   ],
+   "observed_in_evidence_text": [
+    "Carboxylic acid (EADR03)",
+    "PSCs fabricated with a carboxylic acid SAM molecule (4-[3,6-bis(2,4-dimethoxyphenyl)-9 _H_ -carbazol-9-yl]benzoic acid (EADR03))"
+   ]
+  }
+ },
+ {
+  "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+  "paper_kind": "research",
+  "canonical": "indium tin oxide",
+  "category": "material",
+  "aliases": [
+   "ITO"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_not_normalized",
+  "v2_label": "ITO",
+  "missing_kind": "",
+  "actions": [
+   "alias_split",
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "only the abbreviation is a node; the full name is in the evidence and in 'indium tin oxide substrate'",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 31,
+     "form": "indium tin oxide"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 8
+   },
+   "body_mentions": 37,
+   "body_lines_in_extracted_text": 36,
+   "exact_labels": [
+    {
+     "label": "ITO",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [
+    "indium tin oxide substrate"
+   ],
+   "observed_in_fields": [
+    "ITO",
+    "ITO substrate after rinsing away neat perovskite",
+    "ITO surface",
+    "ITO/Me-4PACz/neat perovskite",
+    "ITO/perovskite and perovskite/ETL interfaces"
+   ],
+   "observed_in_evidence_text": [
+    "**Article** https://doi.org/10.1038/s41560-023-01227-6 <!-- Start of picture text --> a c 105<br>C<br>104 Pb In Ag<br>(CF3-PEAI + MAI)/C60/BCP/Ag 103 LiF/C 60 /BCP<br>102 Neat perovskite<br>Perovskite 10100 1 P Glass/ITO<br>0 200 400 600<br>Apparent depth (nm)<br>ITO d<br>Glass 1 µm 105 C<br>104 Pb…",
+    "1 and 2)<sup>28</sup> . The target perovskite film with Me-4PACz included in the precursor achieved full coverage on glass/ITO substrate, comparable to that of the neat perovskite precursor deposited directly onto the glass/ITO substrate."
+   ]
+  }
+ },
+ {
+  "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+  "paper_kind": "research",
+  "canonical": "self-assembled monolayer",
+  "category": "structure",
+  "aliases": [
+   "SAM"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "self-assembled monolayer",
+  "missing_kind": "",
+  "actions": [
+   "keep",
+   "type_fix"
+  ],
+  "type_issue": "SAM typed material_class",
+  "reason": "structure node exists; SAM is a second node typed material_class and should be its alias",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 31,
+     "form": "self-assembled monolayer"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 8
+   },
+   "body_mentions": 39,
+   "body_lines_in_extracted_text": 35,
+   "exact_labels": [
+    {
+     "label": "self-assembled monolayer",
+     "types": [
+      "structure"
+     ]
+    },
+    {
+     "label": "SAM",
+     "types": [
+      "material_class"
+     ]
+    }
+   ],
+   "near_labels": [],
+   "observed_in_fields": [
+    "Me-4PACz SAM on ITO",
+    "SAM",
+    "carboxylic acid SAM molecule",
+    "deposition of SAM layers by spin-coating and dipping methods",
+    "different SAM molecular systems"
+   ],
+   "observed_in_evidence_text": [
+    "### **Dynamic process of perovskite film and SAM formation** <mark>Q13</mark> We first demonstrated the procedure by introducing 0–2 mg ml.m<sup>−1</sup> Me-4PACz, a carbazole-containing PA, into a perovskite precursor solution in 4:1 _N_ , _N_ -dimethylformamide (DMF)–dimethylsulfoxide (DMSO) to p…",
+    "EtOH and isopropanol are solvents commonly used for the deposition of SAM layers by the spin-coating and dipping methods"
+   ]
+  }
+ },
+ {
+  "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+  "paper_kind": "research",
+  "canonical": "hole-selective contact",
+  "category": "component",
+  "aliases": [],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "hole-selective contact",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "component/interface node exists",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 31,
+     "form": "hole-selective contact"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 8
+   },
+   "body_mentions": 10,
+   "body_lines_in_extracted_text": 6,
+   "exact_labels": [
+    {
+     "label": "hole-selective contact",
+     "types": [
+      "interface"
+     ]
+    }
+   ],
+   "near_labels": [],
+   "observed_in_fields": [
+    "hole-selective contact"
+   ],
+   "observed_in_evidence_text": [
+    "They form a robust self-assembled monolayer as an excellent hole-selective contact while the perovskite crystallizes",
+    "we have developed a one-step solution-coating procedure in which the hole-selective contact and perovskite light absorber spontaneously form, resulting in efcient inverted PSCs"
+   ]
+  }
+ },
+ {
+  "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+  "paper_kind": "research",
+  "canonical": "perovskite light absorber",
+  "category": "component",
+  "aliases": [],
+  "v2_label_status": "candidate_only",
+  "verdict": "granularity_different",
+  "v2_label": "perovskite",
+  "missing_kind": "",
+  "actions": [
+   "add_edge"
+  ],
+  "type_issue": "",
+  "reason": "only the material 'perovskite' exists; the functional-layer concept is missing",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 31,
+     "form": "perovskite light absorber"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 8
+   },
+   "body_mentions": 1,
+   "body_lines_in_extracted_text": 1,
+   "exact_labels": [],
+   "near_labels": [
+    "perovskite"
+   ],
+   "observed_in_fields": [],
+   "observed_in_evidence_text": [
+    "we have developed a one-step solution-coating procedure in which the hole-selective contact and perovskite light absorber spontaneously form, resulting in efcient inverted PSCs"
+   ]
+  }
+ },
+ {
+  "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+  "paper_kind": "research",
+  "canonical": "one-step solution-coating",
+  "category": "process",
+  "aliases": [
+   "one-step solution-coating procedure"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_not_normalized",
+  "v2_label": "one-step solution-coating procedure",
+  "missing_kind": "",
+  "actions": [
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "the generic noun 'procedure' is part of the concept name",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 31,
+     "form": "one-step solution-coating"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 8
+   },
+   "body_mentions": 1,
+   "body_lines_in_extracted_text": 1,
+   "exact_labels": [
+    {
+     "label": "one-step solution-coating procedure",
+     "types": [
+      "process"
+     ]
+    }
+   ],
+   "near_labels": [],
+   "observed_in_fields": [],
+   "observed_in_evidence_text": [
+    "we have developed a one-step solution-coating procedure in which the hole-selective contact and perovskite light absorber spontaneously form, resulting in efcient inverted PSCs"
+   ]
+  }
+ },
+ {
+  "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+  "paper_kind": "research",
+  "canonical": "wettability",
+  "category": "property",
+  "aliases": [],
+  "v2_label_status": "not_located_by_labels",
+  "verdict": "confirmed_missing",
+  "v2_label": "",
+  "missing_kind": "model_omission",
+  "actions": [
+   "targeted_reextract"
+  ],
+  "type_issue": "",
+  "reason": "the word occurs once, in an extracted chunk that produced triples, but no node or field contains it",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 31,
+     "form": "wettability"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 8
+   },
+   "body_mentions": 1,
+   "body_lines_in_extracted_text": 1,
+   "exact_labels": [],
+   "near_labels": [],
+   "observed_in_fields": [],
+   "observed_in_evidence_text": []
+  }
+ },
+ {
+  "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+  "paper_kind": "research",
+  "canonical": "Sb2O3",
+  "category": "material",
+  "aliases": [],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "Sb2O3",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "clean formula node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 62,
+     "form": "Sb2O3"
+    },
+    {
+     "line": 66,
+     "form": "Sb2O3"
+    },
+    {
+     "line": 70,
+     "form": "Sb2O3"
+    },
+    {
+     "line": 72,
+     "form": "Sb2O3"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 19
+   },
+   "body_mentions": 31,
+   "body_lines_in_extracted_text": 25,
+   "exact_labels": [
+    {
+     "label": "Sb2O3",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [
+    "Sb2O3 film",
+    "MoS2/Sb2O3 FET",
+    "Sb2O3 substrate",
+    "monolayer MoS2/Sb2O3 FET",
+    "monolayer MoS2/Sb2O3 device"
+   ],
+   "observed_in_fields": [
+    "40 nm Sb2O3 film on glass substrate",
+    "MoS2/Sb2O3 FET",
+    "Sb2O3 film",
+    "Sb2O3 molecule",
+    "Sb2O3 powder"
+   ],
+   "observed_in_evidence_text": [
+    "2d, the breakdown voltage of our Sb2O3 �lm can be estimated to be 180 MV/m, comparable to that of SiO2.",
+    "Absorption spectrum of Sb2O3 film deposited on glass substrate is obtained via Shimadzu SolidSpec-3700i UV-VIS-NIR spectrophotometer."
+   ]
+  }
+ },
+ {
+  "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+  "paper_kind": "research",
+  "canonical": "Sb4O6",
+  "category": "material",
+  "aliases": [],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "Sb4O6 molecules",
+  "missing_kind": "",
+  "actions": [
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "the node includes the instance word 'molecules'; the material is Sb4O6",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 72,
+     "form": "Sb4O6"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 19
+   },
+   "body_mentions": 1,
+   "body_lines_in_extracted_text": 1,
+   "exact_labels": [],
+   "near_labels": [
+    "Sb4O6 molecules"
+   ],
+   "observed_in_fields": [
+    "Sb4O6 molecule",
+    "Sb4O6 molecules"
+   ],
+   "observed_in_evidence_text": [
+    "It consists of ultra-small Sb4O6 molecules in the form of bicyclic cages"
+   ]
+  }
+ },
+ {
+  "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+  "paper_kind": "research",
+  "canonical": "MoS2",
+  "category": "material",
+  "aliases": [],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "MoS2",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "clean formula node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 62,
+     "form": "MoS2"
+    },
+    {
+     "line": 70,
+     "form": "MoS2"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 19
+   },
+   "body_mentions": 22,
+   "body_lines_in_extracted_text": 19,
+   "exact_labels": [
+    {
+     "label": "MoS2",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [],
+   "observed_in_fields": [
+    "MoS2 thickness",
+    "MoS2/Sb2O3 FET",
+    "MoS2/SiO2 FET",
+    "bulk defects in MoS2",
+    "low-resistance contact with MoS2"
+   ],
+   "observed_in_evidence_text": [
+    "2D MoS2 are prepared via mechanical exfoliation using scotch and PDMS.",
+    "2D MoS2 �akes are prepared via mechanical exfoliation and transferred onto the substrates."
+   ]
+  }
+ },
+ {
+  "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+  "paper_kind": "research",
+  "canonical": "inorganic molecular crystal",
+  "category": "material_class",
+  "aliases": [
+   "IMC",
+   "IMCs"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "inorganic molecular crystal",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "class node exists",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 62,
+     "form": "inorganic molecular crystal"
+    },
+    {
+     "line": 66,
+     "form": "inorganic molecular crystal"
+    },
+    {
+     "line": 70,
+     "form": "IMC"
+    },
+    {
+     "line": 72,
+     "form": "IMC"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 19
+   },
+   "body_mentions": 9,
+   "body_lines_in_extracted_text": 6,
+   "exact_labels": [
+    {
+     "label": "inorganic molecular crystal",
+     "types": [
+      "material_class"
+     ]
+    }
+   ],
+   "near_labels": [
+    "molecular crystal"
+   ],
+   "observed_in_fields": [
+    "inorganic molecular crystal",
+    "molecular crystal"
+   ],
+   "observed_in_evidence_text": [
+    "Here we report a vdW dielectric �lm of inorganic molecular crystal (IMC) Sb2O3, which can be readily fabricated via standard thermal evaporation deposition (STED) process thanks to its particular crystal structure.",
+    "we demonstrated a novel approach to fabricate vdW dielectrics via thermal evaporation deposition using IMCs"
+   ]
+  }
+ },
+ {
+  "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+  "paper_kind": "research",
+  "canonical": "van der Waals dielectrics",
+  "category": "material_class",
+  "aliases": [
+   "vdW dielectrics",
+   "vdW dielectric"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_not_normalized",
+  "v2_label": "vdW dielectric",
+  "missing_kind": "",
+  "actions": [
+   "canonicalize",
+   "type_fix"
+  ],
+  "type_issue": "material vs material_class",
+  "reason": "only the abbreviated form is a node and its type is split; the corpus needs the full name as canonical plus vdW as alias",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 62,
+     "form": "vdW dielectrics"
+    },
+    {
+     "line": 64,
+     "form": "vdW dielectrics"
+    },
+    {
+     "line": 66,
+     "form": "vdW dielectric"
+    },
+    {
+     "line": 70,
+     "form": "vdW dielectrics"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 19
+   },
+   "body_mentions": 15,
+   "body_lines_in_extracted_text": 10,
+   "exact_labels": [
+    {
+     "label": "vdW dielectric",
+     "types": [
+      "material",
+      "material_class"
+     ]
+    }
+   ],
+   "near_labels": [],
+   "observed_in_fields": [
+    "vdW dielectric"
+   ],
+   "observed_in_evidence_text": [
+    "Here we report a vdW dielectric �lm of inorganic molecular crystal (IMC) Sb2O3, which can be readily fabricated via standard thermal evaporation deposition (STED) process thanks to its particular crystal structure.",
+    "In analogy to typical vdW dielectric h-BN, our Sb2O3 �lm of molecular crystal is free of dangling bonds, naturally holding low-density charge scattering centers and charge trap states."
+   ]
+  }
+ },
+ {
+  "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+  "paper_kind": "research",
+  "canonical": "standard thermal evaporation deposition",
+  "category": "process",
+  "aliases": [
+   "STED",
+   "standard thermal evaporation"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "standard thermal evaporation deposition (STED)",
+  "missing_kind": "",
+  "actions": [
+   "alias_split"
+  ],
+  "type_issue": "",
+  "reason": "node carries the abbreviation in parentheses",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 62,
+     "form": "standard thermal evaporation"
+    },
+    {
+     "line": 66,
+     "form": "standard thermal evaporation deposition"
+    },
+    {
+     "line": 72,
+     "form": "STED"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 19
+   },
+   "body_mentions": 5,
+   "body_lines_in_extracted_text": 2,
+   "exact_labels": [],
+   "near_labels": [
+    "thermal evaporation",
+    "thermal evaporation deposition",
+    "standard thermal evaporation deposition (STED)"
+   ],
+   "observed_in_fields": [
+    "STED process",
+    "standard thermal evaporation deposition (STED)",
+    "thermal evaporation",
+    "thermal evaporation deposition"
+   ],
+   "observed_in_evidence_text": [
+    "Here we report a vdW dielectric �lm of inorganic molecular crystal (IMC) Sb2O3, which can be readily fabricated via standard thermal evaporation deposition (STED) process thanks to its particular crystal structure.",
+    "Our STED process permits the fabrication of homogeneous wafer-scale �lm (Fig."
+   ]
+  }
+ },
+ {
+  "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+  "paper_kind": "research",
+  "canonical": "electron mobility",
+  "category": "property",
+  "aliases": [],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "electron mobility",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "clean property node with observation nodes",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 62,
+     "form": "electron mobility"
+    },
+    {
+     "line": 70,
+     "form": "electron mobility"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 19
+   },
+   "body_mentions": 4,
+   "body_lines_in_extracted_text": 3,
+   "exact_labels": [
+    {
+     "label": "electron mobility",
+     "types": [
+      "property"
+     ]
+    }
+   ],
+   "near_labels": [
+    "mobility",
+    "electron mobility µFE",
+    "maximum electron mobility",
+    "electron mobility enhancement"
+   ],
+   "observed_in_fields": [
+    "electron mobility",
+    "electron mobility enhancement",
+    "electron mobility µFE"
+   ],
+   "observed_in_evidence_text": [
+    "The maximum electron mobility appears at around Vgs = 50V, corresponding to the charge carrier density n = 4.0 × 1012 /cm2",
+    "The maximum electron mobility appears at around Vgs = 50V, corresponding to the charge carrier density n = 4.0 × 10<sup>12</sup> /cm<sup>2</sup> (see Methods), in agreement with the reported MoS2 FETs<sup>[25]</sup> . The FET mobility monotonically decreases at higher temperature for our devices (F…"
+   ]
+  }
+ },
+ {
+  "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+  "paper_kind": "research",
+  "canonical": "transfer-curve hysteresis",
+  "category": "property",
+  "aliases": [
+   "hysteresis"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "hysteresis reduction",
+  "missing_kind": "",
+  "actions": [
+   "canonicalize",
+   "split_attribute"
+  ],
+  "type_issue": "",
+  "reason": "only qualified forms (hysteresis reduction, considerable hysteresis, source of hysteresis) exist; the property concept 'hysteresis' is missing as a node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 62,
+     "form": "transfer-curve hysteresis"
+    },
+    {
+     "line": 70,
+     "form": "hysteresis"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 19
+   },
+   "body_mentions": 11,
+   "body_lines_in_extracted_text": 9,
+   "exact_labels": [],
+   "near_labels": [
+    "hysteresis reduction",
+    "considerable hysteresis",
+    "source of hysteresis",
+    "hysteresis window ΔVon",
+    "MoS2/SiO2 FET hysteresis"
+   ],
+   "observed_in_fields": [
+    "considerable hysteresis",
+    "hysteresis reduction",
+    "hysteresis window ΔVon",
+    "negligibly small hysteresis",
+    "slight increase of hysteresis"
+   ],
+   "observed_in_evidence_text": [
+    "The double-sweep transfer curves exhibit a large hysteresis window at 300 K and its ΔVon reaches 12 V",
+    "all the MoS2/SiO2 FETs demonstrate a considerable hysteresis in double-sweep transfer characteristic curves"
+   ]
+  }
+ },
+ {
+  "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+  "paper_kind": "review",
+  "canonical": "wide-bandgap perovskites",
+  "category": "material_class",
+  "aliases": [
+   "WBG perovskites"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_not_normalized",
+  "v2_label": "WBG perovskites",
+  "missing_kind": "",
+  "actions": [
+   "alias_split",
+   "type_fix"
+  ],
+  "type_issue": "material vs material_class",
+  "reason": "only the abbreviation WBG is a node; the full name is the canonical form and the type must be material_class",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 40,
+     "form": "WBG perovskites"
+    },
+    {
+     "line": 64,
+     "form": "WBG perovskites"
+    }
+   ],
+   "source_chunks": [
+    1,
+    2
+   ],
+   "chunk_triple_counts": {
+    "1": 9,
+    "2": 12
+   },
+   "body_mentions": 36,
+   "body_lines_in_extracted_text": 30,
+   "exact_labels": [
+    {
+     "label": "WBG perovskites",
+     "types": [
+      "material",
+      "material_class"
+     ]
+    }
+   ],
+   "near_labels": [
+    "K+",
+    "bandgap",
+    "perovskite",
+    "Br-rich WBG perovskites",
+    "WBG perovskite solar cells"
+   ],
+   "observed_in_fields": [
+    "WBG perovskite",
+    "WBG perovskites",
+    "bandgap",
+    "bandgap of Br-rich WBG perovskites",
+    "perovskite"
+   ],
+   "observed_in_evidence_text": [
+    "For most WBG perovskites in TSCs, they are Br-rich organic–inorganic hybrid perovskites, which undergo phase separation",
+    "In the tandem architectures, the wide-bandgap (WBG) perovskites act as the front absorber"
+   ]
+  }
+ },
+ {
+  "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+  "paper_kind": "review",
+  "canonical": "tandem solar cells",
+  "category": "device",
+  "aliases": [
+   "TSCs"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_not_normalized",
+  "v2_label": "TSCs",
+  "missing_kind": "",
+  "actions": [
+   "alias_split",
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "only the abbreviation and qualified variants (perovskite/silicon TSCs) exist",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 40,
+     "form": "tandem solar cells"
+    },
+    {
+     "line": 60,
+     "form": "tandem solar cells"
+    },
+    {
+     "line": 62,
+     "form": "TSCs"
+    },
+    {
+     "line": 64,
+     "form": "tandem solar cells"
+    }
+   ],
+   "source_chunks": [
+    1,
+    2
+   ],
+   "chunk_triple_counts": {
+    "1": 9,
+    "2": 12
+   },
+   "body_mentions": 85,
+   "body_lines_in_extracted_text": 42,
+   "exact_labels": [
+    {
+     "label": "TSCs",
+     "types": [
+      "device"
+     ]
+    }
+   ],
+   "near_labels": [
+    "solar cells",
+    "tandem solar cell"
+   ],
+   "observed_in_fields": [
+    "2-T n-i-p perovskite/silicon TSCs",
+    "2-T perovskite/silicon TSCs",
+    "ETL for perovskite-based TSCs",
+    "TSCs",
+    "all-perovskite TSCs"
+   ],
+   "observed_in_evidence_text": [
+    "As a result, flexible all-perovskite TSCs delivered a PCE of 23.8% with a remarkable _V_ OC of 2.1 V. Liu et al _._ deposited 1.65 eV bandgap perovskite on a HTL prepared with Me-2PACZ and MeO-2PACZ mixed solution to reduce recombination losses at perovskite/HTL interface, achieving the PCEs of 21.…",
+    "CsPbI3-xBrx/organic TSCs have been developed to improve the efficiency"
+   ]
+  }
+ },
+ {
+  "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+  "paper_kind": "review",
+  "canonical": "front absorber",
+  "category": "component",
+  "aliases": [],
+  "v2_label_status": "not_located_by_labels",
+  "verdict": "confirmed_missing",
+  "v2_label": "",
+  "missing_kind": "extracted_not_noded",
+  "actions": [
+   "targeted_reextract"
+  ],
+  "type_issue": "",
+  "reason": "the phrase occurs in evidence ('act as the front absorber') and in 'front perovskite absorber' measurement nodes, but there is no component node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 40,
+     "form": "front absorber"
+    },
+    {
+     "line": 64,
+     "form": "front absorber"
+    }
+   ],
+   "source_chunks": [
+    1,
+    2
+   ],
+   "chunk_triple_counts": {
+    "1": 9,
+    "2": 12
+   },
+   "body_mentions": 4,
+   "body_lines_in_extracted_text": 4,
+   "exact_labels": [],
+   "near_labels": [
+    "Rb+"
+   ],
+   "observed_in_fields": [],
+   "observed_in_evidence_text": [
+    "Al-Ashouri et al _._ employed Cs0.05(FA0.77MA0.23)0.95Pb(I0.77Br0.23)3 perovskite as the front absorber, the single-junction solar cell gave a PCE of 20.8%",
+    "In the tandem architectures, the wide-bandgap (WBG) perovskites act as the front absorber"
+   ]
+  }
+ },
+ {
+  "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+  "paper_kind": "review",
+  "canonical": "photo-induced phase separation",
+  "category": "mechanism",
+  "aliases": [],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "severe photo-induced phase separation",
+  "missing_kind": "",
+  "actions": [
+   "split_attribute",
+   "type_fix"
+  ],
+  "type_issue": "property vs mechanism",
+  "reason": "the severity adjective is inside the name and the type is wrong for a process phenomenon",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 40,
+     "form": "photo-induced phase separation"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 9
+   },
+   "body_mentions": 1,
+   "body_lines_in_extracted_text": 1,
+   "exact_labels": [],
+   "near_labels": [
+    "severe photo-induced phase separation"
+   ],
+   "observed_in_fields": [
+    "severe photo-induced phase separation"
+   ],
+   "observed_in_evidence_text": [
+    "To date, the most concerned issues for the WBG perovskite solar cells (PSCs) are huge _V_ OC deficit and severe photo-induced phase separation."
+   ]
+  }
+ },
+ {
+  "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+  "paper_kind": "review",
+  "canonical": "open-circuit voltage deficit",
+  "category": "property",
+  "aliases": [
+   "VOC deficit",
+   "V OC deficit"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_not_normalized",
+  "v2_label": "VOC deficit",
+  "missing_kind": "",
+  "actions": [
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "only abbreviation forms (VOC deficit, V_OC deficit) are nodes",
+  "evidence": {
+   "source_mentions": [],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 0,
+   "body_lines_in_extracted_text": 0,
+   "exact_labels": [
+    {
+     "label": "VOC deficit",
+     "types": [
+      "property"
+     ]
+    },
+    {
+     "label": "V_OC deficit",
+     "types": [
+      "property"
+     ]
+    }
+   ],
+   "near_labels": [
+    "VOC",
+    "V_OC",
+    "open-circuit voltage",
+    "huge VOC deficit"
+   ],
+   "observed_in_fields": [
+    "VOC",
+    "VOC deficit",
+    "V_OC",
+    "V_OC deficit",
+    "huge VOC deficit"
+   ],
+   "observed_in_evidence_text": [
+    "##### **3.2** **_V_ OC Deficit** In contrast to the normal bandgap PSCs, WBG PSCs suffer from more serious _V_ OC loss, which significantly affect the efficiency improvement [57].",
+    "After PEABr post-treatment, a pure _n_ = 1 2D perovskite phase formed at 60 °C on the top of a 1.77 eV WBG perovskite, which significantly suppressed non-radiative recombination thereby decreased the _V_ OC deficit."
+   ]
+  }
+ },
+ {
+  "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+  "paper_kind": "review",
+  "canonical": "thermalization losses",
+  "category": "mechanism",
+  "aliases": [
+   "thermalization loss"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "thermalization loss",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "mechanism node exists (singular)",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 40,
+     "form": "thermalization losses"
+    },
+    {
+     "line": 62,
+     "form": "thermalization loss"
+    }
+   ],
+   "source_chunks": [
+    1,
+    2
+   ],
+   "chunk_triple_counts": {
+    "1": 9,
+    "2": 12
+   },
+   "body_mentions": 2,
+   "body_lines_in_extracted_text": 2,
+   "exact_labels": [
+    {
+     "label": "thermalization loss",
+     "types": [
+      "mechanism"
+     ]
+    }
+   ],
+   "near_labels": [
+    "MA+"
+   ],
+   "observed_in_fields": [
+    "thermalization loss"
+   ],
+   "observed_in_evidence_text": [
+    "Taking silicon solar cells as example, its efficiency improvement is significantly restricted by the thermalization loss"
+   ]
+  }
+ },
+ {
+  "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+  "paper_kind": "review",
+  "canonical": "charge transport layers",
+  "category": "component",
+  "aliases": [],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "charge transport layers and buffer layers",
+  "missing_kind": "",
+  "actions": [
+   "split_compound",
+   "type_fix"
+  ],
+  "type_issue": "typed material",
+  "reason": "CTL only exists inside a compound material label; the component concept is missing and CTLs must be an alias",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 40,
+     "form": "charge transport layers"
+    }
+   ],
+   "source_chunks": [
+    1
+   ],
+   "chunk_triple_counts": {
+    "1": 9
+   },
+   "body_mentions": 8,
+   "body_lines_in_extracted_text": 7,
+   "exact_labels": [],
+   "near_labels": [
+    "charge transport",
+    "charge transport layers and buffer layers",
+    "instability of charge transport layers (CTLs)"
+   ],
+   "observed_in_fields": [
+    "charge transport"
+   ],
+   "observed_in_evidence_text": [
+    "all the charge transport layers and buffer layers are deposited by evaporation technique",
+    "the instability of charge transport layers (CTLs) is another key degradation pathway"
+   ]
+  }
+ },
+ {
+  "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+  "paper_kind": "review",
+  "canonical": "bandgap complementarity",
+  "category": "mechanism",
+  "aliases": [],
+  "v2_label_status": "candidate_only",
+  "verdict": "granularity_different",
+  "v2_label": "bandgap",
+  "missing_kind": "",
+  "actions": [
+   "add_edge"
+  ],
+  "type_issue": "",
+  "reason": "only the property 'bandgap' exists; the complementarity concept (the tandem design principle) is missing",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 62,
+     "form": "bandgap complementarity"
+    }
+   ],
+   "source_chunks": [
+    2
+   ],
+   "chunk_triple_counts": {
+    "2": 12
+   },
+   "body_mentions": 1,
+   "body_lines_in_extracted_text": 1,
+   "exact_labels": [],
+   "near_labels": [
+    "bandgap"
+   ],
+   "observed_in_fields": [
+    "bandgap"
+   ],
+   "observed_in_evidence_text": []
+  }
+ },
+ {
+  "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+  "paper_kind": "research",
+  "canonical": "alpha-FAPbI3",
+  "category": "material",
+  "aliases": [
+   "α-FAPbI3",
+   "α-phase of formamidinium lead triiodide"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "α-FAPbI3",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "phase-specific node exists; write it as alpha-FAPbI3 in the canonical layer while keeping the Greek form as a surface form",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 21,
+     "form": "α-phase of formamidinium lead triiodide"
+    },
+    {
+     "line": 31,
+     "form": "alpha-FAPbI3"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 14,
+   "body_lines_in_extracted_text": 9,
+   "exact_labels": [
+    {
+     "label": "α-FAPbI3",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [
+    "MA+",
+    "FA+",
+    "FAPbI3",
+    "α-phase",
+    "α-FAPbI3-based PSCs"
+   ],
+   "observed_in_fields": [
+    "FA+",
+    "iodide anions in the α-FAPbI3 lattice",
+    "α-FAPbI3",
+    "α-FAPbI3 + 5% FAHCOO",
+    "α-FAPbI3 with 5 mol% FAHCOO"
+   ],
+   "observed_in_evidence_text": [
+    "Figure 2b, (2) and (3) show the δ-FAPbI3 and α-FAPbI3 and<sup>13</sup> C resonances at 157.6 ppm and 153.4 ppm, respectively.",
+    "The<sup>207</sup> Pb spectrum is sensitive to the nature of the anions that are coordinated to Pb<sup>2+</sup> in the perovskite crystal<sup>28</sup> . Figure 2a shows the<sup>207</sup> Pb NMR spectrum of α-FAPbI3, in which the<sup>207</sup> Pb resonance appears at 1,543 ppm."
+   ]
+  }
+ },
+ {
+  "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+  "paper_kind": "research",
+  "canonical": "delta-FAPbI3",
+  "category": "material",
+  "aliases": [
+   "δ-phase"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "δ-FAPbI3",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "separate phase node exists; it must never merge with the alpha phase",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 29,
+     "form": "δ-phase"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 6,
+   "body_lines_in_extracted_text": 5,
+   "exact_labels": [
+    {
+     "label": "δ-FAPbI3",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [
+    "FA+",
+    "FAPbI3",
+    "absence of δ-phase",
+    "1H–13C cross-polarization spectra of δ-FAPbI3"
+   ],
+   "observed_in_fields": [
+    "FA+",
+    "absence of δ-phase",
+    "δ-FAPbI3"
+   ],
+   "observed_in_evidence_text": [
+    "Figure 2b, (2) and (3) show the δ-FAPbI3 and α-FAPbI3 and<sup>13</sup> C resonances at 157.6 ppm and 153.4 ppm, respectively."
+   ]
+  }
+ },
+ {
+  "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+  "paper_kind": "research",
+  "canonical": "formamidinium lead triiodide",
+  "category": "material",
+  "aliases": [
+   "FAPbI3"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_not_normalized",
+  "v2_label": "FAPbI3",
+  "missing_kind": "",
+  "actions": [
+   "alias_split",
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "only the formula is a node; the full name and FAPbI3 are aliases of one material concept covering both phases",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 21,
+     "form": "formamidinium lead triiodide"
+    },
+    {
+     "line": 27,
+     "form": "formamidinium lead triiodide"
+    },
+    {
+     "line": 29,
+     "form": "FAPbI3"
+    },
+    {
+     "line": 31,
+     "form": "FAPbI3"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 36,
+   "body_lines_in_extracted_text": 17,
+   "exact_labels": [
+    {
+     "label": "FAPbI3",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [
+    "MA+",
+    "FA+",
+    "α-FAPbI3",
+    "δ-FAPbI3",
+    "FAPbI3 PSC"
+   ],
+   "observed_in_fields": [
+    "13C and 207Pb resonances of FAPbI3",
+    "2% Fo-FAPbI3 film",
+    "5% Fo-FAPbI3",
+    "FA+",
+    "FAPbI3 and 35 mol% MACl in DMF and DMSO (4:1)"
+   ],
+   "observed_in_evidence_text": [
+    "FAHCOO stabilizes the α-phase of FAPbI3 against humidity",
+    "Figure 2b, (2) and (3) show the δ-FAPbI3 and α-FAPbI3 and<sup>13</sup> C resonances at 157.6 ppm and 153.4 ppm, respectively."
+   ]
+  }
+ },
+ {
+  "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+  "paper_kind": "research",
+  "canonical": "formate",
+  "category": "material",
+  "aliases": [
+   "HCOO−",
+   "HCOO-"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "formate",
+  "missing_kind": "",
+  "actions": [
+   "keep",
+   "alias_split"
+  ],
+  "type_issue": "",
+  "reason": "formate is a node and HCOO− is a separate node; the ion and the name must become one concept with HCOO− as alias",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 21,
+     "form": "formate"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 15,
+   "body_lines_in_extracted_text": 10,
+   "exact_labels": [
+    {
+     "label": "HCOO−",
+     "types": [
+      "material"
+     ]
+    },
+    {
+     "label": "formate",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [
+    "MA+",
+    "formate anions",
+    "formate treatment",
+    "formate-containing perovskite films",
+    "solution processing with 2% formamidinium formate in the FAPbI3 perovskite precursor solution"
+   ],
+   "observed_in_fields": [
+    "HCOO−",
+    "solution processing with 2% formamidinium formate in the FAPbI3 perovskite precursor solution"
+   ],
+   "observed_in_evidence_text": [
+    "Formamidine formate (FAHCOO) was synthesized by dissolving formamidine acetate in an excess of formic acid",
+    "NMR characterization was performed with 5% Fo-FAPbI3, because the greater amount of formate in the sample provides higher sensitivity compared to 2% Fo-FAPbI3."
+   ]
+  }
+ },
+ {
+  "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+  "paper_kind": "research",
+  "canonical": "anion-vacancy defects",
+  "category": "defect",
+  "aliases": [
+   "anion vacancy"
+  ],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "anion-vacancy defects",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "clean defect node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 21,
+     "form": "anion-vacancy defects"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 2,
+   "body_lines_in_extracted_text": 1,
+   "exact_labels": [
+    {
+     "label": "anion-vacancy defects",
+     "types": [
+      "defect"
+     ]
+    }
+   ],
+   "near_labels": [],
+   "observed_in_fields": [
+    "anion-vacancy defects"
+   ],
+   "observed_in_evidence_text": [
+    "We therefore conclude that the HCOO<sup>−</sup> anion acts by eliminating anion-vacancy defects."
+   ]
+  }
+ },
+ {
+  "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+  "paper_kind": "research",
+  "canonical": "grain boundaries",
+  "category": "structure",
+  "aliases": [
+   "grain boundary"
+  ],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "defects near the grain boundaries",
+  "missing_kind": "",
+  "actions": [
+   "split_attribute",
+   "canonicalize"
+  ],
+  "type_issue": "",
+  "reason": "the structure concept only exists inside a defect phrase; grain boundary is the structure, the defects near it are a separate node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 21,
+     "form": "grain boundaries"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 3,
+   "body_lines_in_extracted_text": 2,
+   "exact_labels": [],
+   "near_labels": [
+    "defects near the grain boundaries"
+   ],
+   "observed_in_fields": [
+    "defects near the grain boundaries"
+   ],
+   "observed_in_evidence_text": [
+    "the main degradation process starts from defects near the grain boundaries"
+   ]
+  }
+ },
+ {
+  "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+  "paper_kind": "research",
+  "canonical": "anion engineering",
+  "category": "process",
+  "aliases": [],
+  "v2_label_status": "not_located_by_labels",
+  "verdict": "confirmed_missing",
+  "v2_label": "",
+  "missing_kind": "preprocess_loss",
+  "actions": [
+   "targeted_reextract"
+  ],
+  "type_issue": "",
+  "reason": "all mentions sit in lines 21-31, which the front-matter stripper removed before extraction (the extraction starts at line ~55)",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 21,
+     "form": "anion engineering"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 3,
+   "body_lines_in_extracted_text": 0,
+   "exact_labels": [],
+   "near_labels": [],
+   "observed_in_fields": [],
+   "observed_in_evidence_text": []
+  }
+ },
+ {
+  "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+  "paper_kind": "research",
+  "canonical": "crystallinity",
+  "category": "property",
+  "aliases": [],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "crystallinity",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "clean property node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 21,
+     "form": "crystallinity"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 6,
+   "body_lines_in_extracted_text": 3,
+   "exact_labels": [
+    {
+     "label": "crystallinity",
+     "types": [
+      "property"
+     ]
+    }
+   ],
+   "near_labels": [
+    "poor crystallinity",
+    "crystallinity of FAPbI3 films",
+    "high crystallinity and large grain size",
+    "better crystallinity of the perovskite film and a reduced concentration of halide defects"
+   ],
+   "observed_in_fields": [
+    "better crystallinity of the perovskite film and a reduced concentration of halide defects",
+    "crystallinity",
+    "crystallinity of FAPbI3 films",
+    "high crystallinity and large grain size",
+    "poor crystallinity"
+   ],
+   "observed_in_evidence_text": [
+    "The broader and lower-intensity diffraction peaks—resulting in a higher relative noise level—indicate a poor crystallinity",
+    "The high crystallinity and large grain size of the formate-containing perovskite films"
+   ]
+  }
+ },
+ {
+  "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+  "paper_kind": "research",
+  "canonical": "AgBiS2",
+  "category": "material",
+  "aliases": [],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "AgBiS2",
+  "missing_kind": "",
+  "actions": [
+   "keep"
+  ],
+  "type_issue": "",
+  "reason": "clean formula node",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 26,
+     "form": "AgBiS2"
+    },
+    {
+     "line": 40,
+     "form": "AgBiS2"
+    },
+    {
+     "line": 42,
+     "form": "AgBiS2"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 50,
+   "body_lines_in_extracted_text": 41,
+   "exact_labels": [
+    {
+     "label": "AgBiS2",
+     "types": [
+      "material"
+     ]
+    }
+   ],
+   "near_labels": [
+    "Ag",
+    "AgBiS2NCs/PTB7",
+    "AgBiS2NCs/PTAA",
+    "ITO/SnO2/AgBiS2/PC60BM/Ag",
+    "ITO/NiOx/AgBiS2/PTAA/MoOx/Ag"
+   ],
+   "observed_in_fields": [
+    "30 nm annealed AgBiS2 NC film",
+    "Ag",
+    "AgBiS2",
+    "AgBiS2 (30 nm)",
+    "AgBiS2 NC films"
+   ],
+   "observed_in_evidence_text": [
+    "**Characterization of AgBiS2 NCs and films.** Films exchanged with 3-mercaptopropionic acid (MPA) were grown on glass substrates, followed by annealing at different temperatures in a glovebox.",
+    "**e** , _J_ – _V_ curves of AgBiS2 NC solar cells certified at Newport, USA."
+   ]
+  }
+ },
+ {
+  "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+  "paper_kind": "research",
+  "canonical": "colloidal nanocrystals",
+  "category": "material_class",
+  "aliases": [
+   "NCs"
+  ],
+  "v2_label_status": "not_located_by_labels",
+  "verdict": "granularity_different",
+  "v2_label": "AgBiS2 NCs",
+  "missing_kind": "",
+  "actions": [
+   "add_edge"
+  ],
+  "type_issue": "",
+  "reason": "only specific NC labels/instances exist; the class concept ('colloidal nanocrystals') is missing",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 26,
+     "form": "colloidal nanocrystals"
+    },
+    {
+     "line": 40,
+     "form": "NCs"
+    },
+    {
+     "line": 42,
+     "form": "NCs"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 21,
+   "body_lines_in_extracted_text": 17,
+   "exact_labels": [],
+   "near_labels": [],
+   "observed_in_fields": [
+    "AgBiS2 NCs",
+    "AgBiS2 NCs annealed at 115 °C",
+    "AgBiS2 NCs annealed at 150 °C",
+    "AgBiS2 NCs annealed at 200 °C",
+    "atomic rearrangements within the NCs"
+   ],
+   "observed_in_evidence_text": [
+    "**Characterization of AgBiS2 NCs and films.** Films exchanged with 3-mercaptopropionic acid (MPA) were grown on glass substrates, followed by annealing at different temperatures in a glovebox.",
+    "Absorption coefficients of AgBiS2 NCs annealed at different temperatures."
+   ]
+  }
+ },
+ {
+  "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+  "paper_kind": "research",
+  "canonical": "cation disorder",
+  "category": "structure",
+  "aliases": [],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "homogeneous cation disorder",
+  "missing_kind": "",
+  "actions": [
+   "split_attribute",
+   "type_fix"
+  ],
+  "type_issue": "property vs structure",
+  "reason": "only the qualified variant is a node and its type is wrong; cation disorder is a structural state",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 26,
+     "form": "cation disorder"
+    },
+    {
+     "line": 36,
+     "form": "cation disorder"
+    },
+    {
+     "line": 38,
+     "form": "cation disorder"
+    },
+    {
+     "line": 40,
+     "form": "cation disorder"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 24,
+   "body_lines_in_extracted_text": 16,
+   "exact_labels": [],
+   "near_labels": [
+    "homogeneous cation disorder",
+    "cation disorder homogenization under mild annealing conditions"
+   ],
+   "observed_in_fields": [
+    "cation disorder homogenization under mild annealing conditions",
+    "homogeneous cation disorder"
+   ],
+   "observed_in_evidence_text": [
+    "AgBiS2 NCs with cation segregation and homogeneous cation disorder",
+    "First, to simulate the total random cation disorder, a 64 atom supercell for AgBiS2 in the Fm<sup>¯</sup> 3m rock-salt structure was generated using the special quasi-random structure (SQS) method<sup>52</sup> , in which the cation–cation cluster correlations are optimized to obtain the best approx…"
+   ]
+  }
+ },
+ {
+  "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+  "paper_kind": "research",
+  "canonical": "cation segregation",
+  "category": "structure",
+  "aliases": [],
+  "v2_label_status": "label_match",
+  "verdict": "correct_concept",
+  "v2_label": "cation segregation",
+  "missing_kind": "",
+  "actions": [
+   "keep",
+   "type_fix"
+  ],
+  "type_issue": "property vs structure",
+  "reason": "node exists; it is a structural state, not a property",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 40,
+     "form": "cation segregation"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 10,
+   "body_lines_in_extracted_text": 8,
+   "exact_labels": [
+    {
+     "label": "cation segregation",
+     "types": [
+      "property"
+     ]
+    }
+   ],
+   "near_labels": [],
+   "observed_in_fields": [
+    "cation segregation"
+   ],
+   "observed_in_evidence_text": [
+    "AgBiS2 NCs with cation segregation and homogeneous cation disorder"
+   ]
+  }
+ },
+ {
+  "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+  "paper_kind": "research",
+  "canonical": "optical transition matrix elements",
+  "category": "property",
+  "aliases": [],
+  "v2_label_status": "not_located_by_labels",
+  "verdict": "confirmed_missing",
+  "v2_label": "",
+  "missing_kind": "preprocess_loss",
+  "actions": [
+   "targeted_reextract"
+  ],
+  "type_issue": "",
+  "reason": "the concept only appears in the abstract/intro lines that were stripped before extraction",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 26,
+     "form": "optical transition matrix elements"
+    },
+    {
+     "line": 36,
+     "form": "optical transition matrix elements"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 2,
+   "body_lines_in_extracted_text": 0,
+   "exact_labels": [],
+   "near_labels": [],
+   "observed_in_fields": [],
+   "observed_in_evidence_text": []
+  }
+ },
+ {
+  "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+  "paper_kind": "research",
+  "canonical": "absorption coefficient",
+  "category": "property",
+  "aliases": [],
+  "v2_label_status": "candidate_only",
+  "verdict": "correct_not_normalized",
+  "v2_label": "absorption coefficient enhanced by up to a factor of two after annealing",
+  "missing_kind": "",
+  "actions": [
+   "split_attribute",
+   "split_compound"
+  ],
+  "type_issue": "",
+  "reason": "the property is stored as attribute sentences (enhancement factor, annealing condition, 5-10x comparison); the head concept is missing",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 26,
+     "form": "absorption coefficient"
+    },
+    {
+     "line": 32,
+     "form": "absorption coefficient"
+    },
+    {
+     "line": 36,
+     "form": "absorption coefficient"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 10,
+   "body_lines_in_extracted_text": 7,
+   "exact_labels": [],
+   "near_labels": [
+    "absorption coefficients of ternary AgBiS2 NCs",
+    "absorption coefficient enhanced by up to a factor of two after annealing",
+    "absorption coefficient 5–10 times greater than any other material currently used in photovoltaic technology"
+   ],
+   "observed_in_fields": [
+    "absorption coefficient 5–10 times greater than any other material currently used in photovoltaic technology",
+    "absorption coefficient enhanced by up to a factor of two after annealing"
+   ],
+   "observed_in_evidence_text": [
+    "2b, the absorption coefficient of AgBiS2 NC films is enhanced by up to a factor of two after annealing, alongside reduced Urbach energy from 173 to 26 meV (Supplementary Fig.",
+    "Absorption coefficients of AgBiS2 NCs annealed at different temperatures."
+   ]
+  }
+ },
+ {
+  "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+  "paper_kind": "research",
+  "canonical": "valence band maximum",
+  "category": "property",
+  "aliases": [
+   "VBM"
+  ],
+  "v2_label_status": "not_located_by_labels",
+  "verdict": "correct_not_normalized",
+  "v2_label": "VBM and CBM delocalized over the entire material",
+  "missing_kind": "",
+  "actions": [
+   "split_compound",
+   "alias_split"
+  ],
+  "type_issue": "",
+  "reason": "VBM appears only inside a sentence-like compound node; VBM and CBM must be two property concepts with the observation as a fact",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 42,
+     "form": "valence band maximum"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 3,
+   "body_lines_in_extracted_text": 2,
+   "exact_labels": [],
+   "near_labels": [],
+   "observed_in_fields": [
+    "VBM and CBM delocalized over the entire material"
+   ],
+   "observed_in_evidence_text": [
+    "we predict a VBM and CBM delocalized over the entire material (Fig. 1d)"
+   ]
+  }
+ },
+ {
+  "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+  "paper_kind": "research",
+  "canonical": "conduction band minimum",
+  "category": "property",
+  "aliases": [
+   "CBM"
+  ],
+  "v2_label_status": "not_located_by_labels",
+  "verdict": "correct_not_normalized",
+  "v2_label": "VBM and CBM delocalized over the entire material",
+  "missing_kind": "",
+  "actions": [
+   "split_compound",
+   "alias_split"
+  ],
+  "type_issue": "",
+  "reason": "same compound node as VBM",
+  "evidence": {
+   "source_mentions": [
+    {
+     "line": 42,
+     "form": "conduction band minimum"
+    }
+   ],
+   "source_chunks": [],
+   "chunk_triple_counts": {},
+   "body_mentions": 2,
+   "body_lines_in_extracted_text": 1,
+   "exact_labels": [],
+   "near_labels": [],
+   "observed_in_fields": [
+    "VBM and CBM delocalized over the entire material"
+   ],
+   "observed_in_evidence_text": [
+    "we predict a VBM and CBM delocalized over the entire material (Fig. 1d)"
+   ]
+  }
+ }
+]

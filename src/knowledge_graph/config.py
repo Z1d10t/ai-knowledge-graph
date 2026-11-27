@@ -16,6 +16,7 @@ log = logging.getLogger("knowledge_graph.config")
 _ENV_BRACES = re.compile(r"^\$\{([A-Za-z_][A-Za-z0-9_]*)\}$")
 
 DEFAULTS: dict[str, dict[str, Any]] = {
+    "profile": {"name": "generic", "version": "1.0"},
     "llm": {
         "max_tokens": 32768,
         "temperature": 0.2,
@@ -97,6 +98,14 @@ def validate_config(config: dict[str, Any]) -> dict[str, Any]:
     if not isinstance(config, dict):
         raise ConfigError("Configuration must be a table")
     apply_defaults(config)
+
+    from knowledge_graph.profiles import PROFILES, apply_profile_overrides
+    profile = config.setdefault("profile", {})
+    name = str(profile.get("name") or "generic").strip().lower()
+    if name not in PROFILES:
+        raise ConfigError(f"[profile] name must be one of {sorted(PROFILES)}")
+    profile["name"] = name
+    apply_profile_overrides(config)
 
     llm = config["llm"]
     for key in ("model", "base_url"):

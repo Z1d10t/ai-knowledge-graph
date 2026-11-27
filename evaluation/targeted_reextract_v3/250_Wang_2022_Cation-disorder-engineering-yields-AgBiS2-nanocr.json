@@ -1,0 +1,447 @@
+{
+ "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+ "prompt_version": "v3",
+ "model": "deepseek-flash",
+ "created": "2026-11-25 14:33:41",
+ "source_sha256": "0a483d229bb879d7d8a98bc796bdd5d23557a9eee67afeb2a30f04e45dd3360e",
+ "scope_lines": [
+  26,
+  42
+ ],
+ "passages": [
+  {
+   "lines": [
+    25,
+    43
+   ],
+   "chars": 5088,
+   "relations": 15,
+   "terms": 24
+  }
+ ],
+ "terms": [
+  {
+   "name": "optical absorption",
+   "type": "property",
+   "aliases": [],
+   "evidence": "Strong optical absorption by a semiconductor"
+  },
+  {
+   "name": "absorption coefficient",
+   "type": "property",
+   "aliases": [],
+   "evidence": "determined by its absorption coefficient"
+  },
+  {
+   "name": "cation disorder",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "engineering cation disorder in a ternary chalcogenide semiconductor"
+  },
+  {
+   "name": "optical transition matrix element",
+   "type": "property",
+   "aliases": [],
+   "evidence": "enhancement of the optical transition matrix elements"
+  },
+  {
+   "name": "AgBiS2",
+   "type": "material",
+   "aliases": [],
+   "evidence": "cation-disorder-engineered AgBiS2 colloidal nanocrystals"
+  },
+  {
+   "name": "colloidal nanocrystal",
+   "type": "material",
+   "aliases": [],
+   "evidence": "AgBiS2 colloidal nanocrystals"
+  },
+  {
+   "name": "ternary chalcogenide semiconductor",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "a ternary chalcogenide semiconductor"
+  },
+  {
+   "name": "light-trapping structure",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "light-trapping structures that add complexity and cost"
+  },
+  {
+   "name": "ultrathin solar cell",
+   "type": "device",
+   "aliases": [],
+   "evidence": "high-performance ultrathin solar cells"
+  },
+  {
+   "name": "absorber layer",
+   "type": "component",
+   "aliases": [],
+   "evidence": "A thinner absorber layer also improves charge carrier collection"
+  },
+  {
+   "name": "charge carrier collection",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "improves charge carrier collection"
+  },
+  {
+   "name": "bulk recombination",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "reduces bulk recombination"
+  },
+  {
+   "name": "non-radiative recombination",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "increases non-radiative recombination"
+  },
+  {
+   "name": "open-circuit voltage",
+   "type": "property",
+   "aliases": [
+    "Voc"
+   ],
+   "evidence": "maximizes the open-circuit voltage (Voc)"
+  },
+  {
+   "name": "short-circuit current density",
+   "type": "property",
+   "aliases": [],
+   "evidence": "short-circuit current density of 27 mA cm−2"
+  },
+  {
+   "name": "power conversion efficiency",
+   "type": "property",
+   "aliases": [],
+   "evidence": "a power conversion efficiency of 9.17%"
+  },
+  {
+   "name": "hot carrier solar cell",
+   "type": "device",
+   "aliases": [],
+   "evidence": "concepts such as hot carrier solar cells"
+  },
+  {
+   "name": "cation disorder homogeneity",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "modulation of cation disorder homogeneity in multinary semiconductors"
+  },
+  {
+   "name": "cation segregation",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "cation segregation with local Ag-rich and Bi-rich regions"
+  },
+  {
+   "name": "valence band maximum",
+   "type": "structure",
+   "aliases": [
+    "VBM"
+   ],
+   "evidence": "The valence band maximum (VBM) of AgBiS2"
+  },
+  {
+   "name": "conduction band minimum",
+   "type": "structure",
+   "aliases": [
+    "CBM"
+   ],
+   "evidence": "the conduction band minimum (CBM) arises from Bi p and S p interactions"
+  },
+  {
+   "name": "solution processing",
+   "type": "process",
+   "aliases": [],
+   "evidence": "solution-processed, environmentally friendly, 30-nm-thick solar cells"
+  },
+  {
+   "name": "synthesis",
+   "type": "process",
+   "aliases": [],
+   "evidence": "growth kinetics during synthesis"
+  },
+  {
+   "name": "surface–ligand interaction",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "surface–ligand interactions"
+  }
+ ],
+ "triples": [
+  {
+   "subject": "absorption coefficient",
+   "subject_type": "property",
+   "predicate": "determines",
+   "object": "absorber layer",
+   "object_type": "component",
+   "evidence": "The optimal thickness of a semiconductor absorber is primarily determined by its absorption coefficient.",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    25,
+    43
+   ]
+  },
+  {
+   "subject": "cation disorder",
+   "subject_type": "defect",
+   "predicate": "causes",
+   "object": "optical absorption",
+   "object_type": "property",
+   "evidence": "engineering cation disorder in a ternary chalcogenide semiconductor leads to considerable absorption increase",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    25,
+    43
+   ]
+  },
+  {
+   "subject": "cation disorder",
+   "subject_type": "defect",
+   "predicate": "enhances",
+   "object": "optical transition matrix element",
+   "object_type": "property",
+   "evidence": "considerable absorption increase due to enhancement of the optical transition matrix elements",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    25,
+    43
+   ]
+  },
+  {
+   "subject": "AgBiS2",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "absorption coefficient",
+   "object_type": "property",
+   "evidence": "cation-disorder-engineered AgBiS2 colloidal nanocrystals offer an absorption coefficient that is higher than other photovoltaic materials",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    25,
+    43
+   ]
+  },
+  {
+   "subject": "AgBiS2",
+   "subject_type": "material",
+   "predicate": "enables",
+   "object": "ultrathin solar cell",
+   "object_type": "device",
+   "evidence": "enabling highly efficient extremely thin absorber photovoltaic devices",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    25,
+    43
+   ]
+  },
+  {
+   "subject": "ultrathin solar cell",
+   "subject_type": "device",
+   "predicate": "has efficiency",
+   "object": "9.17%",
+   "object_type": "measurement",
+   "evidence": "a power conversion efficiency of 9.17% (8.85% certified)",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "9.17",
+   "unit": "%",
+   "property": "power conversion efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    25,
+    43
+   ]
+  },
+  {
+   "subject": "ultrathin solar cell",
+   "subject_type": "device",
+   "predicate": "has current density",
+   "object": "27 mA cm−2",
+   "object_type": "measurement",
+   "evidence": "short-circuit current density of 27 mA cm−2",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": "27",
+   "unit": "mA cm−2",
+   "property": "short-circuit current density",
+   "chunk": 0,
+   "passage_lines": [
+    25,
+    43
+   ]
+  },
+  {
+   "subject": "absorber layer",
+   "subject_type": "component",
+   "predicate": "improves",
+   "object": "charge carrier collection",
+   "object_type": "mechanism",
+   "evidence": "A thinner absorber layer also improves charge carrier collection",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    25,
+    43
+   ]
+  },
+  {
+   "subject": "absorber layer",
+   "subject_type": "component",
+   "predicate": "reduces",
+   "object": "bulk recombination",
+   "object_type": "mechanism",
+   "evidence": "A thinner absorber layer also improves charge carrier collection and reduces bulk recombination",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    25,
+    43
+   ]
+  },
+  {
+   "subject": "light-trapping structure",
+   "subject_type": "structure",
+   "predicate": "increases",
+   "object": "non-radiative recombination",
+   "object_type": "mechanism",
+   "evidence": "The use of optical architectures, however, increases non-radiative recombination",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    25,
+    43
+   ]
+  },
+  {
+   "subject": "cation disorder",
+   "subject_type": "defect",
+   "predicate": "impacts",
+   "object": "optical absorption",
+   "object_type": "property",
+   "evidence": "This phenomenon substantially impacts the optoelectronic properties of semiconductors",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    25,
+    43
+   ]
+  },
+  {
+   "subject": "cation segregation",
+   "subject_type": "defect",
+   "predicate": "originates from",
+   "object": "synthesis",
+   "object_type": "process",
+   "evidence": "likely due to growth kinetics during synthesis and surface–ligand interactions",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    25,
+    43
+   ]
+  },
+  {
+   "subject": "cation segregation",
+   "subject_type": "defect",
+   "predicate": "originates from",
+   "object": "surface–ligand interaction",
+   "object_type": "mechanism",
+   "evidence": "likely due to growth kinetics during synthesis and surface–ligand interactions",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    25,
+    43
+   ]
+  },
+  {
+   "subject": "valence band maximum",
+   "subject_type": "structure",
+   "predicate": "originates from",
+   "object": "AgBiS2",
+   "object_type": "material",
+   "evidence": "The valence band maximum (VBM) of AgBiS2 primarily derives from Ag d and S p states",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    25,
+    43
+   ]
+  },
+  {
+   "subject": "conduction band minimum",
+   "subject_type": "structure",
+   "predicate": "originates from",
+   "object": "AgBiS2",
+   "object_type": "material",
+   "evidence": "the conduction band minimum (CBM) arises from Bi p and S p interactions",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    25,
+    43
+   ]
+  }
+ ],
+ "errors": []
+}

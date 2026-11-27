@@ -163,15 +163,16 @@ def standardize_entities(triples, config):
         log.error("No valid triples found for entity standardization")
         return []
 
-    all_entities = set()
-    for triple in valid_triples:
-        all_entities.add(triple["subject"].lower())
-        all_entities.add(triple["object"].lower())
-
+    # Count every original spelling separately: the display form must keep the author's
+    # capitalisation (CsPbI3, PLQY), while matching happens on a lower-cased key.
     counts = Counter()
+    spellings = defaultdict(Counter)
     for triple in valid_triples:
-        counts[triple["subject"].lower()] += 1
-        counts[triple["object"].lower()] += 1
+        for value in (triple["subject"], triple["object"]):
+            key = str(value).lower()
+            counts[key] += 1
+            spellings[key][str(value)] += 1
+    all_entities = set(counts)
 
     # Pass 1: exact match after lower-casing and stop-word removal.
     stopwords = {"the", "a", "an", "of", "and", "or", "in", "on", "at", "to", "for", "with", "by", "as"}
@@ -188,10 +189,12 @@ def standardize_entities(triples, config):
 
     mapping = {}
     for variants in groups.values():
-        standard = sorted(variants, key=lambda v: (-counts[v], len(v)))[0]
+        standard_key = sorted(variants, key=lambda v: (-counts[v], -len(v), v))[0]
+        # display form = the most common original spelling inside the winning key
+        standard = max(spellings[standard_key].items(), key=lambda kv: (kv[1], len(kv[0])))[0]
         for variant in variants:
             mapping[variant] = standard
-            if variant != standard:
+            if variant != standard_key:
                 logger.debug("standardize (normalize): %r -> %r", variant, standard)
 
     # Pass 2 (opt-in): shared-word / shared-stem merging.
@@ -373,6 +376,11 @@ def infer_relationships(triples, config):
     at ``max_inferred_ratio`` × the number of extracted triples.
     """
     if not triples or len(triples) < 2:
+        return triples
+
+    from knowledge_graph.profiles import is_materials
+    if is_materials(config):
+        log.info("materials profile: inference disabled, only text-extracted facts are kept")
         return triples
 
     log.info("Inferring additional relationships between entities...")

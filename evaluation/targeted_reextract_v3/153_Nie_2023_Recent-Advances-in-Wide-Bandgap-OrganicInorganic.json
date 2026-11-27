@@ -1,0 +1,1479 @@
+{
+ "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+ "prompt_version": "v3",
+ "model": "deepseek-flash",
+ "created": "2026-11-25 14:33:49",
+ "source_sha256": "c947ac340450aeebb8c4a5186404400aeee5ff2659bdb6fb8625b7ebc2e5a249",
+ "scope_lines": [
+  40,
+  64
+ ],
+ "passages": [
+  {
+   "lines": [
+    39,
+    65
+   ],
+   "chars": 6497,
+   "relations": 15,
+   "terms": 23
+  },
+  {
+   "lines": [
+    228,
+    230
+   ],
+   "chars": 2388,
+   "relations": 14,
+   "terms": 31
+  },
+  {
+   "lines": [
+    258,
+    260
+   ],
+   "chars": 2693,
+   "relations": 27,
+   "terms": 33
+  }
+ ],
+ "terms": [
+  {
+   "name": "perovskite",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "Perovskite-based tandem solar cells"
+  },
+  {
+   "name": "tandem solar cell",
+   "type": "device",
+   "aliases": [
+    "TSC"
+   ],
+   "evidence": "Perovskite-based tandem solar cells"
+  },
+  {
+   "name": "wide-bandgap perovskite",
+   "type": "material",
+   "aliases": [
+    "WBG perovskite"
+   ],
+   "evidence": "the wide-bandgap (WBG) perovskites act as the front absorber"
+  },
+  {
+   "name": "front absorber",
+   "type": "component",
+   "aliases": [],
+   "evidence": "act as the front absorber"
+  },
+  {
+   "name": "open-circuit voltage",
+   "type": "property",
+   "aliases": [
+    "VOC"
+   ],
+   "evidence": "higher open-circuit voltage ( _V_ OC)"
+  },
+  {
+   "name": "thermalization loss",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "reduced thermalization losses"
+  },
+  {
+   "name": "bandgap",
+   "type": "property",
+   "aliases": [],
+   "evidence": "tunable bandgap of the perovskite materials"
+  },
+  {
+   "name": "halide substitution",
+   "type": "process",
+   "aliases": [],
+   "evidence": "substituting halide iodine with bromine"
+  },
+  {
+   "name": "photo-induced phase separation",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "severe photo-induced phase separation"
+  },
+  {
+   "name": "photostability",
+   "type": "property",
+   "aliases": [],
+   "evidence": "improving photostability of the WBG PSCs"
+  },
+  {
+   "name": "power conversion efficiency",
+   "type": "property",
+   "aliases": [
+    "PCE"
+   ],
+   "evidence": "the power conversion efficiency (PCE) of silicon solar cells"
+  },
+  {
+   "name": "silicon solar cell",
+   "type": "device",
+   "aliases": [],
+   "evidence": "the silicon (Si) solar cells are still dominating"
+  },
+  {
+   "name": "organic–inorganic perovskite solar cell",
+   "type": "device",
+   "aliases": [
+    "PSC"
+   ],
+   "evidence": "organic–inorganic perovskite solar cells (PSCs)"
+  },
+  {
+   "name": "multi-junction solar cell",
+   "type": "device",
+   "aliases": [],
+   "evidence": "developing multi-junction solar cells"
+  },
+  {
+   "name": "narrow-bandgap light absorber",
+   "type": "component",
+   "aliases": [
+    "NBG absorber"
+   ],
+   "evidence": "other narrow-bandgap (NBG) light absorbers"
+  },
+  {
+   "name": "charge recombination layer",
+   "type": "component",
+   "aliases": [],
+   "evidence": "connected in series through a charge recombination layer"
+  },
+  {
+   "name": "two-terminal tandem",
+   "type": "device",
+   "aliases": [
+    "2-T"
+   ],
+   "evidence": "monolithic two-terminal (2-T) TSCs"
+  },
+  {
+   "name": "four-terminal tandem",
+   "type": "device",
+   "aliases": [
+    "4-T"
+   ],
+   "evidence": "mechanically stacked four-terminal (4-T) TSCs"
+  },
+  {
+   "name": "semitransparent perovskite solar cell",
+   "type": "device",
+   "aliases": [],
+   "evidence": "developing highly efficient semitransparent PSCs"
+  },
+  {
+   "name": "parasitic absorption loss",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "severe parasitic absorption losses"
+  },
+  {
+   "name": "transparent electrode",
+   "type": "component",
+   "aliases": [],
+   "evidence": "the use of more transparent electrodes"
+  },
+  {
+   "name": "charge transport layer",
+   "type": "component",
+   "aliases": [],
+   "evidence": "compositions, additives, charge transport layers, interfaces and preparation methods"
+  },
+  {
+   "name": "interface",
+   "type": "interface",
+   "aliases": [],
+   "evidence": "compositions, additives, charge transport layers, interfaces and preparation methods"
+  },
+  {
+   "name": "MAPbI3-xBrx",
+   "type": "material",
+   "aliases": [],
+   "evidence": "MAPbI3-xBrx"
+  },
+  {
+   "name": "MAPbI2.4Br0.6",
+   "type": "material",
+   "aliases": [],
+   "evidence": "MAPbI2.4Br0.6"
+  },
+  {
+   "name": "MAPbI2.1Br0.9",
+   "type": "material",
+   "aliases": [],
+   "evidence": "MAPbI2.1Br0.9"
+  },
+  {
+   "name": "MAPbI3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "MAPbI3"
+  },
+  {
+   "name": "PbI2",
+   "type": "material",
+   "aliases": [],
+   "evidence": "PbI2"
+  },
+  {
+   "name": "MABr",
+   "type": "material",
+   "aliases": [],
+   "evidence": "MABr"
+  },
+  {
+   "name": "MAI",
+   "type": "material",
+   "aliases": [],
+   "evidence": "MAI"
+  },
+  {
+   "name": "MACl",
+   "type": "material",
+   "aliases": [],
+   "evidence": "MACl"
+  },
+  {
+   "name": "isopropanol",
+   "type": "material",
+   "aliases": [],
+   "evidence": "isopropanol"
+  },
+  {
+   "name": "(FAPbI3)0.85(MAPbBr3)0.15",
+   "type": "material",
+   "aliases": [],
+   "evidence": "(FAPbI3)0.85(MAPbBr3)0.15"
+  },
+  {
+   "name": "Cs0.15FA0.85Pb(I0.3Br0.7)3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Cs0.15FA0.85Pb(I0.3Br0.7)3"
+  },
+  {
+   "name": "Cs0.17FA0.83Pb(I0.6Br0.4)3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Cs0.17FA0.83Pb(I0.6Br0.4)3"
+  },
+  {
+   "name": "perovskite",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "perovskite film"
+  },
+  {
+   "name": "FA-based perovskite",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "FA-based perovskites"
+  },
+  {
+   "name": "front absorber",
+   "type": "component",
+   "aliases": [],
+   "evidence": "front absorber"
+  },
+  {
+   "name": "solar cell",
+   "type": "device",
+   "aliases": [],
+   "evidence": "solar cell"
+  },
+  {
+   "name": "tandem solar cell",
+   "type": "device",
+   "aliases": [
+    "TSC"
+   ],
+   "evidence": "2-T all-perovskite TSC"
+  },
+  {
+   "name": "single-junction solar cell",
+   "type": "device",
+   "aliases": [],
+   "evidence": "single-junction and tandem solar cells"
+  },
+  {
+   "name": "two-step preparation method",
+   "type": "process",
+   "aliases": [],
+   "evidence": "two-step preparation method"
+  },
+  {
+   "name": "one-step preparation method",
+   "type": "process",
+   "aliases": [],
+   "evidence": "one-step preparation method"
+  },
+  {
+   "name": "spin coating",
+   "type": "process",
+   "aliases": [],
+   "evidence": "spincoated onto the PbI2 layer"
+  },
+  {
+   "name": "solvent annealing",
+   "type": "process",
+   "aliases": [],
+   "evidence": "solvent annealing process"
+  },
+  {
+   "name": "halide exchange",
+   "type": "process",
+   "aliases": [],
+   "evidence": "facile halide exchange route"
+  },
+  {
+   "name": "bandgap",
+   "type": "property",
+   "aliases": [],
+   "evidence": "bandgap"
+  },
+  {
+   "name": "power conversion efficiency",
+   "type": "property",
+   "aliases": [
+    "PCE"
+   ],
+   "evidence": "PCE"
+  },
+  {
+   "name": "open-circuit voltage",
+   "type": "property",
+   "aliases": [
+    "VOC"
+   ],
+   "evidence": "_V_ OC"
+  },
+  {
+   "name": "crystallinity",
+   "type": "property",
+   "aliases": [],
+   "evidence": "crystallinity"
+  },
+  {
+   "name": "phase separation",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "phase separation"
+  },
+  {
+   "name": "phase instability",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "phase instability region"
+  },
+  {
+   "name": "crystallization",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "modulate the crystallization"
+  },
+  {
+   "name": "Vegard's law",
+   "type": "property",
+   "aliases": [],
+   "evidence": "Vegard’s law"
+  },
+  {
+   "name": "Cs0.2FA0.8Pb(I0.75Br0.25)3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Cs0.2FA0.8Pb(I0.75Br0.25)3 (1.67 eV)"
+  },
+  {
+   "name": "Cs0.05MA0.15FA0.8Pb(I0.75Br0.25)3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Cs 0.05MA 0.15FA 0.8Pb(I 0.75Br 0.25) 3 (1.65 eV)"
+  },
+  {
+   "name": "Cs0.17FA0.83Pb(I0.6Br0.4)3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Cs0.17FA0.83Pb(I0.6Br0.4)3 (1.74 eV)"
+  },
+  {
+   "name": "Cs0.12MA0.05FA0.83Pb(I0.6Br0.4)3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Cs0.12MA0.05FA0.83Pb(I0.6Br0.4)3 (1.74 eV)"
+  },
+  {
+   "name": "Cs0.05(FA0.77MA0.23)0.95Pb(I0.77Br0.23)3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Cs0.05(FA0.77MA0.23)0.95Pb(I0.77Br0.23)3 perovskite"
+  },
+  {
+   "name": "Cs0.05FA0.8MA0.15Pb(I0.75Br0.25)3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Cs0.05FA0.8MA0.15Pb(I0.75Br0.25)3 perovskite"
+  },
+  {
+   "name": "FA0.85Cs0.15PbI3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "FA0.85Cs0.15PbI3"
+  },
+  {
+   "name": "FA0.75Cs0.25PbI3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "FA0.75Cs0.25PbI3"
+  },
+  {
+   "name": "CsMAFA",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "the CsMAFA system performs better than CsFA"
+  },
+  {
+   "name": "CsFA",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "the CsMAFA system performs better than CsFA"
+  },
+  {
+   "name": "wide bandgap perovskite",
+   "type": "material_class",
+   "aliases": [
+    "WBG perovskite"
+   ],
+   "evidence": "WBG PSCs"
+  },
+  {
+   "name": "perovskite solar cell",
+   "type": "device",
+   "aliases": [
+    "PSC"
+   ],
+   "evidence": "WBG PSCs"
+  },
+  {
+   "name": "single-junction solar cell",
+   "type": "device",
+   "aliases": [],
+   "evidence": "the single-junction solar cell gave a PCE of 20.8%"
+  },
+  {
+   "name": "perovskite/silicon tandem solar cell",
+   "type": "device",
+   "aliases": [],
+   "evidence": "the 2-T perovskite/silicon tandem solar cell achieved an impressive PCE of 29.15%"
+  },
+  {
+   "name": "front absorber",
+   "type": "component",
+   "aliases": [],
+   "evidence": "employed Cs0.05(FA0.77MA0.23)0.95Pb(I0.77Br0.23)3 perovskite as the front absorber"
+  },
+  {
+   "name": "front cell",
+   "type": "component",
+   "aliases": [],
+   "evidence": "adopted Cs0.05FA0.8MA0.15Pb(I0.75Br0.25)3 perovskite as the front cell"
+  },
+  {
+   "name": "power conversion efficiency",
+   "type": "property",
+   "aliases": [
+    "PCE"
+   ],
+   "evidence": "offered PCEs of 18.5%, 20.8%, 17.2% and 19.3%"
+  },
+  {
+   "name": "bandgap",
+   "type": "property",
+   "aliases": [],
+   "evidence": "despite of similar bandgap"
+  },
+  {
+   "name": "open-circuit voltage",
+   "type": "property",
+   "aliases": [
+    "VOC"
+   ],
+   "evidence": "sacrifice the VOC and PCE"
+  },
+  {
+   "name": "trap state",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "might introduce additional trap states"
+  },
+  {
+   "name": "deep trap",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "which could evolve into deep traps if the MA is absent"
+  },
+  {
+   "name": "octahedra tilting",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "would induce PbX6 octahedra tilting"
+  },
+  {
+   "name": "lattice microstrain",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "induce PbX6 octahedra tilting and lattice microstrain"
+  },
+  {
+   "name": "tetragonal space group P4/mbm",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "assigned to tetragonal space group P4/ mbm"
+  },
+  {
+   "name": "metal-halide-metal bond angle",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "reduction in the metal-halide-metal bond angle below 180°"
+  },
+  {
+   "name": "Cs-doping",
+   "type": "process",
+   "aliases": [],
+   "evidence": "heavy Cs-doping (> 15%) is commonly required"
+  },
+  {
+   "name": "Cs substitution",
+   "type": "process",
+   "aliases": [],
+   "evidence": "increasing the bandgap as the Cs substitution increases"
+  },
+  {
+   "name": "ionic radius",
+   "type": "property",
+   "aliases": [],
+   "evidence": "size mismatching in ionic radius, 1.88 Å for Cs+ and 2.53 Å for FA+"
+  },
+  {
+   "name": "size mismatch",
+   "type": "property",
+   "aliases": [],
+   "evidence": "minimize the size mismatch between Cs+ and FA+"
+  },
+  {
+   "name": "photo-instability",
+   "type": "property",
+   "aliases": [],
+   "evidence": "too much Br content that account for photo-instability"
+  },
+  {
+   "name": "MA+",
+   "type": "material",
+   "aliases": [],
+   "evidence": "the MA+ (2.17 Å) would act as buffer cations"
+  },
+  {
+   "name": "Cs+",
+   "type": "material",
+   "aliases": [],
+   "evidence": "1.88 Å for Cs+"
+  },
+  {
+   "name": "FA+",
+   "type": "material",
+   "aliases": [],
+   "evidence": "2.53 Å for FA+"
+  }
+ ],
+ "triples": [
+  {
+   "subject": "wide-bandgap perovskite",
+   "subject_type": "material",
+   "predicate": "acts as",
+   "object": "front absorber",
+   "object_type": "component",
+   "evidence": "the wide-bandgap (WBG) perovskites act as the front absorber to offer higher open-circuit voltage",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    39,
+    65
+   ]
+  },
+  {
+   "subject": "wide-bandgap perovskite",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "open-circuit voltage",
+   "object_type": "property",
+   "evidence": "the wide-bandgap (WBG) perovskites act as the front absorber to offer higher open-circuit voltage ( _V_ OC) for reduced thermalization losses",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    39,
+    65
+   ]
+  },
+  {
+   "subject": "wide-bandgap perovskite",
+   "subject_type": "material",
+   "predicate": "suppresses",
+   "object": "thermalization loss",
+   "object_type": "mechanism",
+   "evidence": "the front cell with WBG absorber captures high-energy photons to reduce the thermalization loss",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    39,
+    65
+   ]
+  },
+  {
+   "subject": "wide-bandgap perovskite",
+   "subject_type": "material",
+   "predicate": "synthesized by",
+   "object": "halide substitution",
+   "object_type": "process",
+   "evidence": "the WBG perovskites can be easily obtained by substituting halide iodine with bromine, and substituting organic ions FA and MA with Cs",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    39,
+    65
+   ]
+  },
+  {
+   "subject": "wide-bandgap perovskite",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "bandgap",
+   "object_type": "property",
+   "evidence": "Taking advantage of tunable bandgap of the perovskite materials",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    39,
+    65
+   ]
+  },
+  {
+   "subject": "wide-bandgap perovskite",
+   "subject_type": "material",
+   "predicate": "undergoes",
+   "object": "photo-induced phase separation",
+   "object_type": "mechanism",
+   "evidence": "the most concerned issues for the WBG perovskite solar cells (PSCs) are huge _V_ OC deficit and severe photo-induced phase separation",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    39,
+    65
+   ]
+  },
+  {
+   "subject": "silicon solar cell",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "the power conversion efficiency (PCE) of silicon solar cells has reached saturation at 26.7% for years",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "26.7",
+   "unit": "%",
+   "property": "power conversion efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    39,
+    65
+   ]
+  },
+  {
+   "subject": "organic–inorganic perovskite solar cell",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "the certified PCE has rapidly reached 25.7%",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "25.7",
+   "unit": "%",
+   "property": "power conversion efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    39,
+    65
+   ]
+  },
+  {
+   "subject": "two-terminal tandem",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "the highest efficiencies for 2-T and 4-T TSCs have reached 32.5% [1] and 30.24% [34]",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "32.5",
+   "unit": "%",
+   "property": "power conversion efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    39,
+    65
+   ]
+  },
+  {
+   "subject": "four-terminal tandem",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "the highest efficiencies for 2-T and 4-T TSCs have reached 32.5% [1] and 30.24% [34]",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "30.24",
+   "unit": "%",
+   "property": "power conversion efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    39,
+    65
+   ]
+  },
+  {
+   "subject": "two-terminal tandem",
+   "subject_type": "device",
+   "predicate": "composed of",
+   "object": "charge recombination layer",
+   "object_type": "component",
+   "evidence": "a 2-T architecture consists of two sub-cells connected in series through a charge recombination layer",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    39,
+    65
+   ]
+  },
+  {
+   "subject": "four-terminal tandem",
+   "subject_type": "device",
+   "predicate": "causes",
+   "object": "parasitic absorption loss",
+   "object_type": "mechanism",
+   "evidence": "the 4-T tandems suffer from some inherent disadvantages such as additional balance-of-system (BOS) costs of separate system components and severe parasitic absorption losses due to the use of more transparent electrodes",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    39,
+    65
+   ]
+  },
+  {
+   "subject": "transparent electrode",
+   "subject_type": "component",
+   "predicate": "causes",
+   "object": "parasitic absorption loss",
+   "object_type": "mechanism",
+   "evidence": "severe parasitic absorption losses due to the use of more transparent electrodes",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    39,
+    65
+   ]
+  },
+  {
+   "subject": "four-terminal tandem",
+   "subject_type": "device",
+   "predicate": "depends on",
+   "object": "semitransparent perovskite solar cell",
+   "object_type": "device",
+   "evidence": "The key point is developing highly efficient semitransparent PSCs",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    39,
+    65
+   ]
+  },
+  {
+   "subject": "MAPbI3-xBrx",
+   "subject_type": "material",
+   "predicate": "has bandgap",
+   "object": "1.72 eV",
+   "object_type": "measurement",
+   "evidence": "tuned the bandgap of MAPbI3-xBrx to 1.72 eV via two-step preparation method",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "1.72",
+   "unit": "eV",
+   "property": "bandgap",
+   "chunk": 0,
+   "passage_lines": [
+    228,
+    230
+   ]
+  },
+  {
+   "subject": "MAPbI2.4Br0.6",
+   "subject_type": "material",
+   "predicate": "has efficiency",
+   "object": "13.1%",
+   "object_type": "measurement",
+   "evidence": "the target MAPbI2.4Br0.6 solar cell demonstrated a PCE of 13.1%",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "13.1",
+   "unit": "%",
+   "property": "power conversion efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    228,
+    230
+   ]
+  },
+  {
+   "subject": "MAPbI2.1Br0.9",
+   "subject_type": "material",
+   "predicate": "has bandgap",
+   "object": "1.75 eV",
+   "object_type": "measurement",
+   "evidence": "prepared a 1.75 eV bandgap MAPbI2.1Br0.9 perovskite film via a facile halide exchange route",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "1.75",
+   "unit": "eV",
+   "property": "bandgap",
+   "chunk": 0,
+   "passage_lines": [
+    228,
+    230
+   ]
+  },
+  {
+   "subject": "halide exchange",
+   "subject_type": "process",
+   "predicate": "improves",
+   "object": "crystallinity",
+   "object_type": "property",
+   "evidence": "This approach contributes to more dense and homogenous film with vertically oriented crystals as compared with one-step preparation method",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    228,
+    230
+   ]
+  },
+  {
+   "subject": "Cs0.15FA0.85Pb(I0.3Br0.7)3",
+   "subject_type": "material",
+   "predicate": "used as",
+   "object": "front absorber",
+   "object_type": "component",
+   "evidence": "using 2.0 eV bandgap Cs0.15FA0.85Pb(I0.3Br0.7)3 as the front absorber",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    228,
+    230
+   ]
+  },
+  {
+   "subject": "Cs0.15FA0.85Pb(I0.3Br0.7)3",
+   "subject_type": "material",
+   "predicate": "has bandgap",
+   "object": "2.0 eV",
+   "object_type": "measurement",
+   "evidence": "using 2.0 eV bandgap Cs0.15FA0.85Pb(I0.3Br0.7)3 as the front absorber",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "2.0",
+   "unit": "eV",
+   "property": "bandgap",
+   "chunk": 0,
+   "passage_lines": [
+    228,
+    230
+   ]
+  },
+  {
+   "subject": "Cs0.15FA0.85Pb(I0.3Br0.7)3",
+   "subject_type": "material",
+   "predicate": "has efficiency",
+   "object": "11.5%",
+   "object_type": "measurement",
+   "evidence": "they further improved the PCE of Cs0.15FA0.85Pb(I0.3Br0.7)3 solar cells up to 11.5%",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "11.5",
+   "unit": "%",
+   "property": "power conversion efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    228,
+    230
+   ]
+  },
+  {
+   "subject": "Cs0.17FA0.83Pb(I0.6Br0.4)3",
+   "subject_type": "material",
+   "predicate": "has bandgap",
+   "object": "1.74 eV",
+   "object_type": "measurement",
+   "evidence": "The Cs0.17FA0.83Pb(I0.6Br0.4)3 perovskite exhibited a 1.74 eV bandgap",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "1.74",
+   "unit": "eV",
+   "property": "bandgap",
+   "chunk": 0,
+   "passage_lines": [
+    228,
+    230
+   ]
+  },
+  {
+   "subject": "Cs0.17FA0.83Pb(I0.6Br0.4)3",
+   "subject_type": "material",
+   "predicate": "has efficiency",
+   "object": "17.1%",
+   "object_type": "measurement",
+   "evidence": "gave a PCE of 17.1% with 1.2 V VOC, as a result of the suppressed phase separation",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": "17.1",
+   "unit": "%",
+   "property": "power conversion efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    228,
+    230
+   ]
+  },
+  {
+   "subject": "Cs0.17FA0.83Pb(I0.6Br0.4)3",
+   "subject_type": "material",
+   "predicate": "has open-circuit voltage",
+   "object": "1.2 V",
+   "object_type": "measurement",
+   "evidence": "gave a PCE of 17.1% with 1.2 V VOC",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": "1.2",
+   "unit": "V",
+   "property": "open-circuit voltage",
+   "chunk": 0,
+   "passage_lines": [
+    228,
+    230
+   ]
+  },
+  {
+   "subject": "phase separation",
+   "subject_type": "mechanism",
+   "predicate": "limits",
+   "object": "open-circuit voltage",
+   "object_type": "property",
+   "evidence": "gave a PCE of 17.1% with 1.2 V VOC, as a result of the suppressed phase separation",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    228,
+    230
+   ]
+  },
+  {
+   "subject": "non-stoichiometric precursor",
+   "subject_type": "material",
+   "predicate": "improves",
+   "object": "crystallinity",
+   "object_type": "property",
+   "evidence": "the use of non-stoichiometric precursor with excess MABr or MACl can significantly improve the crystallinity of Cs0.17FA0.83Pb(I0.6Br0.4)3 perovskite but without affecting the bandgap",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    228,
+    230
+   ]
+  },
+  {
+   "subject": "excess MAI",
+   "subject_type": "material",
+   "predicate": "causes",
+   "object": "bandgap reduction",
+   "object_type": "property",
+   "evidence": "an obvious reduction in bandgap was observed when excess MAI was added, which was resulted from the substitution of Br with I",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    228,
+    230
+   ]
+  },
+  {
+   "subject": "Cs0.17FA0.83Pb(I0.6Br0.4)3",
+   "subject_type": "material",
+   "predicate": "has efficiency",
+   "object": "16.4%",
+   "object_type": "measurement",
+   "evidence": "the MABr incorporated Cs0.17FA0.83Pb(I0.6Br0.4)3 solar cell delivered a highest stabilized PCE of 16.4%",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "16.4",
+   "unit": "%",
+   "property": "power conversion efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    228,
+    230
+   ]
+  },
+  {
+   "subject": "Cs0.2FA0.8Pb(I0.75Br0.25)3",
+   "subject_type": "material",
+   "predicate": "has bandgap",
+   "object": "1.67 eV",
+   "object_type": "measurement",
+   "evidence": "Cs0.2FA0.8Pb(I0.75Br0.25)3 (1.67 eV)",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "1.67",
+   "unit": "eV",
+   "property": "bandgap",
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "Cs0.05MA0.15FA0.8Pb(I0.75Br0.25)3",
+   "subject_type": "material",
+   "predicate": "has bandgap",
+   "object": "1.65 eV",
+   "object_type": "measurement",
+   "evidence": "Cs 0.05MA 0.15FA 0.8Pb(I 0.75Br 0.25) 3 (1.65 eV)",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "1.65",
+   "unit": "eV",
+   "property": "bandgap",
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "Cs0.12MA0.05FA0.83Pb(I0.6Br0.4)3",
+   "subject_type": "material",
+   "predicate": "has bandgap",
+   "object": "1.74 eV",
+   "object_type": "measurement",
+   "evidence": "Cs0.12MA0.05FA0.83Pb(I0.6Br0.4)3 (1.74 eV)",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "1.74",
+   "unit": "eV",
+   "property": "bandgap",
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "Cs0.2FA0.8Pb(I0.75Br0.25)3",
+   "subject_type": "material",
+   "predicate": "used in",
+   "object": "perovskite solar cell",
+   "object_type": "device",
+   "evidence": "the Cs0.2FA0.8Pb(I0.75Br0.25)3 (1.67 eV), ... solar cells offered PCEs of 18.5%",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "perovskite solar cell",
+   "subject_type": "device",
+   "predicate": "achieves",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "Cs0.2FA0.8Pb(I0.75Br0.25)3 (1.67 eV) ... solar cells offered PCEs of 18.5%",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": "18.5",
+   "unit": "%",
+   "property": "power conversion efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "CsMAFA",
+   "subject_type": "material_class",
+   "predicate": "improves",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "despite of similar bandgap, the CsMAFA system performs better than CsFA in respect of efficiency",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "Cs0.05(FA0.77MA0.23)0.95Pb(I0.77Br0.23)3",
+   "subject_type": "material",
+   "predicate": "used as",
+   "object": "front absorber",
+   "object_type": "component",
+   "evidence": "employed Cs0.05(FA0.77MA0.23)0.95Pb(I0.77Br0.23)3 perovskite as the front absorber",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "single-junction solar cell",
+   "subject_type": "device",
+   "predicate": "achieves",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "the single-junction solar cell gave a PCE of 20.8%",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "20.8",
+   "unit": "%",
+   "property": "power conversion efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "perovskite/silicon tandem solar cell",
+   "subject_type": "device",
+   "predicate": "achieves",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "the 2-T perovskite/silicon tandem solar cell achieved an impressive PCE of 29.15%",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "29.15",
+   "unit": "%",
+   "property": "power conversion efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "Cs0.05FA0.8MA0.15Pb(I0.75Br0.25)3",
+   "subject_type": "material",
+   "predicate": "used as",
+   "object": "front cell",
+   "object_type": "component",
+   "evidence": "adopted Cs0.05FA0.8MA0.15Pb(I0.75Br0.25)3 perovskite as the front cell",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "Cs-doping",
+   "subject_type": "process",
+   "predicate": "enables",
+   "object": "wide bandgap perovskite",
+   "object_type": "material_class",
+   "evidence": "heavy Cs-doping (> 15%) is commonly required for the desirable wide bandgap",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "size mismatch",
+   "subject_type": "property",
+   "predicate": "induces",
+   "object": "octahedra tilting",
+   "object_type": "structure",
+   "evidence": "there is a innegligible size mismatching in ionic radius, 1.88 Å for Cs+ and 2.53 Å for FA+, which would induce PbX6 octahedra tilting",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "size mismatch",
+   "subject_type": "property",
+   "predicate": "induces",
+   "object": "lattice microstrain",
+   "object_type": "structure",
+   "evidence": "which would induce PbX6 octahedra tilting and lattice microstrain",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "FA0.85Cs0.15PbI3",
+   "subject_type": "material",
+   "predicate": "crystallizes in",
+   "object": "tetragonal space group P4/mbm",
+   "object_type": "structure",
+   "evidence": "both of FA0.85Cs0.15PbI3 and FA0.75Cs0.25PbI3 are assigned to tetragonal space group P4/ mbm",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "FA0.75Cs0.25PbI3",
+   "subject_type": "material",
+   "predicate": "crystallizes in",
+   "object": "tetragonal space group P4/mbm",
+   "object_type": "structure",
+   "evidence": "both of FA0.85Cs0.15PbI3 and FA0.75Cs0.25PbI3 are assigned to tetragonal space group P4/ mbm",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "tetragonal space group P4/mbm",
+   "subject_type": "structure",
+   "predicate": "results in",
+   "object": "metal-halide-metal bond angle",
+   "object_type": "structure",
+   "evidence": "assigned to tetragonal space group P4/ mbm, indicating a reduction in the metal-halide-metal bond angle below 180°",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "Cs substitution",
+   "subject_type": "process",
+   "predicate": "increases",
+   "object": "bandgap",
+   "object_type": "property",
+   "evidence": "pushing the valence band toward lower energy and increasing the bandgap as the Cs substitution increases",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "MA+",
+   "subject_type": "material",
+   "predicate": "suppresses",
+   "object": "octahedra tilting",
+   "object_type": "structure",
+   "evidence": "the MA+ (2.17 Å) would act as buffer cations to minimize the size mismatch between Cs+ and FA+ and thus, further suppress the octahedra tilting",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "octahedra tilting",
+   "subject_type": "structure",
+   "predicate": "causes",
+   "object": "trap state",
+   "object_type": "defect",
+   "evidence": "The larger octahedra tilting in the heavy Cs-doped CsFA system than that of CsMAFA might introduce additional trap states",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "trap state",
+   "subject_type": "defect",
+   "predicate": "limits",
+   "object": "open-circuit voltage",
+   "object_type": "property",
+   "evidence": "might introduce additional trap states and thus, sacrifice the VOC and PCE",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  },
+  {
+   "subject": "trap state",
+   "subject_type": "defect",
+   "predicate": "limits",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "might introduce additional trap states and thus, sacrifice the VOC and PCE",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    258,
+    260
+   ]
+  }
+ ],
+ "errors": []
+}

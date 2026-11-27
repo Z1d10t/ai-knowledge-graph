@@ -18,7 +18,14 @@ from .inference_prompts import (
     get_relationship_inference_user_prompt,
     get_within_community_inference_user_prompt,
 )
-from .main_prompts import MAIN_SYSTEM_PROMPT, MAIN_USER_PROMPT
+from .main_prompts import (
+    MATERIALS_SYSTEM_PROMPT,
+    MATERIALS_USER_PROMPT,
+    MATERIALS_V3_SYSTEM_PROMPT,
+    MATERIALS_V3_USER_PROMPT,
+    MAIN_SYSTEM_PROMPT,
+    MAIN_USER_PROMPT,
+)
 from .query_prompts import (
     ENTITY_PICK_SYSTEM_PROMPT,
     QUERY_SYSTEM_PROMPT,
@@ -31,8 +38,13 @@ __all__ = [
     "prompt_factory",
     "language_instruction",
     "system_prompt_for",
+    "main_prompt_pair",
     "MAIN_SYSTEM_PROMPT",
     "MAIN_USER_PROMPT",
+    "MATERIALS_SYSTEM_PROMPT",
+    "MATERIALS_USER_PROMPT",
+    "MATERIALS_V3_SYSTEM_PROMPT",
+    "MATERIALS_V3_USER_PROMPT",
     "ENTITY_RESOLUTION_SYSTEM_PROMPT",
     "get_entity_resolution_user_prompt",
     "RELATIONSHIP_INFERENCE_SYSTEM_PROMPT",
@@ -65,6 +77,10 @@ class PromptFactory:
         self.prompts = {
             "main_system": MAIN_SYSTEM_PROMPT,
             "main_user": MAIN_USER_PROMPT,
+            "main_system_materials": MATERIALS_SYSTEM_PROMPT,
+            "main_user_materials": MATERIALS_USER_PROMPT,
+            "main_system_materials_v3": MATERIALS_V3_SYSTEM_PROMPT,
+            "main_user_materials_v3": MATERIALS_V3_USER_PROMPT,
 
             "entity_resolution_system": ENTITY_RESOLUTION_SYSTEM_PROMPT,
             "entity_resolution_user": get_entity_resolution_user_prompt,
@@ -126,3 +142,17 @@ def system_prompt_for(name, config):
     return prompt_factory.get_prompt(name) + language_instruction(language)
 
 
+def main_prompt_pair(config):
+    """Return the ``(system_prompt, user_prompt)`` pair for the active profile.
+
+    The materials profile defaults to the v3 (term-first) prompt as of the terminology
+    review; ``[extraction].prompt_version = "v2"`` restores the earlier fact-first prompt
+    for reproducing historical runs.
+    """
+    profile = str(((config or {}).get("profile") or {}).get("name", "generic")).strip().lower()
+    suffix = "_materials" if profile == "materials" else ""
+    version = str(((config or {}).get("extraction") or {}).get("prompt_version") or "").strip().lower()
+    if profile == "materials" and version != "v2":
+        suffix += "_v3"
+    system = system_prompt_for("main_system" + suffix, config)
+    return system, prompt_factory.get_prompt("main_user" + suffix)

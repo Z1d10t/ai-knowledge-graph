@@ -1,0 +1,2151 @@
+{
+ "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+ "prompt_version": "v3",
+ "model": "deepseek-flash",
+ "created": "2026-11-25 14:32:25",
+ "source_sha256": "fb3d3ad1c88a2900b98786bb3cd1b8ec3b39c23a77aaa3a7b96b984d583917d5",
+ "scope_lines": [
+  25,
+  39
+ ],
+ "passages": [
+  {
+   "lines": [
+    24,
+    44
+   ],
+   "chars": 8088,
+   "relations": 19,
+   "terms": 29
+  },
+  {
+   "lines": [
+    46,
+    50
+   ],
+   "chars": 1843,
+   "relations": 15,
+   "terms": 28
+  },
+  {
+   "lines": [
+    58,
+    64
+   ],
+   "chars": 2116,
+   "relations": 10,
+   "terms": 22
+  },
+  {
+   "lines": [
+    111,
+    115
+   ],
+   "chars": 2118,
+   "relations": 14,
+   "terms": 21
+  },
+  {
+   "lines": [
+    143,
+    151
+   ],
+   "chars": 2933,
+   "relations": 10,
+   "terms": 20
+  },
+  {
+   "lines": [
+    277,
+    295
+   ],
+   "chars": 1751,
+   "relations": 4,
+   "terms": 6
+  }
+ ],
+ "terms": [
+  {
+   "name": "Ga2O3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Ultra-wide bandgap semiconductor Ga2O3"
+  },
+  {
+   "name": "GaN",
+   "type": "material",
+   "aliases": [],
+   "evidence": "wide bandgap counterparts GaN and SiC"
+  },
+  {
+   "name": "SiC",
+   "type": "material",
+   "aliases": [],
+   "evidence": "wide bandgap counterparts GaN and SiC"
+  },
+  {
+   "name": "Si",
+   "type": "material",
+   "aliases": [],
+   "evidence": "narrow bandgap material Si"
+  },
+  {
+   "name": "NiOx",
+   "type": "material",
+   "aliases": [],
+   "evidence": "wide-bandgap p-type materials like NiOx"
+  },
+  {
+   "name": "Cu2O",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Cu2O with Eg ~ 3 eV"
+  },
+  {
+   "name": "ultra-wide bandgap semiconductor",
+   "type": "material_class",
+   "aliases": [
+    "UWB"
+   ],
+   "evidence": "Ultra-wide bandgap (UWB) semiconductor"
+  },
+  {
+   "name": "wide bandgap semiconductor",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "wide bandgap material GaN and SiC"
+  },
+  {
+   "name": "n-type doping",
+   "type": "process",
+   "aliases": [],
+   "evidence": "controllable n-type doping"
+  },
+  {
+   "name": "p-type doping",
+   "type": "process",
+   "aliases": [],
+   "evidence": "achieving effective both n- and p-type doping simultaneously"
+  },
+  {
+   "name": "hole injection",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "introduction of hole injection and transport in Ga2O3"
+  },
+  {
+   "name": "bipolar transport",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "bipolar transport can induce conductivity modulation"
+  },
+  {
+   "name": "conductivity modulation",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "bipolar transport can induce conductivity modulation"
+  },
+  {
+   "name": "hole lifetime",
+   "type": "property",
+   "aliases": [],
+   "evidence": "hole lifetime determined to be 5.4–23.1 ns"
+  },
+  {
+   "name": "breakdown voltage",
+   "type": "property",
+   "aliases": [
+    "BV"
+   ],
+   "evidence": "high breakdown voltage (BV)"
+  },
+  {
+   "name": "specific on-resistance",
+   "type": "property",
+   "aliases": [
+    "Ron,sp"
+   ],
+   "evidence": "specific on-resistance (Ron,sp)"
+  },
+  {
+   "name": "power figure-of-merit",
+   "type": "property",
+   "aliases": [
+    "P-FOM"
+   ],
+   "evidence": "power figure-of-merit (P-FOM = BV2/Ron,sp)"
+  },
+  {
+   "name": "turn-on voltage",
+   "type": "property",
+   "aliases": [
+    "Von"
+   ],
+   "evidence": "turn-on voltage (Von)"
+  },
+  {
+   "name": "Baliga's figure-of-merit",
+   "type": "property",
+   "aliases": [
+    "B-FOM"
+   ],
+   "evidence": "Baliga’s figure-of-merit (B-FOM~μ × Ec3)"
+  },
+  {
+   "name": "bandgap",
+   "type": "property",
+   "aliases": [
+    "Eg"
+   ],
+   "evidence": "general bandgap (Eg) greater than 4 eV"
+  },
+  {
+   "name": "critical field",
+   "type": "property",
+   "aliases": [
+    "Ec"
+   ],
+   "evidence": "higher critical field (Ec)"
+  },
+  {
+   "name": "mobility",
+   "type": "property",
+   "aliases": [
+    "μ"
+   ],
+   "evidence": "good mobility (μ)"
+  },
+  {
+   "name": "Ga2O3 heterojunction PN diode",
+   "type": "device",
+   "aliases": [],
+   "evidence": "Ga2O3 heterojunction PN diodes can overcome above challenges"
+  },
+  {
+   "name": "Schottky barrier diode",
+   "type": "device",
+   "aliases": [
+    "SBD"
+   ],
+   "evidence": "Schottky barrier diodes (SBDs)"
+  },
+  {
+   "name": "edge termination",
+   "type": "component",
+   "aliases": [
+    "ET"
+   ],
+   "evidence": "various types of edge termination (ET) methods"
+  },
+  {
+   "name": "field plate",
+   "type": "component",
+   "aliases": [],
+   "evidence": "implanted ET and field plate architecture"
+  },
+  {
+   "name": "PN junction termination",
+   "type": "component",
+   "aliases": [],
+   "evidence": "PN junction termination"
+  },
+  {
+   "name": "substrate",
+   "type": "component",
+   "aliases": [],
+   "evidence": "low defect density substrate"
+  },
+  {
+   "name": "power electronics",
+   "type": "device",
+   "aliases": [],
+   "evidence": "next-generation power electronics applications"
+  },
+  {
+   "name": "β-Ga2O3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "β-Ga2O3"
+  },
+  {
+   "name": "native substrate",
+   "type": "component",
+   "aliases": [],
+   "evidence": "native substrate"
+  },
+  {
+   "name": "melt-grown methodology",
+   "type": "process",
+   "aliases": [],
+   "evidence": "melt-grown methodology"
+  },
+  {
+   "name": "epi-layer",
+   "type": "component",
+   "aliases": [],
+   "evidence": "β-Ga2O3 epi-layer"
+  },
+  {
+   "name": "molecular beam epitaxy",
+   "type": "process",
+   "aliases": [],
+   "evidence": "molecular beam epitaxy"
+  },
+  {
+   "name": "metalorganic chemical vapor deposition",
+   "type": "process",
+   "aliases": [
+    "MOCVD"
+   ],
+   "evidence": "metalorganic chemical vapor deposition (MOCVD)"
+  },
+  {
+   "name": "mist-CVD",
+   "type": "process",
+   "aliases": [],
+   "evidence": "mist-CVD"
+  },
+  {
+   "name": "halide vapor phase epitaxy",
+   "type": "process",
+   "aliases": [
+    "HVPE"
+   ],
+   "evidence": "halide vapor phase epitaxy (HVPE)"
+  },
+  {
+   "name": "HVPE",
+   "type": "process",
+   "aliases": [],
+   "evidence": "HVPE is the most widely adopted methodology"
+  },
+  {
+   "name": "background doping regulation",
+   "type": "process",
+   "aliases": [],
+   "evidence": "background doping regulation"
+  },
+  {
+   "name": "electron density",
+   "type": "property",
+   "aliases": [],
+   "evidence": "electron density"
+  },
+  {
+   "name": "unintentional doping",
+   "type": "process",
+   "aliases": [],
+   "evidence": "Unintentional doping"
+  },
+  {
+   "name": "O vacancy",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "O vacancies"
+  },
+  {
+   "name": "n-type conduction",
+   "type": "property",
+   "aliases": [],
+   "evidence": "n-type conduction"
+  },
+  {
+   "name": "power device",
+   "type": "device",
+   "aliases": [],
+   "evidence": "Ideal power devices"
+  },
+  {
+   "name": "breakdown voltage",
+   "type": "property",
+   "aliases": [
+    "BV"
+   ],
+   "evidence": "high BV"
+  },
+  {
+   "name": "specific on-resistance",
+   "type": "property",
+   "aliases": [
+    "Ron,sp"
+   ],
+   "evidence": "low Ron,sp"
+  },
+  {
+   "name": "power diode",
+   "type": "device",
+   "aliases": [],
+   "evidence": "Ga2O3 power diodes"
+  },
+  {
+   "name": "doping concentration",
+   "type": "property",
+   "aliases": [],
+   "evidence": "minimal doping concentration"
+  },
+  {
+   "name": "electric field",
+   "type": "property",
+   "aliases": [
+    "E"
+   ],
+   "evidence": "the slope of the E"
+  },
+  {
+   "name": "donor concentration",
+   "type": "property",
+   "aliases": [],
+   "evidence": "donor concentration"
+  },
+  {
+   "name": "edge termination",
+   "type": "structure",
+   "aliases": [
+    "ET"
+   ],
+   "evidence": "ETs"
+  },
+  {
+   "name": "electric field management",
+   "type": "process",
+   "aliases": [],
+   "evidence": "advanced E management techniques"
+  },
+  {
+   "name": "anode edge",
+   "type": "interface",
+   "aliases": [],
+   "evidence": "anode edge"
+  },
+  {
+   "name": "PN junction",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "PN junction"
+  },
+  {
+   "name": "p-Ga2O3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "p-Ga2O3"
+  },
+  {
+   "name": "n-Ga2O3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "n-Ga2O3"
+  },
+  {
+   "name": "PN home-junction",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "PN home-junction"
+  },
+  {
+   "name": "breakdown voltage",
+   "type": "property",
+   "aliases": [
+    "BV"
+   ],
+   "evidence": "maximum BV potentials of diodes"
+  },
+  {
+   "name": "specific on-resistance",
+   "type": "property",
+   "aliases": [
+    "Ron,sp"
+   ],
+   "evidence": "sacrificing the Ron,sp"
+  },
+  {
+   "name": "average electric field",
+   "type": "property",
+   "aliases": [
+    "averaged E"
+   ],
+   "evidence": "averaged E"
+  },
+  {
+   "name": "doping concentration",
+   "type": "property",
+   "aliases": [],
+   "evidence": "to increase the doping concentration"
+  },
+  {
+   "name": "conductivity modulation",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "conductivity modulation of the PN or PIN junction"
+  },
+  {
+   "name": "PN junction",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "conductivity modulation of the PN or PIN junction"
+  },
+  {
+   "name": "PIN junction",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "conductivity modulation of the PN or PIN junction"
+  },
+  {
+   "name": "forward bias",
+   "type": "process",
+   "aliases": [],
+   "evidence": "at forward bias"
+  },
+  {
+   "name": "turn-on voltage",
+   "type": "property",
+   "aliases": [
+    "Von"
+   ],
+   "evidence": "the high Von > 4 V"
+  },
+  {
+   "name": "Ga2O3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "the Ga2O3 homo-junction PN diodes"
+  },
+  {
+   "name": "homo-junction PN diode",
+   "type": "device",
+   "aliases": [],
+   "evidence": "the Ga2O3 homo-junction PN diodes"
+  },
+  {
+   "name": "p-NiOx",
+   "type": "material",
+   "aliases": [],
+   "evidence": "the implementation of the p-NiOx into the Ga2O3 system"
+  },
+  {
+   "name": "Schottky barrier diode",
+   "type": "device",
+   "aliases": [
+    "SBD"
+   ],
+   "evidence": "from the SBDs to the HJ PN diode"
+  },
+  {
+   "name": "heterojunction PN diode",
+   "type": "device",
+   "aliases": [
+    "HJ PN diode"
+   ],
+   "evidence": "the HJ PN diode"
+  },
+  {
+   "name": "conduction band offset",
+   "type": "property",
+   "aliases": [],
+   "evidence": "a low conduction band offset of ~2.1 eV"
+  },
+  {
+   "name": "PN heterojunction",
+   "type": "structure",
+   "aliases": [
+    "PN HJ"
+   ],
+   "evidence": "with a PN HJ structure"
+  },
+  {
+   "name": "forward voltage",
+   "type": "property",
+   "aliases": [
+    "VF"
+   ],
+   "evidence": "high VF"
+  },
+  {
+   "name": "electric field management",
+   "type": "process",
+   "aliases": [
+    "E management"
+   ],
+   "evidence": "advanced E management"
+  },
+  {
+   "name": "edge termination",
+   "type": "component",
+   "aliases": [
+    "ET"
+   ],
+   "evidence": "by combining the ETs and advanced E management"
+  },
+  {
+   "name": "scanning electron microscopy",
+   "type": "characterization",
+   "aliases": [
+    "SEM"
+   ],
+   "evidence": "scanning electron microscopy (SEM) image"
+  },
+  {
+   "name": "Ga2O3 epi-layer",
+   "type": "component",
+   "aliases": [],
+   "evidence": "the doping concentration of the Ga2O3 epi-layer"
+  },
+  {
+   "name": "oxygen annealing",
+   "type": "process",
+   "aliases": [],
+   "evidence": "by adopting a long duration of the oxygen"
+  },
+  {
+   "name": "Ga2O3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "UWB Ga2O3 power diodes"
+  },
+  {
+   "name": "diode",
+   "type": "device",
+   "aliases": [],
+   "evidence": "UWB Ga2O3 power diodes"
+  },
+  {
+   "name": "breakdown voltage",
+   "type": "property",
+   "aliases": [
+    "BV"
+   ],
+   "evidence": "A BV of 5.1 kV and 8.32 kV are achieved"
+  },
+  {
+   "name": "reverse current–voltage characteristics",
+   "type": "characterization",
+   "aliases": [],
+   "evidence": "T-dependent reverse current–voltage characteristics"
+  },
+  {
+   "name": "reverse current",
+   "type": "property",
+   "aliases": [
+    "IR"
+   ],
+   "evidence": "With increased T, IR increases"
+  },
+  {
+   "name": "non-avalanche breakdown",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "indicating a non-avalanche breakdown"
+  },
+  {
+   "name": "electric field",
+   "type": "property",
+   "aliases": [
+    "E"
+   ],
+   "evidence": "yielding an averaged E of 6.45 MV/cm"
+  },
+  {
+   "name": "drift layer",
+   "type": "component",
+   "aliases": [],
+   "evidence": "a small E slope of the drift layer is observed"
+  },
+  {
+   "name": "depletion",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "a fully depletion and a small E slope of the drift layer is observed"
+  },
+  {
+   "name": "doping concentration",
+   "type": "property",
+   "aliases": [
+    "ND"
+   ],
+   "evidence": "the small ND = 6 × 10<sup>15</sup> cm<sup>−3</sup>"
+  },
+  {
+   "name": "specific on-resistance",
+   "type": "property",
+   "aliases": [
+    "Ron,sp"
+   ],
+   "evidence": "the Ron,sp = 2.9 mΩ cm<sup>2</sup>"
+  },
+  {
+   "name": "power figure of merit",
+   "type": "property",
+   "aliases": [
+    "P-FOM"
+   ],
+   "evidence": "the P-FOM = BV<sup>2</sup> /Ron,sp is yielded to be 8.97 GW/cm<sup>2</sup>"
+  },
+  {
+   "name": "power FET",
+   "type": "device",
+   "aliases": [],
+   "evidence": "among all Ga2O3 power FETs and diodes"
+  },
+  {
+   "name": "heterojunction PN diode",
+   "type": "device",
+   "aliases": [
+    "HJ PN diode",
+    "HJ PND"
+   ],
+   "evidence": "this HJ PN diode also has a high averaged E"
+  },
+  {
+   "name": "NiOx",
+   "type": "material",
+   "aliases": [
+    "p-NiOx"
+   ],
+   "evidence": "the simulated peak E in the p-NiOx layer"
+  },
+  {
+   "name": "bandgap",
+   "type": "property",
+   "aliases": [],
+   "evidence": "considering the 3.9 eV bandgap"
+  },
+  {
+   "name": "dielectric constant",
+   "type": "property",
+   "aliases": [],
+   "evidence": "much higher dielectric constant of p-NiOx"
+  },
+  {
+   "name": "field plate",
+   "type": "component",
+   "aliases": [],
+   "evidence": "the functionalities of the ET and coupled field plate"
+  },
+  {
+   "name": "ET",
+   "type": "component",
+   "aliases": [],
+   "evidence": "the functionalities of the ET and coupled field plate"
+  },
+  {
+   "name": "heterojunction interface",
+   "type": "interface",
+   "aliases": [
+    "HJ-interface"
+   ],
+   "evidence": "a peak E = 7 MV/cm in the Ga2O3 at the HJ-interface"
+  },
+  {
+   "name": "electric field simulation",
+   "type": "characterization",
+   "aliases": [],
+   "evidence": "Figure 3d describes the E simulation result"
+  },
+  {
+   "name": "Ga2O3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Ga2O3 SBD/JBS"
+  },
+  {
+   "name": "SiC",
+   "type": "material",
+   "aliases": [],
+   "evidence": "SiC"
+  },
+  {
+   "name": "GaN",
+   "type": "material",
+   "aliases": [],
+   "evidence": "GaN"
+  },
+  {
+   "name": "diamond",
+   "type": "material",
+   "aliases": [],
+   "evidence": "Diamond SBD/PND"
+  },
+  {
+   "name": "AlxGa(1-x)N",
+   "type": "material",
+   "aliases": [],
+   "evidence": "AlxGa(1-x)N x≥0.6 SBD"
+  },
+  {
+   "name": "power diode",
+   "type": "device",
+   "aliases": [],
+   "evidence": "UWB Ga2O3 power diodes"
+  },
+  {
+   "name": "Schottky barrier diode",
+   "type": "device",
+   "aliases": [
+    "SBD"
+   ],
+   "evidence": "Ga2O3 SBD/JBS"
+  },
+  {
+   "name": "junction barrier Schottky diode",
+   "type": "device",
+   "aliases": [
+    "JBS"
+   ],
+   "evidence": "Ga2O3 SBD/JBS"
+  },
+  {
+   "name": "PN diode",
+   "type": "device",
+   "aliases": [
+    "PND"
+   ],
+   "evidence": "Ga2O3 PND"
+  },
+  {
+   "name": "heterojunction PN diode",
+   "type": "device",
+   "aliases": [
+    "HJ PN diode"
+   ],
+   "evidence": "HJ PN diode"
+  },
+  {
+   "name": "breakdown voltage",
+   "type": "property",
+   "aliases": [
+    "BV"
+   ],
+   "evidence": "Breakdown Voltage (V)"
+  },
+  {
+   "name": "specific on-resistance",
+   "type": "property",
+   "aliases": [
+    "Ron,sp"
+   ],
+   "evidence": "Ron,sp = 3 V/ ( IF@3 V )"
+  },
+  {
+   "name": "1-D unipolar figure-of-merit limit",
+   "type": "property",
+   "aliases": [],
+   "evidence": "1-D unipolar figure-of-merit limit of GaN and SiC"
+  },
+  {
+   "name": "power figure-of-merit",
+   "type": "property",
+   "aliases": [
+    "P-FOM"
+   ],
+   "evidence": "P-FOM = BV2 /Ron,sp"
+  },
+  {
+   "name": "on-voltage",
+   "type": "property",
+   "aliases": [
+    "Von"
+   ],
+   "evidence": "eliminate the impact of the Von"
+  },
+  {
+   "name": "forward voltage",
+   "type": "property",
+   "aliases": [
+    "VF"
+   ],
+   "evidence": "at a general VF = 3 V"
+  },
+  {
+   "name": "background doping",
+   "type": "property",
+   "aliases": [],
+   "evidence": "suppressed background doping"
+  },
+  {
+   "name": "composite electric field management technique",
+   "type": "process",
+   "aliases": [],
+   "evidence": "composite electric field management technique"
+  },
+  {
+   "name": "heterojunction PN structure",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "HJ PN structure"
+  },
+  {
+   "name": "ultra-wide-bandgap semiconductor",
+   "type": "material_class",
+   "aliases": [
+    "UWB"
+   ],
+   "evidence": "UWB semiconductor Ga2O3 power diodes"
+  },
+  {
+   "name": "AlGaN/GaN",
+   "type": "material",
+   "aliases": [],
+   "evidence": "multi-channel AlGaN/GaN codes"
+  },
+  {
+   "name": "Schottky barrier diode",
+   "type": "device",
+   "aliases": [
+    "SBD"
+   ],
+   "evidence": "Schottky barrier diodes"
+  },
+  {
+   "name": "GaN",
+   "type": "material",
+   "aliases": [],
+   "evidence": "GaN superheterojunction Schottky barrier diode"
+  },
+  {
+   "name": "SiC",
+   "type": "material",
+   "aliases": [],
+   "evidence": "SiC charge-balanced diodes"
+  },
+  {
+   "name": "junction barrier Schottky diode",
+   "type": "device",
+   "aliases": [
+    "JBS"
+   ],
+   "evidence": "junction barrier Schottky (JBS) diodes"
+  },
+  {
+   "name": "MOSFET",
+   "type": "device",
+   "aliases": [],
+   "evidence": "diodes and MOSFETs"
+  }
+ ],
+ "triples": [
+  {
+   "subject": "Ga2O3",
+   "subject_type": "material",
+   "predicate": "has bandgap",
+   "object": "bandgap",
+   "object_type": "property",
+   "evidence": "Ga2O3 with Eg = 4.6–4.8 eV",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "4.6–4.8",
+   "unit": "eV",
+   "property": "bandgap",
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "Ga2O3",
+   "subject_type": "material",
+   "predicate": "has critical field",
+   "object": "critical field",
+   "object_type": "property",
+   "evidence": "high EC = 8 MV/cm",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "8",
+   "unit": "MV/cm",
+   "property": "critical field",
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "Ga2O3",
+   "subject_type": "material",
+   "predicate": "has mobility",
+   "object": "mobility",
+   "object_type": "property",
+   "evidence": "decent intrinsic μ = 250 cm2/Vs",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": "250",
+   "unit": "cm2/Vs",
+   "property": "mobility",
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "Ga2O3",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "Baliga's figure-of-merit",
+   "object_type": "property",
+   "evidence": "has yielded a B-FOM to be around 3000",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "3000",
+   "unit": "",
+   "property": "Baliga's figure-of-merit",
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "Ga2O3",
+   "subject_type": "material",
+   "predicate": "deposited by",
+   "object": "n-type doping",
+   "object_type": "process",
+   "evidence": "the controllable n-type doping",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "bipolar transport",
+   "subject_type": "mechanism",
+   "predicate": "induces",
+   "object": "conductivity modulation",
+   "object_type": "mechanism",
+   "evidence": "bipolar transport can induce conductivity modulation and low resistance in a low doping Ga2O3 material",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "Ga2O3 heterojunction PN diode",
+   "subject_type": "device",
+   "predicate": "achieves",
+   "object": "breakdown voltage",
+   "object_type": "property",
+   "evidence": "breakdown voltage of 8.32 kV ... are achieved",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": "8.32",
+   "unit": "kV",
+   "property": "breakdown voltage",
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "Ga2O3 heterojunction PN diode",
+   "subject_type": "device",
+   "predicate": "achieves",
+   "object": "specific on-resistance",
+   "object_type": "property",
+   "evidence": "specific on-resistance of 5.24 mΩ⋅cm2",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": "5.24",
+   "unit": "mΩ⋅cm2",
+   "property": "specific on-resistance",
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "Ga2O3 heterojunction PN diode",
+   "subject_type": "device",
+   "predicate": "achieves",
+   "object": "power figure-of-merit",
+   "object_type": "property",
+   "evidence": "power figure-of-merit of 13.2 GW/cm2",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": "13.2",
+   "unit": "GW/cm2",
+   "property": "power figure-of-merit",
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "Ga2O3 heterojunction PN diode",
+   "subject_type": "device",
+   "predicate": "achieves",
+   "object": "turn-on voltage",
+   "object_type": "property",
+   "evidence": "turn-on voltage of 1.8 V are achieved",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "1.8",
+   "unit": "V",
+   "property": "turn-on voltage",
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "power figure-of-merit",
+   "subject_type": "property",
+   "predicate": "exceeds",
+   "object": "GaN",
+   "object_type": "material",
+   "evidence": "The power figure-of-merit value surpasses the 1-D unipolar limit of GaN and SiC",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "power figure-of-merit",
+   "subject_type": "property",
+   "predicate": "exceeds",
+   "object": "SiC",
+   "object_type": "material",
+   "evidence": "The power figure-of-merit value surpasses the 1-D unipolar limit of GaN and SiC",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "hole lifetime",
+   "subject_type": "property",
+   "predicate": "measured by",
+   "object": "conductivity modulation",
+   "object_type": "mechanism",
+   "evidence": "a conductivity modulation phenomenon induced bipolar transport of electron and hole pairs is identified with hole lifetime determined to be 5.4–23.1 ns",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "5.4–23.1",
+   "unit": "ns",
+   "property": "hole lifetime",
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "NiOx",
+   "subject_type": "material",
+   "predicate": "has bandgap",
+   "object": "bandgap",
+   "object_type": "property",
+   "evidence": "NiOx with Eg of 3.8–4 eV",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "3.8–4",
+   "unit": "eV",
+   "property": "bandgap",
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "Cu2O",
+   "subject_type": "material",
+   "predicate": "has bandgap",
+   "object": "bandgap",
+   "object_type": "property",
+   "evidence": "Cu2O with Eg ~ 3 eV",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "3",
+   "unit": "eV",
+   "property": "bandgap",
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "NiOx",
+   "subject_type": "material",
+   "predicate": "used as",
+   "object": "Ga2O3 heterojunction PN diode",
+   "object_type": "device",
+   "evidence": "The combination of p-NiOx and n-Ga2O3 is a feasible route for the Ga2O3 development",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "edge termination",
+   "subject_type": "component",
+   "predicate": "improves",
+   "object": "breakdown voltage",
+   "object_type": "property",
+   "evidence": "a composite E management technique with implanted ET and field plate architecture to further strengthen the BV",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "field plate",
+   "subject_type": "component",
+   "predicate": "improves",
+   "object": "breakdown voltage",
+   "object_type": "property",
+   "evidence": "a composite E management technique with implanted ET and field plate architecture to further strengthen the BV",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "hole injection",
+   "subject_type": "mechanism",
+   "predicate": "limits",
+   "object": "specific on-resistance",
+   "object_type": "property",
+   "evidence": "through the introduction of hole injection and transport in Ga2O3 to minimize the Ron,sp",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    24,
+    44
+   ]
+  },
+  {
+   "subject": "native substrate",
+   "subject_type": "component",
+   "predicate": "grown by",
+   "object": "melt-grown methodology",
+   "object_type": "process",
+   "evidence": "its native substrate can be substantially grown by the melt-grown methodology",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    46,
+    50
+   ]
+  },
+  {
+   "subject": "epi-layer",
+   "subject_type": "component",
+   "predicate": "deposited by",
+   "object": "molecular beam epitaxy",
+   "object_type": "process",
+   "evidence": "The β-Ga2O3 epi-layer can be epitaxied by various routes, such as molecular beam epitaxy",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    46,
+    50
+   ]
+  },
+  {
+   "subject": "epi-layer",
+   "subject_type": "component",
+   "predicate": "deposited by",
+   "object": "metalorganic chemical vapor deposition",
+   "object_type": "process",
+   "evidence": "The β-Ga2O3 epi-layer can be epitaxied by various routes, such as ... metalorganic chemical vapor deposition (MOCVD)",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    46,
+    50
+   ]
+  },
+  {
+   "subject": "epi-layer",
+   "subject_type": "component",
+   "predicate": "deposited by",
+   "object": "mist-CVD",
+   "object_type": "process",
+   "evidence": "The β-Ga2O3 epi-layer can be epitaxied by various routes, such as ... mist-CVD",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    46,
+    50
+   ]
+  },
+  {
+   "subject": "epi-layer",
+   "subject_type": "component",
+   "predicate": "deposited by",
+   "object": "halide vapor phase epitaxy",
+   "object_type": "process",
+   "evidence": "The β-Ga2O3 epi-layer can be epitaxied by various routes, such as ... halide vapor phase epitaxy (HVPE)",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    46,
+    50
+   ]
+  },
+  {
+   "subject": "background doping regulation",
+   "subject_type": "process",
+   "predicate": "results in",
+   "object": "electron density",
+   "object_type": "property",
+   "evidence": "The β-Ga2O3 background doping regulation is a challenge, resulting in a non-controllable electron density of 2–4 × 10^16 cm^−3",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    46,
+    50
+   ]
+  },
+  {
+   "subject": "unintentional doping",
+   "subject_type": "process",
+   "predicate": "contributes to",
+   "object": "n-type conduction",
+   "object_type": "property",
+   "evidence": "Unintentional doping from precursors like Si or H, and defects like O vacancies all contribute to the n-type conduction in the β-Ga2O3 layer",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    46,
+    50
+   ]
+  },
+  {
+   "subject": "O vacancy",
+   "subject_type": "defect",
+   "predicate": "contributes to",
+   "object": "n-type conduction",
+   "object_type": "property",
+   "evidence": "defects like O vacancies all contribute to the n-type conduction in the β-Ga2O3 layer",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    46,
+    50
+   ]
+  },
+  {
+   "subject": "doping concentration",
+   "subject_type": "property",
+   "predicate": "governs",
+   "object": "electric field",
+   "object_type": "property",
+   "evidence": "the slope of the E is governed by the doping concentration",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    46,
+    50
+   ]
+  },
+  {
+   "subject": "donor concentration",
+   "subject_type": "property",
+   "predicate": "limits",
+   "object": "breakdown voltage",
+   "object_type": "property",
+   "evidence": "the BV of the reported Ga2O3 power diodes is limited to be less than 3 kV, where the donor concentration is the major tyranny",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    46,
+    50
+   ]
+  },
+  {
+   "subject": "edge termination",
+   "subject_type": "structure",
+   "predicate": "enables",
+   "object": "breakdown voltage",
+   "object_type": "property",
+   "evidence": "Some other subsidiary factors like ETs or advanced E management techniques are all prerequisites for a minimized peak E at the anode edge to achieve a high desirable BV",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    46,
+    50
+   ]
+  },
+  {
+   "subject": "electric field management",
+   "subject_type": "process",
+   "predicate": "enables",
+   "object": "breakdown voltage",
+   "object_type": "property",
+   "evidence": "advanced E management techniques are all prerequisites for a minimized peak E at the anode edge to achieve a high desirable BV",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    46,
+    50
+   ]
+  },
+  {
+   "subject": "PN junction",
+   "subject_type": "structure",
+   "predicate": "suppresses",
+   "object": "electric field",
+   "object_type": "property",
+   "evidence": "PN junction is one of the most straightforward approaches to suppress the peak E at the interface",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    46,
+    50
+   ]
+  },
+  {
+   "subject": "PN home-junction",
+   "subject_type": "structure",
+   "predicate": "composed of",
+   "object": "p-Ga2O3",
+   "object_type": "material",
+   "evidence": "the forfeit of the p-Ga2O3 on the n-Ga2O3 makes the PN home-junction an impossible mission",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    46,
+    50
+   ]
+  },
+  {
+   "subject": "PN home-junction",
+   "subject_type": "structure",
+   "predicate": "composed of",
+   "object": "n-Ga2O3",
+   "object_type": "material",
+   "evidence": "the forfeit of the p-Ga2O3 on the n-Ga2O3 makes the PN home-junction an impossible mission",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    46,
+    50
+   ]
+  },
+  {
+   "subject": "doping concentration",
+   "subject_type": "property",
+   "predicate": "limits",
+   "object": "breakdown voltage",
+   "object_type": "property",
+   "evidence": "to increase the doping concentration seems to be the simplest, however, the BV will be essentially compromised",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    58,
+    64
+   ]
+  },
+  {
+   "subject": "conductivity modulation",
+   "subject_type": "mechanism",
+   "predicate": "enables",
+   "object": "specific on-resistance",
+   "object_type": "property",
+   "evidence": "conductivity modulation of the PN or PIN junction at forward bias will substantially guarantee a low Ron,sp even at a low doping concentration",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    58,
+    64
+   ]
+  },
+  {
+   "subject": "conductivity modulation",
+   "subject_type": "mechanism",
+   "predicate": "occurs in",
+   "object": "PN junction",
+   "object_type": "structure",
+   "evidence": "conductivity modulation of the PN or PIN junction at forward bias",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    58,
+    64
+   ]
+  },
+  {
+   "subject": "conductivity modulation",
+   "subject_type": "mechanism",
+   "predicate": "occurs in",
+   "object": "PIN junction",
+   "object_type": "structure",
+   "evidence": "conductivity modulation of the PN or PIN junction at forward bias",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    58,
+    64
+   ]
+  },
+  {
+   "subject": "p-NiOx",
+   "subject_type": "material",
+   "predicate": "has",
+   "object": "conduction band offset",
+   "object_type": "property",
+   "evidence": "p-NiOx flavors a low conduction band offset of ~2.1 eV",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "2.1",
+   "unit": "eV",
+   "property": "conduction band offset",
+   "chunk": 0,
+   "passage_lines": [
+    58,
+    64
+   ]
+  },
+  {
+   "subject": "conduction band offset",
+   "subject_type": "property",
+   "predicate": "improves",
+   "object": "turn-on voltage",
+   "object_type": "property",
+   "evidence": "a low conduction band offset of ~2.1 eV such that the high Von issue of the homo-junction could be partially resolved",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    58,
+    64
+   ]
+  },
+  {
+   "subject": "PN heterojunction",
+   "subject_type": "structure",
+   "predicate": "enables",
+   "object": "conductivity modulation",
+   "object_type": "mechanism",
+   "evidence": "with a PN HJ structure, the conductivity modulation is theoretically expected",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    58,
+    64
+   ]
+  },
+  {
+   "subject": "electric field management",
+   "subject_type": "process",
+   "predicate": "improves",
+   "object": "breakdown voltage",
+   "object_type": "property",
+   "evidence": "by combining the ETs and advanced E management, the BV can be further enhanced",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    58,
+    64
+   ]
+  },
+  {
+   "subject": "oxygen annealing",
+   "subject_type": "process",
+   "predicate": "suppresses",
+   "object": "doping concentration",
+   "object_type": "property",
+   "evidence": "the doping concentration of the Ga2O3 epi-layer is suppressed from the 2 × 10^16 cm^−3 to around 5–7 × 10^15 cm^−3 ... by adopting a long duration of the oxygen",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    58,
+    64
+   ]
+  },
+  {
+   "subject": "diode",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "non-avalanche breakdown",
+   "object_type": "mechanism",
+   "evidence": "With increased T, IR increases, indicating a non-avalanche breakdown.",
+   "evidence_level": "figure",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    111,
+    115
+   ]
+  },
+  {
+   "subject": "diode",
+   "subject_type": "device",
+   "predicate": "achieves",
+   "object": "breakdown voltage",
+   "object_type": "property",
+   "evidence": "A BV of 5.1 kV and 8.32 kV are achieved for diodes with TGa2O3 = 7.5 and 13 μm",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "5.1",
+   "unit": "kV",
+   "property": "breakdown voltage",
+   "chunk": 0,
+   "passage_lines": [
+    111,
+    115
+   ]
+  },
+  {
+   "subject": "diode",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "electric field",
+   "object_type": "property",
+   "evidence": "yielding an averaged E of 6.45 MV/cm and 6.2 MV/cm, respectively",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "6.45",
+   "unit": "MV/cm",
+   "property": "electric field",
+   "chunk": 0,
+   "passage_lines": [
+    111,
+    115
+   ]
+  },
+  {
+   "subject": "electric field",
+   "subject_type": "property",
+   "predicate": "calculated by",
+   "object": "electric field simulation",
+   "object_type": "characterization",
+   "evidence": "Figure 3d describes the E simulation result of the HJ PND with TGa2O3 = 13 μm and BV = 8.32 kV.",
+   "evidence_level": "figure",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    111,
+    115
+   ]
+  },
+  {
+   "subject": "doping concentration",
+   "subject_type": "property",
+   "predicate": "causes",
+   "object": "depletion",
+   "object_type": "mechanism",
+   "evidence": "Due to the small ND = 6 × 10<sup>15</sup> cm<sup>−3</sup> , a fully depletion and a small E slope of the drift layer is observed.",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    111,
+    115
+   ]
+  },
+  {
+   "subject": "depletion",
+   "subject_type": "mechanism",
+   "predicate": "results in",
+   "object": "electric field",
+   "object_type": "property",
+   "evidence": "a fully depletion and small E slope are observed in the drift layer, resulting a peak E = 7 MV/cm in the Ga2O3 at the HJ-interface",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "7",
+   "unit": "MV/cm",
+   "property": "electric field",
+   "chunk": 0,
+   "passage_lines": [
+    111,
+    115
+   ]
+  },
+  {
+   "subject": "field plate",
+   "subject_type": "component",
+   "predicate": "enables",
+   "object": "depletion",
+   "object_type": "mechanism",
+   "evidence": "Due to the small ND and the depletion effect from the p-NiOx as well as the functionalities of the ET and coupled field plate, a fully depletion and small E slope are observed in the drift layer",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    111,
+    115
+   ]
+  },
+  {
+   "subject": "NiOx",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "electric field",
+   "object_type": "property",
+   "evidence": "The simulated peak E in the p-NiOx layer is around 4.9 MV/cm",
+   "evidence_level": "figure",
+   "evidence_text_match": true,
+   "value": "4.9",
+   "unit": "MV/cm",
+   "property": "electric field",
+   "chunk": 0,
+   "passage_lines": [
+    111,
+    115
+   ]
+  },
+  {
+   "subject": "NiOx",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "dielectric constant",
+   "object_type": "property",
+   "evidence": "due to much higher dielectric constant of p-NiOx",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    111,
+    115
+   ]
+  },
+  {
+   "subject": "NiOx",
+   "subject_type": "material",
+   "predicate": "has",
+   "object": "bandgap",
+   "object_type": "property",
+   "evidence": "considering the 3.9 eV bandgap",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "3.9",
+   "unit": "eV",
+   "property": "bandgap",
+   "chunk": 0,
+   "passage_lines": [
+    111,
+    115
+   ]
+  },
+  {
+   "subject": "heterojunction PN diode",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "power figure of merit",
+   "object_type": "property",
+   "evidence": "the P-FOM is calculated to be (8.32 kV)<sup>2</sup> /5.24 mΩ cm<sup>2</sup> = 13.21 GW/cm<sup>2</sup>",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "13.21",
+   "unit": "GW/cm2",
+   "property": "power figure of merit",
+   "chunk": 0,
+   "passage_lines": [
+    111,
+    115
+   ]
+  },
+  {
+   "subject": "power figure of merit",
+   "subject_type": "property",
+   "predicate": "depends on",
+   "object": "specific on-resistance",
+   "object_type": "property",
+   "evidence": "the P-FOM = BV<sup>2</sup> /Ron,sp is yielded to be 8.97 GW/cm<sup>2</sup>",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    111,
+    115
+   ]
+  },
+  {
+   "subject": "Ga2O3",
+   "subject_type": "material",
+   "predicate": "used in",
+   "object": "power diode",
+   "object_type": "device",
+   "evidence": "UWB semiconductor Ga2O3 power diodes are capable of delivering a record high BV2 /Ron,sp",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    143,
+    151
+   ]
+  },
+  {
+   "subject": "Ga2O3",
+   "subject_type": "material",
+   "predicate": "is a",
+   "object": "ultra-wide-bandgap semiconductor",
+   "object_type": "material_class",
+   "evidence": "UWB semiconductor Ga2O3 power diodes",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    143,
+    151
+   ]
+  },
+  {
+   "subject": "power diode",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "breakdown voltage",
+   "object_type": "property",
+   "evidence": "previously reported best BV of 2.9 kV with a lower Ron,sp",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "2.9",
+   "unit": "kV",
+   "property": "breakdown voltage",
+   "chunk": 0,
+   "passage_lines": [
+    143,
+    151
+   ]
+  },
+  {
+   "subject": "power diode",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "specific on-resistance",
+   "object_type": "property",
+   "evidence": "an overall Ron,sp of 15.3 mΩ cm2 and 29.5 mΩ cm2 are extracted for TGa2O3 of 7.5 μm and 13 μm at a VF = 3 V",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": "15.3",
+   "unit": "mΩ cm2",
+   "property": "specific on-resistance",
+   "chunk": 0,
+   "passage_lines": [
+    143,
+    151
+   ]
+  },
+  {
+   "subject": "power diode",
+   "subject_type": "device",
+   "predicate": "surpasses",
+   "object": "1-D unipolar figure-of-merit limit",
+   "object_type": "property",
+   "evidence": "the performance of the Ga2O3 device exceeds the 1-D unipolar limit of the SiC and GaN",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    143,
+    151
+   ]
+  },
+  {
+   "subject": "power diode",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "power figure-of-merit",
+   "object_type": "property",
+   "evidence": "the P-FOM = BV2 /Ron,sp of the Ga2O3 power diodes still surpasses the 1-D unipolar limit of the SiC",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    143,
+    151
+   ]
+  },
+  {
+   "subject": "heterojunction PN structure",
+   "subject_type": "structure",
+   "predicate": "part of",
+   "object": "heterojunction PN diode",
+   "object_type": "device",
+   "evidence": "The incorporation of suppressed background doping, HJ PN structure, and the composite electric field management technique",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    143,
+    151
+   ]
+  },
+  {
+   "subject": "composite electric field management technique",
+   "subject_type": "process",
+   "predicate": "improves",
+   "object": "power figure-of-merit",
+   "object_type": "property",
+   "evidence": "The incorporation of suppressed background doping, HJ PN structure, and the composite electric field management technique",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    143,
+    151
+   ]
+  },
+  {
+   "subject": "background doping",
+   "subject_type": "property",
+   "predicate": "limits",
+   "object": "breakdown voltage",
+   "object_type": "property",
+   "evidence": "The incorporation of suppressed background doping, HJ PN structure, and the composite electric field management technique",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    143,
+    151
+   ]
+  },
+  {
+   "subject": "Schottky barrier diode",
+   "subject_type": "device",
+   "predicate": "composed of",
+   "object": "AlGaN/GaN",
+   "object_type": "material",
+   "evidence": "multi-channel AlGaN/GaN power Schottky barrier diodes with junction-fin-anode",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    277,
+    295
+   ]
+  },
+  {
+   "subject": "Schottky barrier diode",
+   "subject_type": "device",
+   "predicate": "composed of",
+   "object": "GaN",
+   "object_type": "material",
+   "evidence": "charge-balanced GaN superheterojunction Schottky barrier diode",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    277,
+    295
+   ]
+  },
+  {
+   "subject": "Schottky barrier diode",
+   "subject_type": "device",
+   "predicate": "composed of",
+   "object": "SiC",
+   "object_type": "material",
+   "evidence": "3 kV SiC charge-balanced diodes",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    277,
+    295
+   ]
+  },
+  {
+   "subject": "junction barrier Schottky diode",
+   "subject_type": "device",
+   "predicate": "composed of",
+   "object": "SiC",
+   "object_type": "material",
+   "evidence": "10 kV SiC junction barrier Schottky (JBS) diodes",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    277,
+    295
+   ]
+  }
+ ],
+ "errors": []
+}

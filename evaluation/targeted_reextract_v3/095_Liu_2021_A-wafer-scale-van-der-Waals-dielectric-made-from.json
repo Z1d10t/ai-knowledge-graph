@@ -1,0 +1,665 @@
+{
+ "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+ "prompt_version": "v3",
+ "model": "deepseek-flash",
+ "created": "2026-11-25 14:33:30",
+ "source_sha256": "02909163eedaa08132084a095b3b7193583ddc92a68795344194d1709a0f1ae6",
+ "scope_lines": [
+  62,
+  72
+ ],
+ "passages": [
+  {
+   "lines": [
+    61,
+    73
+   ],
+   "chars": 6705,
+   "relations": 24,
+   "terms": 30
+  }
+ ],
+ "terms": [
+  {
+   "name": "van der Waals dielectric",
+   "type": "material_class",
+   "aliases": [
+    "vdW dielectric"
+   ],
+   "evidence": "Van der Waals (vdW) dielectrics such as hBN"
+  },
+  {
+   "name": "hexagonal boron nitride",
+   "type": "material",
+   "aliases": [
+    "hBN"
+   ],
+   "evidence": "hBN"
+  },
+  {
+   "name": "two-dimensional semiconductor",
+   "type": "material_class",
+   "aliases": [
+    "2D semiconductor"
+   ],
+   "evidence": "twodimensional (2D) semiconductors"
+  },
+  {
+   "name": "dangling bond",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "dangling-bond-free surface"
+  },
+  {
+   "name": "charged scattering source",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "charged scattering sources"
+  },
+  {
+   "name": "trap state",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "trap states"
+  },
+  {
+   "name": "silicon dioxide",
+   "type": "material",
+   "aliases": [
+    "SiO2"
+   ],
+   "evidence": "SiO2"
+  },
+  {
+   "name": "inorganic molecular crystal",
+   "type": "material_class",
+   "aliases": [
+    "IMC"
+   ],
+   "evidence": "inorganic molecular crystal (IMC)"
+  },
+  {
+   "name": "antimony trioxide",
+   "type": "material",
+   "aliases": [
+    "Sb2O3"
+   ],
+   "evidence": "Sb2O3"
+  },
+  {
+   "name": "thermal evaporation",
+   "type": "process",
+   "aliases": [
+    "STED"
+   ],
+   "evidence": "standard thermal evaporation deposition (STED) process"
+  },
+  {
+   "name": "crystal structure",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "particular crystal structure"
+  },
+  {
+   "name": "molybdenum disulfide",
+   "type": "material",
+   "aliases": [
+    "MoS2"
+   ],
+   "evidence": "MoS2"
+  },
+  {
+   "name": "field-effect transistor",
+   "type": "device",
+   "aliases": [
+    "FET"
+   ],
+   "evidence": "field effect transistors (FET)"
+  },
+  {
+   "name": "on/off ratio",
+   "type": "property",
+   "aliases": [],
+   "evidence": "on/off ratio"
+  },
+  {
+   "name": "electron mobility",
+   "type": "property",
+   "aliases": [],
+   "evidence": "electron mobility"
+  },
+  {
+   "name": "hysteresis",
+   "type": "property",
+   "aliases": [],
+   "evidence": "transfer-curve hysteresis"
+  },
+  {
+   "name": "high-κ dielectric",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "high-κ vdW dielectric (εr=11.5)"
+  },
+  {
+   "name": "relative permittivity",
+   "type": "property",
+   "aliases": [
+    "εr"
+   ],
+   "evidence": "εr=11.5"
+  },
+  {
+   "name": "mechanical exfoliation",
+   "type": "process",
+   "aliases": [],
+   "evidence": "mechanical exfoliation"
+  },
+  {
+   "name": "vapor deposition growth",
+   "type": "process",
+   "aliases": [],
+   "evidence": "vapor deposition growth"
+  },
+  {
+   "name": "sublimation",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "sublimation process of molecules"
+  },
+  {
+   "name": "thermogravimetric analysis",
+   "type": "characterization",
+   "aliases": [],
+   "evidence": "thermogravimetric analysis"
+  },
+  {
+   "name": "atomic force microscopy",
+   "type": "characterization",
+   "aliases": [
+    "AFM"
+   ],
+   "evidence": "Atomic force microscopy (AFM)"
+  },
+  {
+   "name": "scanning electron microscope",
+   "type": "characterization",
+   "aliases": [
+    "SEM"
+   ],
+   "evidence": "scanning electron microscope (SEM)"
+  },
+  {
+   "name": "energy-dispersive X-ray spectroscopy",
+   "type": "characterization",
+   "aliases": [
+    "EDS"
+   ],
+   "evidence": "energy-dispersive X-ray spectroscopy (EDS)"
+  },
+  {
+   "name": "theoretical calculation",
+   "type": "characterization",
+   "aliases": [],
+   "evidence": "theoretical calculations"
+  },
+  {
+   "name": "Sb4O6 molecule",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "ultra-small Sb4O6 molecules in the form of bicyclic cages"
+  },
+  {
+   "name": "van der Waals interaction",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "bonded together via vdW interaction"
+  },
+  {
+   "name": "MoS2/Sb2O3 FET",
+   "type": "sample",
+   "aliases": [],
+   "evidence": "MoS2/Sb2O3 FETs"
+  },
+  {
+   "name": "MoS2/SiO2 FET",
+   "type": "sample",
+   "aliases": [],
+   "evidence": "MoS2/SiO2 devices"
+  }
+ ],
+ "triples": [
+  {
+   "subject": "van der Waals dielectric",
+   "subject_type": "material_class",
+   "predicate": "preserves",
+   "object": "intrinsic properties",
+   "object_type": "property",
+   "evidence": "vdW dielectrics such as hBN are widely used to preserve the intrinsic properties of twodimensional (2D) semiconductors",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "van der Waals dielectric",
+   "subject_type": "material_class",
+   "predicate": "enables",
+   "object": "fabrication of high-performance 2D devices",
+   "object_type": "process",
+   "evidence": "support the fabrication of high-performance 2D devices",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "dangling bond",
+   "subject_type": "defect",
+   "predicate": "causes",
+   "object": "charged scattering source",
+   "object_type": "defect",
+   "evidence": "This is fundamentally attributed to their dangling-bond-free surface, carrying far lower density of charged scattering sources and trap states",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "antimony trioxide",
+   "subject_type": "material",
+   "predicate": "is a",
+   "object": "inorganic molecular crystal",
+   "object_type": "material_class",
+   "evidence": "inorganic molecular crystal (IMC) Sb2O3",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "antimony trioxide",
+   "subject_type": "material",
+   "predicate": "is a",
+   "object": "van der Waals dielectric",
+   "object_type": "material_class",
+   "evidence": "a high-κ vdW dielectric (εr=11.5) composed of inorganic molecular crystal (IMC) Sb2O3",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "antimony trioxide",
+   "subject_type": "material",
+   "predicate": "has property",
+   "object": "relative permittivity",
+   "object_type": "property",
+   "evidence": "high-κ vdW dielectric (εr=11.5) composed of inorganic molecular crystal (IMC) Sb2O3",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "11.5",
+   "unit": "",
+   "property": "relative permittivity",
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "antimony trioxide",
+   "subject_type": "material",
+   "predicate": "deposited by",
+   "object": "thermal evaporation",
+   "object_type": "process",
+   "evidence": "can be readily fabricated via standard thermal evaporation deposition (STED) process thanks to its particular crystal structure",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "thermal evaporation",
+   "subject_type": "process",
+   "predicate": "enables",
+   "object": "scalable fabrication",
+   "object_type": "process",
+   "evidence": "Its synthesis approach allows for scalable fabrication and facile integration with 2D semiconducting materials",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "antimony trioxide",
+   "subject_type": "material",
+   "predicate": "composed of",
+   "object": "Sb4O6 molecule",
+   "object_type": "structure",
+   "evidence": "It consists of ultra-small Sb4O6 molecules in the form of bicyclic cages",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "Sb4O6 molecule",
+   "subject_type": "structure",
+   "predicate": "bonded by",
+   "object": "van der Waals interaction",
+   "object_type": "mechanism",
+   "evidence": "All the molecules are bonded together via vdW interaction",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "antimony trioxide",
+   "subject_type": "material",
+   "predicate": "undergoes",
+   "object": "sublimation",
+   "object_type": "mechanism",
+   "evidence": "Sb2O3 molecules are prone to sublime at elevated temperature in high vacuum before its melting",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "sublimation",
+   "subject_type": "mechanism",
+   "predicate": "measured by",
+   "object": "thermogravimetric analysis",
+   "object_type": "characterization",
+   "evidence": "Its evaporation temperature is measured to be around (490℃) via thermogravimetric analysis at ambient pressure",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "thermal evaporation",
+   "subject_type": "process",
+   "predicate": "results in",
+   "object": "van der Waals dielectric",
+   "object_type": "material_class",
+   "evidence": "The molecular vapor evaporated from Sb2O3 powder, free of dangling bonds all around, deposit on the substrate to form a vdW substrate",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "thermal evaporation",
+   "subject_type": "process",
+   "predicate": "enables",
+   "object": "homogeneous wafer-scale film",
+   "object_type": "structure",
+   "evidence": "Our STED process permits the fabrication of homogeneous wafer-scale film",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "atomic force microscopy",
+   "subject_type": "characterization",
+   "predicate": "characterizes",
+   "object": "morphology",
+   "object_type": "property",
+   "evidence": "Atomic force microscopy (AFM) is used to characterize the morphology of our film",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "scanning electron microscope",
+   "subject_type": "characterization",
+   "predicate": "confirms",
+   "object": "homogeneity of morphology",
+   "object_type": "property",
+   "evidence": "The homogeneity of morphology and elemental distribution are also confirmed by scanning electron microscope (SEM)",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "energy-dispersive X-ray spectroscopy",
+   "subject_type": "characterization",
+   "predicate": "confirms",
+   "object": "elemental distribution",
+   "object_type": "property",
+   "evidence": "elemental maps of energy-dispersive X-ray spectroscopy (EDS)",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "theoretical calculation",
+   "subject_type": "characterization",
+   "predicate": "confirms",
+   "object": "molecular structure",
+   "object_type": "structure",
+   "evidence": "The molecular structure is well preserved during the evaporation owing to the high molecular stability, which is confirmed by our theoretical calculations",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "MoS2/Sb2O3 FET",
+   "subject_type": "sample",
+   "predicate": "exhibits",
+   "object": "on/off ratio",
+   "object_type": "property",
+   "evidence": "our monolayer MoS2/Sb2O3 FET exhibits a high on/off ratio of 10^8",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": "10^8",
+   "unit": "",
+   "property": "on/off ratio",
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "MoS2/Sb2O3 FET",
+   "subject_type": "sample",
+   "predicate": "exhibits",
+   "object": "electron mobility",
+   "object_type": "property",
+   "evidence": "an enhanced electron mobility of 82 cm2/Vs at room temperature, in contrast to 20 cm2/Vs for the same device supported on SiO2",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": "82",
+   "unit": "cm2/Vs",
+   "property": "electron mobility",
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "MoS2/SiO2 FET",
+   "subject_type": "sample",
+   "predicate": "exhibits",
+   "object": "electron mobility",
+   "object_type": "property",
+   "evidence": "in contrast to 20 cm2/Vs for the same device supported on SiO2",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": "20",
+   "unit": "cm2/Vs",
+   "property": "electron mobility",
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "MoS2/Sb2O3 FET",
+   "subject_type": "sample",
+   "predicate": "exhibits",
+   "object": "hysteresis",
+   "object_type": "property",
+   "evidence": "which turn out to be negligibly small for the MoS2/Sb2O3 FETs, with a reduction of more than an order of magnitude",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "trap state",
+   "subject_type": "defect",
+   "predicate": "causes",
+   "object": "hysteresis",
+   "object_type": "property",
+   "evidence": "all the MoS2/SiO2 FETs demonstrate a considerable hysteresis in double-sweep transfer characteristic curves due to the trap states within the SiO2 substrate",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  },
+  {
+   "subject": "MoS2/Sb2O3 FET",
+   "subject_type": "sample",
+   "predicate": "improves",
+   "object": "electron mobility",
+   "object_type": "property",
+   "evidence": "our MoS2/Sb2O3 FETs significantly outperform the MoS2/SiO2 devices, including a higher on-state current, greatly enhanced electron mobility and reduced hysteresis",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    61,
+    73
+   ]
+  }
+ ],
+ "errors": []
+}

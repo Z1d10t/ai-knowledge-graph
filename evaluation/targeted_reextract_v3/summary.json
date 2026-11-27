@@ -1,0 +1,72 @@
+{
+ "summary": {
+  "papers": 12,
+  "extracted": 0,
+  "cached": 12,
+  "errors": 0,
+  "relations": 402,
+  "output": "C:\\Users\\admin\\Desktop\\工作区\\06-横向项目\\知识库项目\\ai-knowledge-graph-main\\evaluation\\targeted_reextract_v3"
+ },
+ "papers": [
+  {
+   "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+   "status": "cached",
+   "relations": 53
+  },
+  {
+   "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+   "status": "cached",
+   "relations": 68
+  },
+  {
+   "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+   "status": "cached",
+   "relations": 24
+  },
+  {
+   "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+   "status": "cached",
+   "relations": 40
+  },
+  {
+   "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+   "status": "cached",
+   "relations": 50
+  },
+  {
+   "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+   "status": "cached",
+   "relations": 17
+  },
+  {
+   "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+   "status": "cached",
+   "relations": 16
+  },
+  {
+   "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+   "status": "cached",
+   "relations": 14
+  },
+  {
+   "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+   "status": "cached",
+   "relations": 24
+  },
+  {
+   "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+   "status": "cached",
+   "relations": 32
+  },
+  {
+   "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+   "status": "cached",
+   "relations": 15
+  },
+  {
+   "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+   "status": "cached",
+   "relations": 49
+  }
+ ]
+}

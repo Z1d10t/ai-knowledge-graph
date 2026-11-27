@@ -1,0 +1,391 @@
+{
+ "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+ "prompt_version": "v3",
+ "model": "deepseek-flash",
+ "created": "2026-11-25 14:33:18",
+ "source_sha256": "4cf50ba225fa528ebfdbc0b01d3ad6fa5589fd73948ac58668db486da1e217cb",
+ "scope_lines": [
+  31,
+  31
+ ],
+ "passages": [
+  {
+   "lines": [
+    30,
+    32
+   ],
+   "chars": 1193,
+   "relations": 14,
+   "terms": 17
+  }
+ ],
+ "terms": [
+  {
+   "name": "perovskite solar cell",
+   "type": "device",
+   "aliases": [
+    "PSC"
+   ],
+   "evidence": "perovskite solar cells (PSCs)"
+  },
+  {
+   "name": "one-step solution-coating",
+   "type": "process",
+   "aliases": [],
+   "evidence": "one-step solution-coating procedure"
+  },
+  {
+   "name": "hole-selective contact",
+   "type": "component",
+   "aliases": [],
+   "evidence": "hole-selective contact"
+  },
+  {
+   "name": "perovskite light absorber",
+   "type": "component",
+   "aliases": [],
+   "evidence": "perovskite light absorber"
+  },
+  {
+   "name": "phosphonic acid",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "phosphonic or carboxylic acids"
+  },
+  {
+   "name": "carboxylic acid",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "phosphonic or carboxylic acids"
+  },
+  {
+   "name": "perovskite precursor solution",
+   "type": "material",
+   "aliases": [],
+   "evidence": "perovskite precursor solutions"
+  },
+  {
+   "name": "self-assembled monolayer",
+   "type": "structure",
+   "aliases": [
+    "SAM"
+   ],
+   "evidence": "self-assembled monolayer"
+  },
+  {
+   "name": "indium tin oxide",
+   "type": "material",
+   "aliases": [
+    "ITO"
+   ],
+   "evidence": "indium tin oxide substrate"
+  },
+  {
+   "name": "perovskite",
+   "type": "material",
+   "aliases": [],
+   "evidence": "the perovskite crystallizes"
+  },
+  {
+   "name": "wettability",
+   "type": "property",
+   "aliases": [],
+   "evidence": "wettability issues"
+  },
+  {
+   "name": "device fabrication",
+   "type": "process",
+   "aliases": [],
+   "evidence": "device fabrication"
+  },
+  {
+   "name": "manufacturability",
+   "type": "property",
+   "aliases": [],
+   "evidence": "manufacturability of PSCs"
+  },
+  {
+   "name": "positive–intrinsic–negative geometry",
+   "type": "structure",
+   "aliases": [
+    "PIN"
+   ],
+   "evidence": "positive–intrinsic–negative geometry"
+  },
+  {
+   "name": "power conversion efficiency",
+   "type": "property",
+   "aliases": [
+    "PCE"
+   ],
+   "evidence": "power conversion efciency of 24.5%"
+  },
+  {
+   "name": "maximum power point",
+   "type": "property",
+   "aliases": [],
+   "evidence": "maximum power point"
+  },
+  {
+   "name": "operational stability",
+   "type": "property",
+   "aliases": [],
+   "evidence": "retain >90% of their initial efciency after 1,200 h of operating"
+  }
+ ],
+ "triples": [
+  {
+   "subject": "one-step solution-coating",
+   "subject_type": "process",
+   "predicate": "enables",
+   "object": "perovskite solar cell",
+   "object_type": "device",
+   "evidence": "to improve the manufacturability of perovskite solar cells (PSCs), we have developed a one-step solution-coating procedure",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    30,
+    32
+   ]
+  },
+  {
+   "subject": "one-step solution-coating",
+   "subject_type": "process",
+   "predicate": "results in",
+   "object": "hole-selective contact",
+   "object_type": "component",
+   "evidence": "a one-step solution-coating procedure in which the hole-selective contact and perovskite light absorber spontaneously form",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    30,
+    32
+   ]
+  },
+  {
+   "subject": "one-step solution-coating",
+   "subject_type": "process",
+   "predicate": "results in",
+   "object": "perovskite light absorber",
+   "object_type": "component",
+   "evidence": "a one-step solution-coating procedure in which the hole-selective contact and perovskite light absorber spontaneously form",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    30,
+    32
+   ]
+  },
+  {
+   "subject": "phosphonic acid",
+   "subject_type": "material_class",
+   "predicate": "self-assembles on",
+   "object": "indium tin oxide",
+   "object_type": "material",
+   "evidence": "phosphonic or carboxylic acids, incorporated into perovskite precursor solutions, self-assemble on the indium tin oxide substrate during perovskite flm processing",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    30,
+    32
+   ]
+  },
+  {
+   "subject": "carboxylic acid",
+   "subject_type": "material_class",
+   "predicate": "self-assembles on",
+   "object": "indium tin oxide",
+   "object_type": "material",
+   "evidence": "phosphonic or carboxylic acids, incorporated into perovskite precursor solutions, self-assemble on the indium tin oxide substrate during perovskite flm processing",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    30,
+    32
+   ]
+  },
+  {
+   "subject": "phosphonic acid",
+   "subject_type": "material_class",
+   "predicate": "forms",
+   "object": "self-assembled monolayer",
+   "object_type": "structure",
+   "evidence": "They form a robust self-assembled monolayer as an excellent hole-selective contact",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    30,
+    32
+   ]
+  },
+  {
+   "subject": "carboxylic acid",
+   "subject_type": "material_class",
+   "predicate": "forms",
+   "object": "self-assembled monolayer",
+   "object_type": "structure",
+   "evidence": "They form a robust self-assembled monolayer as an excellent hole-selective contact",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    30,
+    32
+   ]
+  },
+  {
+   "subject": "self-assembled monolayer",
+   "subject_type": "structure",
+   "predicate": "acts as",
+   "object": "hole-selective contact",
+   "object_type": "component",
+   "evidence": "They form a robust self-assembled monolayer as an excellent hole-selective contact",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    30,
+    32
+   ]
+  },
+  {
+   "subject": "one-step solution-coating",
+   "subject_type": "process",
+   "predicate": "solves",
+   "object": "wettability",
+   "object_type": "property",
+   "evidence": "Our approach solves wettability issues and simplifes device fabrication",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    30,
+    32
+   ]
+  },
+  {
+   "subject": "one-step solution-coating",
+   "subject_type": "process",
+   "predicate": "simplifies",
+   "object": "device fabrication",
+   "object_type": "process",
+   "evidence": "Our approach solves wettability issues and simplifes device fabrication",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    30,
+    32
+   ]
+  },
+  {
+   "subject": "one-step solution-coating",
+   "subject_type": "process",
+   "predicate": "improves",
+   "object": "manufacturability",
+   "object_type": "property",
+   "evidence": "advancing the manufacturability of PSCs",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    30,
+    32
+   ]
+  },
+  {
+   "subject": "perovskite solar cell",
+   "subject_type": "device",
+   "predicate": "has structure",
+   "object": "positive–intrinsic–negative geometry",
+   "object_type": "structure",
+   "evidence": "Our PSC devices with positive–intrinsic–negative geometry",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    30,
+    32
+   ]
+  },
+  {
+   "subject": "perovskite solar cell",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "power conversion efficiency",
+   "object_type": "property",
+   "evidence": "Our PSC devices with positive–intrinsic–negative geometry show a power conversion efciency of 24.5%",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "24.5",
+   "unit": "%",
+   "property": "power conversion efficiency",
+   "chunk": 0,
+   "passage_lines": [
+    30,
+    32
+   ]
+  },
+  {
+   "subject": "perovskite solar cell",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "operational stability",
+   "object_type": "property",
+   "evidence": "retain >90% of their initial efciency after 1,200 h of operating at the maximum power point under continuous illumination",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "1200",
+   "unit": "h",
+   "property": "operational stability",
+   "chunk": 0,
+   "passage_lines": [
+    30,
+    32
+   ]
+  }
+ ],
+ "errors": []
+}

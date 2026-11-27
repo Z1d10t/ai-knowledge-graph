@@ -1,0 +1,50 @@
+# Materials profile — sanitized example. Copy to my-config.toml and edit.
+# Never commit a real API key; use an environment variable instead.
+
+[profile]
+name = "materials"
+version = "1.0"
+
+[llm]
+model = "deepseek-flash"
+base_url = "https://api.deepseek.com/chat/completions"
+api_key = "env:DEEPSEEK_API_KEY"
+max_tokens = 16000
+temperature = 0.2
+timeout = 300
+max_retries = 3
+concurrency = 8
+cache_dir = ".kg-cache"
+
+# Provider-specific switches; remove if your endpoint rejects unknown fields.
+[llm.extra_body]
+thinking = { type = "disabled" }
+
+[chunking]
+chunk_size = 450
+overlap = 60
+
+[extraction]
+language = "English"
+
+[standardization]
+enabled = true
+use_llm_for_entities = false
+
+[inference]
+enabled = true
+use_llm_for_inference = false
+taxonomy = false
+llm_bridge = false
+llm_hub = false
+apply_transitive = false
+lexical = false
+max_inferred_ratio = 0.0
+
+[visualization]
+name_communities = false
+edge_smooth = false
+theme = "light"
+edge_labels = "all"
+title_case = true
+collapse_parallel_edges = true

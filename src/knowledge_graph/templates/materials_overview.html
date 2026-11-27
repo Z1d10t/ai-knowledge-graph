@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>材料专业术语知识图谱</title>
+<link rel="stylesheet" href="assets/vis-network.min.css">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="title" data-i18n="title">材料专业术语知识图谱</div>
+    <div class="subtitle" data-i18n="subtitle">285 篇论文 · 专业概念 · 有证据的规范关系</div>
+  </div>
+
+  <div class="searchbox">
+    <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="16.5" y1="16.5" x2="21" y2="21"></line></svg>
+    <input id="search-input" type="search" autocomplete="off" spellcheck="false">
+    <div id="search-results" class="search-results hidden"></div>
+  </div>
+
+  <nav class="toolbar">
+    <button id="btn-graph" class="primary" data-i18n="viewGraph">全库大图</button>
+    <button id="btn-full" data-i18n="viewFull">全部关系</button>
+    <button id="btn-type" data-i18n="viewType">类型汇总</button>
+    <a id="btn-download" class="button" href="triples_full.csv" download data-i18n="download">下载三元组</a>
+    <button id="btn-png" data-i18n="exportPng">导出 PNG</button>
+    <button id="btn-lang" class="lang" title="Switch language">EN</button>
+  </nav>
+</header>
+
+<div class="workspace">
+  <aside class="sidebar">
+    <section class="side-section">
+      <h3><span data-i18n="communities">社区</span><span class="hint-count" id="community-count"></span></h3>
+      <div id="community-list" class="community-list"></div>
+    </section>
+    <section class="side-section">
+      <h3 data-i18n="types">类型</h3>
+      <div id="type-list" class="type-list"></div>
+    </section>
+    <section class="side-section">
+      <h3 data-i18n="filters">筛选</h3>
+      <label class="field"><span data-i18n="family">谓词族</span><select id="family-select"></select></label>
+      <label class="field"><span data-i18n="paper">论文</span><select id="paper-select"></select></label>
+      <label class="check"><input type="checkbox" id="anomaly-toggle"><span data-i18n="showAnomalies">显示方向异常</span></label>
+      <button id="btn-clear" class="wide" data-i18n="clearFilters">清除筛选</button>
+    </section>
+    <div class="side-foot">
+      <div id="legend" class="legend"></div>
+      <div class="foot-note" data-i18n="footNote">颜色 = 概念类型；社区按关系聚类；箭头方向见详情。</div>
+    </div>
+  </aside>
+
+  <section class="stage">
+    <div class="statbar">
+      <span><span data-i18n="totalRelations">全库关系</span> <b id="count-total">–</b></span>
+      <span><span data-i18n="filteredRelations">当前筛选</span> <b id="count-filtered">–</b></span>
+      <span><span data-i18n="drawnRelations">当前已绘制</span> <b id="count-drawn">–</b></span>
+      <span class="spacer"></span>
+      <span id="view-label"></span>
+    </div>
+    <div class="canvas-wrap">
+      <canvas id="graph-canvas"></canvas>
+      <canvas id="overlay-canvas"></canvas>
+      <canvas id="overview-canvas" class="hidden"></canvas>
+      <div id="network" class="hidden"></div>
+      <div id="hint" class="hint"></div>
+      <div id="tooltip" class="tooltip hidden"></div>
+    </div>
+  </section>
+
+  <aside id="panel" class="panel">
+    <div class="panel-head">
+      <h2 data-i18n="details">详情</h2>
+      <button id="panel-close" class="icon-btn" title="Close">×</button>
+    </div>
+    <div id="panel-body" class="panel-body">
+      <p class="muted" data-i18n="panelHint">点击图中的术语、关系或搜索结果查看详情与原文证据。</p>
+    </div>
+  </aside>
+</div>
+
+<footer class="footer">
+  <span id="footer-meta"></span>
+  <span data-i18n="footerNote">证据按论文分片加载 · 页面离线运行</span>
+</footer>
+
+<div id="toast" class="toast hidden"></div>
+
+<script src="assets/vis-network.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

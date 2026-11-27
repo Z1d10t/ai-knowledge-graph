@@ -49,13 +49,17 @@ def parse_formats(spec):
 
 def write_csv(triples, path):
     fields = ["subject", "predicate", "object", "subject_type", "object_type", "inferred", "method", "via",
-              "chunk", "document", "source"]
+              "chunk", "document", "source", "property", "value", "value_raw", "unit", "normalized_value",
+              "normalized_unit", "conditions", "sample_id", "device_id", "paper_id", "evidence_level",
+              "unmapped"]
     with open(path, "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
         writer.writeheader()
         for t in triples:
             row = {k: t.get(k, "") for k in fields}
             row["inferred"] = "true" if t.get("inferred") else "false"
+            if isinstance(row.get("conditions"), (list, dict)):
+                row["conditions"] = json.dumps(row["conditions"], ensure_ascii=False)
             writer.writerow(row)
 
 

@@ -1,0 +1,2265 @@
+[
+  {
+    "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+    "kind": "research",
+    "source_path": "C:\\Users\\admin\\Desktop\\工作区\\06-横向项目\\知识库项目\\材料论文\\全部_285篇\\md\\001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit.md",
+    "source_sha256": "7c4719af1a042eca7750c391ed9a184686d823c4e9ffcff66452739ea295ee6e",
+    "scope_lines": [
+      53,
+      87
+    ],
+    "terms": [
+      {
+        "canonical": "4-chlorobenzenesulfonate",
+        "category": "material",
+        "aliases": [
+          "4Cl-BZS",
+          "4- chlorobenzenesulfonate"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "4Cl-BZS",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "benzenesulfonate",
+        "category": "material",
+        "aliases": [
+          "BZS"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "BZS",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "undercoordinated Pb2+",
+        "category": "defect",
+        "aliases": [
+          "undercoordinated Pb",
+          "Pb2+ defect sites"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "two neighboring Pb2+ defect sites",
+            "types": [
+              "defect"
+            ]
+          },
+          {
+            "label": "undercoordinated Pb2+ ions",
+            "types": [
+              "defect"
+            ]
+          },
+          {
+            "label": "interaction with undercoordinated Pb2+ ions",
+            "types": [
+              "mechanism"
+            ]
+          },
+          {
+            "label": "interaction of 4Cl-BZS with undercoordinated Pb2+ ions",
+            "types": [
+              "mechanism"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "density functional theory",
+        "category": "method",
+        "aliases": [
+          "DFT"
+        ],
+        "v2_status": "not_located_by_labels",
+        "v2_matches": []
+      },
+      {
+        "canonical": "electron transport layer",
+        "category": "component",
+        "aliases": [
+          "ETL"
+        ],
+        "v2_status": "not_located_by_labels",
+        "v2_matches": []
+      },
+      {
+        "canonical": "nonradiative recombination",
+        "category": "mechanism",
+        "aliases": [
+          "non-radiative recombination"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "nonradiative recombination at the perovskite/CTL interface",
+            "types": [
+              "mechanism"
+            ]
+          },
+          {
+            "label": "interface nonradiative recombination",
+            "types": [
+              "mechanism"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "fill factor",
+        "category": "property",
+        "aliases": [
+          "FF"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "fill factor",
+            "types": [
+              "property"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "inverted perovskite solar cells",
+        "category": "device",
+        "aliases": [
+          "pin PSCs"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "perovskite solar cells",
+            "types": [
+              "device",
+              "material_class"
+            ]
+          },
+          {
+            "label": "fill factor in pin PSCs",
+            "types": [
+              "property"
+            ]
+          },
+          {
+            "label": "pin PSC",
+            "types": [
+              "sample"
+            ]
+          }
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "subject": "4-chlorobenzenesulfonate",
+        "predicate": "enables",
+        "object": "dual-site Pb2+ passivation",
+        "line": 87,
+        "evidence": "We used density functional theory (DFT) calculations to investigate how the molecular structure of the ligand affects orientation. We considered three ligands, one with no additional functional group (BZS), and two with methyl or chloride in the _para_ position of the benzene ring opposite to the sulfonate functional group (4-methylbenzenesulfonate, 4CH3-BZS, and 4- chlorobenzenesulfonate, 4Cl-BZS) (Fig. 1A). 4CH3-BZS and 4Cl-BZS have lengths of 6.14 Å and 6.37 Å, respectively. We compared the formation energies of two configurations, one in which the ligands were oriented perpendicular to the perovskite surface (Conf-perp, Fig. 1B), and another in which the ligands adopted a parallel orientation with respect to the perovskite surface (Conf-para, Fig. 1C). Although Conf-perp was more energetically favorable for BZS and 4CH3-BZS, Confpara was energetically more favorable for 4Cl-BZS because of the additional Pb<sup>2+</sup> surface binding afforded by the Cl functional group (Fig. 1D) that would enable dual-site Pb<sup>2+</sup> passivation. We also investigated the effects of ligand orientation on charge transfer at the perovskite/ETL interface by examining fullerene (C60), which is widely used as ETL in _pin_ PSCs and known to induce energetic losses in devices ( _11_ , _12_ , _34_ , _35_ ). Analysis of the calculated charge density difference (Fig. 1E and fig. S1) provided evidence that 4Cl-BZS, when absorbed on the perovskite layer, ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "undercoordinated Pb2+ ions",
+        "predicate": "results in",
+        "object": "nonradiative recombination",
+        "line": 77,
+        "evidence": "**Main Text:** The certified power conversion efficiency (PCE) of perovskite solar cells (PSCs) has reached an impressive 25.7% ( _1_ ). Nevertheless, the most efficient PSCs, fabricated in the _nip_ architecture, have yet to achieve the needed operating stability under accelerated aging tests ( _1_ , _2_ ). Inverted ( _pin_ ) perovskite solar cells, which do not rely on p-type dopants in their hole-transporting layers ( _3_ - _7_ ), have seen progress, but, until now, still lag behind their _nip_ counterparts: their stabilized PCE has so far reached only 25.1% ( _8_ ). The interfaces between the perovskite and the charge-transport layers limit the PCE of _pin_ cells ( _9-11_ ) through band misalignment ( _12_ ) and energy-level pinning ( _11_ ). These problems are aggravated by the presence of surface defects. For example, undercoordinated Pb<sup>2+</sup> ions ( _13-15_ ) resulting in nonradiative recombination at the perovskite/charge transport layer (CTL) interface, which limits photovoltage and fill factor (FF). ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "nonradiative recombination",
+        "predicate": "limits",
+        "object": "fill factor",
+        "line": 77,
+        "evidence": "**Main Text:** The certified power conversion efficiency (PCE) of perovskite solar cells (PSCs) has reached an impressive 25.7% ( _1_ ). Nevertheless, the most efficient PSCs, fabricated in the _nip_ architecture, have yet to achieve the needed operating stability under accelerated aging tests ( _1_ , _2_ ). Inverted ( _pin_ ) perovskite solar cells, which do not rely on p-type dopants in their hole-transporting layers ( _3_ - _7_ ), have seen progress, but, until now, still lag behind their _nip_ counterparts: their stabilized PCE has so far reached only 25.1% ( _8_ ). The interfaces between the perovskite and the charge-transport layers limit the PCE of _pin_ cells ( _9-11_ ) through band misalignment ( _12_ ) and energy-level pinning ( _11_ ). These problems are aggravated by the presence of surface defects. For example, undercoordinated Pb<sup>2+</sup> ions ( _13-15_ ) resulting in nonradiative recombination at the perovskite/charge transport layer (CTL) interface, which limits photovoltage and fill factor (FF). ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      }
+    ],
+    "v2_edges": 125
+  },
+  {
+    "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+    "kind": "research",
+    "source_path": "C:\\Users\\admin\\Desktop\\工作区\\06-横向项目\\知识库项目\\材料论文\\全部_285篇\\md\\011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio.md",
+    "source_sha256": "fb3d3ad1c88a2900b98786bb3cd1b8ec3b39c23a77aaa3a7b96b984d583917d5",
+    "scope_lines": [
+      25,
+      39
+    ],
+    "terms": [
+      {
+        "canonical": "Ga2O3",
+        "category": "material",
+        "aliases": [
+          "gallium oxide"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "Ga2O3",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "NiOx",
+        "category": "material",
+        "aliases": [
+          "p-NiOx"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "p-NiOx",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "GaN",
+        "category": "material",
+        "aliases": [
+          "gallium nitride"
+        ],
+        "v2_status": "not_located_by_labels",
+        "v2_matches": []
+      },
+      {
+        "canonical": "SiC",
+        "category": "material",
+        "aliases": [
+          "silicon carbide"
+        ],
+        "v2_status": "not_located_by_labels",
+        "v2_matches": []
+      },
+      {
+        "canonical": "heterojunction PN diodes",
+        "category": "device",
+        "aliases": [
+          "HJ PN diodes",
+          "PN hetero-junction"
+        ],
+        "v2_status": "not_located_by_labels",
+        "v2_matches": []
+      },
+      {
+        "canonical": "conductivity modulation",
+        "category": "mechanism",
+        "aliases": [],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "hole injection and conductivity modulation",
+            "types": [
+              "mechanism"
+            ]
+          },
+          {
+            "label": "conductivity modulation effect",
+            "types": [
+              "mechanism"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "specific on-resistance",
+        "category": "property",
+        "aliases": [
+          "Ron,sp"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "Ron,sp",
+            "types": [
+              "property"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "breakdown voltage",
+        "category": "property",
+        "aliases": [
+          "BV"
+        ],
+        "v2_status": "not_located_by_labels",
+        "v2_matches": []
+      }
+    ],
+    "relations": [
+      {
+        "subject": "holes injection",
+        "predicate": "induces",
+        "object": "conductivity modulation",
+        "line": 25,
+        "evidence": "Ultra-wide bandgap semiconductor Ga2O3 based electronic devices are expected to perform beyond wide bandgap counterparts GaN and SiC. However, the reported power figure-ofmerit hardly can exceed, which is far below the projected Ga2O3 material limit. Major obstacles are high breakdown voltage requires low doping material and PN junction termination, contradicting with low specific on-resistance and simultaneous achieving of n- and p-type doping, respectively. In this work, we demonstrate that Ga2O3 heterojunction PN diodes can overcome above challenges. By implementing the holes injection in the Ga2O3, bipolar transport can induce conductivity modulation and low resistance in a low doping Ga2O3 material. Therefore, breakdown voltage of 8.32 kV, specific on-resistance of 5.24 mΩ⋅cm<sup>2</sup> , power figure-of-merit of 13.2 GW/cm<sup>2</sup> , and turn-on voltage of 1.8 V are achieved. The power figure-of-merit value surpasses the 1-D unipolar limit of GaN and SiC. Those Ga2O3 power diodes demonstrate their great potential for next-generation power electronics applications. ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "Ga2O3",
+        "predicate": "used in",
+        "object": "power electronics",
+        "line": 25,
+        "evidence": "Ultra-wide bandgap semiconductor Ga2O3 based electronic devices are expected to perform beyond wide bandgap counterparts GaN and SiC. However, the reported power figure-ofmerit hardly can exceed, which is far below the projected Ga2O3 material limit. Major obstacles are high breakdown voltage requires low doping material and PN junction termination, contradicting with low specific on-resistance and simultaneous achieving of n- and p-type doping, respectively. In this work, we demonstrate that Ga2O3 heterojunction PN diodes can overcome above challenges. By implementing the holes injection in the Ga2O3, bipolar transport can induce conductivity modulation and low resistance in a low doping Ga2O3 material. Therefore, breakdown voltage of 8.32 kV, specific on-resistance of 5.24 mΩ⋅cm<sup>2</sup> , power figure-of-merit of 13.2 GW/cm<sup>2</sup> , and turn-on voltage of 1.8 V are achieved. The power figure-of-merit value surpasses the 1-D unipolar limit of GaN and SiC. Those Ga2O3 power diodes demonstrate their great potential for next-generation power electronics applications. ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "p-NiOx",
+        "predicate": "combined with",
+        "object": "n-Ga2O3",
+        "line": 39,
+        "evidence": "dvanced semiconductor material holds great promise of providing higher conversion efficiency as well as mainAtaining higher voltage for modern industrialand consumer-scale power electronics. Ultra-wide bandgap (UWB) semiconductor with general bandgap (Eg) greater than 4 eV can sustain a higher critical field (Ec) and hence a higher blocking voltage is achievable at a smaller resistance and power electronic component dimension, which turns out to be more efficient than its narrow bandgap material Si and wide bandgap material GaN and SiC counterparts, as summarized in Table 1 of Supplementary Information. The general concept lies behind is that the high electric-field (E) and high temperature driven of the electron excitation from valance band to conduction band is inherently suppressed by the UWB. Therefore, power electronics based on UWB materials are spontaneously endowed with high breakdown voltage (BV) at a lower material thickness and resistance. Combined with good mobility (μ), a crucial power device parameter Baliga’s figure-of-merit (B-FOM~μ × Ec<sup>3</sup> ) of UWB semiconductors could be several or tens of folds of those wide bandgap materials GaN and SiC as well as more than thousands of times of narrow bandgap material Si<sup>1,2</sup> . However, it should be noted that the major tyranny of the UWB forbids achieving effective both n- and p-type doping simultaneously. Among those intriguing UWB semiconductor materials, the emerging Ga2O3 is now regarded as one of the most promising materials for nextgeneration high-power and high-efficiency electronics, due to its cost-effective melt-grown large-scale and low defect density substrate as well as the controllable n-type doping<sup>3</sup> . Ga2O3 with Eg = 4.6–4.8 eV, high EC = 8 MV/cm and decent intrinsic μ = 250 cm<sup>2</sup> /Vs has yielded a B-FOM to be around 3000, which is four times GaN and ten times SiC. Being the mainstream of the UWB semiconductor, Ga2O3-based power electronics are expected to bring higher blocking voltage at a lower specific onresistance (Ron,sp) for power switching applications. Tremendous efforts have been dedicated to explore the material property and push the device limit, and hence significant progresses are acquired during the past 5 years. Despite those intriguing achievements, it should be noted that those performances especially the representative device parameter power figure-of-merit (P-FOM = BV<sup>2</sup> /Ron,sp) are much inferior to the projected material limit, or even cannot be comparable with the 1-D unipolar limit of the GaN and SiC<sup>4,5</sup> . Like other UWB semiconductors with the difficulties of achieving both highly conductive p- and n-type materials at the meantime, one of the major obstacles is the lack of p-type Ga2O3 which can be utilized as the PN homojunction termination for the BV improvement. It was calculated that shallow acceptor does not exist and it was also predicted that the holes are self-trapped inherently<sup>6</sup> . As a result, unipolar Ga2O3 power electronics dominate most of the research and few reports are available about the bipolar transport study. Due to the challenge of realizing p-type Ga2O3 on lightly-doped n-type Ga2O3 layer, the BV of the vertical Ga2O3 power diodes was limited, although various types of edge termination (ET) methods were employed<sup>7</sup> . On the other hand, some wide-bandgap p-type materials like NiOx with Eg of 3.8–4 eV and Cu2O with Eg ~ 3 eV, controllable doping and decent hole mobility of 0.5–5 cm<sup>2</sup> /V s turn out to be a good counterpart of p-type Ga2O3 to boost the diodes performance<sup>8,9</sup> . The combination of p-NiOx and n-Ga2O3 is a feasible route for the Ga2O3 development, and the recent progress of the Ga2O3 PN hetero-junction (HJ) diodes shows a P-FOM of 1.37 GW/cm<sup>2</sup> , which is comparable to the P-FOM value of state-of-the-art Schottky barrier diodes (SBDs)<sup>10,11</sup> . Even incorporating p-NiOx into Ga2O3 material system, the potential of Ga2O3 HJ PN diodes is only explored for less than 10% of the material limitation. Meanwhile, the conductivity modulation effect is observed in Ga2O3 HJ PN diodes, indicating the holes can ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      }
+    ],
+    "v2_edges": 184
+  },
+  {
+    "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+    "kind": "review",
+    "source_path": "C:\\Users\\admin\\Desktop\\工作区\\06-横向项目\\知识库项目\\材料论文\\全部_285篇\\md\\021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt.md",
+    "source_sha256": "c274b16034413913697d3354d3f1e6243f3a7ef7073d1608aa73651a573302e6",
+    "scope_lines": [
+      27,
+      55
+    ],
+    "terms": [
+      {
+        "canonical": "quasi-2D perovskites",
+        "category": "material_class",
+        "aliases": [
+          "quasi-two-dimensional perovskites",
+          "quasi2D perovskites"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "quasi-2D perovskite",
+            "types": [
+              "None",
+              "material",
+              "material_class"
+            ]
+          },
+          {
+            "label": "perovskites",
+            "types": [
+              "None",
+              "material_class"
+            ]
+          },
+          {
+            "label": "quasi-2D perovskite single crystals",
+            "types": [
+              "material_class"
+            ]
+          },
+          {
+            "label": "low n-value quasi-2D perovskites",
+            "types": [
+              "material_class"
+            ]
+          },
+          {
+            "label": "quasi-2D",
+            "types": [
+              "structure"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "quantum-well structure",
+        "category": "structure",
+        "aliases": [
+          "quantum-well structures"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "quantum-well structures",
+            "types": [
+              "structure"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "dielectric confinement",
+        "category": "mechanism",
+        "aliases": [
+          "dielectric-confinement"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "dielectric confinement",
+            "types": [
+              "mechanism",
+              "property"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "quantum confinement",
+        "category": "mechanism",
+        "aliases": [
+          "quantum-confinement"
+        ],
+        "v2_status": "not_located_by_labels",
+        "v2_matches": []
+      },
+      {
+        "canonical": "exciton binding energy",
+        "category": "property",
+        "aliases": [],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "exciton binding energy",
+            "types": [
+              "property"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "energy transfer",
+        "category": "mechanism",
+        "aliases": [],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "energy transfer",
+            "types": [
+              "mechanism",
+              "process",
+              "property"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "photoluminescence quantum yield",
+        "category": "property",
+        "aliases": [
+          "PLQY",
+          "PLQYs"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "PLQY",
+            "types": [
+              "property"
+            ]
+          },
+          {
+            "label": "photoluminescence quantum yield",
+            "types": [
+              "property"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "perovskite LEDs",
+        "category": "device",
+        "aliases": [
+          "PeLEDs"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "3D PeLEDs",
+            "types": [
+              "device"
+            ]
+          },
+          {
+            "label": "PeLEDs based on perovskite nanocrystals",
+            "types": [
+              "device"
+            ]
+          },
+          {
+            "label": "quasi-2D PeLEDs",
+            "types": [
+              "device"
+            ]
+          },
+          {
+            "label": "green quasi-2D PeLEDs",
+            "types": [
+              "device"
+            ]
+          },
+          {
+            "label": "NIR quasi-2D PeLEDs",
+            "types": [
+              "device"
+            ]
+          }
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "subject": "quasi-2D perovskites",
+        "predicate": "has structure",
+        "object": "quantum-well structures",
+        "line": 55,
+        "evidence": "In particular, quasi-2D perovskites exhibit unique optical properties arising from their structural characteristics, which are different from those of conventional 3D<sup>11,31–33</sup> and two-dimensional (2D) perovskites<sup>34,35</sup> . First, quasi-2D perovskites possess natural quantum-well structures, which can induce both dielectric- and quantum-confinement effects<sup>36–40</sup> . Such strong confinements thus afford a large exciton binding energy (Eb). In addition, quasi-2D films feature a mixed-phase rather than a single phase because the formation energies for different quasi-2D phases are quite similar<sup>41</sup> . During photoexcitation, the photocarriers transfer from higher bandgap species to lower bandgap species rapidly and efficiently, leading to accumulated carriers in the recombination centers. The increased carrier density then effectively passivates the defect states, thereby significantly improving the radiative recombination efficiency and the resulting PLQYs<sup>30,42</sup> . In addition, quasi-2D perovskites exhibit tunability of their spectra, which can be modulated through composition and dimensionality engineering respectively. These characteristics enable continuous photoluminescence (PL) wavelength tuning from violet to near-infrared (NIR) spectral regions<sup>29,43–45</sup> . ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "quantum-well structures",
+        "predicate": "induces",
+        "object": "quantum-confinement effects",
+        "line": 55,
+        "evidence": "In particular, quasi-2D perovskites exhibit unique optical properties arising from their structural characteristics, which are different from those of conventional 3D<sup>11,31–33</sup> and two-dimensional (2D) perovskites<sup>34,35</sup> . First, quasi-2D perovskites possess natural quantum-well structures, which can induce both dielectric- and quantum-confinement effects<sup>36–40</sup> . Such strong confinements thus afford a large exciton binding energy (Eb). In addition, quasi-2D films feature a mixed-phase rather than a single phase because the formation energies for different quasi-2D phases are quite similar<sup>41</sup> . During photoexcitation, the photocarriers transfer from higher bandgap species to lower bandgap species rapidly and efficiently, leading to accumulated carriers in the recombination centers. The increased carrier density then effectively passivates the defect states, thereby significantly improving the radiative recombination efficiency and the resulting PLQYs<sup>30,42</sup> . In addition, quasi-2D perovskites exhibit tunability of their spectra, which can be modulated through composition and dimensionality engineering respectively. These characteristics enable continuous photoluminescence (PL) wavelength tuning from violet to near-infrared (NIR) spectral regions<sup>29,43–45</sup> . ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "quasi-2D perovskites",
+        "predicate": "used in",
+        "object": "LEDs",
+        "line": 27,
+        "evidence": "Quasi-two-dimensional (quasi-2D) perovskites have attracted extraordinary attention due to their superior semiconducting properties and have emerged as one of the most promising materials for next-generation lightemitting diodes (LEDs). The outstanding optical properties originate from their structural characteristics. In particular, the inherent quantum-well structure endows them with a large exciton binding energy due to the strong dielectricand quantum-confinement effects; the corresponding energy transfer among different n-value species thus results in high photoluminescence quantum yields (PLQYs), particularly at low excitation intensities. The review herein presents an overview of the inherent properties of quasi-2D perovskite materials, the corresponding energy transfer and spectral tunability methodologies for thin films, as well as their application in high-performance LEDs. We then summarize the challenges and potential research directions towards developing high-performance and stable quasi2D PeLEDs. The review thus provides a systematic and timely summary for the community to deepen the understanding of quasi-2D perovskite materials and resulting LED devices. ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      }
+    ],
+    "v2_edges": 403
+  },
+  {
+    "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+    "kind": "review",
+    "source_path": "C:\\Users\\admin\\Desktop\\工作区\\06-横向项目\\知识库项目\\材料论文\\全部_285篇\\md\\023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet.md",
+    "source_sha256": "90bbe7f586c9f029fe7f6b42e9d09dbef48b1b3ed3be04b427bef841a44e5633",
+    "scope_lines": [
+      27,
+      39
+    ],
+    "terms": [
+      {
+        "canonical": "AlGaN",
+        "category": "material",
+        "aliases": [
+          "AlGaN alloys"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "AlGaN",
+            "types": [
+              "material",
+              "material_class"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "III-nitride",
+        "category": "material_class",
+        "aliases": [
+          "III-nitride material"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "III-nitride material",
+            "types": [
+              "material_class"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "solar-blind ultraviolet photodetectors",
+        "category": "device",
+        "aliases": [
+          "solar-blind UV PDs"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "development of AlGaN-based solar-blind UV PDs",
+            "types": [
+              "process"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "focal plane arrays",
+        "category": "device",
+        "aliases": [
+          "FPAs"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "FPAs",
+            "types": [
+              "device"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "metal-semiconductor-metal photodetectors",
+        "category": "device",
+        "aliases": [
+          "MSM"
+        ],
+        "v2_status": "not_located_by_labels",
+        "v2_matches": []
+      },
+      {
+        "canonical": "avalanche photodiodes",
+        "category": "device",
+        "aliases": [
+          "APDs"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "avalanche photodiodes (APDs)",
+            "types": [
+              "device"
+            ]
+          },
+          {
+            "label": "photodiodes",
+            "types": [
+              "device"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "epitaxy",
+        "category": "process",
+        "aliases": [],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "epitaxy of high-Al-content AlGaN alloys",
+            "types": [
+              "process"
+            ]
+          },
+          {
+            "label": "AlGaN epitaxy",
+            "types": [
+              "process"
+            ]
+          },
+          {
+            "label": "pulsed atomic layer epitaxy (PALE)",
+            "types": [
+              "process"
+            ]
+          },
+          {
+            "label": "direct epitaxy",
+            "types": [
+              "process"
+            ]
+          },
+          {
+            "label": "migration-enhanced epitaxy",
+            "types": [
+              "process"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "p-type doping",
+        "category": "process",
+        "aliases": [],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "low p-type doping efficiency",
+            "types": [
+              "property"
+            ]
+          },
+          {
+            "label": "p-type doping of high-Al-content AlGaN",
+            "types": [
+              "process"
+            ]
+          },
+          {
+            "label": "p-type",
+            "types": [
+              "property"
+            ]
+          },
+          {
+            "label": "polarization-induced p-type doping",
+            "types": [
+              "process"
+            ]
+          }
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "subject": "AlGaN",
+        "predicate": "used in",
+        "object": "solar-blind UV photodetectors",
+        "line": 27,
+        "evidence": "Solar-blind ultraviolet (UV) photodetectors (PDs) have attracted tremendous attention in the environmental, industrial, military, and biological fields. As a representative III-nitride material, AlGaN alloys have broad development prospects in the field of solar-blind detection due to their superior properties, such as tunable wide bandgaps for intrinsic UV detection. In recent decades, a variety of AlGaN-based PDs have been developed to achieve high-precision solar-blind UV detection. As integrated optoelectronic technology advances, AlGaN-based focal plane arrays (FPAs) are manufactured and exhibit outstanding solar-blind imaging capability. Considering the rapid development of AlGaN detection techniques, this paper comprehensively reviews the progress on AlGaN-based solar-blind UV PDs and FPAs. First, the basic physical properties of AlGaN are presented. The epitaxy and p-type doping problems of AlGaN alloys are then discussed. Diverse PDs, including photoconductors and Schottky, metal–semiconductor–metal (MSM), p-i-n, and avalanche photodiodes (APDs), are demonstrated, and the physical mechanisms are analyzed to improve device performance. Additionally, this paper summarizes imaging technologies used with AlGaN FPAs in recent years. Benefiting from the development of AlGaN materials and optoelectronic devices, solar-blind UV detection technology is greeted with significant revolutions. ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "AlGaN-based focal plane arrays",
+        "predicate": "enables",
+        "object": "solar-blind imaging",
+        "line": 27,
+        "evidence": "Solar-blind ultraviolet (UV) photodetectors (PDs) have attracted tremendous attention in the environmental, industrial, military, and biological fields. As a representative III-nitride material, AlGaN alloys have broad development prospects in the field of solar-blind detection due to their superior properties, such as tunable wide bandgaps for intrinsic UV detection. In recent decades, a variety of AlGaN-based PDs have been developed to achieve high-precision solar-blind UV detection. As integrated optoelectronic technology advances, AlGaN-based focal plane arrays (FPAs) are manufactured and exhibit outstanding solar-blind imaging capability. Considering the rapid development of AlGaN detection techniques, this paper comprehensively reviews the progress on AlGaN-based solar-blind UV PDs and FPAs. First, the basic physical properties of AlGaN are presented. The epitaxy and p-type doping problems of AlGaN alloys are then discussed. Diverse PDs, including photoconductors and Schottky, metal–semiconductor–metal (MSM), p-i-n, and avalanche photodiodes (APDs), are demonstrated, and the physical mechanisms are analyzed to improve device performance. Additionally, this paper summarizes imaging technologies used with AlGaN FPAs in recent years. Benefiting from the development of AlGaN materials and optoelectronic devices, solar-blind UV detection technology is greeted with significant revolutions. ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "avalanche photodiodes",
+        "predicate": "is a",
+        "object": "photodetectors",
+        "line": 27,
+        "evidence": "Solar-blind ultraviolet (UV) photodetectors (PDs) have attracted tremendous attention in the environmental, industrial, military, and biological fields. As a representative III-nitride material, AlGaN alloys have broad development prospects in the field of solar-blind detection due to their superior properties, such as tunable wide bandgaps for intrinsic UV detection. In recent decades, a variety of AlGaN-based PDs have been developed to achieve high-precision solar-blind UV detection. As integrated optoelectronic technology advances, AlGaN-based focal plane arrays (FPAs) are manufactured and exhibit outstanding solar-blind imaging capability. Considering the rapid development of AlGaN detection techniques, this paper comprehensively reviews the progress on AlGaN-based solar-blind UV PDs and FPAs. First, the basic physical properties of AlGaN are presented. The epitaxy and p-type doping problems of AlGaN alloys are then discussed. Diverse PDs, including photoconductors and Schottky, metal–semiconductor–metal (MSM), p-i-n, and avalanche photodiodes (APDs), are demonstrated, and the physical mechanisms are analyzed to improve device performance. Additionally, this paper summarizes imaging technologies used with AlGaN FPAs in recent years. Benefiting from the development of AlGaN materials and optoelectronic devices, solar-blind UV detection technology is greeted with significant revolutions. ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      }
+    ],
+    "v2_edges": 778
+  },
+  {
+    "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+    "kind": "review",
+    "source_path": "C:\\Users\\admin\\Desktop\\工作区\\06-横向项目\\知识库项目\\材料论文\\全部_285篇\\md\\038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas.md",
+    "source_sha256": "39079db743cf38eb09e25d822c523b0fa8a8c8fa35455d0d7df1072724c55d96",
+    "scope_lines": [
+      35,
+      39
+    ],
+    "terms": [
+      {
+        "canonical": "metal oxide semiconductors",
+        "category": "material_class",
+        "aliases": [
+          "MOS"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "Metal oxide semiconductors",
+            "types": [
+              "material_class"
+            ]
+          },
+          {
+            "label": "MOS",
+            "types": [
+              "material_class"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "flexible room-temperature gas sensors",
+        "category": "device",
+        "aliases": [
+          "FRT gas sensors"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "FRT gas sensors",
+            "types": [
+              "device"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "noble metal nanoparticles",
+        "category": "material_class",
+        "aliases": [],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "noble metal nanoparticles",
+            "types": [
+              "material_class"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "organic polymers",
+        "category": "material_class",
+        "aliases": [],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "organic polymers modified MOS",
+            "types": [
+              "material_class"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "carbon nanotubes",
+        "category": "material_class",
+        "aliases": [],
+        "v2_status": "not_located_by_labels",
+        "v2_matches": []
+      },
+      {
+        "canonical": "graphene derivatives",
+        "category": "material_class",
+        "aliases": [],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "graphene derivatives",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "transition metal dichalcogenides",
+        "category": "material_class",
+        "aliases": [],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "two-dimensional transition metal dichalcogenides materials modified MOS",
+            "types": [
+              "material_class"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "operating temperature",
+        "category": "property",
+        "aliases": [],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "operating temperature",
+            "types": [
+              "condition",
+              "property"
+            ]
+          }
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "subject": "metal oxide semiconductors",
+        "predicate": "used in",
+        "object": "gas sensors",
+        "line": 39,
+        "evidence": "**ABSTRACT** With the rapid development of the Internet of Things, there is a great demand for portable gas sensors. Metal oxide semiconductors (MOS) are one of the most traditional and well‑studied gas sensing materials and have been widely used to prepare various commercial gas sensors. However, it is limited by high operat‑ ing temperature. The current research works are directed towards fabricating high‑ performance flexible room‑temperature (FRT) gas sensors, which are effective in simplifying the structure of MOS‑based sensors, reducing power consumption, and expanding the application of portable devices. This article presents the recent research progress of MOS‑based FRT gas sensors in terms of sensing mechanism, performance, flexibility characteristics, and applications. This review comprehensively summarizes and discusses five types of MOS‑based FRT gas sensors, including pristine MOS, noble metal nanoparticles modified MOS, organic polymers modified MOS, carbon‑ based materials (carbon nanotubes and graphene derivatives) modified MOS, and two‑dimensional transition metal dichalcogenides materials modified MOS. The effect ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "noble metal nanoparticles",
+        "predicate": "modifies",
+        "object": "metal oxide semiconductors",
+        "line": 39,
+        "evidence": "**ABSTRACT** With the rapid development of the Internet of Things, there is a great demand for portable gas sensors. Metal oxide semiconductors (MOS) are one of the most traditional and well‑studied gas sensing materials and have been widely used to prepare various commercial gas sensors. However, it is limited by high operat‑ ing temperature. The current research works are directed towards fabricating high‑ performance flexible room‑temperature (FRT) gas sensors, which are effective in simplifying the structure of MOS‑based sensors, reducing power consumption, and expanding the application of portable devices. This article presents the recent research progress of MOS‑based FRT gas sensors in terms of sensing mechanism, performance, flexibility characteristics, and applications. This review comprehensively summarizes and discusses five types of MOS‑based FRT gas sensors, including pristine MOS, noble metal nanoparticles modified MOS, organic polymers modified MOS, carbon‑ based materials (carbon nanotubes and graphene derivatives) modified MOS, and two‑dimensional transition metal dichalcogenides materials modified MOS. The effect ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "organic polymers",
+        "predicate": "modifies",
+        "object": "metal oxide semiconductors",
+        "line": 39,
+        "evidence": "**ABSTRACT** With the rapid development of the Internet of Things, there is a great demand for portable gas sensors. Metal oxide semiconductors (MOS) are one of the most traditional and well‑studied gas sensing materials and have been widely used to prepare various commercial gas sensors. However, it is limited by high operat‑ ing temperature. The current research works are directed towards fabricating high‑ performance flexible room‑temperature (FRT) gas sensors, which are effective in simplifying the structure of MOS‑based sensors, reducing power consumption, and expanding the application of portable devices. This article presents the recent research progress of MOS‑based FRT gas sensors in terms of sensing mechanism, performance, flexibility characteristics, and applications. This review comprehensively summarizes and discusses five types of MOS‑based FRT gas sensors, including pristine MOS, noble metal nanoparticles modified MOS, organic polymers modified MOS, carbon‑ based materials (carbon nanotubes and graphene derivatives) modified MOS, and two‑dimensional transition metal dichalcogenides materials modified MOS. The effect ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      }
+    ],
+    "v2_edges": 692
+  },
+  {
+    "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+    "kind": "research",
+    "source_path": "C:\\Users\\admin\\Desktop\\工作区\\06-横向项目\\知识库项目\\材料论文\\全部_285篇\\md\\043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta.md",
+    "source_sha256": "ef8180e576ac7b6701085557cfabf7e43feba7950f26e7ac22d2c0f198c02ed7",
+    "scope_lines": [
+      190,
+      194
+    ],
+    "terms": [
+      {
+        "canonical": "HfO2",
+        "category": "material",
+        "aliases": [],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "HfO2",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "ZrO2",
+        "category": "material",
+        "aliases": [],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "ZrO2",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "SiO2",
+        "category": "material",
+        "aliases": [],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "SiO2",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "HfO2-ZrO2 superlattice",
+        "category": "structure",
+        "aliases": [],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "HfO2-ZrO2 superlattices",
+            "types": [
+              "material",
+              "sample"
+            ]
+          },
+          {
+            "label": "HfO2-ZrO2",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "atomic layer deposition",
+        "category": "process",
+        "aliases": [
+          "ALD"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "ALD",
+            "types": [
+              "process"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "ferroelectric order",
+        "category": "structure",
+        "aliases": [
+          "FE",
+          "ferroelectric"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "mixed ferroelectric-antiferroelectric order",
+            "types": [
+              "property"
+            ]
+          },
+          {
+            "label": "ferroelectric orthorhombic phase",
+            "types": [
+              "structure"
+            ]
+          },
+          {
+            "label": "ferroelectric orthorhombic (Pca21)",
+            "types": [
+              "structure"
+            ]
+          },
+          {
+            "label": "antiferroelectric tetragonal (P42/nmc) fluorite structure",
+            "types": [
+              "structure"
+            ]
+          },
+          {
+            "label": "clear indexing to the ferroelectric orthorhombic (Pca21) and antiferroelectric tetragonal (P42/nmc) fluorite structure",
+            "types": [
+              "process"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "antiferroelectric order",
+        "category": "structure",
+        "aliases": [
+          "AFE",
+          "antiferroelectric"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "mixed ferroelectric-antiferroelectric order",
+            "types": [
+              "property"
+            ]
+          },
+          {
+            "label": "antiferroelectric tetragonal (P42/nmc) fluorite structure",
+            "types": [
+              "structure"
+            ]
+          },
+          {
+            "label": "clear indexing to the ferroelectric orthorhombic (Pca21) and antiferroelectric tetragonal (P42/nmc) fluorite structure",
+            "types": [
+              "process"
+            ]
+          },
+          {
+            "label": "antiferroelectric tetragonal phase",
+            "types": [
+              "structure"
+            ]
+          },
+          {
+            "label": "energy landscape for a mixed ferroelectric-antiferroelectric material",
+            "types": [
+              "property"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "effective oxide thickness",
+        "category": "property",
+        "aliases": [
+          "EOT"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "EOT",
+            "types": [
+              "property"
+            ]
+          }
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "subject": "HfO2",
+        "predicate": "used as",
+        "object": "high-k dielectric layer",
+        "line": 192,
+        "evidence": "67 In an advanced silicon transistor, the gate oxide is a combination of two distinct layers. The 68 first is an interfacial SiO2 formed with a self-limiting process, resulting in ∼ 8.0-8.5 Å thickness<sup>16</sup> . 69 The next is the high-κ (HK) dielectric HfO2 layer that is typically ∼ 2 nm in thickness. Higher ca70 pacitance of this series combination is desirable to suppress short channel effects. The capacitance 71 is conventionally represented by effective oxide thickness (EOT), EOT = tSiO2 + tHK/(ǫHK/ǫSiO2), 72 where lower EOT represents higher capacitance. Therefore, the EOT minimum value is limited 73 by the interfacial SiO2 thickness. Indeed, even integrating HfO2 as the high-κ layer, the EOT is 74 typically ∼ 9 Å. To go below this value<sup>17</sup> , the semiconductor industry has implemented sophisti75 cated scavenging techniques<sup>16,18</sup> to reduce the SiO2 thickness after the full gate stack is formed. 76 Although this technique is very effective in scaling EOT, the thinner SiO2 results in undesirable 77 leakage<sup>19</sup> and mobility degradation<sup>2,16,20,21</sup> . ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "doped-HfO2",
+        "predicate": "grown by",
+        "object": "atomic layer deposition",
+        "line": 190,
+        "evidence": "- 55 its<sup>1</sup> , new functional improvements to transistors<sup>4</sup> , as well as novel computing paradigms and verti56 cal device integration at the architecture-level<sup>5</sup> , are currently under intense study<sup>1,4,6</sup> . Gate oxides 57 play a critical role in this endeavor, as it’s a common performance booster for all devices, includ58 ing silicon<sup>2</sup> , new channel materials with potential for higher performance<sup>7,8</sup> , and even materials 59 suitable for three-dimensional integrated transistors<sup>9,10</sup> . Indeed, the gate oxide transition from 60 SiO2 to high-κ dielectric (DE) is considered a paradigm shift in computing technology. In this 61 context, ferroelectric oxides offer new functionalities<sup>11</sup> considered promising for energy-efficient 62 electronics<sup>4,9</sup> . The advent of atomic layer deposition (ALD) grown ferroelectric doped-HfO2<sup>12</sup> 63 has overcome much of the material compatibility issues that plague traditional perovskite-based 64 ferroelectric materials<sup>2</sup> . In addition, considering ferroic order persists down to a thickness of 1 nm 65 in this system<sup>13–15</sup> allows for integration of these oxides in the most aggressively-scaled devices in 66 which the state-of-the-art high-κ oxide thickness is less than 2 nm. ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "HfO2-ZrO2 superlattice gate stack",
+        "predicate": "exploits",
+        "object": "mixed ferroelectric-antiferroelectric order",
+        "line": 194,
+        "evidence": "78 In this work, we present an ultrathin HfO2-ZrO2 superlattice gate stack that exploits mixed 79 ferroelectric-antiferroelectric (FE-AFE) order (Fig. 1a,b). Our films demonstrate mixed ferroic 80 order down to 2 nm thickness – the same thickness of high-κ oxide used in advanced transis- ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      }
+    ],
+    "v2_edges": 319
+  },
+  {
+    "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+    "kind": "review",
+    "source_path": "C:\\Users\\admin\\Desktop\\工作区\\06-横向项目\\知识库项目\\材料论文\\全部_285篇\\md\\052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes.md",
+    "source_sha256": "616f963b6cb092985b6a00398ee6909ac7de3cdda990245228a2fee71dfb82d0",
+    "scope_lines": [
+      23,
+      31
+    ],
+    "terms": [
+      {
+        "canonical": "MXenes",
+        "category": "material_class",
+        "aliases": [
+          "MXene"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "MXenes",
+            "types": [
+              "material",
+              "material_class"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "transition metal carbides",
+        "category": "material_class",
+        "aliases": [
+          "carbides"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "carbides and/or nitrides of a transition metal",
+            "types": [
+              "material_class"
+            ]
+          },
+          {
+            "label": "carbides, carbonitrides, and nitrides",
+            "types": [
+              "material_class"
+            ]
+          },
+          {
+            "label": "multilayered and hexagonal geometric metal nitrides, carbides, or carbonitrides",
+            "types": [
+              "material_class"
+            ]
+          },
+          {
+            "label": "inorganic ternary carbides or nitrides",
+            "types": [
+              "material_class"
+            ]
+          },
+          {
+            "label": "more metallic properties than titanium carbides",
+            "types": [
+              "property"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "transition metal nitrides",
+        "category": "material_class",
+        "aliases": [
+          "nitrides"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "carbides and/or nitrides of a transition metal",
+            "types": [
+              "material_class"
+            ]
+          },
+          {
+            "label": "carbides, carbonitrides, and nitrides",
+            "types": [
+              "material_class"
+            ]
+          },
+          {
+            "label": "multilayered and hexagonal geometric metal nitrides, carbides, or carbonitrides",
+            "types": [
+              "material_class"
+            ]
+          },
+          {
+            "label": "inorganic ternary carbides or nitrides",
+            "types": [
+              "material_class"
+            ]
+          },
+          {
+            "label": "titanium nitrides",
+            "types": [
+              "material_class"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "graphene",
+        "category": "material",
+        "aliases": [],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "graphene",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "transition metal dichalcogenides",
+        "category": "material_class",
+        "aliases": [
+          "TMDCs"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "transition metal dichalcogenides (TMDCs)",
+            "types": [
+              "material_class"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "exfoliation",
+        "category": "process",
+        "aliases": [
+          "exfoliating"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "exfoliating the 3D bulk to 2D planer structures",
+            "types": [
+              "process"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "solid solutions",
+        "category": "structure",
+        "aliases": [
+          "solid solution"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "solid solution",
+            "types": [
+              "material_class",
+              "structure"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "Mo2TiC2Tx",
+        "category": "material",
+        "aliases": [],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "Mo2TiC2Tx",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "subject": "MXenes",
+        "predicate": "is a",
+        "object": "2D materials",
+        "line": 23,
+        "evidence": "Two-dimensional materials have gained immense attention for technological applications owing to their characteristic properties. MXene is one of the fast-growing family of 2D materials that exhibits remarkable physiochemical properties that cater numerous applications in the field of energy and storage. This review comprises the significant advancement in the field of 2D MXene and discusses the evolution of the design, synthetic strategies, and stability. In addition to illuminating the state-of-the-art applications, we discuss the challenges and limitations that preclude the scientific fraternity from realizing functional MXene with controlled structures and <mark>p</mark> ro <mark>p</mark> erties for renewable clean ener <mark>gy</mark> conversion and stora <mark>g</mark> e a <mark>pp</mark> lications. ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "transition metal dichalcogenides",
+        "predicate": "prepared by",
+        "object": "exfoliation",
+        "line": 29,
+        "evidence": "The research interest in 2D type materials originated with the graphene discovery<sup>1</sup> along with its rich physics has been the motivating factor to extend the research to vast planar materials like boron nitride<sup>2</sup> and transition metal dichalcogenides (TMDCs)<sup>3</sup> prepared by exfoliating the 3D bulk to 2D planer structures stacked with weak Van der Waals interactions. The 2D materials possess exceptional electronic, mechanical, and optical properties<sup>4–9</sup> , which, in the past decade, have eventually paved the way to its deep root research for diverse applications. These materials also demonstrate as essential basic building units for a wide range of material applications including a layer by layer structures, membranes, and mixed composites<sup>10</sup> . Although many 2D materials possessing a single element have been synthesized, some examples include graphene, silicene<sup>11</sup> , germanene<sup>12,13</sup> , and phosphorene<sup>14,15</sup> , where most of them contain two (such as dichalcogenides and oxides)<sup>16,17</sup> or more than two elements (such as clays)<sup>4</sup> . The addition to the family are the carbides and/or nitrides of a transition metal, termed as MXenes, which were discovered by Gogotsi et al. in 2011<sup>18</sup> . The intense scientific research in this field has directed towards the fast development of numerous synthesized compositions. Since then, an increasing number of about 30 MXene-based compositions are reported (noticeable with blue color in Fig. 1), and several others have been surveyed through computational means (noticeable with the gray color in Fig. 1)<sup>19</sup> . ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "Mo2TiC2Tx",
+        "predicate": "has structure",
+        "object": "ordered transition metal atomic sandwiches",
+        "line": 31,
+        "evidence": "The introduction of two transition metals into MXenes imparts distinctive features in the MXene structure. The double transition metals form solid solutions, for example (Ti, Nb)CTx (noticeable with green color in Fig. 1). In addition, the transition metals can also build a single flake of 2D MXene with ordered structures, both by building transition metals atomic sandwiches like Mo2TiC2Tx, or in-plane well-ordered structures like (Mo2/3Y1/3)2CTx. However, in 2014 the ordered MXenes were synthesized and updated in 2015<sup>20</sup> , and several MXene composites have been prepared recently (noticeable with red color in Fig. 1). Scientists have developed many ordered double transition metal MAX phases since 2017 and have rigorously exploited their characteristic ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      }
+    ],
+    "v2_edges": 366
+  },
+  {
+    "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+    "kind": "research",
+    "source_path": "C:\\Users\\admin\\Desktop\\工作区\\06-横向项目\\知识库项目\\材料论文\\全部_285篇\\md\\065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso.md",
+    "source_sha256": "4cf50ba225fa528ebfdbc0b01d3ad6fa5589fd73948ac58668db486da1e217cb",
+    "scope_lines": [
+      31,
+      31
+    ],
+    "terms": [
+      {
+        "canonical": "phosphonic acids",
+        "category": "material_class",
+        "aliases": [
+          "phosphonic"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "phosphonic or carboxylic acids",
+            "types": [
+              "material"
+            ]
+          },
+          {
+            "label": "carbazole-containing phosphonic acid",
+            "types": [
+              "material_class"
+            ]
+          },
+          {
+            "label": "2-aminoethylphosphonic acid",
+            "types": [
+              "material"
+            ]
+          },
+          {
+            "label": "phosphonic acid",
+            "types": [
+              "material_class"
+            ]
+          },
+          {
+            "label": "phosphonic acid SAM molecule",
+            "types": [
+              "material_class"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "carboxylic acids",
+        "category": "material_class",
+        "aliases": [
+          "carboxylic"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "phosphonic or carboxylic acids",
+            "types": [
+              "material"
+            ]
+          },
+          {
+            "label": "carboxylic acid",
+            "types": [
+              "material_class"
+            ]
+          },
+          {
+            "label": "carboxylic acid SAM molecule",
+            "types": [
+              "material_class"
+            ]
+          },
+          {
+            "label": "carbazole- and phenothiazine-based with a phosphonic or carboxylic acid headgroup",
+            "types": [
+              "material_class"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "indium tin oxide",
+        "category": "material",
+        "aliases": [
+          "ITO"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "ITO",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "self-assembled monolayer",
+        "category": "structure",
+        "aliases": [
+          "SAM"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "self-assembled monolayer",
+            "types": [
+              "structure"
+            ]
+          },
+          {
+            "label": "SAM",
+            "types": [
+              "material_class"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "hole-selective contact",
+        "category": "component",
+        "aliases": [],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "hole-selective contact",
+            "types": [
+              "interface"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "perovskite light absorber",
+        "category": "component",
+        "aliases": [],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "perovskite",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "one-step solution-coating",
+        "category": "process",
+        "aliases": [
+          "one-step solution-coating procedure"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "one-step solution-coating procedure",
+            "types": [
+              "process"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "wettability",
+        "category": "property",
+        "aliases": [],
+        "v2_status": "not_located_by_labels",
+        "v2_matches": []
+      }
+    ],
+    "relations": [
+      {
+        "subject": "phosphonic or carboxylic acids",
+        "predicate": "self-assemble on",
+        "object": "indium tin oxide substrate",
+        "line": 31,
+        "evidence": "Simplifying the manufacturing processes of renewable energy technologies is crucial to lowering the barriers to commercialization. In this context, to improve the manufacturability of perovskite solar cells (PSCs), we have developed a one-step solution-coating procedure in which the hole-selective contact and perovskite light absorber spontaneously form, resulting in efcient inverted PSCs. We observed that phosphonic or carboxylic acids, incorporated into perovskite precursor solutions, self-assemble on the indium tin oxide substrate during perovskite flm processing. They form a robust self-assembled monolayer as an excellent hole-selective contact while the perovskite crystallizes. Our approach solves wettability issues and simplifes device fabrication, advancing the manufact urability of PSCs. Our PSC devices with positive–intrinsic–negative geometry show a power conversion efciency of 24.5% and retain >90% of their initial efciency after 1,200 h of operating at the maximum power point under continuous illumination. The approach shows good generality as it is compatible with diferent self-assembled monolayer molecular systems, perovskites, solvents and processing methods. ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "self-assembled monolayer",
+        "predicate": "used as",
+        "object": "hole-selective contact",
+        "line": 31,
+        "evidence": "Simplifying the manufacturing processes of renewable energy technologies is crucial to lowering the barriers to commercialization. In this context, to improve the manufacturability of perovskite solar cells (PSCs), we have developed a one-step solution-coating procedure in which the hole-selective contact and perovskite light absorber spontaneously form, resulting in efcient inverted PSCs. We observed that phosphonic or carboxylic acids, incorporated into perovskite precursor solutions, self-assemble on the indium tin oxide substrate during perovskite flm processing. They form a robust self-assembled monolayer as an excellent hole-selective contact while the perovskite crystallizes. Our approach solves wettability issues and simplifes device fabrication, advancing the manufact urability of PSCs. Our PSC devices with positive–intrinsic–negative geometry show a power conversion efciency of 24.5% and retain >90% of their initial efciency after 1,200 h of operating at the maximum power point under continuous illumination. The approach shows good generality as it is compatible with diferent self-assembled monolayer molecular systems, perovskites, solvents and processing methods. ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "one-step solution-coating",
+        "predicate": "forms",
+        "object": "perovskite light absorber",
+        "line": 31,
+        "evidence": "Simplifying the manufacturing processes of renewable energy technologies is crucial to lowering the barriers to commercialization. In this context, to improve the manufacturability of perovskite solar cells (PSCs), we have developed a one-step solution-coating procedure in which the hole-selective contact and perovskite light absorber spontaneously form, resulting in efcient inverted PSCs. We observed that phosphonic or carboxylic acids, incorporated into perovskite precursor solutions, self-assemble on the indium tin oxide substrate during perovskite flm processing. They form a robust self-assembled monolayer as an excellent hole-selective contact while the perovskite crystallizes. Our approach solves wettability issues and simplifes device fabrication, advancing the manufact urability of PSCs. Our PSC devices with positive–intrinsic–negative geometry show a power conversion efciency of 24.5% and retain >90% of their initial efciency after 1,200 h of operating at the maximum power point under continuous illumination. The approach shows good generality as it is compatible with diferent self-assembled monolayer molecular systems, perovskites, solvents and processing methods. ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      }
+    ],
+    "v2_edges": 378
+  },
+  {
+    "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+    "kind": "research",
+    "source_path": "C:\\Users\\admin\\Desktop\\工作区\\06-横向项目\\知识库项目\\材料论文\\全部_285篇\\md\\095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from.md",
+    "source_sha256": "02909163eedaa08132084a095b3b7193583ddc92a68795344194d1709a0f1ae6",
+    "scope_lines": [
+      62,
+      72
+    ],
+    "terms": [
+      {
+        "canonical": "Sb2O3",
+        "category": "material",
+        "aliases": [],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "Sb2O3",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "Sb4O6",
+        "category": "material",
+        "aliases": [],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "Sb4O6 molecules",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "MoS2",
+        "category": "material",
+        "aliases": [],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "MoS2",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "inorganic molecular crystal",
+        "category": "material_class",
+        "aliases": [
+          "IMC",
+          "IMCs"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "inorganic molecular crystal",
+            "types": [
+              "material_class"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "van der Waals dielectrics",
+        "category": "material_class",
+        "aliases": [
+          "vdW dielectrics",
+          "vdW dielectric"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "vdW dielectric",
+            "types": [
+              "material",
+              "material_class"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "standard thermal evaporation deposition",
+        "category": "process",
+        "aliases": [
+          "STED",
+          "standard thermal evaporation"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "standard thermal evaporation deposition (STED)",
+            "types": [
+              "process"
+            ]
+          },
+          {
+            "label": "thermal evaporation deposition",
+            "types": [
+              "process"
+            ]
+          },
+          {
+            "label": "thermal evaporation",
+            "types": [
+              "process"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "electron mobility",
+        "category": "property",
+        "aliases": [],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "electron mobility",
+            "types": [
+              "property"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "transfer-curve hysteresis",
+        "category": "property",
+        "aliases": [
+          "hysteresis"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "considerable hysteresis",
+            "types": [
+              "property"
+            ]
+          },
+          {
+            "label": "MoS2/SiO2 FET hysteresis",
+            "types": [
+              "property"
+            ]
+          },
+          {
+            "label": "negligibly small hysteresis",
+            "types": [
+              "property"
+            ]
+          },
+          {
+            "label": "slight increase of hysteresis",
+            "types": [
+              "property"
+            ]
+          },
+          {
+            "label": "hysteresis of MoS2/Sb2O3 FET",
+            "types": [
+              "property"
+            ]
+          }
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Sb2O3 dielectric film",
+        "predicate": "fabricated via",
+        "object": "standard thermal evaporation deposition",
+        "line": 66,
+        "evidence": "Here we report a vdW dielectric �lm of inorganic molecular crystal (IMC) Sb2O3, which can be readily fabricated via standard thermal evaporation deposition (STED) process thanks to its particular crystal structure. The molecular structure is well preserved during the evaporation owing to the high molecular stability, which is con�rmed by our theoretical calculations. The deposited �lm, free of dangling bonds, ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "Sb2O3 powder",
+        "predicate": "consists of",
+        "object": "Sb4O6 molecules",
+        "line": 72,
+        "evidence": "Our vdW dielectric �lm is fabricated via STED (Fig. 1a) at room temperature. We use IMC Sb2O3 powder as the evaporation source. It consists of ultra-small Sb4O6 molecules in the form of bicyclic cages (Sb-O bond length 1.98 Å)<sup>[20–22]</sup> . All the molecules are bonded together via vdW interaction (Fig. 1b). Due to such a weak intermolecular interaction, Sb2O3 molecules are prone to sublime at elevated temperature in high vacuum before its melting, without the breakage of the Sb-O bonds. Its evaporation temperature is measured to be around (490℃) via thermogravimetric analysis at ambient pressure (Figure S1), much lower than its melting point (656℃), which implies the sublimation process of molecules at elevated temperature (The evaporation temperature in our vacuum chamber is supposed to be much lower according to Clausius-Clapeyron relation). The molecular vapor evaporated from Sb2O3 powder, free of dangling bonds all around, deposit on the substrate to form a vdW substrate (Fig. 1a). Our STED process permits the fabrication of homogeneous wafer-scale �lm (Fig. 1c and Figure S2) and the �lm thickness can be precisely controlled (Fig. 1d and Figure S2). Atomic force microscopy (AFM) is used to characterize the morphology of our �lm. It reveals its great homogeneity and �atness of our deposited �lm in micro-metric scale, without discernible voids or bumps (Fig. 1e and f). The homogeneity of morphology and elemental distribution are also con�rmed by scanning electron microscope (SEM) and elemental maps of energy-dispersive X-ray spectroscopy (EDS) (Figure S3). ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "Sb4O6 molecules",
+        "predicate": "bonded via",
+        "object": "van der Waals interaction",
+        "line": 72,
+        "evidence": "Our vdW dielectric �lm is fabricated via STED (Fig. 1a) at room temperature. We use IMC Sb2O3 powder as the evaporation source. It consists of ultra-small Sb4O6 molecules in the form of bicyclic cages (Sb-O bond length 1.98 Å)<sup>[20–22]</sup> . All the molecules are bonded together via vdW interaction (Fig. 1b). Due to such a weak intermolecular interaction, Sb2O3 molecules are prone to sublime at elevated temperature in high vacuum before its melting, without the breakage of the Sb-O bonds. Its evaporation temperature is measured to be around (490℃) via thermogravimetric analysis at ambient pressure (Figure S1), much lower than its melting point (656℃), which implies the sublimation process of molecules at elevated temperature (The evaporation temperature in our vacuum chamber is supposed to be much lower according to Clausius-Clapeyron relation). The molecular vapor evaporated from Sb2O3 powder, free of dangling bonds all around, deposit on the substrate to form a vdW substrate (Fig. 1a). Our STED process permits the fabrication of homogeneous wafer-scale �lm (Fig. 1c and Figure S2) and the �lm thickness can be precisely controlled (Fig. 1d and Figure S2). Atomic force microscopy (AFM) is used to characterize the morphology of our �lm. It reveals its great homogeneity and �atness of our deposited �lm in micro-metric scale, without discernible voids or bumps (Fig. 1e and f). The homogeneity of morphology and elemental distribution are also con�rmed by scanning electron microscope (SEM) and elemental maps of energy-dispersive X-ray spectroscopy (EDS) (Figure S3). ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      }
+    ],
+    "v2_edges": 130
+  },
+  {
+    "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+    "kind": "review",
+    "source_path": "C:\\Users\\admin\\Desktop\\工作区\\06-横向项目\\知识库项目\\材料论文\\全部_285篇\\md\\153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic.md",
+    "source_sha256": "c947ac340450aeebb8c4a5186404400aeee5ff2659bdb6fb8625b7ebc2e5a249",
+    "scope_lines": [
+      40,
+      64
+    ],
+    "terms": [
+      {
+        "canonical": "wide-bandgap perovskites",
+        "category": "material_class",
+        "aliases": [
+          "WBG perovskites"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "WBG perovskites",
+            "types": [
+              "material",
+              "material_class"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "tandem solar cells",
+        "category": "device",
+        "aliases": [
+          "TSCs"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "TSCs",
+            "types": [
+              "device"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "front absorber",
+        "category": "component",
+        "aliases": [],
+        "v2_status": "not_located_by_labels",
+        "v2_matches": []
+      },
+      {
+        "canonical": "photo-induced phase separation",
+        "category": "mechanism",
+        "aliases": [],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "severe photo-induced phase separation",
+            "types": [
+              "property"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "open-circuit voltage deficit",
+        "category": "property",
+        "aliases": [
+          "VOC deficit",
+          "V OC deficit"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "VOC deficit",
+            "types": [
+              "property"
+            ]
+          },
+          {
+            "label": "V_OC deficit",
+            "types": [
+              "property"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "thermalization losses",
+        "category": "mechanism",
+        "aliases": [
+          "thermalization loss"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "thermalization loss",
+            "types": [
+              "mechanism"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "charge transport layers",
+        "category": "component",
+        "aliases": [],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "instability of charge transport layers (CTLs)",
+            "types": [
+              "mechanism"
+            ]
+          },
+          {
+            "label": "charge transport",
+            "types": [
+              "property"
+            ]
+          },
+          {
+            "label": "charge transport layers and buffer layers",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "bandgap complementarity",
+        "category": "mechanism",
+        "aliases": [],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "bandgap",
+            "types": [
+              "property"
+            ]
+          }
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "subject": "wide-bandgap perovskites",
+        "predicate": "acts as",
+        "object": "front absorber",
+        "line": 40,
+        "evidence": "**ABSTRACT** Perovskite-based tandem solar cells have attracted increasing interest because of its great potential to surpass the Shockley–Queisser limit set for single-junction solar cells. In the tandem architectures, the wide-bandgap (WBG) perovskites act as the front absorber to offer higher open-circuit voltage ( _V_ OC) for reduced thermalization losses. Taking advantage of tunable bandgap of the perovskite materials, the WBG perovskites can be easily obtained by substituting halide iodine with bromine, and substituting organic ions FA and MA with Cs. To date, the most concerned issues for the WBG perovskite solar cells (PSCs) are huge _V_ OC deficit and severe photo-induced phase separation. Reducing _V_ OC loss and improving photostability of the WBG PSCs are crucial for further efficiency breakthrough. Recently, scientists have made great efforts to overcome these key issues with tremendous progresses. In this review, we first summarize the recent progress of WBG perovskites from the aspects of compositions, additives, charge transport layers, interfaces and preparation methods. The key factors affecting efficiency and stability are then carefully discussed, which would provide decent guidance to develop highly efficient and stable WBG PSCs for tandem application. ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "front cell with WBG absorber",
+        "predicate": "reduces",
+        "object": "thermalization loss",
+        "line": 62,
+        "evidence": "In addition to fascinating optoelectronic properties like high light-absorption coefficient, bipolar carrier transport, high carrier mobility and low exciton binding energy, the tunable bandgap and solution processibility make perovskite materials desirable candidates for the preparation of TSCs [18–21]. Taking silicon solar cells as example, its efficiency improvement is significantly restricted by the thermalization loss [22]. That is, the photons at short wavelength possess extremely higher energy than the bandgap of Si absorber, leading to the excess energy loss via thermal relaxation of hot carriers as the excited electrons falling back to the band edge (Fig. 1a). In order to simultaneously absorb more photons and reduce thermalization loss (Fig. 1b), it is feasible to construct multi-junction solar cells via bandgap complementarity strategy. In a multi-junction solar cell, the front cell with WBG absorber captures high-energy photons to reduce the thermalization loss and deliver high open-circuit voltage ( _V_ OC), while the rear cell with NBG ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "wide-bandgap perovskite solar cells",
+        "predicate": "has issue",
+        "object": "photo-induced phase separation",
+        "line": 40,
+        "evidence": "**ABSTRACT** Perovskite-based tandem solar cells have attracted increasing interest because of its great potential to surpass the Shockley–Queisser limit set for single-junction solar cells. In the tandem architectures, the wide-bandgap (WBG) perovskites act as the front absorber to offer higher open-circuit voltage ( _V_ OC) for reduced thermalization losses. Taking advantage of tunable bandgap of the perovskite materials, the WBG perovskites can be easily obtained by substituting halide iodine with bromine, and substituting organic ions FA and MA with Cs. To date, the most concerned issues for the WBG perovskite solar cells (PSCs) are huge _V_ OC deficit and severe photo-induced phase separation. Reducing _V_ OC loss and improving photostability of the WBG PSCs are crucial for further efficiency breakthrough. Recently, scientists have made great efforts to overcome these key issues with tremendous progresses. In this review, we first summarize the recent progress of WBG perovskites from the aspects of compositions, additives, charge transport layers, interfaces and preparation methods. The key factors affecting efficiency and stability are then carefully discussed, which would provide decent guidance to develop highly efficient and stable WBG PSCs for tandem application. ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      }
+    ],
+    "v2_edges": 706
+  },
+  {
+    "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+    "kind": "research",
+    "source_path": "C:\\Users\\admin\\Desktop\\工作区\\06-横向项目\\知识库项目\\材料论文\\全部_285篇\\md\\201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per.md",
+    "source_sha256": "f0a439485401659510b689120d3ccadaf74734a7f09268ad88f3f7edd50d2878",
+    "scope_lines": [
+      21,
+      31
+    ],
+    "terms": [
+      {
+        "canonical": "alpha-FAPbI3",
+        "category": "material",
+        "aliases": [
+          "α-FAPbI3",
+          "α-phase of formamidinium lead triiodide"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "α-FAPbI3",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "delta-FAPbI3",
+        "category": "material",
+        "aliases": [
+          "δ-phase"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "δ-FAPbI3",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "formamidinium lead triiodide",
+        "category": "material",
+        "aliases": [
+          "FAPbI3"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "FAPbI3",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "formate",
+        "category": "material",
+        "aliases": [
+          "HCOO−",
+          "HCOO-"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "HCOO−",
+            "types": [
+              "material"
+            ]
+          },
+          {
+            "label": "formate",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "anion-vacancy defects",
+        "category": "defect",
+        "aliases": [
+          "anion vacancy"
+        ],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "anion-vacancy defects",
+            "types": [
+              "defect"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "grain boundaries",
+        "category": "structure",
+        "aliases": [
+          "grain boundary"
+        ],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "defects near the grain boundaries",
+            "types": [
+              "defect"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "anion engineering",
+        "category": "process",
+        "aliases": [],
+        "v2_status": "not_located_by_labels",
+        "v2_matches": []
+      },
+      {
+        "canonical": "crystallinity",
+        "category": "property",
+        "aliases": [],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "crystallinity",
+            "types": [
+              "property"
+            ]
+          }
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "subject": "formate",
+        "predicate": "suppresses",
+        "object": "anion-vacancy defects",
+        "line": 21,
+        "evidence": "|Check for updates|Metal halide perovskites of the general formula ABX3—where A is a monovalent cation<br>such as caesium, methylammonium or formamidinium; B is divalent lead, tin or<br>germanium; and X is a halide anion—have shown great potential as light harvesters for<br>thin-film photovoltaics<sup>1–5</sup>. Among a large number of compositions investigated, the<br>cubic α-phase of formamidinium lead triiodide (FAPbI3) has emerged as the most<br>promising semiconductor for highly efficient and stable perovskite solar cells<sup>6–9</sup>, and<br>maximizing the performance of this material in such devices is of vital importance for the<br>perovskite research community. Here we introduce an anion engineering concept that<br>uses the pseudo-halide anion formate (HCOO<sup>−</sup>) to suppress anion-vacancy defects that<br>are present at grain boundaries and at the surface of the perovskite films and to augment<br>the crystallinity of the films. The resulting solar cell devices attain a power conversion<br>efficiency of 25.6 per cent (certified 25.2 per cent), have long-term operational stability<br>(450 hours) and show intense electroluminescence with external quantum efficiencies of<br>more than 10 per cent. Our findings provide a direct route to eliminate the most<br>abundant and deleterious lattice defects present in metal halide perovskites, providing a<br>facile access to solution-processable films with improved optoelectronic performance.|",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "formate",
+        "predicate": "improves",
+        "object": "crystallinity",
+        "line": 21,
+        "evidence": "|Check for updates|Metal halide perovskites of the general formula ABX3—where A is a monovalent cation<br>such as caesium, methylammonium or formamidinium; B is divalent lead, tin or<br>germanium; and X is a halide anion—have shown great potential as light harvesters for<br>thin-film photovoltaics<sup>1–5</sup>. Among a large number of compositions investigated, the<br>cubic α-phase of formamidinium lead triiodide (FAPbI3) has emerged as the most<br>promising semiconductor for highly efficient and stable perovskite solar cells<sup>6–9</sup>, and<br>maximizing the performance of this material in such devices is of vital importance for the<br>perovskite research community. Here we introduce an anion engineering concept that<br>uses the pseudo-halide anion formate (HCOO<sup>−</sup>) to suppress anion-vacancy defects that<br>are present at grain boundaries and at the surface of the perovskite films and to augment<br>the crystallinity of the films. The resulting solar cell devices attain a power conversion<br>efficiency of 25.6 per cent (certified 25.2 per cent), have long-term operational stability<br>(450 hours) and show intense electroluminescence with external quantum efficiencies of<br>more than 10 per cent. Our findings provide a direct route to eliminate the most<br>abundant and deleterious lattice defects present in metal halide perovskites, providing a<br>facile access to solution-processable films with improved optoelectronic performance.|",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "FAPbI3 films",
+        "predicate": "undergo phase transition",
+        "object": "black alpha-phase to yellow delta-phase below 150 C",
+        "line": 29,
+        "evidence": "Unfortunately, thin FAPbI3 films undergo a phase transition from the black α-phase to a photoinactive yellow δ-phase below a temperature of 150 °C. Previous approaches to overcome this problem have included mixing FAPbI3 with a combination of methylammonium (MA<sup>+</sup> ), caesium (Cs<sup>+</sup> ) and bromide (Br<sup>−</sup> ) ions; however, this comes at the cost of blue-shifted absorbance and phase segregation under operational conditions<sup>7–9,16</sup> . ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      }
+    ],
+    "v2_edges": 254
+  },
+  {
+    "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+    "kind": "research",
+    "source_path": "C:\\Users\\admin\\Desktop\\工作区\\06-横向项目\\知识库项目\\材料论文\\全部_285篇\\md\\250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr.md",
+    "source_sha256": "0a483d229bb879d7d8a98bc796bdd5d23557a9eee67afeb2a30f04e45dd3360e",
+    "scope_lines": [
+      26,
+      42
+    ],
+    "terms": [
+      {
+        "canonical": "AgBiS2",
+        "category": "material",
+        "aliases": [],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "AgBiS2",
+            "types": [
+              "material"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "colloidal nanocrystals",
+        "category": "material_class",
+        "aliases": [
+          "NCs"
+        ],
+        "v2_status": "not_located_by_labels",
+        "v2_matches": []
+      },
+      {
+        "canonical": "cation disorder",
+        "category": "structure",
+        "aliases": [],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "homogeneous cation disorder",
+            "types": [
+              "property"
+            ]
+          },
+          {
+            "label": "cation disorder homogenization under mild annealing conditions",
+            "types": [
+              "process"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "cation segregation",
+        "category": "structure",
+        "aliases": [],
+        "v2_status": "label_match",
+        "v2_matches": [
+          {
+            "label": "cation segregation",
+            "types": [
+              "property"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "optical transition matrix elements",
+        "category": "property",
+        "aliases": [],
+        "v2_status": "not_located_by_labels",
+        "v2_matches": []
+      },
+      {
+        "canonical": "absorption coefficient",
+        "category": "property",
+        "aliases": [],
+        "v2_status": "candidate_only",
+        "v2_matches": [
+          {
+            "label": "absorption coefficient enhanced by up to a factor of two after annealing",
+            "types": [
+              "property"
+            ]
+          },
+          {
+            "label": "absorption coefficient 5–10 times greater than any other material currently used in photovoltaic technology",
+            "types": [
+              "property"
+            ]
+          },
+          {
+            "label": "absorption coefficients of ternary AgBiS2 NCs",
+            "types": [
+              "property"
+            ]
+          }
+        ]
+      },
+      {
+        "canonical": "valence band maximum",
+        "category": "property",
+        "aliases": [
+          "VBM"
+        ],
+        "v2_status": "not_located_by_labels",
+        "v2_matches": []
+      },
+      {
+        "canonical": "conduction band minimum",
+        "category": "property",
+        "aliases": [
+          "CBM"
+        ],
+        "v2_status": "not_located_by_labels",
+        "v2_matches": []
+      }
+    ],
+    "relations": [
+      {
+        "subject": "cation disorder engineering",
+        "predicate": "enhances",
+        "object": "optical transition matrix elements",
+        "line": 26,
+        "evidence": "**Strong optical absorption by a semiconductor is a highly desirable property for many optoelectronic and photovoltaic applications. The optimal thickness of a semiconductor absorber is primarily determined by its absorption coefficient. To date, this parameter has been considered as a fundamental material property, and efforts to realize thinner photovoltaics have relied on light-trapping structures that add complexity and cost. Here we demonstrate that engineering cation disorder in a ternary chalcogenide semiconductor leads to considerable absorption increase due to enhancement of the optical transition matrix elements. We show that cation-disorder-engineered AgBiS2 colloidal nanocrystals offer an absorption coefficient that is higher than other photovoltaic materials, enabling highly efficient extremely thin absorber photovoltaic devices. We report solution-processed, environmentally friendly, 30-nm-thick solar cells with short-circuit current density of 27 mA cm**<sup>**−2**</sup> **, a power conversion efficiency of 9.17% (8.85% certified) and high stability under ambient conditions.** ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "cation-disorder-engineered AgBiS2 colloidal nanocrystals",
+        "predicate": "enables",
+        "object": "extremely thin absorber photovoltaic devices",
+        "line": 26,
+        "evidence": "**Strong optical absorption by a semiconductor is a highly desirable property for many optoelectronic and photovoltaic applications. The optimal thickness of a semiconductor absorber is primarily determined by its absorption coefficient. To date, this parameter has been considered as a fundamental material property, and efforts to realize thinner photovoltaics have relied on light-trapping structures that add complexity and cost. Here we demonstrate that engineering cation disorder in a ternary chalcogenide semiconductor leads to considerable absorption increase due to enhancement of the optical transition matrix elements. We show that cation-disorder-engineered AgBiS2 colloidal nanocrystals offer an absorption coefficient that is higher than other photovoltaic materials, enabling highly efficient extremely thin absorber photovoltaic devices. We report solution-processed, environmentally friendly, 30-nm-thick solar cells with short-circuit current density of 27 mA cm**<sup>**−2**</sup> **, a power conversion efficiency of 9.17% (8.85% certified) and high stability under ambient conditions.** ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      },
+      {
+        "subject": "AgBiS2 valence band maximum",
+        "predicate": "derives from",
+        "object": "Ag d and S p states",
+        "line": 42,
+        "evidence": "An illustration of inhomogeneous cation disorder within AgBiS2 NCs is shown in Fig. 1a. The valence band maximum (VBM) of AgBiS2 primarily derives from Ag _d_ and S _p_ states, whereas the conduction band minimum (CBM) arises from Bi _p_ and S _p_ interactions<sup>19,20</sup> (Fig. 1b and Supplementary Fig. 1). A clear spatial separation of the Ag-derived VBM and Bi-derived CBM for the cation-segregated configuration can be observed in the local electronic density of states (Fig. 1c). In contrast, under homogeneous ",
+        "verdict": "source_supported",
+        "qualifier": "paper-local claim; preserve source wording and context"
+      }
+    ],
+    "v2_edges": 247
+  }
+]

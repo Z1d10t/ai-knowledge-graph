@@ -1,0 +1,1468 @@
+{
+ "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+ "prompt_version": "v3",
+ "model": "deepseek-flash",
+ "created": "2026-11-25 14:33:10",
+ "source_sha256": "39079db743cf38eb09e25d822c523b0fa8a8c8fa35455d0d7df1072724c55d96",
+ "scope_lines": [
+  35,
+  39
+ ],
+ "passages": [
+  {
+   "lines": [
+    34,
+    40
+   ],
+   "chars": 1528,
+   "relations": 9,
+   "terms": 14
+  },
+  {
+   "lines": [
+    415,
+    417
+   ],
+   "chars": 977,
+   "relations": 10,
+   "terms": 13
+  },
+  {
+   "lines": [
+    435,
+    439
+   ],
+   "chars": 2949,
+   "relations": 25,
+   "terms": 41
+  },
+  {
+   "lines": [
+    1182,
+    1184
+   ],
+   "chars": 310,
+   "relations": 2,
+   "terms": 3
+  },
+  {
+   "lines": [
+    1212,
+    1214
+   ],
+   "chars": 279,
+   "relations": 2,
+   "terms": 4
+  },
+  {
+   "lines": [
+    1216,
+    1218
+   ],
+   "chars": 278,
+   "relations": 3,
+   "terms": 4
+  }
+ ],
+ "terms": [
+  {
+   "name": "metal oxide semiconductor",
+   "type": "material_class",
+   "aliases": [
+    "MOS"
+   ],
+   "evidence": "Metal oxide semiconductors (MOS)"
+  },
+  {
+   "name": "flexible room-temperature gas sensor",
+   "type": "device",
+   "aliases": [
+    "FRT gas sensor"
+   ],
+   "evidence": "flexible room‑temperature (FRT) gas sensors"
+  },
+  {
+   "name": "gas sensor",
+   "type": "device",
+   "aliases": [],
+   "evidence": "portable gas sensors"
+  },
+  {
+   "name": "noble metal nanoparticle",
+   "type": "material",
+   "aliases": [],
+   "evidence": "noble metal nanoparticles"
+  },
+  {
+   "name": "organic polymer",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "organic polymers"
+  },
+  {
+   "name": "carbon nanotube",
+   "type": "material",
+   "aliases": [],
+   "evidence": "carbon nanotubes"
+  },
+  {
+   "name": "graphene derivative",
+   "type": "material",
+   "aliases": [],
+   "evidence": "graphene derivatives"
+  },
+  {
+   "name": "transition metal dichalcogenide",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "transition metal dichalcogenide materials"
+  },
+  {
+   "name": "two-dimensional transition metal dichalcogenide",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "two‑dimensional transition metal dichalcogenides materials"
+  },
+  {
+   "name": "gas sensing mechanism",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "The gas sensing mechanism of MOS chemiresistive gas sensors"
+  },
+  {
+   "name": "chemiresistive gas sensor",
+   "type": "device",
+   "aliases": [],
+   "evidence": "MOS chemiresistive gas sensors"
+  },
+  {
+   "name": "operating temperature",
+   "type": "property",
+   "aliases": [],
+   "evidence": "limited by high operat‑ ing temperature"
+  },
+  {
+   "name": "power consumption",
+   "type": "property",
+   "aliases": [],
+   "evidence": "reducing power consumption"
+  },
+  {
+   "name": "flexibility",
+   "type": "property",
+   "aliases": [],
+   "evidence": "flexibility characteristics"
+  },
+  {
+   "name": "carbon nanotube",
+   "type": "material",
+   "aliases": [
+    "CNT"
+   ],
+   "evidence": "1D carbon nanotubes (CNTs)"
+  },
+  {
+   "name": "graphene",
+   "type": "material",
+   "aliases": [],
+   "evidence": "2D graphene deriva‑ tives"
+  },
+  {
+   "name": "metal oxide semiconductor",
+   "type": "material_class",
+   "aliases": [
+    "MOS"
+   ],
+   "evidence": "hybridization of carbon‑based materials with MOS"
+  },
+  {
+   "name": "carbon-based material",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "carbon‑based materi‑ als"
+  },
+  {
+   "name": "carbon-based material/MOS heterostructure",
+   "type": "interface",
+   "aliases": [],
+   "evidence": "the carbon‑based material/MOS het‑ erostructure"
+  },
+  {
+   "name": "gas sensor",
+   "type": "device",
+   "aliases": [],
+   "evidence": "high‑performance gas sensors"
+  },
+  {
+   "name": "sensitivity",
+   "type": "property",
+   "aliases": [],
+   "evidence": "high sensitivity"
+  },
+  {
+   "name": "surface-to-volume ratio",
+   "type": "property",
+   "aliases": [],
+   "evidence": "large surface‑to‑volume ratio"
+  },
+  {
+   "name": "adsorption site",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "abun‑ dant adsorption sites"
+  },
+  {
+   "name": "van der Waals force",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "weak van der Waals forces"
+  },
+  {
+   "name": "adsorption",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "target gas molecules are adsorbed on the carbon‑based materi‑ als"
+  },
+  {
+   "name": "hybridization",
+   "type": "process",
+   "aliases": [],
+   "evidence": "hybridization of carbon‑based materials with MOS"
+  },
+  {
+   "name": "morphology",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "the unique morphology of the composites"
+  },
+  {
+   "name": "carbon nanotube",
+   "type": "material",
+   "aliases": [
+    "CNT"
+   ],
+   "evidence": "CNTs is a widely used carbon‑based material"
+  },
+  {
+   "name": "single-walled carbon nanotube",
+   "type": "material",
+   "aliases": [
+    "SWCNT"
+   ],
+   "evidence": "Single‑walled carbon nanotubes (SWCNTs)"
+  },
+  {
+   "name": "multi-walled carbon nanotube",
+   "type": "material",
+   "aliases": [
+    "MWCNT"
+   ],
+   "evidence": "multi‑walled carbon nanotubes (MWCNTs)"
+  },
+  {
+   "name": "metal oxide semiconductor",
+   "type": "material_class",
+   "aliases": [
+    "MOS"
+   ],
+   "evidence": "CNTs/MOS sensors"
+  },
+  {
+   "name": "CuO-SWCNT",
+   "type": "material",
+   "aliases": [],
+   "evidence": "flower‑shaped CuO‑SWCNTs"
+  },
+  {
+   "name": "Fe2O3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "twig‑like Fe2O3 nanoparticles"
+  },
+  {
+   "name": "Fe2O3-SWCNT",
+   "type": "material",
+   "aliases": [],
+   "evidence": "The as‑grown Fe2O3‑SWCNTs"
+  },
+  {
+   "name": "ZnO quantum dot",
+   "type": "material",
+   "aliases": [],
+   "evidence": "ZnO quantum dot modified SWCNTs"
+  },
+  {
+   "name": "SWCNT@ZnO",
+   "type": "material",
+   "aliases": [],
+   "evidence": "SWCNTs@ZnO exhibited a significant response to ethanol"
+  },
+  {
+   "name": "nylon fiber",
+   "type": "material",
+   "aliases": [],
+   "evidence": "flexible nylon fiber gas sensors"
+  },
+  {
+   "name": "PP plastic substrate",
+   "type": "material",
+   "aliases": [],
+   "evidence": "transferred onto PP plastic substrates"
+  },
+  {
+   "name": "ferrocene",
+   "type": "material",
+   "aliases": [],
+   "evidence": "with ferrocene as the catalyst"
+  },
+  {
+   "name": "H2S",
+   "type": "material",
+   "aliases": [],
+   "evidence": "selectively detected H2S"
+  },
+  {
+   "name": "NO2",
+   "type": "material",
+   "aliases": [],
+   "evidence": "enhanced response towards NO2"
+  },
+  {
+   "name": "NH3",
+   "type": "material",
+   "aliases": [],
+   "evidence": "selectively detected NH3"
+  },
+  {
+   "name": "HCHO",
+   "type": "material",
+   "aliases": [],
+   "evidence": "selectively detected NH3, HCHO"
+  },
+  {
+   "name": "C2H5OH",
+   "type": "material",
+   "aliases": [],
+   "evidence": "selectively detected NH3, HCHO and C2H5OH"
+  },
+  {
+   "name": "ethanol",
+   "type": "material",
+   "aliases": [],
+   "evidence": "exhibited a significant response to ethanol"
+  },
+  {
+   "name": "gas sensor",
+   "type": "device",
+   "aliases": [],
+   "evidence": "flexible gas sensors"
+  },
+  {
+   "name": "RFID sensor",
+   "type": "device",
+   "aliases": [],
+   "evidence": "the obtained wireless RFID sensors"
+  },
+  {
+   "name": "face mask",
+   "type": "device",
+   "aliases": [],
+   "evidence": "integrated into face masks"
+  },
+  {
+   "name": "hydrothermal method",
+   "type": "process",
+   "aliases": [],
+   "evidence": "through a hydrothermal method"
+  },
+  {
+   "name": "drop-casting",
+   "type": "process",
+   "aliases": [],
+   "evidence": "drop‑casted on the RFID"
+  },
+  {
+   "name": "floating catalytic chemical vapor deposition",
+   "type": "process",
+   "aliases": [],
+   "evidence": "floating catalytic chemical vapor deposi‑ tion"
+  },
+  {
+   "name": "annealing",
+   "type": "process",
+   "aliases": [],
+   "evidence": "obtained by a simple annealing process"
+  },
+  {
+   "name": "washing treatment",
+   "type": "process",
+   "aliases": [],
+   "evidence": "Robustness test towards washing treatment"
+  },
+  {
+   "name": "electron transport",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "accelerates electron trans‑ port"
+  },
+  {
+   "name": "electron-hole recombination",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "promotes the electron–hole recombination"
+  },
+  {
+   "name": "gating effect",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "reduction of the gating effect at the hybrid interface"
+  },
+  {
+   "name": "specific surface area",
+   "type": "property",
+   "aliases": [],
+   "evidence": "high specific surface area"
+  },
+  {
+   "name": "electrical conductivity",
+   "type": "property",
+   "aliases": [],
+   "evidence": "fabulous electri‑ cal conductivity"
+  },
+  {
+   "name": "flexibility",
+   "type": "property",
+   "aliases": [],
+   "evidence": "great flexibility characteristics"
+  },
+  {
+   "name": "response value",
+   "type": "property",
+   "aliases": [],
+   "evidence": "improving the response value"
+  },
+  {
+   "name": "response rate",
+   "type": "property",
+   "aliases": [],
+   "evidence": "improving the response value and response rate"
+  },
+  {
+   "name": "detection limit",
+   "type": "property",
+   "aliases": [
+    "LOD"
+   ],
+   "evidence": "low detection limits"
+  },
+  {
+   "name": "response time",
+   "type": "property",
+   "aliases": [],
+   "evidence": "7 s response time"
+  },
+  {
+   "name": "mechanical robustness",
+   "type": "property",
+   "aliases": [],
+   "evidence": "showed great mechanical robustness"
+  },
+  {
+   "name": "mechanical bending ability",
+   "type": "property",
+   "aliases": [],
+   "evidence": "good mechanical bending ability"
+  },
+  {
+   "name": "charge density",
+   "type": "property",
+   "aliases": [],
+   "evidence": "decreases the charge density"
+  },
+  {
+   "name": "defect",
+   "type": "defect",
+   "aliases": [],
+   "evidence": "reduces the defects of SWCNTs"
+  },
+  {
+   "name": "hybrid interface",
+   "type": "interface",
+   "aliases": [],
+   "evidence": "at the hybrid interface"
+  },
+  {
+   "name": "polyaniline-multiwalled carbon nanotubes nanocomposite",
+   "type": "material",
+   "aliases": [
+    "PANI/MWCNTs"
+   ],
+   "evidence": "polyaniline‑multi‑ walled carbon nanotubes (PANI/MWCNTs) nanocomposite"
+  },
+  {
+   "name": "gas sensor",
+   "type": "device",
+   "aliases": [],
+   "evidence": "gas sensor"
+  },
+  {
+   "name": "ammonia",
+   "type": "material",
+   "aliases": [],
+   "evidence": "ammonia"
+  },
+  {
+   "name": "multi-walled carbon nanotubes",
+   "type": "material",
+   "aliases": [
+    "MWCNTs"
+   ],
+   "evidence": "multi‑walled carbon nanotubes"
+  },
+  {
+   "name": "vanadium oxide",
+   "type": "material",
+   "aliases": [],
+   "evidence": "vanadium oxide"
+  },
+  {
+   "name": "methane gas sensing",
+   "type": "property",
+   "aliases": [],
+   "evidence": "methane gas sensing proper‑ ties"
+  },
+  {
+   "name": "filling",
+   "type": "process",
+   "aliases": [],
+   "evidence": "vanadium oxide filling"
+  },
+  {
+   "name": "multi-walled carbon nanotubes",
+   "type": "material",
+   "aliases": [],
+   "evidence": "multi‑walled carbon nanotubes"
+  },
+  {
+   "name": "SnO2 nanowires",
+   "type": "material",
+   "aliases": [],
+   "evidence": "SnO2 nanowires"
+  },
+  {
+   "name": "hybrid heterojunctions",
+   "type": "interface",
+   "aliases": [],
+   "evidence": "hybrid heterojunctions"
+  },
+  {
+   "name": "NO2 gas sensors",
+   "type": "device",
+   "aliases": [],
+   "evidence": "NO2 gas sensors"
+  }
+ ],
+ "triples": [
+  {
+   "subject": "metal oxide semiconductor",
+   "subject_type": "material_class",
+   "predicate": "used in",
+   "object": "gas sensor",
+   "object_type": "device",
+   "evidence": "Metal oxide semiconductors (MOS) are one of the most traditional and well‑studied gas sensing materials and have been widely used to prepare various commercial gas sensors.",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    34,
+    40
+   ]
+  },
+  {
+   "subject": "metal oxide semiconductor",
+   "subject_type": "material_class",
+   "predicate": "limits",
+   "object": "operating temperature",
+   "object_type": "property",
+   "evidence": "However, it is limited by high operat‑ ing temperature.",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    34,
+    40
+   ]
+  },
+  {
+   "subject": "flexible room-temperature gas sensor",
+   "subject_type": "device",
+   "predicate": "simplifies",
+   "object": "structure",
+   "object_type": "structure",
+   "evidence": "which are effective in simplifying the structure of MOS‑based sensors",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    34,
+    40
+   ]
+  },
+  {
+   "subject": "flexible room-temperature gas sensor",
+   "subject_type": "device",
+   "predicate": "reduces",
+   "object": "power consumption",
+   "object_type": "property",
+   "evidence": "reducing power consumption",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    34,
+    40
+   ]
+  },
+  {
+   "subject": "noble metal nanoparticle",
+   "subject_type": "material",
+   "predicate": "modifies",
+   "object": "metal oxide semiconductor",
+   "object_type": "material_class",
+   "evidence": "noble metal nanoparticles modified MOS",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    34,
+    40
+   ]
+  },
+  {
+   "subject": "organic polymer",
+   "subject_type": "material_class",
+   "predicate": "modifies",
+   "object": "metal oxide semiconductor",
+   "object_type": "material_class",
+   "evidence": "organic polymers modified MOS",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    34,
+    40
+   ]
+  },
+  {
+   "subject": "carbon nanotube",
+   "subject_type": "material",
+   "predicate": "modifies",
+   "object": "metal oxide semiconductor",
+   "object_type": "material_class",
+   "evidence": "carbon‑ based materials (carbon nanotubes and graphene derivatives) modified MOS",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    34,
+    40
+   ]
+  },
+  {
+   "subject": "graphene derivative",
+   "subject_type": "material",
+   "predicate": "modifies",
+   "object": "metal oxide semiconductor",
+   "object_type": "material_class",
+   "evidence": "carbon‑ based materials (carbon nanotubes and graphene derivatives) modified MOS",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    34,
+    40
+   ]
+  },
+  {
+   "subject": "two-dimensional transition metal dichalcogenide",
+   "subject_type": "material_class",
+   "predicate": "modifies",
+   "object": "metal oxide semiconductor",
+   "object_type": "material_class",
+   "evidence": "two‑dimensional transition metal dichalcogenides materials modified MOS",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    34,
+    40
+   ]
+  },
+  {
+   "subject": "carbon nanotube",
+   "subject_type": "material",
+   "predicate": "used in",
+   "object": "gas sensor",
+   "object_type": "device",
+   "evidence": "1D carbon nanotubes (CNTs) and 2D graphene deriva‑ tives are emerging materials for gas sensing",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    415,
+    417
+   ]
+  },
+  {
+   "subject": "graphene",
+   "subject_type": "material",
+   "predicate": "used in",
+   "object": "gas sensor",
+   "object_type": "device",
+   "evidence": "1D carbon nanotubes (CNTs) and 2D graphene deriva‑ tives are emerging materials for gas sensing",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    415,
+    417
+   ]
+  },
+  {
+   "subject": "carbon nanotube",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "sensitivity",
+   "object_type": "property",
+   "evidence": "emerging materials for gas sensing owing to their high sensitivity",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    415,
+    417
+   ]
+  },
+  {
+   "subject": "carbon nanotube",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "surface-to-volume ratio",
+   "object_type": "property",
+   "evidence": "owing to their high sensitivity, large surface‑to‑volume ratio",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    415,
+    417
+   ]
+  },
+  {
+   "subject": "carbon nanotube",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "adsorption site",
+   "object_type": "defect",
+   "evidence": "and abun‑ dant adsorption sites",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    415,
+    417
+   ]
+  },
+  {
+   "subject": "adsorption",
+   "subject_type": "mechanism",
+   "predicate": "depends on",
+   "object": "van der Waals force",
+   "object_type": "mechanism",
+   "evidence": "target gas molecules are adsorbed on the carbon‑based materi‑ als mainly depend on weak van der Waals forces",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    415,
+    417
+   ]
+  },
+  {
+   "subject": "van der Waals force",
+   "subject_type": "mechanism",
+   "predicate": "limits",
+   "object": "sensitivity",
+   "object_type": "property",
+   "evidence": "which restrict the high sensing performance of sensors",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    415,
+    417
+   ]
+  },
+  {
+   "subject": "hybridization",
+   "subject_type": "process",
+   "predicate": "improves",
+   "object": "gas sensor",
+   "object_type": "device",
+   "evidence": "hybridization of carbon‑based materials with MOS has been introduced ... introduces promis‑ ing advantages",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    415,
+    417
+   ]
+  },
+  {
+   "subject": "carbon-based material/MOS heterostructure",
+   "subject_type": "interface",
+   "predicate": "improves",
+   "object": "gas sensor",
+   "object_type": "device",
+   "evidence": "the carbon‑based material/MOS het‑ erostructure and the unique morphology of the composites contribute to the enhancement of the high‑performance gas sensors",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    415,
+    417
+   ]
+  },
+  {
+   "subject": "morphology",
+   "subject_type": "structure",
+   "predicate": "improves",
+   "object": "gas sensor",
+   "object_type": "device",
+   "evidence": "the unique morphology of the composites contribute to the enhancement of the high‑performance gas sensors",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    415,
+    417
+   ]
+  },
+  {
+   "subject": "carbon nanotube",
+   "subject_type": "material",
+   "predicate": "enables",
+   "object": "electron transport",
+   "object_type": "mechanism",
+   "evidence": "CNTs provide an effective conductive path‑ way for electron transport",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "carbon nanotube",
+   "subject_type": "material",
+   "predicate": "improves",
+   "object": "response value",
+   "object_type": "property",
+   "evidence": "further improving the response value and response rate of the CNTs/MOS sensors",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "carbon nanotube",
+   "subject_type": "material",
+   "predicate": "improves",
+   "object": "response rate",
+   "object_type": "property",
+   "evidence": "further improving the response value and response rate of the CNTs/MOS sensors",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "single-walled carbon nanotube",
+   "subject_type": "material",
+   "predicate": "is a",
+   "object": "carbon nanotube",
+   "object_type": "material",
+   "evidence": "Single‑walled carbon nanotubes (SWCNTs) are cylindrical nanotubes rolled up by honeycomb lattice carbon sheets",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "CuO-SWCNT",
+   "subject_type": "material",
+   "predicate": "synthesized by",
+   "object": "hydrothermal method",
+   "object_type": "process",
+   "evidence": "fabricated flower‑shaped CuO‑SWCNTs through a hydrothermal method",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "CuO-SWCNT",
+   "subject_type": "material",
+   "predicate": "deposited by",
+   "object": "drop-casting",
+   "object_type": "process",
+   "evidence": "the obtained materials were drop‑casted on the RFID",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "RFID sensor",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "detection limit",
+   "object_type": "property",
+   "evidence": "selectively detected H2S with an ultralow LOD of 100 ppb at RT",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "100",
+   "unit": "ppb",
+   "property": "detection limit",
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "RFID sensor",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "response time",
+   "object_type": "property",
+   "evidence": "showed a response of 35% to 1 ppm H2S with 7 s response time",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "7",
+   "unit": "s",
+   "property": "response time",
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "single-walled carbon nanotube",
+   "subject_type": "material",
+   "predicate": "deposited by",
+   "object": "floating catalytic chemical vapor deposition",
+   "object_type": "process",
+   "evidence": "prepared SWCNT films by floating catalytic chemical vapor deposi‑ tion with ferrocene as the catalyst",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "floating catalytic chemical vapor deposition",
+   "subject_type": "process",
+   "predicate": "used as",
+   "object": "ferrocene",
+   "object_type": "material",
+   "evidence": "floating catalytic chemical vapor deposi‑ tion with ferrocene as the catalyst",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "Fe2O3",
+   "subject_type": "material",
+   "predicate": "synthesized by",
+   "object": "annealing",
+   "object_type": "process",
+   "evidence": "twig‑like Fe2O3 nanoparticles were obtained by a simple annealing process",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "Fe2O3-SWCNT",
+   "subject_type": "material",
+   "predicate": "used in",
+   "object": "gas sensor",
+   "object_type": "device",
+   "evidence": "The as‑grown Fe2O3‑SWCNTs were then transferred onto PP plastic substrates to form flexible gas sensors",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "Fe2O3-SWCNT",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "mechanical robustness",
+   "object_type": "property",
+   "evidence": "showed great mechanical robustness after large‑degree deformation",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "Fe2O3-SWCNT",
+   "subject_type": "material",
+   "predicate": "improves",
+   "object": "response value",
+   "object_type": "property",
+   "evidence": "The fabricated Fe2O3–SWCNTs sensors obtained an enhanced response towards NO2",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "Fe2O3",
+   "subject_type": "material",
+   "predicate": "improves",
+   "object": "response value",
+   "object_type": "property",
+   "evidence": "The improved sensing performance is ascribed to the presence of Fe2O3 nanoparticles",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "Fe2O3",
+   "subject_type": "material",
+   "predicate": "enables",
+   "object": "electron transport",
+   "object_type": "mechanism",
+   "evidence": "which accelerates electron trans‑ port",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "Fe2O3",
+   "subject_type": "material",
+   "predicate": "promotes",
+   "object": "electron-hole recombination",
+   "object_type": "mechanism",
+   "evidence": "promotes the electron–hole recombination",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "SWCNT@ZnO",
+   "subject_type": "material",
+   "predicate": "exhibits",
+   "object": "response value",
+   "object_type": "property",
+   "evidence": "SWCNTs@ZnO exhib‑ ited a significant response to ethanol",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "ZnO quantum dot",
+   "subject_type": "material",
+   "predicate": "reduces",
+   "object": "defect",
+   "object_type": "defect",
+   "evidence": "The presence of ZnO quantum dots reduces the defects of SWCNTs",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "ZnO quantum dot",
+   "subject_type": "material",
+   "predicate": "decreases",
+   "object": "charge density",
+   "object_type": "property",
+   "evidence": "decreases the charge density",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "ZnO quantum dot",
+   "subject_type": "material",
+   "predicate": "suppresses",
+   "object": "gating effect",
+   "object_type": "mechanism",
+   "evidence": "creating a high conductive state serves as a reduc‑ tion of the gating effect at the hybrid interface",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "gas sensor",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "mechanical bending ability",
+   "object_type": "property",
+   "evidence": "the flexible gas sensor exhibited good mechanical bending ability and robustness",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "gas sensor",
+   "subject_type": "device",
+   "predicate": "exhibits",
+   "object": "mechanical robustness",
+   "object_type": "property",
+   "evidence": "the flexible gas sensor exhibited good mechanical bending ability and robustness",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "gas sensor",
+   "subject_type": "device",
+   "predicate": "used in",
+   "object": "face mask",
+   "object_type": "device",
+   "evidence": "the fabricated flexible sensors were further integrated into face masks",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    435,
+    439
+   ]
+  },
+  {
+   "subject": "gas sensor",
+   "subject_type": "device",
+   "predicate": "composed of",
+   "object": "polyaniline-multiwalled carbon nanotubes nanocomposite",
+   "object_type": "material",
+   "evidence": "gas sensor based on polyaniline‑multi‑ walled carbon nanotubes (PANI/MWCNTs) nanocomposite",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    1182,
+    1184
+   ]
+  },
+  {
+   "subject": "gas sensor",
+   "subject_type": "device",
+   "predicate": "used in",
+   "object": "ammonia",
+   "object_type": "material",
+   "evidence": "for trace‑level ammonia detection",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    1182,
+    1184
+   ]
+  },
+  {
+   "subject": "filling",
+   "subject_type": "process",
+   "predicate": "improves",
+   "object": "methane gas sensing",
+   "object_type": "property",
+   "evidence": "Improving methane gas sensing proper‑ ties of multi‑walled carbon nanotubes by vanadium oxide filling",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    1212,
+    1214
+   ]
+  },
+  {
+   "subject": "filling",
+   "subject_type": "process",
+   "predicate": "treated with",
+   "object": "vanadium oxide",
+   "object_type": "material",
+   "evidence": "multi‑walled carbon nanotubes by vanadium oxide filling",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    1212,
+    1214
+   ]
+  },
+  {
+   "subject": "hybrid heterojunctions",
+   "subject_type": "interface",
+   "predicate": "composed of",
+   "object": "multi-walled carbon nanotubes",
+   "object_type": "material",
+   "evidence": "hybrid heterojunctions of multi‑walled carbon nanotubes and on‑chip grown SnO2 nanowires",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    1216,
+    1218
+   ]
+  },
+  {
+   "subject": "hybrid heterojunctions",
+   "subject_type": "interface",
+   "predicate": "composed of",
+   "object": "SnO2 nanowires",
+   "object_type": "material",
+   "evidence": "hybrid heterojunctions of multi‑walled carbon nanotubes and on‑chip grown SnO2 nanowires",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    1216,
+    1218
+   ]
+  },
+  {
+   "subject": "NO2 gas sensors",
+   "subject_type": "device",
+   "predicate": "used in",
+   "object": "hybrid heterojunctions",
+   "object_type": "interface",
+   "evidence": "Ultrasensitive NO2 gas sensors using hybrid heterojunctions of multi‑walled carbon nanotubes and on‑chip grown SnO2 nanowires",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    1216,
+    1218
+   ]
+  }
+ ],
+ "errors": []
+}

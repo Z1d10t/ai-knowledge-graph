@@ -1,0 +1,8 @@
+{
+ "version": "v3.0-mini",
+ "papers": 2,
+ "concepts": 95,
+ "instances": 4,
+ "relations": 52,
+ "note": "two-paper example generated from evaluation/full_v3_delivery"
+}

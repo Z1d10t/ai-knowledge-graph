@@ -1,0 +1,628 @@
+[
+ {
+  "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+  "index": 1,
+  "subject": "4-chlorobenzenesulfonate",
+  "predicate": "enables",
+  "object": "dual-site Pb2+ passivation",
+  "source_line": 87,
+  "verdict": "supported",
+  "edges": [
+   "4Cl-BZS -> enables -> dual-site Pb2+ passivation"
+  ],
+  "action": "merge_duplicate",
+  "reason": "exact edge exists twice (positions 28 and 34) with the same evidence; merge into one relation with a two-entry evidence list",
+  "candidate_count": 2,
+  "candidates": [
+   "[28] 4Cl-BZS -> enables -> dual-site Pb2+ passivation",
+   "[34] 4Cl-BZS -> enables -> dual-site Pb2+ passivation"
+  ]
+ },
+ {
+  "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+  "index": 2,
+  "subject": "undercoordinated Pb2+ ions",
+  "predicate": "results in",
+  "object": "nonradiative recombination",
+  "source_line": 77,
+  "verdict": "supported",
+  "edges": [
+   "undercoordinated Pb2+ ions -> exhibits -> nonradiative recombination at the perovskite/CTL interface"
+  ],
+  "action": "keep",
+  "reason": "predicate differs ('exhibits' vs 'results in') but the causal reading is the paper's; the object keeps the interface qualifier, which is acceptable",
+  "candidate_count": 1,
+  "candidates": [
+   "[15] undercoordinated Pb2+ ions -> exhibits -> nonradiative recombination at the perovskite/CTL interface"
+  ]
+ },
+ {
+  "paper": "001_Chen_2024_Improved-charge-extraction-in-inverted-perovskit",
+  "index": 3,
+  "subject": "nonradiative recombination",
+  "predicate": "limits",
+  "object": "fill factor",
+  "source_line": 77,
+  "verdict": "supported",
+  "edges": [
+   "nonradiative recombination at the perovskite/CTL interface -> limits -> photovoltage and fill factor"
+  ],
+  "action": "split_object",
+  "reason": "the object is a compound (photovoltage and fill factor); the direction and predicate are right",
+  "candidate_count": 1,
+  "candidates": [
+   "[16] nonradiative recombination at the perovskite/CTL interface -> limits -> photovoltage and fill factor"
+  ]
+ },
+ {
+  "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+  "index": 1,
+  "subject": "holes injection",
+  "predicate": "induces",
+  "object": "conductivity modulation",
+  "source_line": 25,
+  "verdict": "supported",
+  "edges": [
+   "conductivity modulation effect -> originates from -> hole injection across the PN HJ-interface"
+  ],
+  "action": "keep",
+  "reason": "the reference direction (injection induces modulation) is expressed with the inverse predicate on the other side of the same fact; no repair needed",
+  "candidate_count": 1,
+  "candidates": [
+   "[100] conductivity modulation effect -> originates from -> hole injection across the PN HJ-interface"
+  ]
+ },
+ {
+  "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+  "index": 2,
+  "subject": "Ga2O3",
+  "predicate": "used in",
+  "object": "power electronics",
+  "source_line": 25,
+  "verdict": "not_found",
+  "edges": [],
+  "action": "add_edge",
+  "reason": "no triple links Ga2O3 to power electronics, although the abstract states the application; the concept-level application edge is missing",
+  "candidate_count": 2,
+  "candidates": [
+   "[134] Ga2O3 power diodes -> exhibits -> record of nowadays power diodes",
+   "[162] Ga2O3 power diodes -> exhibits -> record of nowadays power diodes"
+  ]
+ },
+ {
+  "paper": "011_Zhang_2022_Ultra-wide-bandgap-semiconductor-Ga2O3-power-dio",
+  "index": 3,
+  "subject": "p-NiOx",
+  "predicate": "combined with",
+  "object": "n-Ga2O3",
+  "source_line": 39,
+  "verdict": "partially_supported",
+  "edges": [
+   "p-NiOx -> used in -> Ga2O3 HJ PN diode"
+  ],
+  "action": "keep",
+  "reason": "the combination is only implied by the device node; no explicit p-NiOx <-> n-Ga2O3 edge",
+  "candidate_count": 0,
+  "candidates": []
+ },
+ {
+  "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+  "index": 1,
+  "subject": "quasi-2D perovskites",
+  "predicate": "has structure",
+  "object": "quantum-well structures",
+  "source_line": 55,
+  "verdict": "supported",
+  "edges": [
+   "quasi-2D perovskite -> exhibits -> quantum-well structures",
+   "quasi-2D perovskite -> exhibits -> natural quantum-well structures",
+   "quasi-2D perovskite -> exhibits -> self-assembled multi-quantum-well structures"
+  ],
+  "action": "merge_duplicate",
+  "reason": "three parallel edges express the same structural fact; merge with an evidence list",
+  "candidate_count": 4,
+  "candidates": [
+   "[0] quasi-2D perovskite -> exhibits -> quantum-well structures",
+   "[10] quasi-2D perovskite -> exhibits -> self-assembled multi-quantum-well structures",
+   "[18] quasi-2D perovskite -> exhibits -> natural quantum-well structures",
+   "[42] quasi-2D perovskite -> exhibits -> quantum-well structures"
+  ]
+ },
+ {
+  "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+  "index": 2,
+  "subject": "quantum-well structures",
+  "predicate": "induces",
+  "object": "quantum-confinement effects",
+  "source_line": 55,
+  "verdict": "not_found",
+  "edges": [],
+  "action": "add_edge",
+  "reason": "the confinement effect is described in the text ('quantum- and dielectric-confinement effects arising from the QW structure') but no edge connects the structure to it",
+  "candidate_count": 0,
+  "candidates": []
+ },
+ {
+  "paper": "021_Zhang_2021_High-performance-quasi-2D-perovskite-light-emitt",
+  "index": 3,
+  "subject": "quasi-2D perovskites",
+  "predicate": "used in",
+  "object": "LEDs",
+  "source_line": 27,
+  "verdict": "partially_supported",
+  "edges": [
+   "quasi-2D perovskite -> used in -> solar cells and LEDs"
+  ],
+  "action": "split_object",
+  "reason": "the material's use is expressed, but the object merges solar cells and LEDs, so the LED application cannot be retrieved on its own",
+  "candidate_count": 2,
+  "candidates": [
+   "[71] quasi-2D perovskite -> used in -> solar cells and LEDs",
+   "[74] quasi-2D perovskite -> used in -> solar cells and LEDs"
+  ]
+ },
+ {
+  "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+  "index": 1,
+  "subject": "AlGaN",
+  "predicate": "used in",
+  "object": "solar-blind UV photodetectors",
+  "source_line": 27,
+  "verdict": "partially_supported",
+  "edges": [
+   "AlGaN ternary alloys -> used in -> UV photodetectors (PDs)",
+   "AlN/AlGaN SL structures -> used in -> AlGaN solar-blind UV detector"
+  ],
+  "action": "keep",
+  "reason": "the application edge exists but targets the generic 'UV photodetectors (PDs)' node; the solar-blind qualifier is not part of the object concept",
+  "candidate_count": 6,
+  "candidates": [
+   "[32] AlGaN ternary alloys -> used in -> UV photodetectors (PDs)",
+   "[250] AlGaN solar-blind PDs -> used in -> solar-blind UV detection",
+   "[398] AlN/AlGaN SL structures -> used in -> AlGaN solar-blind UV detector",
+   "[709] AlGaN -> is a -> superior alternative material for the development of small-size, lightweight, and low-power solar-blind FPAs"
+  ]
+ },
+ {
+  "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+  "index": 2,
+  "subject": "AlGaN-based focal plane arrays",
+  "predicate": "enables",
+  "object": "solar-blind imaging",
+  "source_line": 27,
+  "verdict": "supported",
+  "edges": [
+   "AlGaN-based focal plane arrays (FPAs) -> exhibits -> outstanding solar-blind imaging capability"
+  ],
+  "action": "keep",
+  "reason": "same fact with a different predicate; the capability is stated",
+  "candidate_count": 1,
+  "candidates": [
+   "[2] AlGaN-based focal plane arrays (FPAs) -> exhibits -> outstanding solar-blind imaging capability"
+  ]
+ },
+ {
+  "paper": "023_Cai_2021_Progress-on-AlGaN-based-solar-blind-ultraviolet",
+  "index": 3,
+  "subject": "avalanche photodiodes",
+  "predicate": "is a",
+  "object": "photodetectors",
+  "source_line": 27,
+  "verdict": "not_found",
+  "edges": [],
+  "action": "add_edge",
+  "reason": "the 'APD is a photodetector' hierarchy is never emitted; APD is only a device that AlGaN is used in",
+  "candidate_count": 0,
+  "candidates": []
+ },
+ {
+  "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+  "index": 1,
+  "subject": "metal oxide semiconductors",
+  "predicate": "used in",
+  "object": "gas sensors",
+  "source_line": 39,
+  "verdict": "supported",
+  "edges": [
+   "Metal oxide semiconductors -> used in -> commercial gas sensors"
+  ],
+  "action": "keep",
+  "reason": "exact instance of the reference relation",
+  "candidate_count": 1,
+  "candidates": [
+   "[1] Metal oxide semiconductors -> used in -> commercial gas sensors"
+  ]
+ },
+ {
+  "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+  "index": 2,
+  "subject": "noble metal nanoparticles",
+  "predicate": "modifies",
+  "object": "metal oxide semiconductors",
+  "source_line": 39,
+  "verdict": "not_found",
+  "edges": [
+   "noble metal nanoparticles modification -> improves -> response and selectivity"
+  ],
+  "action": "add_edge",
+  "reason": "the modification is described and a process-quality edge exists, but no 'noble metal nanoparticles -> modifies -> MOS' edge; the composite mention carries the meaning instead",
+  "candidate_count": 1,
+  "candidates": [
+   "[229] electronic sensitized noble metal -> exhibits -> forms stable noble metal oxides in air and reduced to metal in reducing gas atmosphere"
+  ]
+ },
+ {
+  "paper": "038_Ou_2022_Recent-Progress-on-Flexible-Room-Temperature-Gas",
+  "index": 3,
+  "subject": "organic polymers",
+  "predicate": "modifies",
+  "object": "metal oxide semiconductors",
+  "source_line": 39,
+  "verdict": "not_found",
+  "edges": [],
+  "action": "add_edge",
+  "reason": "organic polymers only appear inside the composite label; no modifier edge to MOS exists",
+  "candidate_count": 0,
+  "candidates": []
+ },
+ {
+  "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+  "index": 1,
+  "subject": "HfO2",
+  "predicate": "used as",
+  "object": "high-k dielectric layer",
+  "source_line": 192,
+  "verdict": "not_found",
+  "edges": [],
+  "action": "targeted_reextract",
+  "reason": "no 'high-k' phrase or dielectric-layer application edge exists anywhere in the extracted output",
+  "candidate_count": 1,
+  "candidates": [
+   "[246] HfO2 -> has phase -> dielectric monoclinic phase"
+  ]
+ },
+ {
+  "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+  "index": 2,
+  "subject": "doped-HfO2",
+  "predicate": "grown by",
+  "object": "atomic layer deposition",
+  "source_line": 190,
+  "verdict": "partially_supported",
+  "edges": [
+   "HfO2-ZrO2 -> deposited by -> atomic layer deposition (ALD)"
+  ],
+  "action": "keep",
+  "reason": "the growth method is attached to the stack formula rather than to a 'doped-HfO2' concept",
+  "candidate_count": 0,
+  "candidates": []
+ },
+ {
+  "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+  "index": 3,
+  "subject": "HfO2-ZrO2 superlattice gate stack",
+  "predicate": "exploits",
+  "object": "mixed ferroelectric-antiferroelectric order",
+  "source_line": 194,
+  "verdict": "supported",
+  "edges": [
+   "HfO2-ZrO2 multilayers -> exhibits -> mixed ferroelectric-antiferroelectric order",
+   "mixed FE-AFE order -> improves -> permittivity of the multilayer stack"
+  ],
+  "action": "merge_duplicate",
+  "reason": "the order is attached to the multilayers; the second edge shows the consequence. The two should be one relation family (structure -> property) with evidence",
+  "candidate_count": 6,
+  "candidates": [
+   "[7] HfO2-ZrO2 multilayers -> exhibits -> evolution from mixed ferroic to FE-like hysteresis upon cooling slightly below room temperature (∼ 240 K)",
+   "[8] HfO2-ZrO2 multilayers -> exhibits -> transition from mixed tetragonal orthorhombic phase to predominately orthorhombic structure at similar temperatures",
+   "[34] mixed FE-AFE order -> improves -> permittivity of the multilayer stack",
+   "[63] HfO2-ZrO2 multilayers -> exhibits -> mixed ferroelectric-antiferroelectric order"
+  ]
+ },
+ {
+  "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+  "index": 1,
+  "subject": "MXenes",
+  "predicate": "is a",
+  "object": "2D materials",
+  "source_line": 23,
+  "verdict": "supported",
+  "edges": [
+   "MXenes -> is a -> 2D material"
+  ],
+  "action": "merge_duplicate",
+  "reason": "exact edge exists three times (positions 0, 196, 328)",
+  "candidate_count": 3,
+  "candidates": [
+   "[0] MXenes -> is a -> 2D material",
+   "[196] MXenes -> is a -> 2D material",
+   "[328] MXenes -> is a -> 2D material"
+  ]
+ },
+ {
+  "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+  "index": 2,
+  "subject": "transition metal dichalcogenides",
+  "predicate": "prepared by",
+  "object": "exfoliation",
+  "source_line": 29,
+  "verdict": "partially_supported",
+  "edges": [
+   "transition metal dichalcogenides (TMDCs) -> synthesized by -> exfoliating the 3D bulk to 2D planer structures"
+  ],
+  "action": "split_attribute",
+  "reason": "predicate and endpoints are semantically right, but the process object is an action phrase; the exfoliation concept must be extracted from it",
+  "candidate_count": 1,
+  "candidates": [
+   "[9] transition metal dichalcogenides (TMDCs) -> synthesized by -> exfoliating the 3D bulk to 2D planer structures"
+  ]
+ },
+ {
+  "paper": "052_Bhat_2021_Prospects-challenges-and-stability-of-2D-MXenes",
+  "index": 3,
+  "subject": "Mo2TiC2Tx",
+  "predicate": "has structure",
+  "object": "ordered transition metal atomic sandwiches",
+  "source_line": 31,
+  "verdict": "supported",
+  "edges": [
+   "Mo2TiC2Tx -> has phase -> ordered structure with transition metal atomic sandwiches"
+  ],
+  "action": "keep",
+  "reason": "predicate differs ('has phase' vs 'has structure'); the structural fact is stated",
+  "candidate_count": 2,
+  "candidates": [
+   "[15] Mo2TiC2Tx -> has phase -> ordered structure with transition metal atomic sandwiches",
+   "[18] Mo2TiC2Tx -> is a -> ordered structure"
+  ]
+ },
+ {
+  "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+  "index": 1,
+  "subject": "phosphonic or carboxylic acids",
+  "predicate": "self-assemble on",
+  "object": "indium tin oxide substrate",
+  "source_line": 31,
+  "verdict": "supported",
+  "edges": [
+   "phosphonic or carboxylic acids -> self-assemble on -> indium tin oxide substrate"
+  ],
+  "action": "keep",
+  "reason": "exact edge",
+  "candidate_count": 1,
+  "candidates": [
+   "[5] phosphonic or carboxylic acids -> self-assemble on -> indium tin oxide substrate"
+  ]
+ },
+ {
+  "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+  "index": 2,
+  "subject": "self-assembled monolayer",
+  "predicate": "used as",
+  "object": "hole-selective contact",
+  "source_line": 31,
+  "verdict": "supported",
+  "edges": [
+   "self-assembled monolayer -> used in -> hole-selective contact"
+  ],
+  "action": "keep",
+  "reason": "'used in' vs 'used as' is a predicate variant, the role relation is the same",
+  "candidate_count": 1,
+  "candidates": [
+   "[6] self-assembled monolayer -> used in -> hole-selective contact"
+  ]
+ },
+ {
+  "paper": "065_Zheng_2023_Co-deposition-of-hole-selective-contact-and-abso",
+  "index": 3,
+  "subject": "one-step solution-coating",
+  "predicate": "forms",
+  "object": "perovskite light absorber",
+  "source_line": 31,
+  "verdict": "not_found",
+  "edges": [],
+  "action": "add_edge",
+  "reason": "the one-step coating node exists but no edge connects it to the perovskite absorber; evidence for the formation step is in the paragraph",
+  "candidate_count": 0,
+  "candidates": []
+ },
+ {
+  "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+  "index": 1,
+  "subject": "Sb2O3 dielectric film",
+  "predicate": "fabricated via",
+  "object": "standard thermal evaporation deposition",
+  "source_line": 66,
+  "verdict": "supported",
+  "edges": [
+   "Sb2O3 -> deposited by -> standard thermal evaporation deposition (STED)"
+  ],
+  "action": "keep",
+  "reason": "film instance collapsed to the material; predicate 'deposited by' matches the fabrication claim",
+  "candidate_count": 1,
+  "candidates": [
+   "[1] Sb2O3 -> deposited by -> standard thermal evaporation deposition (STED)"
+  ]
+ },
+ {
+  "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+  "index": 2,
+  "subject": "Sb2O3 powder",
+  "predicate": "consists of",
+  "object": "Sb4O6 molecules",
+  "source_line": 72,
+  "verdict": "supported",
+  "edges": [
+   "Sb2O3 -> composed of -> Sb4O6 molecules"
+  ],
+  "action": "keep",
+  "reason": "the powder instance is collapsed; the composition fact is correct",
+  "candidate_count": 1,
+  "candidates": [
+   "[2] Sb2O3 -> composed of -> Sb4O6 molecules"
+  ]
+ },
+ {
+  "paper": "095_Liu_2021_A-wafer-scale-van-der-Waals-dielectric-made-from",
+  "index": 3,
+  "subject": "Sb4O6 molecules",
+  "predicate": "bonded via",
+  "object": "van der Waals interaction",
+  "source_line": 72,
+  "verdict": "not_found",
+  "edges": [],
+  "action": "targeted_reextract",
+  "reason": "no 'van der Waals' triple exists at all, although the paper's central mechanism is vdW bonding of Sb4O6 molecules",
+  "candidate_count": 0,
+  "candidates": []
+ },
+ {
+  "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+  "index": 1,
+  "subject": "wide-bandgap perovskites",
+  "predicate": "acts as",
+  "object": "front absorber",
+  "source_line": 40,
+  "verdict": "partially_supported",
+  "edges": [
+   "WBG perovskites -> used in -> tandem architectures"
+  ],
+  "action": "add_edge",
+  "reason": "the evidence sentence says the WBG perovskites 'act as the front absorber', but the relation was emitted with the tandem architecture as object; the role relation to the front absorber is missing",
+  "candidate_count": 0,
+  "candidates": []
+ },
+ {
+  "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+  "index": 2,
+  "subject": "front cell with WBG absorber",
+  "predicate": "reduces",
+  "object": "thermalization loss",
+  "source_line": 62,
+  "verdict": "not_found",
+  "edges": [
+   "silicon solar cells -> limits -> thermalization loss"
+  ],
+  "action": "add_edge",
+  "reason": "the thermalization-loss concept is used, but the reference claim (front cell reduces it) has no edge",
+  "candidate_count": 0,
+  "candidates": []
+ },
+ {
+  "paper": "153_Nie_2023_Recent-Advances-in-Wide-Bandgap-OrganicInorganic",
+  "index": 3,
+  "subject": "wide-bandgap perovskite solar cells",
+  "predicate": "has issue",
+  "object": "photo-induced phase separation",
+  "source_line": 40,
+  "verdict": "supported",
+  "edges": [
+   "WBG perovskite solar cells -> exhibits -> severe photo-induced phase separation"
+  ],
+  "action": "keep",
+  "reason": "'has issue' is expressed as 'exhibits severe ...'; the qualifier stays in the object",
+  "candidate_count": 2,
+  "candidates": [
+   "[8] WBG perovskite solar cells -> exhibits -> severe photo-induced phase separation",
+   "[141] perovskite film -> exhibits -> suppressed light-induced phase segregation"
+  ]
+ },
+ {
+  "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+  "index": 1,
+  "subject": "formate",
+  "predicate": "suppresses",
+  "object": "anion-vacancy defects",
+  "source_line": 21,
+  "verdict": "supported",
+  "edges": [
+   "HCOO− -> eliminates -> anion-vacancy defects",
+   "HCOO− -> passivates -> I− vacancy"
+  ],
+  "action": "merge_duplicate",
+  "reason": "the reference relation is expressed through the ion form (alias of formate); the two vacancy edges describe the same action on two defect labels",
+  "candidate_count": 0,
+  "candidates": []
+ },
+ {
+  "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+  "index": 2,
+  "subject": "formate",
+  "predicate": "improves",
+  "object": "crystallinity",
+  "source_line": 21,
+  "verdict": "partially_supported",
+  "edges": [
+   "formate-containing perovskite films -> exhibits -> high crystallinity and large grain size"
+  ],
+  "action": "split_object",
+  "reason": "crystallinity is expressed, but the subject is the treated film and the object merges crystallinity with grain size",
+  "candidate_count": 1,
+  "candidates": [
+   "[145] formate-containing perovskite films -> exhibits -> high crystallinity and large grain size"
+  ]
+ },
+ {
+  "paper": "201_Jeong_2021_Pseudo-halide-anion-engineering-for-α-FAPbI3-per",
+  "index": 3,
+  "subject": "FAPbI3 films",
+  "predicate": "undergo phase transition",
+  "object": "black alpha-phase to yellow delta-phase below 150 C",
+  "source_line": 29,
+  "verdict": "partially_supported",
+  "edges": [
+   "FAPbI3 -> has phase -> α-phase",
+   "2% Fo-FAPbI3 film -> exhibits -> absence of δ-phase"
+  ],
+  "action": "add_edge",
+  "reason": "the phase identity and the suppression of the δ phase are captured; the temperature-dependent phase transition itself is not",
+  "candidate_count": 1,
+  "candidates": [
+   "[8] FAPbI3 -> has phase -> α-phase"
+  ]
+ },
+ {
+  "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+  "index": 1,
+  "subject": "cation disorder engineering",
+  "predicate": "enhances",
+  "object": "optical transition matrix elements",
+  "source_line": 26,
+  "verdict": "not_found",
+  "edges": [],
+  "action": "targeted_reextract",
+  "reason": "the abstract/intro lines that state the enhancement were stripped before extraction; no node or edge survives",
+  "candidate_count": 0,
+  "candidates": []
+ },
+ {
+  "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+  "index": 2,
+  "subject": "cation-disorder-engineered AgBiS2 colloidal nanocrystals",
+  "predicate": "enables",
+  "object": "extremely thin absorber photovoltaic devices",
+  "source_line": 26,
+  "verdict": "not_found",
+  "edges": [],
+  "action": "targeted_reextract",
+  "reason": "no edge connects the nanocrystals to extremely thin absorber devices; the phrase never appears in the extracted output",
+  "candidate_count": 1,
+  "candidates": [
+   "[13] AgBiS2 NC films -> exhibits -> absorption coefficient 5–10 times greater than any other material currently used in photovoltaic technology"
+  ]
+ },
+ {
+  "paper": "250_Wang_2022_Cation-disorder-engineering-yields-AgBiS2-nanocr",
+  "index": 3,
+  "subject": "AgBiS2 valence band maximum",
+  "predicate": "derives from",
+  "object": "Ag d and S p states",
+  "source_line": 42,
+  "verdict": "not_found",
+  "edges": [],
+  "action": "targeted_reextract",
+  "reason": "the orbital character of the band edges is in the stripped intro; VBM/CBM only exist as sentence-like compound nodes",
+  "candidate_count": 0,
+  "candidates": []
+ }
+]

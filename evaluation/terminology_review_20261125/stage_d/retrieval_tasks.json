@@ -1,0 +1,205 @@
+[
+ {
+  "id": 1,
+  "question": "哪些配体与 Pb 缺陷钝化有关？",
+  "subjects": [
+   "4-chlorobenzenesulfonate",
+   "4Cl-BZS"
+  ],
+  "objects": [
+   "dual-site Pb2+ passivation",
+   "Pb2+ passivation",
+   "dual-site Pb 2+ passivation"
+  ],
+  "families": [
+   "effect"
+  ],
+  "paper": "001",
+  "line": 87,
+  "tolerance": 30
+ },
+ {
+  "id": 2,
+  "question": "甲酸根作用于什么缺陷？",
+  "subjects": [
+   "formate",
+   "HCOO−"
+  ],
+  "objects": [
+   "anion-vacancy defects",
+   "anion vacancy",
+   "anion vacancy defects",
+   "I− vacancy",
+   "I-vacancy",
+   "iodide vacancy"
+  ],
+  "families": [
+   "effect"
+  ],
+  "paper": "201",
+  "line": 21,
+  "tolerance": 150
+ },
+ {
+  "id": 3,
+  "question": "哪种材料可用于热蒸发 vdW 介质？",
+  "subjects": [
+   "Sb2O3"
+  ],
+  "objects": [
+   "standard thermal evaporation deposition",
+   "thermal evaporation deposition",
+   "thermal evaporation"
+  ],
+  "families": [
+   "process"
+  ],
+  "paper": "095",
+  "line": 66,
+  "tolerance": 40
+ },
+ {
+  "id": 4,
+  "question": "准二维钙钛矿有什么特征结构？",
+  "subjects": [
+   "quasi-2D perovskites",
+   "quasi-2D perovskite"
+  ],
+  "objects": [
+   "quantum-well structure",
+   "quantum-well structures"
+  ],
+  "families": [
+   "structure",
+   "effect"
+  ],
+  "paper": "021",
+  "line": 55,
+  "tolerance": 60
+ },
+ {
+  "id": 5,
+  "question": "哪些修饰材料用于 MOS 气敏体系？",
+  "subjects": [
+   "noble metal nanoparticles",
+   "organic polymers",
+   "carbon nanotubes",
+   "graphene derivatives",
+   "transition metal dichalcogenides"
+  ],
+  "objects": [
+   "metal oxide semiconductors",
+   "MOS",
+   "metal oxide semiconductor"
+  ],
+  "families": [
+   "effect"
+  ],
+  "paper": "038",
+  "line": 39,
+  "tolerance": 40
+ },
+ {
+  "id": 6,
+  "question": "HfO2-ZrO2 栅堆叠利用什么有序状态？",
+  "subjects": [
+   "HfO2-ZrO2 superlattice",
+   "HfO2-ZrO2 multilayers",
+   "HfO2-ZrO2 superlattice gate stack"
+  ],
+  "objects": [
+   "mixed ferroelectric-antiferroelectric order",
+   "mixed FE-AFE order"
+  ],
+  "families": [
+   "structure",
+   "effect",
+   "composition"
+  ],
+  "paper": "043",
+  "line": 194,
+  "tolerance": 60
+ },
+ {
+  "id": 7,
+  "question": "一步涂覆如何形成空穴选择接触？",
+  "subjects": [
+   "one-step solution-coating",
+   "one-step solution-coating procedure"
+  ],
+  "objects": [
+   "perovskite light absorber",
+   "perovskite absorber"
+  ],
+  "families": [
+   "process",
+   "effect"
+  ],
+  "paper": "065",
+  "line": 31,
+  "tolerance": 40
+ },
+ {
+  "id": 8,
+  "question": "AgBiS2 吸收增强与什么调控有关？",
+  "subjects": [
+   "cation disorder homogenization under mild annealing conditions",
+   "cation disorder",
+   "homogeneous cation disorder"
+  ],
+  "objects": [
+   "absorption coefficient",
+   "absorption coefficients",
+   "optical transition matrix elements"
+  ],
+  "families": [
+   "effect",
+   "property"
+  ],
+  "paper": "250",
+  "line": 36,
+  "tolerance": 150
+ },
+ {
+  "id": 9,
+  "question": "宽带隙钙钛矿用于叠层的什么位置？",
+  "subjects": [
+   "wide-bandgap perovskites",
+   "WBG perovskites"
+  ],
+  "objects": [
+   "front absorber",
+   "front perovskite absorber"
+  ],
+  "families": [
+   "application",
+   "structure",
+   "effect"
+  ],
+  "paper": "153",
+  "line": 40,
+  "tolerance": 60
+ },
+ {
+  "id": 10,
+  "question": "AlGaN 关联哪些探测器类型？",
+  "subjects": [
+   "AlGaN"
+  ],
+  "objects": [
+   "solar-blind ultraviolet photodetectors",
+   "photodetectors",
+   "avalanche photodiodes",
+   "focal plane arrays",
+   "metal-semiconductor-metal photodetectors",
+   "PDs"
+  ],
+  "families": [
+   "application",
+   "taxonomy"
+  ],
+  "paper": "023",
+  "line": 27,
+  "tolerance": 60
+ }
+]

@@ -1,0 +1,461 @@
+{
+ "paper": "043_Cheema_2022_Ultrathin-ferroic-HfO2ZrO2-superlattice-gate-sta",
+ "prompt_version": "v3",
+ "model": "deepseek-flash",
+ "created": "2026-11-25 14:33:12",
+ "source_sha256": "ef8180e576ac7b6701085557cfabf7e43feba7950f26e7ac22d2c0f198c02ed7",
+ "scope_lines": [
+  190,
+  194
+ ],
+ "passages": [
+  {
+   "lines": [
+    189,
+    195
+   ],
+   "chars": 2732,
+   "relations": 17,
+   "terms": 20
+  }
+ ],
+ "terms": [
+  {
+   "name": "gate oxide",
+   "type": "component",
+   "aliases": [],
+   "evidence": "Gate oxides play a critical role in this endeavor"
+  },
+  {
+   "name": "silicon",
+   "type": "material",
+   "aliases": [],
+   "evidence": "including silicon"
+  },
+  {
+   "name": "high-κ dielectric",
+   "type": "material_class",
+   "aliases": [
+    "HK"
+   ],
+   "evidence": "the gate oxide transition from SiO2 to high-κ dielectric (DE)"
+  },
+  {
+   "name": "SiO2",
+   "type": "material",
+   "aliases": [],
+   "evidence": "the gate oxide transition from SiO2 to high-κ dielectric"
+  },
+  {
+   "name": "ferroelectric oxide",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "ferroelectric oxides offer new functionalities"
+  },
+  {
+   "name": "atomic layer deposition",
+   "type": "process",
+   "aliases": [
+    "ALD"
+   ],
+   "evidence": "atomic layer deposition (ALD) grown ferroelectric doped-HfO2"
+  },
+  {
+   "name": "doped-HfO2",
+   "type": "material",
+   "aliases": [],
+   "evidence": "atomic layer deposition (ALD) grown ferroelectric doped-HfO2"
+  },
+  {
+   "name": "perovskite",
+   "type": "material_class",
+   "aliases": [],
+   "evidence": "traditional perovskite-based ferroelectric materials"
+  },
+  {
+   "name": "ferroic order",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "ferroic order persists down to a thickness of 1 nm"
+  },
+  {
+   "name": "HfO2",
+   "type": "material",
+   "aliases": [],
+   "evidence": "the high-κ (HK) dielectric HfO2 layer"
+  },
+  {
+   "name": "interfacial SiO2",
+   "type": "component",
+   "aliases": [],
+   "evidence": "an interfacial SiO2 formed with a self-limiting process"
+  },
+  {
+   "name": "effective oxide thickness",
+   "type": "property",
+   "aliases": [
+    "EOT"
+   ],
+   "evidence": "represented by effective oxide thickness (EOT)"
+  },
+  {
+   "name": "short channel effect",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "to suppress short channel effects"
+  },
+  {
+   "name": "capacitance",
+   "type": "property",
+   "aliases": [],
+   "evidence": "Higher capacitance of this series combination is desirable"
+  },
+  {
+   "name": "scavenging technique",
+   "type": "process",
+   "aliases": [],
+   "evidence": "sophisticated scavenging techniques"
+  },
+  {
+   "name": "leakage",
+   "type": "property",
+   "aliases": [],
+   "evidence": "the thinner SiO2 results in undesirable leakage"
+  },
+  {
+   "name": "mobility degradation",
+   "type": "mechanism",
+   "aliases": [],
+   "evidence": "undesirable leakage and mobility degradation"
+  },
+  {
+   "name": "HfO2-ZrO2 superlattice",
+   "type": "structure",
+   "aliases": [],
+   "evidence": "an ultrathin HfO2-ZrO2 superlattice gate stack"
+  },
+  {
+   "name": "gate stack",
+   "type": "component",
+   "aliases": [],
+   "evidence": "an ultrathin HfO2-ZrO2 superlattice gate stack"
+  },
+  {
+   "name": "mixed ferroelectric-antiferroelectric order",
+   "type": "structure",
+   "aliases": [
+    "FE-AFE"
+   ],
+   "evidence": "exploits mixed ferroelectric-antiferroelectric (FE-AFE) order"
+  }
+ ],
+ "triples": [
+  {
+   "subject": "gate oxide",
+   "subject_type": "component",
+   "predicate": "acts as",
+   "object": "performance booster",
+   "object_type": "property",
+   "evidence": "Gate oxides play a critical role in this endeavor, as it’s a common performance booster for all devices",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    189,
+    195
+   ]
+  },
+  {
+   "subject": "atomic layer deposition",
+   "subject_type": "process",
+   "predicate": "grown by",
+   "object": "doped-HfO2",
+   "object_type": "material",
+   "evidence": "atomic layer deposition (ALD) grown ferroelectric doped-HfO2",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    189,
+    195
+   ]
+  },
+  {
+   "subject": "doped-HfO2",
+   "subject_type": "material",
+   "predicate": "overcomes",
+   "object": "material compatibility issue",
+   "object_type": "property",
+   "evidence": "has overcome much of the material compatibility issues that plague traditional perovskite-based ferroelectric materials",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    189,
+    195
+   ]
+  },
+  {
+   "subject": "ferroic order",
+   "subject_type": "structure",
+   "predicate": "persists at",
+   "object": "1 nm thickness",
+   "object_type": "property",
+   "evidence": "ferroic order persists down to a thickness of 1 nm in this system",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": "1",
+   "unit": "nm",
+   "property": "thickness",
+   "chunk": 0,
+   "passage_lines": [
+    189,
+    195
+   ]
+  },
+  {
+   "subject": "interfacial SiO2",
+   "subject_type": "component",
+   "predicate": "formed by",
+   "object": "self-limiting process",
+   "object_type": "process",
+   "evidence": "an interfacial SiO2 formed with a self-limiting process",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    189,
+    195
+   ]
+  },
+  {
+   "subject": "interfacial SiO2",
+   "subject_type": "component",
+   "predicate": "has thickness",
+   "object": "8.0-8.5 Å",
+   "object_type": "measurement",
+   "evidence": "resulting in ∼ 8.0-8.5 Å thickness",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "8.0-8.5",
+   "unit": "Å",
+   "property": "thickness",
+   "chunk": 0,
+   "passage_lines": [
+    189,
+    195
+   ]
+  },
+  {
+   "subject": "HfO2",
+   "subject_type": "material",
+   "predicate": "has thickness",
+   "object": "2 nm",
+   "object_type": "measurement",
+   "evidence": "the high-κ (HK) dielectric HfO2 layer that is typically ∼ 2 nm in thickness",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": "2",
+   "unit": "nm",
+   "property": "thickness",
+   "chunk": 0,
+   "passage_lines": [
+    189,
+    195
+   ]
+  },
+  {
+   "subject": "capacitance",
+   "subject_type": "property",
+   "predicate": "suppresses",
+   "object": "short channel effect",
+   "object_type": "mechanism",
+   "evidence": "Higher capacitance of this series combination is desirable to suppress short channel effects",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    189,
+    195
+   ]
+  },
+  {
+   "subject": "effective oxide thickness",
+   "subject_type": "property",
+   "predicate": "represents",
+   "object": "capacitance",
+   "object_type": "property",
+   "evidence": "The capacitance is conventionally represented by effective oxide thickness (EOT)",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    189,
+    195
+   ]
+  },
+  {
+   "subject": "effective oxide thickness",
+   "subject_type": "property",
+   "predicate": "limited by",
+   "object": "interfacial SiO2",
+   "object_type": "component",
+   "evidence": "the EOT minimum value is limited by the interfacial SiO2 thickness",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    189,
+    195
+   ]
+  },
+  {
+   "subject": "scavenging technique",
+   "subject_type": "process",
+   "predicate": "reduces",
+   "object": "SiO2",
+   "object_type": "material",
+   "evidence": "sophisticated scavenging techniques to reduce the SiO2 thickness after the full gate stack is formed",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    189,
+    195
+   ]
+  },
+  {
+   "subject": "scavenging technique",
+   "subject_type": "process",
+   "predicate": "scales",
+   "object": "effective oxide thickness",
+   "object_type": "property",
+   "evidence": "Although this technique is very effective in scaling EOT",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    189,
+    195
+   ]
+  },
+  {
+   "subject": "SiO2",
+   "subject_type": "material",
+   "predicate": "causes",
+   "object": "leakage",
+   "object_type": "property",
+   "evidence": "the thinner SiO2 results in undesirable leakage",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    189,
+    195
+   ]
+  },
+  {
+   "subject": "SiO2",
+   "subject_type": "material",
+   "predicate": "causes",
+   "object": "mobility degradation",
+   "object_type": "mechanism",
+   "evidence": "the thinner SiO2 results in undesirable leakage and mobility degradation",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    189,
+    195
+   ]
+  },
+  {
+   "subject": "HfO2-ZrO2 superlattice",
+   "subject_type": "structure",
+   "predicate": "part of",
+   "object": "gate stack",
+   "object_type": "component",
+   "evidence": "an ultrathin HfO2-ZrO2 superlattice gate stack",
+   "evidence_level": "stated",
+   "evidence_text_match": true,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    189,
+    195
+   ]
+  },
+  {
+   "subject": "HfO2-ZrO2 superlattice",
+   "subject_type": "structure",
+   "predicate": "exhibits",
+   "object": "mixed ferroelectric-antiferroelectric order",
+   "object_type": "structure",
+   "evidence": "exploits mixed ferroelectric-antiferroelectric (FE-AFE) order",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": null,
+   "unit": null,
+   "property": null,
+   "chunk": 0,
+   "passage_lines": [
+    189,
+    195
+   ]
+  },
+  {
+   "subject": "mixed ferroelectric-antiferroelectric order",
+   "subject_type": "structure",
+   "predicate": "persists at",
+   "object": "2 nm thickness",
+   "object_type": "property",
+   "evidence": "Our films demonstrate mixed ferroic order down to 2 nm thickness",
+   "evidence_level": "stated",
+   "evidence_text_match": false,
+   "value": "2",
+   "unit": "nm",
+   "property": "thickness",
+   "chunk": 0,
+   "passage_lines": [
+    189,
+    195
+   ]
+  }
+ ],
+ "errors": []
+}
